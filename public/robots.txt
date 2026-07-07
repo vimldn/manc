@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.vanandmanmanchester.co.uk/sitemap.xml

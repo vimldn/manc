@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #111827;
+  background: #ffffff;
+}
+
+/* Extra bottom space on mobile so the sticky call bar never covers content */
+@media (max-width: 1023px) {
+  main {
+    padding-bottom: 64px;
+  }
+}
