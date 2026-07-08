@@ -12,8 +12,21 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-gray-200 bg-white">
       <div className="mx-auto flex max-w-container items-center justify-between gap-4 px-4 py-3">
-        <Link href="/" className="text-lg font-extrabold text-brand-dark sm:text-xl">
-          Van and Man <span className="text-cta">Manchester</span>
+        <Link
+          href="/"
+          className="flex items-center gap-2 text-lg font-extrabold text-brand-dark sm:text-xl"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo.png"
+            alt="Van and Man Manchester logo"
+            width={40}
+            height={40}
+            className="h-10 w-10 shrink-0 object-contain"
+          />
+          <span>
+            Van and Man <span className="text-cta">Manchester</span>
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-6 lg:flex">
