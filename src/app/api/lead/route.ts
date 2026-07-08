@@ -1,22 +1,9 @@
 import { NextResponse } from "next/server";
 
-// ---------------------------------------------------------------
-// LEAD HANDLER
-// This receives the quote/contact form submissions.
-//
-// Right now it just logs the lead to the server console so nothing is
-// lost while the site is being set up. Before you rent this site out,
-// connect ONE of the options below so leads reach the operator.
-//
-// Option A - Email: use a service like Resend/SendGrid to email the lead.
-// Option B - Zapier / Make webhook: POST the lead to a webhook URL.
-// Option C - Google Sheets: POST to a Google Apps Script web app URL
-//            (this matches the simple, no-database webhook approach).
-// Option D - CRM: POST to the operator's CRM inbound endpoint.
-//
-// Set the webhook URL as an environment variable (LEAD_WEBHOOK_URL) in
-// Vercel so you never commit a secret to the repo.
-// ---------------------------------------------------------------
+// Lead form submissions are validated here and forwarded to the Van and Man
+// Manchester Google Sheet via its Apps Script webhook (public /exec endpoint).
+const LEAD_WEBHOOK_URL =
+  "https://script.google.com/macros/s/AKfycbwePdNfOsTaE_AOMXuN840SjZKBsckCEsG6pGf4jIbRv32wDry7uq1opZnkiaKeofHg/exec";
 
 type Lead = {
   name?: string;
@@ -28,47 +15,44 @@ type Lead = {
 };
 
 export async function POST(request: Request) {
-  let lead: Lead = {};
+  let data: Lead = {};
   try {
-    lead = (await request.json()) as Lead;
+    data = (await request.json()) as Lead;
   } catch {
     return NextResponse.json({ ok: false, error: "Invalid request body" }, { status: 400 });
   }
 
-  // Minimal server side validation.
-  if (!lead.name || !lead.phone) {
+  if (!data.name || !data.phone) {
     return NextResponse.json(
       { ok: false, error: "Name and phone are required" },
       { status: 400 }
     );
   }
 
-  // Placeholder logging so no lead is silently dropped during setup.
-  // Replace this with a real delivery method before going live.
-  const received = {
-    ...lead,
+  const lead = {
+    site: "Van and Man Manchester",
+    name: String(data.name).slice(0, 200),
+    phone: String(data.phone).slice(0, 40),
+    email: data.email ? String(data.email).slice(0, 200) : "",
+    service: data.service ? String(data.service).slice(0, 120) : "",
+    location: data.location ? String(data.location).slice(0, 120) : "",
+    message: data.message ? String(data.message).slice(0, 2000) : "",
     receivedAt: new Date().toISOString(),
     source: "vanandmanmanchester.co.uk",
   };
-  console.log("NEW LEAD:", JSON.stringify(received));
 
-  // ---- EXAMPLE: forward to a webhook (Zapier / Make / Google Sheets / CRM) ----
-  // Uncomment and set LEAD_WEBHOOK_URL in your environment to enable.
-  //
-  // const webhook = process.env.LEAD_WEBHOOK_URL;
-  // if (webhook) {
-  //   try {
-  //     await fetch(webhook, {
-  //       method: "POST",
-  //       headers: { "Content-Type": "application/json" },
-  //       body: JSON.stringify(received),
-  //     });
-  //   } catch (err) {
-  //     console.error("Lead webhook failed:", err);
-  //     // We still return ok:true so the customer is not blocked by a
-  //     // downstream outage. The lead is in the server logs as a backup.
-  //   }
-  // }
+  // Forward to the Google Sheet. A webhook hiccup must not block the customer
+  // or lose the lead, so we log on failure and still return ok.
+  try {
+    const res = await fetch(LEAD_WEBHOOK_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(lead),
+    });
+    if (!res.ok) console.error("Lead webhook non-OK:", res.status, lead);
+  } catch (err) {
+    console.error("Lead webhook failed:", err, lead);
+  }
 
   return NextResponse.json({ ok: true });
 }
