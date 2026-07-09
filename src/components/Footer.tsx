@@ -27,6 +27,15 @@ export default function Footer() {
             <p className="mt-3 text-sm not-italic text-gray-400">
               {site.address.street}, {site.address.locality} {site.address.postcode}
             </p>
+            <iframe
+              title={`${site.name} location, ${site.address.street}, ${site.address.locality} ${site.address.postcode}`}
+              src={`https://www.google.com/maps?q=${encodeURIComponent(
+                `${site.address.street}, ${site.address.locality} ${site.address.postcode}`,
+              )}&z=15&output=embed`}
+              className="mt-4 h-44 w-full rounded-lg border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
 
           <div>
