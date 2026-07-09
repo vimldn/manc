@@ -30,8 +30,8 @@ export default function Footer() {
             <iframe
               title={`${site.name} location, ${site.address.street}, ${site.address.locality} ${site.address.postcode}`}
               src={`https://www.google.com/maps?q=${encodeURIComponent(
-                `${site.address.street}, ${site.address.locality} ${site.address.postcode}`,
-              )}&z=15&output=embed`}
+                site.address.mapQuery,
+              )}&z=16&output=embed`}
               className="mt-4 h-44 w-full rounded-lg border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

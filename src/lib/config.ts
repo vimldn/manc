@@ -33,6 +33,10 @@ export const site = {
     region: "Greater Manchester",
     postcode: "M1 3BN",
     countryCode: "GB",
+    // The postcode geocodes to a neighbouring unit, so the map pin uses the
+    // exact building name to land on the right spot. Displayed address stays
+    // the clean "3 Piccadilly Place" above.
+    mapQuery: "Orega Serviced Offices - Piccadilly Place - Manchester M1 3BN",
   },
 
   hours: "Mon to Sun, 7am to 9pm",
