@@ -189,26 +189,24 @@ export default function HomePage() {
       {/* 7b. "Near me" keyword block (A/B test) */}
       <section className="bg-brand-light">
         <div className="mx-auto max-w-container px-4 py-14">
-          <div className="max-w-3xl">
-            <h2 className="text-2xl font-bold text-brand-dark sm:text-3xl">
-              Man and Van Near Me in Manchester
-            </h2>
-            <div className="mt-4 space-y-4 text-base leading-relaxed text-gray-700">
-              <p>
-                When you search for a man and van near you, what you really want is someone
-                local who can get to you quickly and knows the roads. That is us. We are based
-                in and around Manchester and cover the whole city and Greater Manchester, from
-                Chorlton, Didsbury and Withington in the south to Salford, Prestwich and
-                Cheetham Hill in the north, so wherever you are there is a van close by.
-              </p>
-              <p>
-                Being local keeps things simple. We can often reach you the same day or the
-                next, we know which streets and estates are tight for a Luton and where to
-                park, and you get a fixed price agreed before we load a thing. Whether it is a
-                single item from Fallowfield, a full house move in Sale or an office shift near
-                Salford Quays, a nearby van and a friendly pair of hands is only a call away.
-              </p>
-            </div>
+          <h2 className="text-2xl font-bold text-brand-dark sm:text-3xl">
+            Man and Van Near Me in Manchester
+          </h2>
+          <div className="mt-6 grid gap-8 text-base leading-relaxed text-gray-700 md:grid-cols-2">
+            <p>
+              When you search for a man and van near you, what you really want is someone
+              local who can get to you quickly and knows the roads. That is us. We are based
+              in and around Manchester and cover the whole city and Greater Manchester, from
+              Chorlton, Didsbury and Withington in the south to Salford, Prestwich and
+              Cheetham Hill in the north, so wherever you are there is a van close by.
+            </p>
+            <p>
+              Being local keeps things simple. We can often reach you the same day or the
+              next, we know which streets and estates are tight for a Luton and where to
+              park, and you get a fixed price agreed before we load a thing. Whether it is a
+              single item from Fallowfield, a full house move in Sale or an office shift near
+              Salford Quays, a nearby van and a friendly pair of hands is only a call away.
+            </p>
           </div>
         </div>
       </section>
