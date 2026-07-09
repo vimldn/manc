@@ -186,6 +186,33 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 7b. "Near me" keyword block (A/B test) */}
+      <section className="bg-brand-light">
+        <div className="mx-auto max-w-container px-4 py-12">
+          <div className="grid gap-8 md:grid-cols-3">
+            {[
+              {
+                h2: "Man and Van Near Me in Manchester",
+                body: "Wherever you are in Greater Manchester, we are the local man and van close to hand. From Chorlton and Didsbury to Salford and Prestwich, a driver and van can reach you quickly, with a clear price agreed before we start.",
+              },
+              {
+                h2: "House Removals Near Me",
+                body: "Looking for house removals near you? We cover Manchester and the surrounding towns, moving flats and family homes from Fallowfield to Sale, wrapping the furniture and shifting it for one fixed figure.",
+              },
+              {
+                h2: "Same Day Man and Van Near Me",
+                body: "Need a man and van today? When the diary allows we can be with you the same day across Manchester, so an urgent move or a last-minute collection in Stretford or Salford Quays still gets sorted.",
+              },
+            ].map((item) => (
+              <div key={item.h2}>
+                <h2 className="text-xl font-bold text-brand-dark sm:text-2xl">{item.h2}</h2>
+                <p className="mt-2 text-gray-700">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* 8. WHY CHOOSE US */}
       <section className="bg-gray-50">
         <div className="mx-auto max-w-container px-4 py-12">
