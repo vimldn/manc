@@ -188,27 +188,27 @@ export default function HomePage() {
 
       {/* 7b. "Near me" keyword block (A/B test) */}
       <section className="bg-brand-light">
-        <div className="mx-auto max-w-container px-4 py-12">
-          <div className="grid gap-8 md:grid-cols-3">
-            {[
-              {
-                h2: "Man and Van Near Me in Manchester",
-                body: "Wherever you are in Greater Manchester, we are the local man and van close to hand. From Chorlton and Didsbury to Salford and Prestwich, a driver and van can reach you quickly, with a clear price agreed before we start.",
-              },
-              {
-                h2: "House Removals Near Me",
-                body: "Looking for house removals near you? We cover Manchester and the surrounding towns, moving flats and family homes from Fallowfield to Sale, wrapping the furniture and shifting it for one fixed figure.",
-              },
-              {
-                h2: "Same Day Man and Van Near Me",
-                body: "Need a man and van today? When the diary allows we can be with you the same day across Manchester, so an urgent move or a last-minute collection in Stretford or Salford Quays still gets sorted.",
-              },
-            ].map((item) => (
-              <div key={item.h2}>
-                <h2 className="text-xl font-bold text-brand-dark sm:text-2xl">{item.h2}</h2>
-                <p className="mt-2 text-gray-700">{item.body}</p>
-              </div>
-            ))}
+        <div className="mx-auto max-w-container px-4 py-14">
+          <div className="max-w-3xl">
+            <h2 className="text-2xl font-bold text-brand-dark sm:text-3xl">
+              Man and Van Near Me in Manchester
+            </h2>
+            <div className="mt-4 space-y-4 text-base leading-relaxed text-gray-700">
+              <p>
+                When you search for a man and van near you, what you really want is someone
+                local who can get to you quickly and knows the roads. That is us. We are based
+                in and around Manchester and cover the whole city and Greater Manchester, from
+                Chorlton, Didsbury and Withington in the south to Salford, Prestwich and
+                Cheetham Hill in the north, so wherever you are there is a van close by.
+              </p>
+              <p>
+                Being local keeps things simple. We can often reach you the same day or the
+                next, we know which streets and estates are tight for a Luton and where to
+                park, and you get a fixed price agreed before we load a thing. Whether it is a
+                single item from Fallowfield, a full house move in Sale or an office shift near
+                Salford Quays, a nearby van and a friendly pair of hands is only a call away.
+              </p>
+            </div>
           </div>
         </div>
       </section>
