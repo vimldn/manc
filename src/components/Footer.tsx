@@ -24,6 +24,9 @@ export default function Footer() {
               {site.phoneDisplay}
             </a>
             <p className="mt-1 text-sm text-gray-400">{site.hours}</p>
+            <p className="mt-3 text-sm not-italic text-gray-400">
+              {site.address.street}, {site.address.locality} {site.address.postcode}
+            </p>
           </div>
 
           <div>

@@ -20,6 +20,14 @@ export function movingCompanySchema() {
     url: site.url,
     telephone: site.phoneTel,
     email: site.email,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: site.address.street,
+      addressLocality: site.address.locality,
+      addressRegion: site.address.region,
+      postalCode: site.address.postcode,
+      addressCountry: site.address.countryCode,
+    },
     priceRange: "££",
     areaServed: [
       { "@type": "City", name: "Manchester" },

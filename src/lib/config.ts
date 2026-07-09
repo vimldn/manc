@@ -25,6 +25,16 @@ export const site = {
   region: "Greater Manchester",
   country: "United Kingdom",
 
+  // Registered address (serviced office). Shown in the footer and used in the
+  // MovingCompany schema. Keep this identical to the Google Business Profile.
+  address: {
+    street: "3 Piccadilly Place",
+    locality: "Manchester",
+    region: "Greater Manchester",
+    postcode: "M1 3BN",
+    countryCode: "GB",
+  },
+
   hours: "Mon to Sun, 7am to 9pm",
 
   // Short strapline used in headers / meta.
