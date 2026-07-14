@@ -10,10 +10,9 @@ export const site = {
   domain: "vanandmanmanchester.co.uk",
   url: "https://www.vanandmanmanchester.co.uk",
 
-  // PLACEHOLDER PHONE - swap for the real operator's number before going live.
-  // Manchester dialling code is 0161. Do not leave the 000 0000 placeholder live.
-  phoneDisplay: "0161 000 0000",
-  phoneTel: "+441610000000",
+  // Manchester dialling code is 0161.
+  phoneDisplay: "0161 399 8702",
+  phoneTel: "+441613998702",
 
   // Email is optional. Point the lead API at the operator's inbox / Zapier / CRM.
   email: "quotes@vanandmanmanchester.co.uk",
