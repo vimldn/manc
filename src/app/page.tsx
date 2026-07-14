@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import QuoteForm from "@/components/QuoteForm";
 import ServiceCard from "@/components/ServiceCard";
@@ -47,13 +48,22 @@ export default function HomePage() {
       />
 
       {/* 1. HERO */}
-      <section className="bg-brand-light">
-        <div className="mx-auto grid max-w-container items-start gap-8 px-4 py-12 lg:grid-cols-2 lg:py-16">
-          <div>
-            <h1 className="text-3xl font-extrabold leading-tight text-gray-900 sm:text-4xl">
+      <section className="relative isolate overflow-hidden">
+        <Image
+          src="/hero.jpg"
+          alt="Man and van in Manchester loading a white removals van outside a red-brick warehouse conversion in the Northern Quarter"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/45 to-transparent" />
+        <div className="relative mx-auto grid max-w-container items-center gap-8 px-4 py-12 sm:py-16 lg:grid-cols-2 lg:py-20">
+          <div className="text-white">
+            <h1 className="text-3xl font-extrabold leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.7)] sm:text-4xl lg:text-5xl">
               Man and Van Manchester Services
             </h1>
-            <p className="mt-4 text-lg text-gray-700">
+            <p className="mt-4 max-w-md text-lg text-white/90 drop-shadow-[0_1px_6px_rgba(0,0,0,0.6)]">
               Reliable, cheap man and van in Manchester for house removals, flat moves, rubbish
               removal and furniture delivery. Serving Manchester and nearby areas, seven days a
               week.
@@ -67,12 +77,12 @@ export default function HomePage() {
               </a>
               <Link
                 href="/quote/"
-                className="rounded-md border-2 border-brand px-6 py-3 text-center text-lg font-bold text-brand hover:bg-white"
+                className="rounded-md border-2 border-white/70 px-6 py-3 text-center text-lg font-bold text-white hover:bg-white hover:text-gray-900"
               >
                 Get a Quote
               </Link>
             </div>
-            <p className="mt-4 text-sm font-semibold text-gray-600">
+            <p className="mt-4 text-sm font-semibold text-white/80">
               {site.hours} &bull; Covering all of Greater Manchester
             </p>
           </div>
