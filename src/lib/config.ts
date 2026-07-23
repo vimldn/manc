@@ -8,7 +8,7 @@ export const site = {
   name: "Van and Man Manchester",
   legalName: "Van and Man Manchester",
   domain: "vanandmanmanchester.co.uk",
-  url: "https://www.vanandmanmanchester.co.uk",
+  url: "https://vanandmanmanchester.co.uk",
 
   // Manchester dialling code is 0161.
   phoneDisplay: "0161 399 8702",
