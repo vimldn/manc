@@ -6,6 +6,7 @@ import ServiceCard from "@/components/ServiceCard";
 import Faq from "@/components/Faq";
 import Cta from "@/components/Cta";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import TrustBar from "@/components/TrustBar";
 import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/config";
 import { services } from "@/lib/services";
@@ -93,6 +94,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* 1b. TRUST BAR */}
+      <TrustBar />
 
       {/* 2. INTRO */}
       <section className="mx-auto max-w-container px-4 py-12">
