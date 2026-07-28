@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
+import { track } from "@/lib/analytics";
 
 type Props = {
   heading?: string;
@@ -47,7 +48,11 @@ export default function QuoteForm({
   }
 
   async function onSubmit() {
-    if (!validate()) return;
+    if (!validate()) {
+      // Non-PII: only the fields that failed, never their values.
+      track("quote_error", { fields: Object.keys(errors).join(",") });
+      return;
+    }
     setSubmitting(true);
     try {
       await fetch("/api/lead/", {
@@ -59,11 +64,15 @@ export default function QuoteForm({
       // Even if the endpoint is not wired up yet, still send the user to
       // thank you so the lead prompt to call by phone is shown.
     }
+    // Non-PII only: the selected service/area, never name/phone/email.
+    track("quote_submit", { service: form.service || "unset", area: form.location || "unset" });
     router.push("/thank-you/");
   }
 
+  // 16px on mobile (text-base) prevents iOS/Android auto-zoom on focus;
+  // drops to 14px from sm up. Do not lower the mobile size below 16px.
   const input =
-    "w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-gray-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand";
+    "w-full rounded-md border border-gray-300 px-3 py-2 text-base text-gray-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand sm:text-sm";
   const label = "mb-1 block text-sm font-semibold text-gray-800";
 
   return (

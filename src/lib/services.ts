@@ -23,7 +23,7 @@ export const services: Service[] = [
     metaDescription:
       "Man and van house removals in Manchester. Careful loading, wrapped furniture and fair prices across Didsbury, Chorlton, Salford and all of Greater Manchester. Call for a quote.",
     intro:
-      "Moving house in Manchester is stressful enough without worrying about the van. Van and Man Manchester handles full house removals across the city, from a one bedroom terrace in Chorlton to a family home in Didsbury. We turn up on time, wrap your furniture properly and get everything to the new place without the drama. If you want a straight answer on price, call for a quote and we will talk you through it in plain English.",
+      "Moving house in Manchester is stressful enough without worrying about the van. Van and Man Manchester handles full house removals across the city, from a one bedroom terrace in Chorlton to a family home in Didsbury. We turn up on time, wrap your furniture properly and get everything to the new place without the drama. If you want a straight answer on price, call for a quote and we will talk you through it clearly.",
     sections: [
       {
         h2: "House removals done properly",
@@ -162,7 +162,7 @@ export const services: Service[] = [
     h1: "Man and Van Rubbish Removal in Manchester",
     title: "Man and Van Rubbish Removal in Manchester | Van and Man Manchester",
     metaDescription:
-      "Man and van rubbish removal and house clearance in Manchester. Fast, licensed waste clearance for furniture, junk and garden waste. Serving Manchester. Call for a quote.",
+      "Man and van rubbish removal and house clearance in Manchester. Responsible waste clearance for furniture, junk and garden waste. Serving Manchester. Call for a quote.",
     intro:
       "Got a pile of junk, an old sofa or a full house to clear? Our man and van rubbish removal service in Manchester loads it, takes it away and disposes of it responsibly, so you are not stuck making trips to the tip. We clear single items, garages, gardens and full properties across Manchester and nearby areas like Cheetham Hill and Wythenshawe. Point at it, and we will get rid of it.",
     sections: [
@@ -172,9 +172,9 @@ export const services: Service[] = [
           "Unlike a skip, you do not lift a thing. We carry the rubbish out of the house, garage or garden ourselves and load it into the van. That makes it ideal for heavy items like sofas, mattresses, fridges and broken furniture that you simply cannot shift on your own.",
       },
       {
-        h2: "Licensed, responsible disposal",
+        h2: "Responsible disposal",
         body:
-          "Waste has to be handled by a licensed carrier, and fly tipping carries heavy fines that come back to the householder. We dispose of everything through the proper routes and recycle what we can. You get your space back with none of the risk.",
+          "Household waste has to be passed to a registered waste carrier, and fly tipping carries heavy fines that trace back to the householder. We dispose of what we collect through the proper routes and recycle where we can. If you would like to see our waste carrier registration before we take anything away, just ask.",
       },
       {
         h2: "House and garage clearances",
@@ -189,8 +189,8 @@ export const services: Service[] = [
     ],
     faqs: [
       {
-        q: "Is your rubbish removal licensed?",
-        a: "Yes. Waste is disposed of through licensed routes and recycled where possible, so you are covered against fly tipping penalties.",
+        q: "How do you dispose of the waste?",
+        a: "Household waste must be handled by a registered waste carrier. We dispose of what we collect through the proper routes and recycle where we can. Ask us for our waste carrier registration details before booking a clearance.",
       },
       {
         q: "How is rubbish removal priced?",

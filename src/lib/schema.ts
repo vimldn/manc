@@ -1,4 +1,4 @@
-import { site, primaryAreas } from "./config";
+import { site, primaryAreas, isReal } from "./config";
 import { locations } from "./locations";
 import type { Faq } from "./services";
 
@@ -7,12 +7,13 @@ import type { Faq } from "./services";
 // for a man and van operator. No aggregateRating or reviews are included
 // because none are real. Do not add fabricated reviews.
 //
-// TODO (before go live): if the operator has a real registered address,
-// add an "address" object here. It is intentionally omitted for a mobile,
-// area served service so that no fake address ships.
+// The postal address is only emitted when config marks it as a genuine,
+// publicly-listable staffed location (address.showPublicly). While the
+// registered address is a serviced/virtual office it is left out, so no
+// misleading "operating location" ships in structured data.
 // ---------------------------------------------------------------
 export function movingCompanySchema() {
-  return {
+  const graph: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "MovingCompany",
     "@id": site.url + "/#business",
@@ -20,20 +21,12 @@ export function movingCompanySchema() {
     url: site.url,
     telephone: site.phoneTel,
     email: site.email,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: site.address.street,
-      addressLocality: site.address.locality,
-      addressRegion: site.address.region,
-      postalCode: site.address.postcode,
-      addressCountry: site.address.countryCode,
-    },
     priceRange: "££",
     areaServed: [
       { "@type": "City", name: "Manchester" },
       ...locations.map((l) => ({ "@type": "Place", name: l.name })),
     ],
-    openingHours: "Mo-Su 07:00-21:00",
+    openingHours: site.openingHoursSchema,
     knowsAbout: [
       "man and van",
       "house removals",
@@ -42,6 +35,27 @@ export function movingCompanySchema() {
       "furniture delivery",
     ],
   };
+
+  if (isReal(site.legalName)) graph.legalName = site.legalName;
+  if (isReal(site.vatNumber)) graph.vatID = site.vatNumber;
+
+  if (site.address.showPublicly) {
+    graph.address = {
+      "@type": "PostalAddress",
+      streetAddress: site.address.street,
+      addressLocality: site.address.locality,
+      addressRegion: site.address.region,
+      postalCode: site.address.postcode,
+      addressCountry: site.address.countryCode,
+    };
+  }
+
+  const sameAs = [site.social.facebook, site.social.instagram, site.reviews.googleUrl].filter(
+    isReal,
+  );
+  if (sameAs.length) graph.sameAs = sameAs;
+
+  return graph;
 }
 
 export function websiteSchema() {

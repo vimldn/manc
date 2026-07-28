@@ -5,6 +5,8 @@ import { useState } from "react";
 import { site } from "@/lib/config";
 import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
+import WhatsAppButton from "@/components/WhatsAppButton";
+import { track } from "@/lib/analytics";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -19,13 +21,13 @@ export default function Header() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo.png"
-            alt="Van and Man Manchester logo"
+            alt="Man and Van Manchester logo"
             width={40}
             height={40}
             className="h-10 w-10 shrink-0 object-contain"
           />
           <span>
-            Van and Man <span className="text-cta">Manchester</span>
+            Man and Van <span className="text-cta">Manchester</span>
           </span>
         </Link>
 
@@ -83,8 +85,10 @@ export default function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
+          <WhatsAppButton variant="outline" />
           <a
             href={`tel:${site.phoneTel}`}
+            onClick={() => track("call_click", { location: "header" })}
             className="text-sm font-bold text-brand-dark"
             aria-label={`Call ${site.phoneDisplay}`}
           >
@@ -92,6 +96,7 @@ export default function Header() {
           </a>
           <a
             href={`tel:${site.phoneTel}`}
+            onClick={() => track("call_click", { location: "header" })}
             className="rounded-md bg-cta px-4 py-2 text-sm font-bold text-white hover:bg-cta-dark"
           >
             Call Now
@@ -114,10 +119,24 @@ export default function Header() {
         <div className="border-t border-gray-200 bg-white px-4 py-4 lg:hidden">
           <a
             href={`tel:${site.phoneTel}`}
-            className="mb-4 block rounded-md bg-cta px-4 py-3 text-center text-base font-bold text-white"
+            onClick={() => track("call_click", { location: "mobile_menu" })}
+            className="mb-3 block rounded-md bg-cta px-4 py-3 text-center text-base font-bold text-white"
           >
             Call {site.phoneDisplay}
           </a>
+          <div className="mb-4 flex gap-3">
+            <Link
+              href="/quote/"
+              onClick={() => {
+                track("quote_click", { location: "mobile_menu" });
+                setOpen(false);
+              }}
+              className="flex-1 rounded-md border-2 border-gray-300 px-4 py-3 text-center text-base font-bold text-gray-900"
+            >
+              Get a Quote
+            </Link>
+            <WhatsAppButton variant="solid" className="flex-1 py-3 text-base" />
+          </div>
           <MobileLinks onNavigate={() => setOpen(false)} />
         </div>
       )}

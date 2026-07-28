@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { site } from "@/lib/config";
+import { site, isReal } from "@/lib/config";
 import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
 
@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-4">
           <div>
             <div className="text-lg font-extrabold text-white">
-              Van and Man <span className="text-cta">Manchester</span>
+              Man and Van <span className="text-cta">Manchester</span>
             </div>
             <p className="mt-3 text-sm text-gray-400">
               Reliable man and van removals across Manchester and Greater Manchester. Serving
@@ -24,18 +24,41 @@ export default function Footer() {
               {site.phoneDisplay}
             </a>
             <p className="mt-1 text-sm text-gray-400">{site.hours}</p>
-            <p className="mt-3 text-sm not-italic text-gray-400">
-              {site.address.street}, {site.address.locality} {site.address.postcode}
-            </p>
-            <iframe
-              title={`${site.name} location, ${site.address.street}, ${site.address.locality} ${site.address.postcode}`}
-              src={`https://www.google.com/maps?q=${encodeURIComponent(
-                site.address.mapQuery,
-              )}&z=16&output=embed`}
-              className="mt-4 h-44 w-full rounded-lg border-0"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+
+            {/*
+              Address and map render only when config marks the address as a
+              genuine, publicly-listable staffed location. 3 Piccadilly Place
+              is a serviced office, so this stays hidden until confirmed.
+            */}
+            {site.address.showPublicly && (
+              <>
+                <p className="mt-3 text-sm not-italic text-gray-400">
+                  {site.address.street}, {site.address.locality} {site.address.postcode}
+                </p>
+                <iframe
+                  title={`${site.name} location, ${site.address.street}, ${site.address.locality} ${site.address.postcode}`}
+                  src={`https://www.google.com/maps?q=${encodeURIComponent(
+                    site.address.mapQuery,
+                  )}&z=16&output=embed`}
+                  className="mt-4 h-44 w-full rounded-lg border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </>
+            )}
+
+            {/* Verified company details only. Placeholders never render. */}
+            {(isReal(site.companyNumber) ||
+              isReal(site.vatNumber) ||
+              isReal(site.wasteCarrierReg)) && (
+              <ul className="mt-4 space-y-1 text-xs text-gray-500">
+                {isReal(site.companyNumber) && <li>Company no. {site.companyNumber}</li>}
+                {isReal(site.vatNumber) && <li>VAT no. {site.vatNumber}</li>}
+                {isReal(site.wasteCarrierReg) && (
+                  <li>Waste carrier reg. {site.wasteCarrierReg}</li>
+                )}
+              </ul>
+            )}
           </div>
 
           <div>
