@@ -94,7 +94,7 @@ export default function CaseStudiesPage() {
           </div>
         ) : (
           <div className="mt-8 rounded-lg border border-gray-200 bg-brand-light p-6">
-            <h2 className="text-xl font-bold text-brand-dark">Recent moves coming soon</h2>
+            <h2 className="text-xl font-bold text-brand-dark">Recent Moves Coming Soon</h2>
             <p className="mt-2 max-w-2xl text-gray-700">
               We are putting together short write-ups of recent Manchester moves, with the van, crew
               and any access challenge for each. In the meantime, here are the kinds of jobs we do

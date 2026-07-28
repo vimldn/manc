@@ -26,22 +26,22 @@ export const services: Service[] = [
       "Moving house in Manchester is stressful enough without worrying about the van. Man and Van Manchester handles full house removals across the city, from a one bedroom terrace in Chorlton to a family home in Didsbury. We turn up on time, wrap your furniture properly and get everything to the new place without the drama. If you want a straight answer on price, call for a quote and we will talk you through it clearly.",
     sections: [
       {
-        h2: "House removals done properly",
+        h2: "House Removals Done Properly",
         body:
           "A house move is more than shifting boxes. We protect doorframes, wrap sofas and mattresses, and stack the van so nothing shifts on the way. Whether you are moving within Manchester or heading out to nearby areas like Sale or Stretford, we plan the job around your day, not ours. Most local house moves are done in a single trip, and we will tell you honestly if you need a bigger van or a second run.",
       },
       {
-        h2: "What we move and what we handle",
+        h2: "What We Move and What We Handle",
         body:
           "We move beds, wardrobes, sofas, white goods, boxes, garden furniture and the awkward items that never fit anywhere. We dismantle and reassemble flat pack furniture when needed and bring straps, blankets and trolleys as standard. If you have a piano, a large American fridge or anything unusually heavy, mention it when you book so we send the right van and the right number of hands.",
       },
       {
-        h2: "Parking, access and Manchester streets",
+        h2: "Parking, Access and Manchester Streets",
         body:
           "Manchester terraces, tight back streets and permit zones can slow a move down if nobody plans for them. We know the parking realities in areas like Fallowfield, Withington and the city centre, and we will ask about access at both ends before the day so there are no surprises. If a permit or a bay suspension is needed, we will flag it early.",
       },
       {
-        h2: "Clear pricing, no hidden extras",
+        h2: "Clear Pricing, No Hidden Extras",
         body:
           "We quote on the size of the move, the distance and how many hours it is likely to take. No vague hourly traps and no fuel surprises added at the end. Ask for a quote and you get a figure you can plan around. If your move is smaller, our man and van hire option may work out cheaper, and we will tell you if that is the better fit.",
       },
@@ -73,22 +73,22 @@ export const services: Service[] = [
       "Flat moves have their own headaches, and most of them involve stairs, lifts and nowhere to park. Man and Van Manchester moves flats and apartments across the city, from city centre high rises to converted terraces in Hulme and Old Trafford. We are used to narrow staircases, booked lift slots and loading bays, so your move goes smoothly instead of turning into an afternoon of hauling boxes.",
     sections: [
       {
-        h2: "Built for stairs, lifts and high rises",
+        h2: "Built for Stairs, Lifts and High Rises",
         body:
           "City centre apartment blocks often have goods lifts you need to book and loading bays with time limits. We plan around them so we are not stuck circling the block. For walk up flats in areas like Fallowfield and Rusholme, we bring the manpower to carry safely down tight stairs without scuffing walls or dropping your telly.",
       },
       {
-        h2: "One bedroom flats and studios",
+        h2: "One Bedroom Flats and Studios",
         body:
           "Most studio and one bedroom flat moves fit in a single van load. That keeps the cost down and the day short. We wrap the mattress, box up the loose bits if you have not already, and get you into the new place the same day. This is one of our most requested and most affordable jobs.",
       },
       {
-        h2: "City centre parking and access",
+        h2: "City Centre Parking and Access",
         body:
           "Parking in Manchester city centre is the number one thing that trips up a flat move. We know which bays and bus lanes to avoid and how to work around a timed loading bay. Tell us the block and the floor when you book and we will plan the run so you are not paying for wasted time.",
       },
       {
-        h2: "Fair prices for smaller moves",
+        h2: "Fair Prices for Smaller Moves",
         body:
           "Because flat moves are usually smaller, they are usually cheaper. We quote on what you are actually moving rather than a one size fits all figure. If it is only a few large items, our furniture and single item delivery service may be the better call, and we will point you to it.",
       },
@@ -120,22 +120,22 @@ export const services: Service[] = [
       "Sometimes you do not need a full removals firm, you just need a van and a pair of hands for a couple of hours. That is exactly what man and van hire in Manchester is for. Book us by the hour or by the job, add a second mover if the load is heavy, and get your stuff shifted without paying for services you do not need. It is the flexible, cheap man and van option locals in Manchester ask for most.",
     sections: [
       {
-        h2: "Hire by the hour or by the job",
+        h2: "Hire by the Hour or by the Job",
         body:
           "For a quick job, hourly hire keeps the cost down and gives you full flexibility. For a bigger or longer move, a fixed job price gives you certainty. We will tell you which one works out cheaper for what you are doing rather than pushing the more expensive option.",
       },
       {
-        h2: "One mover or two",
+        h2: "One Mover or Two",
         body:
           "One man and a van is plenty for boxes, small furniture and single item runs. Add a second mover when there are heavy wardrobes, sofa beds or a lot to carry up stairs. Getting the crew size right first time is the difference between a smooth job and a slow one, so tell us what you are moving.",
       },
       {
-        h2: "Clean, well kept vans",
+        h2: "Clean, Well Kept Vans",
         body:
           "Our vans are clean, insured and properly equipped with blankets, straps and a trolley. Nobody wants their sofa loaded into a filthy van, and we would not do that to you. We serve all of Manchester and nearby areas including Salford, Prestwich and Stretford.",
       },
       {
-        h2: "Cheap man and van without the catch",
+        h2: "Cheap Man and Van Without the Catch",
         body:
           "Cheap should not mean unreliable. We keep our rates competitive by being efficient, not by cutting corners or hiding fees. Ask for a quote and you get a clear rate before we start. That is why so many Manchester customers come back to us and send their friends.",
       },
@@ -167,22 +167,22 @@ export const services: Service[] = [
       "Got a pile of junk, an old sofa or a full house to clear? Our man and van rubbish removal service in Manchester loads it, takes it away and disposes of it responsibly, so you are not stuck making trips to the tip. We clear single items, garages, gardens and full properties across Manchester and nearby areas like Cheetham Hill and Wythenshawe. Point at it, and we will get rid of it.",
     sections: [
       {
-        h2: "We load it, you relax",
+        h2: "We Load It, You Relax",
         body:
           "Unlike a skip, you do not lift a thing. We carry the rubbish out of the house, garage or garden ourselves and load it into the van. That makes it ideal for heavy items like sofas, mattresses, fridges and broken furniture that you simply cannot shift on your own.",
       },
       {
-        h2: "Responsible disposal",
+        h2: "Responsible Disposal",
         body:
           "Household waste has to be passed to a registered waste carrier, and fly tipping carries heavy fines that trace back to the householder. We dispose of what we collect through the proper routes and recycle where we can. If you would like to see our waste carrier registration before we take anything away, just ask.",
       },
       {
-        h2: "House and garage clearances",
+        h2: "House and Garage Clearances",
         body:
           "Clearing a full house after a move, a tenancy or a bereavement is a big job, and we handle it with care. We can clear one room or the whole property, including lofts and garages. Tell us roughly how much there is and we will bring the right van and enough hands.",
       },
       {
-        h2: "Only pay for what we take",
+        h2: "Only Pay for What We Take",
         body:
           "We price on volume, so you only pay for the space your rubbish takes up in the van. That is usually far cheaper than hiring a skip and a lot less hassle. Ask for a quote and we will give you a clear figure for the clearance.",
       },
@@ -214,22 +214,22 @@ export const services: Service[] = [
       "Bought a sofa on Facebook Marketplace? Picking up a wardrobe from IKEA or a bed from across town? Our furniture and single item delivery service in Manchester collects and delivers large items quickly and carefully. It is the cheap man and van answer for those jobs that are too big for the car but too small for a full removal. We cover Manchester and nearby areas including Chorlton, Salford and Old Trafford.",
     sections: [
       {
-        h2: "Marketplace and shop collections",
+        h2: "Marketplace and Shop Collections",
         body:
           "We collect from Facebook Marketplace, Gumtree, eBay and the big furniture shops around Manchester. Send us the pickup and drop off postcodes and a photo of the item, and we will sort the collection so you do not have to borrow a van or bribe a mate.",
       },
       {
-        h2: "One item or a few",
+        h2: "One Item or a Few",
         body:
           "A single sofa, a fridge, a bed frame or a couple of large boxes, we handle them all. Because it is a small job it stays cheap, and we can often fit you in the same day or next day depending on the run.",
       },
       {
-        h2: "Careful handling and quick turnaround",
+        h2: "Careful Handling and Quick Turnaround",
         body:
           "We wrap and strap items so they arrive in the same condition they left in. We know how to get a two seater up a Manchester staircase without taking a chunk out of the wall. If the item needs dismantling to get it out, we can usually help with that too.",
       },
       {
-        h2: "Simple, fair pricing",
+        h2: "Simple, Fair Pricing",
         body:
           "Single item runs are priced on the distance and how awkward the item is to handle. Give us the two postcodes and a rough description and we will give you a quick quote. No need to book a full removal for one settee.",
       },
@@ -261,22 +261,22 @@ export const services: Service[] = [
       "Manchester is a student city, and student moves have their own rhythm: halls to a house share, room to room, or the great August scramble when everyone changes address at once. Our student man and van service is the cheap, no fuss way to shift your stuff around Fallowfield, Withington, Rusholme and the city centre without roping in your flatmates and a hired estate car.",
     sections: [
       {
-        h2: "Halls, house shares and room swaps",
+        h2: "Halls, House Shares and Room Swaps",
         body:
           "Whether you are leaving halls, moving into a shared house or just swapping rooms, we handle the boxes, the bed and the inevitable mountain of clothes. We know the student areas well, so we plan around the tight terraced streets of Fallowfield and the parking around the universities.",
       },
       {
-        h2: "Split the cost with housemates",
+        h2: "Split the Cost With Housemates",
         body:
           "Moving on the same day as your housemates? Share the van and split the cost. It is often the cheapest way for a whole house to move at once, and we can do several drops on one run if the addresses are close together.",
       },
       {
-        h2: "End of tenancy timing",
+        h2: "End of Tenancy Timing",
         body:
           "Student tenancies tend to end on the same few days in the summer, and those slots fill up fast. Book early for late June through September and you will not be left scrambling. We will work around your checkout time so you are out before the deposit is at risk.",
       },
       {
-        h2: "Cheap and simple",
+        h2: "Cheap and Simple",
         body:
           "Students want cheap and reliable, and that is exactly what we aim for. Clear price, on time, sorted. Ask for a quote and we will keep it as low as we sensibly can for the job.",
       },
@@ -308,22 +308,22 @@ export const services: Service[] = [
       "Moving an office is not just a bigger house move, it is a move where downtime costs money. Our office and business removals service in Manchester shifts desks, chairs, IT kit and stock quickly and carefully, often out of hours, so your business is back up and running fast. We cover the city centre, Salford Quays and business parks across Greater Manchester.",
     sections: [
       {
-        h2: "Small office and studio moves",
+        h2: "Small Office and Studio Moves",
         body:
           "We are ideal for small offices, studios, salons and shops that do not need a huge corporate removals contract. A man and van, or two, gets you moved without the enterprise price tag. We handle desks, filing, stock and the awkward bits that always get left to the end.",
       },
       {
-        h2: "Out of hours to cut downtime",
+        h2: "Out of Hours to Cut Downtime",
         body:
           "The best time to move a business is when it is closed. We can work evenings or weekends so you lose as little trading time as possible. Tell us your quiet window and we will plan the move around it.",
       },
       {
-        h2: "IT, stock and equipment",
+        h2: "IT, Stock and Equipment",
         body:
           "Screens, servers and equipment need proper handling. We wrap and secure IT kit and keep everything labelled so it goes back where it belongs at the other end. If you need items dismantled and rebuilt, we can help with that as part of the job.",
       },
       {
-        h2: "Priced for small business",
+        h2: "Priced for Small Business",
         body:
           "We quote clearly on the size of the move and the hours involved, so you can budget it properly. No corporate padding. Ask for a quote and we will give you a straight figure for your office move in Manchester.",
       },
@@ -355,12 +355,12 @@ export const services: Service[] = [
       "Moving further than across town? We run long distance man and van jobs from Manchester to London and anywhere else in the UK. It is one of our most requested routes, whether you are a student heading south, a professional relocating, or someone who bought furniture at the other end of the country. One driver, one van, one clear price, door to door.",
     sections: [
       {
-        h2: "Manchester to London and back",
+        h2: "Manchester to London and Back",
         body:
           "The Manchester to London run is our most popular long distance route, and we do it both ways: man and van London to Manchester and Manchester to London. Because it is a single driver and van doing the whole journey, your belongings are not passed between depots or left sitting on a pallet. They go straight from your old door to your new one.",
       },
       {
-        h2: "Fixed prices for long journeys",
+        h2: "Fixed Prices for Long Journeys",
         body:
           "Long distance jobs are priced as a fixed figure based on the route, the load and the mileage, so you know the cost before we set off. That is far clearer than an hourly rate that balloons in motorway traffic. Ask for a quote with both postcodes and what you are moving and we will give you a firm price.",
       },
@@ -370,7 +370,7 @@ export const services: Service[] = [
           "It is not just London. We take jobs from Manchester to Birmingham, Leeds, Liverpool, Bristol, the South Coast and beyond. If you can name the two postcodes, we can price the run. Longer jobs may be best booked a little in advance to lock in the day.",
       },
       {
-        h2: "One point of contact",
+        h2: "One Point of Contact",
         body:
           "With a big national firm you get a call centre. With us you get the person doing the move. That means fewer crossed wires and someone who actually knows where your stuff is. It is why customers trust us with the longer, higher stakes jobs.",
       },

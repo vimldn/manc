@@ -81,7 +81,7 @@ export default function OurVansPage() {
               )}
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
                 <div>
-                  <h3 className="text-sm font-bold text-gray-900">What it typically carries</h3>
+                  <h3 className="text-sm font-bold text-gray-900">What It Typically Carries</h3>
                   <ul className="mt-2 space-y-1 text-sm text-gray-700">
                     {v.loadExamples.map((ex) => (
                       <li key={ex}>&bull; {ex}</li>
@@ -89,7 +89,7 @@ export default function OurVansPage() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-sm font-bold text-gray-900">Access notes</h3>
+                  <h3 className="text-sm font-bold text-gray-900">Access Notes</h3>
                   <p className="mt-2 text-sm text-gray-700">{v.access}</p>
                 </div>
               </div>

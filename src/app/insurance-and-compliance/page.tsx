@@ -36,25 +36,25 @@ const faqs = [
 // otherwise it explains the cover and points the customer to the certificate.
 const covers = [
   {
-    h: "Goods-in-transit cover",
+    h: "Goods-in-Transit Cover",
     body: "Protects your belongings while they are being carried in the van. It is the cover most people mean when they ask if a move is insured. Limits and conditions apply, so declare high-value items in advance.",
     limit: site.insurance.goodsInTransit,
     limitLabel: "Cover limit",
   },
   {
-    h: "Public liability cover",
+    h: "Public Liability Cover",
     body: "Covers injury or damage to property that could happen while we are working at your home, for example if something is knocked on a staircase or in a communal area.",
     limit: site.insurance.publicLiability,
     limitLabel: "Cover limit",
   },
   {
-    h: "Employer's liability",
+    h: "Employer's Liability",
     body: "Where a business employs staff, employer's liability cover is a legal requirement. It applies if the operator employs movers rather than working as a sole trader.",
     limit: site.insurance.employersLiability,
     limitLabel: "Cover limit",
   },
   {
-    h: "Commercial vehicle cover",
+    h: "Commercial Vehicle Cover",
     body: "Every van on the road must carry valid commercial motor insurance by law. That is separate from goods-in-transit cover, which protects the contents rather than the vehicle.",
     limit: "",
     limitLabel: "",
@@ -120,7 +120,7 @@ export default function InsuranceCompliancePage() {
 
         {/* Waste carrier registration */}
         <section className="mt-10 rounded-lg border border-gray-200 bg-brand-light p-6">
-          <h2 className="text-xl font-bold text-brand-dark">Waste carrier registration</h2>
+          <h2 className="text-xl font-bold text-brand-dark">Waste Carrier Registration</h2>
           {hasWaste ? (
             <p className="mt-2 text-gray-700">
               For rubbish removal and house clearances, household waste must be handled by a
@@ -148,7 +148,7 @@ export default function InsuranceCompliancePage() {
         {/* Claims + certificates */}
         <section className="mt-10 grid gap-6 md:grid-cols-2">
           <div>
-            <h2 className="text-xl font-bold text-gray-900">How a claim works</h2>
+            <h2 className="text-xl font-bold text-gray-900">How a Claim Works</h2>
             <p className="mt-2 text-gray-700">
               If something is damaged, tell us as soon as you notice it, keep the item and any
               packaging, and take a photo. We will talk you through the next step and, where cover
@@ -157,7 +157,7 @@ export default function InsuranceCompliancePage() {
             </p>
           </div>
           <div>
-            <h2 className="text-xl font-bold text-gray-900">Requesting a certificate</h2>
+            <h2 className="text-xl font-bold text-gray-900">Requesting a Certificate</h2>
             <p className="mt-2 text-gray-700">
               Landlords, letting agents, offices and building managers often ask for proof of cover
               before a move. Ask us and we will send the relevant certificate. For office and

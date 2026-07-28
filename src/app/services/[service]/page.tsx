@@ -74,13 +74,13 @@ export default function ServicePage({ params }: { params: { service: string } })
           {d && (
             <>
               <section className="mt-10">
-                <h2 className="text-xl font-bold text-gray-900">Who this is for</h2>
+                <h2 className="text-xl font-bold text-gray-900">Who This Is For</h2>
                 <p className="mt-3 text-gray-700">{d.forWho}</p>
               </section>
 
               <section className="mt-8 grid gap-4 sm:grid-cols-2">
                 <div className="rounded-lg border border-gray-200 bg-white p-5">
-                  <h2 className="text-base font-bold text-gray-900">What is included</h2>
+                  <h2 className="text-base font-bold text-gray-900">What Is Included</h2>
                   <ul className="mt-3 space-y-2 text-sm text-gray-700">
                     {d.included.map((i) => (
                       <li key={i} className="flex gap-2">
@@ -91,7 +91,7 @@ export default function ServicePage({ params }: { params: { service: string } })
                   </ul>
                 </div>
                 <div className="rounded-lg border border-gray-200 bg-gray-50 p-5">
-                  <h2 className="text-base font-bold text-gray-900">What is not included</h2>
+                  <h2 className="text-base font-bold text-gray-900">What Is Not Included</h2>
                   <ul className="mt-3 space-y-2 text-sm text-gray-700">
                     {d.notIncluded.map((i) => (
                       <li key={i} className="flex gap-2">
@@ -104,13 +104,13 @@ export default function ServicePage({ params }: { params: { service: string } })
               </section>
 
               <section className="mt-8">
-                <h2 className="text-xl font-bold text-gray-900">Access and what to plan for</h2>
+                <h2 className="text-xl font-bold text-gray-900">Access and What to Plan For</h2>
                 <p className="mt-3 text-gray-700">{d.access}</p>
               </section>
 
               <section className="mt-8 grid gap-4 sm:grid-cols-2">
                 <div>
-                  <h2 className="text-base font-bold text-gray-900">Van and movers</h2>
+                  <h2 className="text-base font-bold text-gray-900">Van and Movers</h2>
                   <p className="mt-2 text-sm text-gray-700">{d.vanRec}</p>
                   <Link
                     href="/our-vans/"
@@ -120,7 +120,7 @@ export default function ServicePage({ params }: { params: { service: string } })
                   </Link>
                 </div>
                 <div>
-                  <h2 className="text-base font-bold text-gray-900">Equipment we bring</h2>
+                  <h2 className="text-base font-bold text-gray-900">Equipment We Bring</h2>
                   <ul className="mt-2 flex flex-wrap gap-2">
                     {d.equipment.map((e) => (
                       <li
@@ -135,7 +135,7 @@ export default function ServicePage({ params }: { params: { service: string } })
               </section>
 
               <section className="mt-8">
-                <h2 className="text-xl font-bold text-gray-900">What affects the price</h2>
+                <h2 className="text-xl font-bold text-gray-900">What Affects the Price</h2>
                 <div className="mt-3 flex flex-wrap gap-2">
                   {d.pricingFactors.map((p) => (
                     <span
@@ -155,7 +155,7 @@ export default function ServicePage({ params }: { params: { service: string } })
               </section>
 
               <section className="mt-8">
-                <h2 className="text-xl font-bold text-gray-900">How to book</h2>
+                <h2 className="text-xl font-bold text-gray-900">How to Book</h2>
                 <ol className="mt-3 space-y-2 text-sm text-gray-700">
                   {d.booking.map((b, i) => (
                     <li key={b} className="flex gap-3">
@@ -183,7 +183,7 @@ export default function ServicePage({ params }: { params: { service: string } })
 
           {/* Internal links to related services */}
           <section className="mt-10 rounded-lg border border-gray-200 bg-gray-50 p-6">
-            <h2 className="text-lg font-bold text-gray-900">Related services</h2>
+            <h2 className="text-lg font-bold text-gray-900">Related Services</h2>
             <ul className="mt-3 space-y-2 text-sm">
               {related.map((r) => (
                 <li key={r!.slug}>
@@ -205,7 +205,7 @@ export default function ServicePage({ params }: { params: { service: string } })
 
           {/* Internal links to location pages */}
           <section className="mt-8">
-            <h2 className="text-lg font-bold text-gray-900">Available across Manchester</h2>
+            <h2 className="text-lg font-bold text-gray-900">Available Across Manchester</h2>
             <p className="mt-2 text-sm text-gray-600">
               We provide {s.navLabel.toLowerCase()} across Manchester and nearby areas, including:
             </p>

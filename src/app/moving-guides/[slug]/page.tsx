@@ -79,7 +79,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
           {/* Contents */}
           {g.sections.length > 1 && (
             <nav aria-label="On this page" className="mt-6 rounded-lg border border-gray-200 p-4">
-              <p className="text-sm font-bold text-gray-900">On this page</p>
+              <p className="text-sm font-bold text-gray-900">On This Page</p>
               <ul className="mt-2 space-y-1 text-sm">
                 {g.sections.map((s, i) => (
                   <li key={s.h2}>
@@ -105,7 +105,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
 
           {g.sources && g.sources.length > 0 && (
             <section className="mt-10">
-              <h2 className="text-lg font-bold text-gray-900">Useful links</h2>
+              <h2 className="text-lg font-bold text-gray-900">Useful Links</h2>
               <ul className="mt-3 space-y-2 text-sm">
                 {g.sources.map((src) => (
                   <li key={src.href}>
@@ -162,7 +162,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
 
         <aside className="lg:col-span-1">
           <div className="lg:sticky lg:top-24 rounded-lg border border-gray-200 bg-white p-5">
-            <h2 className="text-base font-bold text-gray-900">Popular guides</h2>
+            <h2 className="text-base font-bold text-gray-900">Popular Guides</h2>
             <ul className="mt-3 space-y-2 text-sm">
               {guides
                 .filter((o) => o.slug !== g.slug)

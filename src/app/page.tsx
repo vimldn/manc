@@ -116,7 +116,7 @@ export default function HomePage() {
       {/* 3. SERVICES GRID */}
       <section className="bg-gray-50">
         <div className="mx-auto max-w-container px-4 py-12">
-          <h2 className="text-2xl font-bold text-gray-900">Our man and van services</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Our Man and Van Services</h2>
           <p className="mt-2 text-gray-600">
             Everything from a single sofa to a full house move. Pick the service that fits.
           </p>
@@ -132,7 +132,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-container px-4 py-12">
         <div className="grid gap-8 lg:grid-cols-2">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900">Man and van in Manchester</h2>
+            <h2 className="text-2xl font-bold text-gray-900">Man and Van in Manchester</h2>
             <p className="mt-4 text-gray-700">
               Most people call us for a house or flat move, and that is what we do best. We bring a
               clean, insured van, blankets, straps and a trolley, and the manpower to shift your
@@ -149,7 +149,7 @@ export default function HomePage() {
           </div>
           {/* 5. MOBILE / FLEXIBLE SERVICE SECTION */}
           <div className="rounded-lg border border-gray-200 bg-brand-light p-6">
-            <h2 className="text-xl font-bold text-brand-dark">Flexible, mobile service</h2>
+            <h2 className="text-xl font-bold text-brand-dark">Flexible, Mobile Service</h2>
             <p className="mt-3 text-gray-700">
               We come to you, anywhere in Manchester. There is no depot to visit and nothing to
               collect. Book us for a one hour single item run or a full day house move, on weekdays,
@@ -169,7 +169,7 @@ export default function HomePage() {
       {/* 6. SAME DAY / URGENT SECTION */}
       <section className="bg-gray-900">
         <div className="mx-auto max-w-container px-4 py-10 text-center">
-          <h2 className="text-2xl font-bold text-white">Need a man and van today?</h2>
+          <h2 className="text-2xl font-bold text-white">Need a Man and Van Today?</h2>
           <p className="mx-auto mt-2 max-w-2xl text-gray-300">
             Short notice move, urgent single item or a last minute clearance? Call us and we will
             tell you the soonest slot we have. Smaller jobs can often be done same day or next day.
@@ -185,7 +185,7 @@ export default function HomePage() {
 
       {/* 7. COVERAGE AREA */}
       <section className="mx-auto max-w-container px-4 py-12">
-        <h2 className="text-2xl font-bold text-gray-900">Areas we cover in Manchester</h2>
+        <h2 className="text-2xl font-bold text-gray-900">Areas We Cover in Manchester</h2>
         <p className="mt-2 text-gray-600">
           We serve Manchester and nearby areas. Tap your area for local man and van information.
         </p>
@@ -230,13 +230,13 @@ export default function HomePage() {
       {/* 8. WHY CHOOSE US */}
       <section className="bg-gray-50">
         <div className="mx-auto max-w-container px-4 py-12">
-          <h2 className="text-2xl font-bold text-gray-900">Why choose Man and Van Manchester</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Why Choose Man and Van Manchester</h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              ["On time, every time", "We turn up when we say we will and keep you posted if anything changes."],
-              ["Careful with your stuff", "Blankets, straps and proper handling so nothing gets scratched or broken."],
-              ["Clear, fair prices", "A straight quote before we start. No hidden fuel charges or surprise extras."],
-              ["Local knowledge", "We know Manchester parking, permits and loading bays, so moves run smoothly."],
+              ["On Time, Every Time", "We turn up when we say we will and keep you posted if anything changes."],
+              ["Careful With Your Stuff", "Blankets, straps and proper handling so nothing gets scratched or broken."],
+              ["Clear, Fair Prices", "A straight quote before we start. No hidden fuel charges or surprise extras."],
+              ["Local Knowledge", "We know Manchester parking, permits and loading bays, so moves run smoothly."],
             ].map(([title, body]) => (
               <div key={title} className="rounded-lg border border-gray-200 bg-white p-5">
                 <h3 className="text-base font-bold text-brand-dark">{title}</h3>
@@ -249,7 +249,7 @@ export default function HomePage() {
 
       {/* 9. SIMPLE PROCESS */}
       <section className="mx-auto max-w-container px-4 py-12">
-        <h2 className="text-2xl font-bold text-gray-900">How it works</h2>
+        <h2 className="text-2xl font-bold text-gray-900">How It Works</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
             ["1. Call", "Call or send a quick message with what you are moving."],
@@ -267,15 +267,15 @@ export default function HomePage() {
 
       {/* 9b. EXPLORE / INTERNAL LINKS */}
       <section className="mx-auto max-w-container px-4 py-12">
-        <h2 className="text-2xl font-bold text-gray-900">Plan your move</h2>
+        <h2 className="text-2xl font-bold text-gray-900">Plan Your Move</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[
             ["/prices/", "Prices", "How our quotes work and what affects the cost."],
-            ["/our-vans/", "Van size guide", "What fits in each van and how many movers you need."],
-            ["/areas-we-cover/", "Areas we cover", "Every Manchester area, grouped by region."],
-            ["/moving-guides/", "Moving guides", "Straight answers to the questions people ask before a move."],
-            ["/insurance-and-compliance/", "Insurance and compliance", "What our cover means and how to request a certificate."],
-            ["/case-studies/", "Recent moves", "The kinds of jobs we do across Manchester."],
+            ["/our-vans/", "Van Size Guide", "What fits in each van and how many movers you need."],
+            ["/areas-we-cover/", "Areas We Cover", "Every Manchester area, grouped by region."],
+            ["/moving-guides/", "Moving Guides", "Straight answers to the questions people ask before a move."],
+            ["/insurance-and-compliance/", "Insurance and Compliance", "What our cover means and how to request a certificate."],
+            ["/case-studies/", "Recent Moves", "The kinds of jobs we do across Manchester."],
           ].map(([href, title, body]) => (
             <Link
               key={href}

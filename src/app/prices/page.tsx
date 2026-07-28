@@ -63,7 +63,7 @@ export default function PricesPage() {
 
         {/* Van + mover combinations */}
         <section className="mt-10">
-          <h2 className="text-2xl font-bold text-gray-900">Van and mover options</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Van and Mover Options</h2>
           <p className="mt-2 max-w-3xl text-gray-600">
             Picking the right combination is the biggest single thing that keeps the price fair. If
             you are not sure, describe the job and we will recommend the cheapest option that will
@@ -101,7 +101,7 @@ export default function PricesPage() {
 
         {/* Factors */}
         <section className="mt-12">
-          <h2 className="text-2xl font-bold text-gray-900">What affects the price</h2>
+          <h2 className="text-2xl font-bold text-gray-900">What Affects the Price</h2>
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             {priceFactors.map((f) => (
               <div key={f.h} className="rounded-lg border border-gray-200 bg-white p-5">
@@ -114,7 +114,7 @@ export default function PricesPage() {
 
         {/* Extras / transparency */}
         <section className="mt-12">
-          <h2 className="text-2xl font-bold text-gray-900">Good to know before you book</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Good to Know Before You Book</h2>
           <p className="mt-2 max-w-3xl text-gray-600">
             We would rather be clear about these up front than surprise you later.
           </p>
@@ -132,7 +132,7 @@ export default function PricesPage() {
 
         <div className="mt-12 grid gap-4 rounded-lg bg-brand-light p-6 sm:grid-cols-2 sm:items-center">
           <div>
-            <h2 className="text-xl font-bold text-brand-dark">Want a real figure for your move?</h2>
+            <h2 className="text-xl font-bold text-brand-dark">Want a Real Figure for Your Move?</h2>
             <p className="mt-2 text-sm text-gray-700">
               Tell us what you are moving, from and to, and we will give you a clear quote with no
               obligation.

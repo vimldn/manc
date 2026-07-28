@@ -88,7 +88,7 @@ export default function ReviewsPage() {
           </>
         ) : (
           <div className="mt-8 rounded-lg border border-gray-200 bg-brand-light p-6">
-            <h2 className="text-xl font-bold text-brand-dark">We are collecting reviews</h2>
+            <h2 className="text-xl font-bold text-brand-dark">We Are Collecting Reviews</h2>
             <p className="mt-2 max-w-2xl text-gray-700">
               We are gathering verified reviews from recent Manchester moves and will publish them
               here. {hasGoogle ? "In the meantime, you can read and leave a review on our Google Business Profile." : "If we have just helped you move, a short review really helps other people choose with confidence."}
