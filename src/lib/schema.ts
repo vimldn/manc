@@ -112,6 +112,29 @@ export function breadcrumbSchema(trail: { name: string; path: string }[]) {
   };
 }
 
+export function articleSchema(args: {
+  headline: string;
+  description: string;
+  url: string;
+  datePublished: string;
+  dateModified: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: args.headline,
+    description: args.description,
+    url: args.url,
+    datePublished: args.datePublished,
+    dateModified: args.dateModified,
+    inLanguage: "en-GB",
+    // Anonymous editorial byline: the operator, not a fabricated person.
+    author: { "@type": "Organization", name: site.name },
+    publisher: { "@id": site.url + "/#business" },
+    mainEntityOfPage: args.url,
+  };
+}
+
 export function webPageSchema(args: { name: string; url: string }) {
   return {
     "@context": "https://schema.org",

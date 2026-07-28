@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { site } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Thank You | Van and Man Manchester",
+  title: "Thank You | Man and Van Manchester",
   description: "Thanks for your enquiry. We will be in touch shortly with your man and van quote.",
   alternates: { canonical: site.url + "/thank-you/" },
   robots: { index: false, follow: true },

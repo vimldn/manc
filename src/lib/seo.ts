@@ -21,6 +21,11 @@ export function pageMeta({ title, description, path }: MetaArgs): Metadata {
       locale: "en_GB",
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
     robots: { index: true, follow: true },
   };
 }

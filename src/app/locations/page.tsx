@@ -10,7 +10,7 @@ import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
-  title: "Areas We Cover | Man and Van Across Manchester | Van and Man Manchester",
+  title: "Areas We Cover | Man and Van Across Manchester | Man and Van Manchester",
   description:
     "Man and van coverage across Manchester and nearby areas including the city centre, Salford, Didsbury, Chorlton, Fallowfield and more. Find your area and call for a quote.",
   path: "/locations/",
@@ -47,7 +47,7 @@ export default function LocationsPage() {
       <section className="mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">Areas We Cover in Manchester</h1>
         <p className="mt-4 max-w-3xl text-gray-700">
-          Van and Man Manchester covers the whole of Manchester and Greater Manchester. Whether you
+          Man and Van Manchester covers the whole of Manchester and Greater Manchester. Whether you
           are in a city centre apartment, a Fallowfield house share or a family home in Sale, we
           serve your area seven days a week. Choose your area below for local man and van
           information, or call for a quote.

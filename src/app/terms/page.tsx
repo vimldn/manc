@@ -4,8 +4,8 @@ import { site } from "@/lib/config";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
-  title: "Terms of Use | Van and Man Manchester",
-  description: "The terms of use for the Van and Man Manchester website.",
+  title: "Terms of Use | Man and Van Manchester",
+  description: "The terms of use for the Man and Van Manchester website.",
   path: "/terms/",
 });
 

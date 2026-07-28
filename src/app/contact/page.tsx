@@ -7,9 +7,9 @@ import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
-  title: "Contact | Man and Van Manchester | Van and Man Manchester",
+  title: "Contact | Man and Van Manchester | Man and Van Manchester",
   description:
-    "Contact Van and Man Manchester for a fast man and van quote. Call us or send your details and we will call you back. Covering all of Greater Manchester.",
+    "Contact Man and Van Manchester for a fast man and van quote. Call us or send your details and we will call you back. Covering all of Greater Manchester.",
   path: "/contact/",
 });
 
@@ -18,7 +18,7 @@ export default function ContactPage() {
     <>
       <JsonLd
         data={[
-          webPageSchema({ name: "Contact Van and Man Manchester", url: site.url + "/contact/" }),
+          webPageSchema({ name: "Contact Man and Van Manchester", url: site.url + "/contact/" }),
           breadcrumbSchema([
             { name: "Home", path: "/" },
             { name: "Contact", path: "/contact/" },
@@ -34,7 +34,7 @@ export default function ContactPage() {
 
       <div className="mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-2">
         <div>
-          <h1 className="text-3xl font-extrabold text-gray-900">Contact Van and Man Manchester</h1>
+          <h1 className="text-3xl font-extrabold text-gray-900">Contact Man and Van Manchester</h1>
           <p className="mt-4 text-gray-700">
             The fastest way to get a quote is to call us. Tell us what you are moving, where from and
             where to, and we will give you a clear price. Prefer we call you? Fill in the form and we

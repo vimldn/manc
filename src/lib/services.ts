@@ -19,11 +19,11 @@ export const services: Service[] = [
     slug: "house-removals",
     navLabel: "House Removals",
     h1: "Man and Van House Removals in Manchester",
-    title: "Man and Van House Removals in Manchester | Van and Man Manchester",
+    title: "Man and Van House Removals in Manchester | Man and Van Manchester",
     metaDescription:
       "Man and van house removals in Manchester. Careful loading, wrapped furniture and fair prices across Didsbury, Chorlton, Salford and all of Greater Manchester. Call for a quote.",
     intro:
-      "Moving house in Manchester is stressful enough without worrying about the van. Van and Man Manchester handles full house removals across the city, from a one bedroom terrace in Chorlton to a family home in Didsbury. We turn up on time, wrap your furniture properly and get everything to the new place without the drama. If you want a straight answer on price, call for a quote and we will talk you through it clearly.",
+      "Moving house in Manchester is stressful enough without worrying about the van. Man and Van Manchester handles full house removals across the city, from a one bedroom terrace in Chorlton to a family home in Didsbury. We turn up on time, wrap your furniture properly and get everything to the new place without the drama. If you want a straight answer on price, call for a quote and we will talk you through it clearly.",
     sections: [
       {
         h2: "House removals done properly",
@@ -66,11 +66,11 @@ export const services: Service[] = [
     slug: "flat-apartment-removals",
     navLabel: "Flat & Apartment Removals",
     h1: "Flat and Apartment Removals in Manchester",
-    title: "Flat & Apartment Removals in Manchester | Van and Man Manchester",
+    title: "Flat & Apartment Removals in Manchester | Man and Van Manchester",
     metaDescription:
       "Man and van flat and apartment removals in Manchester. Stairs, lifts, city centre high rises and tight parking sorted. Serving Manchester and nearby areas. Call for a quote.",
     intro:
-      "Flat moves have their own headaches, and most of them involve stairs, lifts and nowhere to park. Van and Man Manchester moves flats and apartments across the city, from city centre high rises to converted terraces in Hulme and Old Trafford. We are used to narrow staircases, booked lift slots and loading bays, so your move goes smoothly instead of turning into an afternoon of hauling boxes.",
+      "Flat moves have their own headaches, and most of them involve stairs, lifts and nowhere to park. Man and Van Manchester moves flats and apartments across the city, from city centre high rises to converted terraces in Hulme and Old Trafford. We are used to narrow staircases, booked lift slots and loading bays, so your move goes smoothly instead of turning into an afternoon of hauling boxes.",
     sections: [
       {
         h2: "Built for stairs, lifts and high rises",
@@ -113,7 +113,7 @@ export const services: Service[] = [
     slug: "man-and-van-hire",
     navLabel: "Man and Van Hire",
     h1: "Man and Van Hire in Manchester",
-    title: "Man and Van Hire in Manchester | Van and Man Manchester",
+    title: "Man and Van Hire in Manchester | Man and Van Manchester",
     metaDescription:
       "Flexible man and van hire in Manchester by the hour or the job. One or two movers, a clean van and fair rates across Greater Manchester. Call for a quote today.",
     intro:
@@ -160,7 +160,7 @@ export const services: Service[] = [
     slug: "rubbish-removal",
     navLabel: "Rubbish Removal",
     h1: "Man and Van Rubbish Removal in Manchester",
-    title: "Man and Van Rubbish Removal in Manchester | Van and Man Manchester",
+    title: "Man and Van Rubbish Removal in Manchester | Man and Van Manchester",
     metaDescription:
       "Man and van rubbish removal and house clearance in Manchester. Responsible waste clearance for furniture, junk and garden waste. Serving Manchester. Call for a quote.",
     intro:
@@ -207,7 +207,7 @@ export const services: Service[] = [
     slug: "furniture-delivery",
     navLabel: "Furniture & Single Items",
     h1: "Furniture and Single Item Delivery in Manchester",
-    title: "Furniture & Single Item Delivery in Manchester | Van and Man Manchester",
+    title: "Furniture & Single Item Delivery in Manchester | Man and Van Manchester",
     metaDescription:
       "Man and van furniture delivery and single item collection in Manchester. Marketplace pickups, sofas, beds and white goods moved same day. Call for a quote.",
     intro:
@@ -254,7 +254,7 @@ export const services: Service[] = [
     slug: "student-moves",
     navLabel: "Student Moves",
     h1: "Student Man and Van in Manchester",
-    title: "Student Man and Van in Manchester | Van and Man Manchester",
+    title: "Student Man and Van in Manchester | Man and Van Manchester",
     metaDescription:
       "Cheap student man and van in Manchester. Halls, house shares and end of tenancy moves around Fallowfield, Withington and the universities. Call for a quote.",
     intro:
@@ -301,7 +301,7 @@ export const services: Service[] = [
     slug: "office-removals",
     navLabel: "Office & Business",
     h1: "Office and Business Removals in Manchester",
-    title: "Office & Business Removals in Manchester | Van and Man Manchester",
+    title: "Office & Business Removals in Manchester | Man and Van Manchester",
     metaDescription:
       "Man and van office and business removals in Manchester. Desks, IT, stock and small office moves handled with minimal downtime across Greater Manchester. Call for a quote.",
     intro:
@@ -348,7 +348,7 @@ export const services: Service[] = [
     slug: "long-distance-removals",
     navLabel: "Long Distance",
     h1: "Long Distance Man and Van from Manchester",
-    title: "Long Distance Man and Van from Manchester to London & UK | Van and Man Manchester",
+    title: "Long Distance Man and Van from Manchester to London & UK | Man and Van Manchester",
     metaDescription:
       "Long distance man and van from Manchester to London and anywhere in the UK. Fixed prices, careful handling and one clear point of contact. Call for a quote.",
     intro:

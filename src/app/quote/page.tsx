@@ -8,7 +8,7 @@ import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
-  title: "Man and Van Quotes in Manchester | Prices & Costs | Van and Man Manchester",
+  title: "Man and Van Quotes in Manchester | Prices & Costs | Man and Van Manchester",
   description:
     "Get a free man and van quote in Manchester. Clear prices for house removals, flat moves, van hire and rubbish removal. No hidden costs. Call or request a quote online.",
   path: "/quote/",

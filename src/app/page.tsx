@@ -265,6 +265,30 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 9b. EXPLORE / INTERNAL LINKS */}
+      <section className="mx-auto max-w-container px-4 py-12">
+        <h2 className="text-2xl font-bold text-gray-900">Plan your move</h2>
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            ["/prices/", "Prices", "How our quotes work and what affects the cost."],
+            ["/our-vans/", "Van size guide", "What fits in each van and how many movers you need."],
+            ["/areas-we-cover/", "Areas we cover", "Every Manchester area, grouped by region."],
+            ["/moving-guides/", "Moving guides", "Straight answers to the questions people ask before a move."],
+            ["/insurance-and-compliance/", "Insurance and compliance", "What our cover means and how to request a certificate."],
+            ["/case-studies/", "Recent moves", "The kinds of jobs we do across Manchester."],
+          ].map(([href, title, body]) => (
+            <Link
+              key={href}
+              href={href}
+              className="block rounded-lg border border-gray-200 bg-white p-5 hover:border-brand hover:bg-brand-light"
+            >
+              <h3 className="text-base font-bold text-brand-dark">{title}</h3>
+              <p className="mt-2 text-sm text-gray-700">{body}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* 10. FAQ */}
       <Faq faqs={homeFaqs} />
 

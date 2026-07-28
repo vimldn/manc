@@ -10,7 +10,7 @@ import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
-  title: "Man and Van Services in Manchester | Van and Man Manchester",
+  title: "Man and Van Services in Manchester | Man and Van Manchester",
   description:
     "Full list of man and van services in Manchester: house removals, flat moves, van hire, rubbish removal, furniture delivery, student and office moves. Call for a quote.",
   path: "/services/",

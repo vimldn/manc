@@ -7,9 +7,9 @@ import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
-  title: "About Us | Van and Man Manchester",
+  title: "About Us | Man and Van Manchester",
   description:
-    "Van and Man Manchester is a local man and van service covering Manchester and Greater Manchester. Reliable removals, van hire and clearances at fair prices.",
+    "Man and Van Manchester is a local man and van service covering Manchester and Greater Manchester. Reliable removals, van hire and clearances at fair prices.",
   path: "/about/",
 });
 
@@ -18,7 +18,7 @@ export default function AboutPage() {
     <>
       <JsonLd
         data={[
-          webPageSchema({ name: "About Van and Man Manchester", url: site.url + "/about/" }),
+          webPageSchema({ name: "About Man and Van Manchester", url: site.url + "/about/" }),
           breadcrumbSchema([
             { name: "Home", path: "/" },
             { name: "About", path: "/about/" },
@@ -33,9 +33,9 @@ export default function AboutPage() {
       />
 
       <article className="mx-auto max-w-3xl px-4 py-8">
-        <h1 className="text-3xl font-extrabold text-gray-900">About Van and Man Manchester</h1>
+        <h1 className="text-3xl font-extrabold text-gray-900">About Man and Van Manchester</h1>
         <p className="mt-4 text-gray-700">
-          Van and Man Manchester is a local man and van service covering Manchester and the whole of
+          Man and Van Manchester is a local man and van service covering Manchester and the whole of
           Greater Manchester. We help people move house and flat, hire a van and a pair of hands,
           clear rubbish and deliver furniture. We are the people who actually turn up and do the
           move, not a call centre passing you around.
