@@ -103,6 +103,26 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
             </section>
           ))}
 
+          {g.sources && g.sources.length > 0 && (
+            <section className="mt-10">
+              <h2 className="text-lg font-bold text-gray-900">Useful links</h2>
+              <ul className="mt-3 space-y-2 text-sm">
+                {g.sources.map((src) => (
+                  <li key={src.href}>
+                    <a
+                      href={src.href}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="font-semibold text-brand hover:text-brand-dark"
+                    >
+                      {src.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
           <section className="mt-10 rounded-lg border border-gray-200 bg-gray-50 p-6">
             <h2 className="text-lg font-bold text-gray-900">Related</h2>
             <ul className="mt-3 space-y-2 text-sm">
