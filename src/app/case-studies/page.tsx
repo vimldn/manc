@@ -122,7 +122,7 @@ export default function CaseStudiesPage() {
         )}
       </div>
 
-      <Cta label="Planning a move in Manchester?" />
+      <Cta label="Planning a Move in Manchester?" />
     </>
   );
 }

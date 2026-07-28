@@ -180,7 +180,7 @@ export default function InsuranceCompliancePage() {
       </div>
 
       <Faq faqs={faqs} />
-      <Cta label="Ask us about cover for your move" />
+      <Cta label="Ask Us About Cover for Your Move" />
     </>
   );
 }

@@ -124,7 +124,7 @@ export default function AreasWeCoverPage() {
         </div>
       </div>
 
-      <Cta label="Book a man and van in your area" />
+      <Cta label="Book a Man and Van in Your Area" />
     </>
   );
 }

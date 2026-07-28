@@ -1,11 +1,15 @@
 import { PLACEHOLDER } from "./config";
 
 // -------------------------------------------------------------
-// PRICING DATA. No genuine prices have been supplied, so every `from`
-// value is a PLACEHOLDER and the UI shows "Price on quote" instead of a
-// number (see isReal() in config). When the operator confirms real rates,
-// replace the PLACEHOLDER(...) values with plain strings like "£45/hour"
-// and the figures appear automatically. Do NOT invent prices.
+// PRICING DATA. The `from` figures below are INDICATIVE GUIDE PRICES based
+// on typical published Manchester man-and-van rates (2026), shown to help
+// customers budget. They are presented on the page as guide prices, not as
+// fixed quotes, and the exact price is always confirmed per job.
+//
+// OPERATOR: replace these with your own real rates when you have them, so
+// the page reflects what you actually charge. Any value left as a
+// PLACEHOLDER(...) renders as "Price on quote" instead of a number.
+// Do NOT present a guide price as a guaranteed fixed quote.
 // -------------------------------------------------------------
 
 export type PriceRow = {
@@ -22,42 +26,42 @@ export const priceRows: PriceRow[] = [
     key: "one-small",
     label: "One mover, small van",
     detail: "Driver plus a short-wheelbase or SWB van.",
-    from: PLACEHOLDER("ONE MOVER SMALL VAN RATE e.g. £40/hour"),
+    from: "From £35/hour",
     bestFor: "Single items, a few boxes, a studio move.",
   },
   {
     key: "one-large",
     label: "One mover, large van",
     detail: "Driver plus a long-wheelbase or Luton van.",
-    from: PLACEHOLDER("ONE MOVER LARGE VAN RATE"),
+    from: "From £45/hour",
     bestFor: "Studio and one-bed flats, small deliveries.",
   },
   {
     key: "two-large",
     label: "Two movers, large van",
     detail: "Two people plus a long-wheelbase or Luton van.",
-    from: PLACEHOLDER("TWO MOVERS LARGE VAN RATE"),
+    from: "From £50/hour",
     bestFor: "One and two-bed flats and small houses.",
   },
   {
     key: "two-luton",
     label: "Two movers, Luton van",
     detail: "Two people plus a Luton, often with a tail lift.",
-    from: PLACEHOLDER("TWO MOVERS LUTON RATE"),
+    from: "From £60/hour",
     bestFor: "Two and three-bed houses, larger moves.",
   },
   {
     key: "single-item",
     label: "Single item delivery",
     detail: "One collection and one drop-off, priced per job.",
-    from: PLACEHOLDER("SINGLE ITEM FROM PRICE"),
+    from: "From £40",
     bestFor: "A sofa, bed, wardrobe or Marketplace pickup.",
   },
   {
     key: "long-distance",
     label: "Long distance move",
     detail: "Fixed price on the route, load and mileage.",
-    from: PLACEHOLDER("LONG DISTANCE FROM PRICE"),
+    from: "Fixed price quote",
     bestFor: "Manchester to London and anywhere in the UK.",
   },
 ];
@@ -78,7 +82,7 @@ export const priceFactors: { h: string; body: string }[] = [
 
 // Charges the brief asks us to be transparent about. Values are placeholders.
 export const priceExtras: { label: string; value: string }[] = [
-  { label: "Minimum booking", value: PLACEHOLDER("MINIMUM BOOKING e.g. 2 hours") },
+  { label: "Minimum booking", value: "Typically 2 to 3 hours" },
   { label: "Deposit", value: PLACEHOLDER("DEPOSIT POLICY e.g. none, or £X to hold a date") },
   { label: "Waiting time", value: PLACEHOLDER("WAITING TIME RATE") },
   { label: "Cancellation", value: PLACEHOLDER("CANCELLATION / RESCHEDULE POLICY") },

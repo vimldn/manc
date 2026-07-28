@@ -299,7 +299,7 @@ export default function HomePage() {
           schema. Shipping fake reviews is both against policy and a trust risk. */}
 
       {/* 12. FINAL CTA */}
-      <Cta label="Get your man and van quote today" />
+      <Cta label="Get Your Man and Van Quote Today" />
     </>
   );
 }

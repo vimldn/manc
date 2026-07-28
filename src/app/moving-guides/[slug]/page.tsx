@@ -142,7 +142,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
           </section>
 
           <div className="mt-8 rounded-lg bg-brand p-6 text-center">
-            <p className="text-lg font-bold text-white">Ready for a quote on your Manchester move?</p>
+            <p className="text-lg font-bold text-white">Ready for a Quote on Your Manchester Move?</p>
             <div className="mt-3 flex flex-col justify-center gap-3 sm:flex-row">
               <Link
                 href="/quote/"
@@ -183,7 +183,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
       </div>
 
       {g.faqs && <Faq faqs={g.faqs} />}
-      <Cta label="Get help with your move" />
+      <Cta label="Get Help With Your Move" />
     </>
   );
 }

@@ -65,9 +65,10 @@ export default function PricesPage() {
         <section className="mt-10">
           <h2 className="text-2xl font-bold text-gray-900">Van and Mover Options</h2>
           <p className="mt-2 max-w-3xl text-gray-600">
-            Picking the right combination is the biggest single thing that keeps the price fair. If
-            you are not sure, describe the job and we will recommend the cheapest option that will
-            actually do it.
+            The figures below are typical Manchester guide prices to help you budget, not fixed
+            quotes. Most local work is charged by the hour with a two to three hour minimum, and
+            picking the right combination is the biggest single thing that keeps the cost fair. Tell
+            us the job and we will recommend the cheapest option that will actually do it.
           </p>
           <div className="mt-6 overflow-x-auto">
             <table className="w-full min-w-[640px] border-collapse text-left text-sm">
@@ -94,8 +95,9 @@ export default function PricesPage() {
             </table>
           </div>
           <p className="mt-3 text-sm text-gray-500">
-            Prices shown as &ldquo;Price on quote&rdquo; are given per job once we know the detail.
-            For a firm figure, send both postcodes and a description of what you are moving.
+            Guide prices only, based on typical Manchester rates. Your own price depends on the
+            detail of the job, so for a firm figure send both postcodes and a description of what you
+            are moving. Anything shown as &ldquo;Price on quote&rdquo; is priced per job.
           </p>
         </section>
 
@@ -171,7 +173,7 @@ export default function PricesPage() {
       </div>
 
       <Faq faqs={faqs} />
-      <Cta label="Get your man and van quote today" />
+      <Cta label="Get Your Man and Van Quote Today" />
     </>
   );
 }

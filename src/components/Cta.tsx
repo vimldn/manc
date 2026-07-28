@@ -1,6 +1,6 @@
 import { site } from "@/lib/config";
 
-export default function Cta({ label = "Ready to move?" }: { label?: string }) {
+export default function Cta({ label = "Ready to Move?" }: { label?: string }) {
   return (
     <section className="bg-brand">
       <div className="mx-auto flex max-w-container flex-col items-center gap-4 px-4 py-10 text-center sm:flex-row sm:justify-between sm:text-left">

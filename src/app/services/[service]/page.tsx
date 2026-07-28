@@ -242,7 +242,7 @@ export default function ServicePage({ params }: { params: { service: string } })
           {/* Call now CTA */}
           <div className="mt-8 rounded-lg bg-brand p-6 text-center">
             <p className="text-lg font-bold text-white">
-              Call now for {s.navLabel.toLowerCase()} in Manchester
+              Call Now for {s.navLabel} in Manchester
             </p>
             <a
               href={`tel:${site.phoneTel}`}
@@ -255,13 +255,13 @@ export default function ServicePage({ params }: { params: { service: string } })
 
         <aside className="lg:col-span-1">
           <div className="lg:sticky lg:top-24">
-            <QuoteForm heading="Quote for this service" compact defaultService={s.navLabel} />
+            <QuoteForm heading="Quote for This Service" compact defaultService={s.navLabel} />
           </div>
         </aside>
       </div>
 
       <Faq faqs={s.faqs} />
-      <Cta label={`Book your ${s.navLabel.toLowerCase()} in Manchester`} />
+      <Cta label={`Book Your ${s.navLabel} in Manchester`} />
     </>
   );
 }

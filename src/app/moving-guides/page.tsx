@@ -58,7 +58,7 @@ export default function MovingGuidesPage() {
         </div>
       </div>
 
-      <Cta label="Ready to get a quote?" />
+      <Cta label="Ready to Get a Quote?" />
     </>
   );
 }

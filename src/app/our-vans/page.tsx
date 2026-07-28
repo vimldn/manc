@@ -120,7 +120,7 @@ export default function OurVansPage() {
       </div>
 
       <Faq faqs={faqs} />
-      <Cta label="Not sure what size van you need?" />
+      <Cta label="Not Sure What Size Van You Need?" />
     </>
   );
 }

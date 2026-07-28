@@ -127,7 +127,7 @@ export default function ReviewsPage() {
         </p>
       </div>
 
-      <Cta label="Ready to book your move?" />
+      <Cta label="Ready to Book Your Move?" />
     </>
   );
 }

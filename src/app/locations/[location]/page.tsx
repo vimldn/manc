@@ -69,7 +69,7 @@ export default function LocationPage({ params }: { params: { location: string } 
           {/* Services available in this area (links back to all main services) */}
           <section className="mt-10">
             <h2 className="text-xl font-bold text-gray-900">
-              Man and van services in {l.name}
+              Man and Van Services in {l.name}
             </h2>
             <p className="mt-2 text-sm text-gray-600">
               All of our services are available in {l.name} and the surrounding {l.postcode} area:
@@ -89,7 +89,7 @@ export default function LocationPage({ params }: { params: { location: string } 
 
           {/* Neighbouring areas */}
           <section className="mt-8 rounded-lg border border-gray-200 bg-gray-50 p-6">
-            <h2 className="text-lg font-bold text-gray-900">Nearby areas we also cover</h2>
+            <h2 className="text-lg font-bold text-gray-900">Nearby Areas We Also Cover</h2>
             <p className="mt-2 text-sm text-gray-700">
               As well as {l.name}, we cover neighbouring areas including {l.neighbours.join(", ")}.
               Moving between them is usually a short, cheap job.
@@ -112,7 +112,7 @@ export default function LocationPage({ params }: { params: { location: string } 
 
           {/* Call now CTA */}
           <div className="mt-8 rounded-lg bg-brand p-6 text-center">
-            <p className="text-lg font-bold text-white">Man and van in {l.name}, ready when you are</p>
+            <p className="text-lg font-bold text-white">Man and Van in {l.name}, Ready When You Are</p>
             <a
               href={`tel:${site.phoneTel}`}
               className="mt-3 inline-block rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark"
@@ -129,8 +129,8 @@ export default function LocationPage({ params }: { params: { location: string } 
         </aside>
       </div>
 
-      <Faq faqs={l.faqs} heading={`Man and van in ${l.name}: FAQs`} />
-      <Cta label={`Get your ${l.name} man and van quote`} />
+      <Faq faqs={l.faqs} heading={`Man and Van in ${l.name}: FAQs`} />
+      <Cta label={`Get Your ${l.name} Man and Van Quote`} />
     </>
   );
 }
