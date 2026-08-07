@@ -25,11 +25,7 @@ export default function Footer() {
             </a>
             <p className="mt-1 text-sm text-gray-400">{site.hours}</p>
 
-            {/*
-              Address and map render only when config marks the address as a
-              genuine, publicly-listable staffed location. 3 Piccadilly Place
-              is a serviced office, so this stays hidden until confirmed.
-            */}
+            {/* Address and map render only when config marks the address as publishable. */}
             {site.address.showPublicly && (
               <>
                 <p className="mt-3 text-sm not-italic text-gray-400">

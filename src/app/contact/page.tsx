@@ -68,6 +68,25 @@ export default function ContactPage() {
                 Manchester and nearby areas.
               </p>
             </div>
+            {site.address.showPublicly && (
+              <div className="rounded-lg border border-gray-200 bg-white p-5">
+                <div className="text-sm font-semibold text-gray-600">Office</div>
+                <address className="mt-1 text-sm not-italic text-gray-700">
+                  {site.address.street}
+                  <br />
+                  {site.address.locality} {site.address.postcode}
+                </address>
+                <iframe
+                  title={`${site.name} office location, ${site.address.street}, ${site.address.locality} ${site.address.postcode}`}
+                  src={`https://www.google.com/maps?q=${encodeURIComponent(
+                    site.address.mapQuery,
+                  )}&z=16&output=embed`}
+                  className="mt-4 h-64 w-full rounded-lg border-0"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+            )}
           </div>
         </div>
 

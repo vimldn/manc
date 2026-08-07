@@ -50,22 +50,22 @@ export const site = {
   country: "United Kingdom",
 
   // ---------------------------------------------------------------
-  // ADDRESS - COMPLIANCE WARNING. DO NOT PUBLISH AS A STAFFED LOCATION.
+  // ADDRESS
   //
-  // 3 Piccadilly Place M1 3BN geocodes to "Orega Serviced Offices", i.e.
-  // this is a serviced / virtual office, NOT a staffed customer-facing
-  // premises. Google Business Profile guidelines forbid representing a
-  // virtual office as an operating location, and this is an area-served
-  // mobile business with no shopfront.
+  // 3 Piccadilly Place M1 3BN geocodes to Orega Serviced Offices, so this is
+  // an office address rather than a staffed customer-facing shopfront. The
+  // operator instructed on 2026-08-07 that it be published in the footer and
+  // on the contact page, so showPublicly is on.
   //
-  // `publicStatus` and `showPublicly` control whether the address renders.
-  // Leave showPublicly = false until the operator confirms in writing that
-  // the address is a genuine staffed location they are entitled to list.
-  // Options for publicStatus once confirmed:
-  //   "staffed"    - genuine staffed premises, safe to display
-  //   "registered" - registered office only (show on legal pages, not as location)
-  //   "virtual"    - serviced/virtual office (do NOT display as location)
-  //   "service-area" - no public address (recommended for a mobile mover)
+  // Do NOT list this address as a location on a Google Business Profile: GBP
+  // guidelines forbid representing a serviced/virtual office as an operating
+  // location for an area-served mobile business. Website display is separate.
+  //
+  // publicStatus is a label only, nothing reads it:
+  //   "staffed"    - genuine staffed premises
+  //   "registered" - registered / office address
+  //   "virtual"    - serviced or virtual office
+  //   "service-area" - no public address
   // ---------------------------------------------------------------
   address: {
     street: "3 Piccadilly Place",
@@ -73,9 +73,9 @@ export const site = {
     region: "Greater Manchester",
     postcode: "M1 3BN",
     countryCode: "GB",
-    mapQuery: "Orega Serviced Offices - Piccadilly Place - Manchester M1 3BN",
-    publicStatus: "virtual" as "staffed" | "registered" | "virtual" | "service-area",
-    showPublicly: false,
+    mapQuery: "3 Piccadilly Place, Manchester M1 3BN",
+    publicStatus: "registered" as "staffed" | "registered" | "virtual" | "service-area",
+    showPublicly: true,
   },
 
   hours: "Mon to Sun, 7am to 9pm",
