@@ -53,15 +53,6 @@ export default function ContactPage() {
               <div className="mt-1 text-sm text-gray-600">{site.hours}</div>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-5">
-              <div className="text-sm font-semibold text-gray-600">Email</div>
-              <a
-                href={`mailto:${site.email}`}
-                className="mt-1 block text-lg font-bold text-brand hover:text-brand-dark"
-              >
-                {site.email}
-              </a>
-            </div>
-            <div className="rounded-lg border border-gray-200 bg-white p-5">
               <div className="text-sm font-semibold text-gray-600">Coverage</div>
               <p className="mt-1 text-sm text-gray-700">
                 Manchester and Greater Manchester, plus long distance runs across the UK. Serving

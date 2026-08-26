@@ -37,8 +37,8 @@ export default function PrivacyPage() {
         </p>
         <h2 className="mt-8 text-xl font-bold text-gray-900">Your rights</h2>
         <p className="mt-3">
-          You can ask us what information we hold about you and request that we delete it. Contact us
-          at {site.email} to do so.
+          You can ask us what information we hold about you and request that we delete it. Call us
+          on {site.phoneDisplay} to do so.
         </p>
         <p className="mt-8 text-sm text-gray-500">
           This is a general template and should be reviewed by the site operator before going live

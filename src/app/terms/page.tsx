@@ -31,7 +31,7 @@ export default function TermsPage() {
         </p>
         <h2 className="mt-8 text-xl font-bold text-gray-900">Contact</h2>
         <p className="mt-3">
-          Questions about these terms can be sent to {site.email}.
+          Questions about these terms can be put to us on {site.phoneDisplay}.
         </p>
         <p className="mt-8 text-sm text-gray-500">
           This is a general template and should be reviewed by the site operator before going live.

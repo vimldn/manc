@@ -33,9 +33,6 @@ export const site = {
   phoneDisplay: "0161 399 8702",
   phoneTel: "+441613998702",
 
-  // Lead email. Point the lead API at the operator's inbox / Zapier / CRM.
-  email: "quotes@vanandmanmanchester.co.uk",
-
   // WhatsApp. `enabled` gates every WhatsApp CTA in the UI. Keep it false
   // until a REAL WhatsApp business number is confirmed, then set the number
   // in full international format (no +, no spaces) and flip enabled to true.
