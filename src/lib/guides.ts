@@ -9,7 +9,16 @@ import type { Faq } from "./services";
 // verbatim (e.g. the exact council fee), the copy says so.
 // -------------------------------------------------------------
 
-export type GuideSection = { h2: string; body: string[] };
+// `bullets` renders as a list between the body paragraphs and `outro`.
+// Body, bullet and outro text may carry inline [label](/path/) links, which
+// RichText resolves, so internal links sit in the prose rather than being
+// bolted on at the end.
+export type GuideSection = {
+  h2: string;
+  body: string[];
+  bullets?: string[];
+  outro?: string[];
+};
 
 export type Guide = {
   slug: string;
@@ -35,6 +44,24 @@ export const guides: Guide[] = [
     answer:
       "In Manchester a man and van is usually charged by the hour. One mover and a small van typically starts around £30 to £45 an hour, and two movers with a larger van commonly run around £50 to £85 an hour, with a two to three hour minimum on most bookings. What you actually pay depends on the van size, the number of movers, the distance and how long the job takes, so the reliable way to know is to describe the move and get a quote.",
     sections: [
+      {
+        // First-party prices. These figures MUST match priceRows in
+        // pricing.ts; update both together or the site contradicts itself.
+        h2: "Our Current Man and Van Prices in Manchester",
+        body: ["For our own service, current guide prices start at:"],
+        bullets: [
+          "One mover with a small van: £35 per hour",
+          "One mover with a larger van: £45 per hour",
+          "Two movers with a larger van: £50 per hour",
+          "Two movers with a Luton van: £60 per hour",
+          "Single-item delivery: £40",
+          "Long-distance moves: fixed-price quote",
+        ],
+        outro: [
+          "Most local bookings have a two to three hour minimum.",
+          "These are guide prices rather than guaranteed quotes because the final cost depends on the load, access, distance and number of movers. The full breakdown, including what each van and crew combination suits, is on our [man and van prices page](/prices/).",
+        ],
+      },
       {
         h2: "Typical Hourly Rates in Manchester",
         body: [

@@ -6,7 +6,7 @@ import { guides } from "@/lib/guides";
 
 // Hardcoded last modified date. Bump this when you make a meaningful
 // content change so search engines see a fresh signal.
-const LAST_MODIFIED = "2026-07-28";
+const LAST_MODIFIED = "2026-09-10";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(LAST_MODIFIED);

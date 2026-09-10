@@ -8,6 +8,7 @@ import Cta from "@/components/Cta";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import TrustBar from "@/components/TrustBar";
 import JsonLd from "@/components/JsonLd";
+import CallLink from "@/components/CallLink";
 import { site } from "@/lib/config";
 import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
@@ -71,12 +72,9 @@ export default function HomePage() {
               Same day or booked ahead, seven days a week.
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <a
-                href={`tel:${site.phoneTel}`}
-                className="rounded-md bg-cta px-6 py-3 text-center text-lg font-bold text-white hover:bg-cta-dark"
-              >
-                Call {site.phoneDisplay}
-              </a>
+              <CallLink where="homepage" className="rounded-md bg-cta px-6 py-3 text-center text-lg font-bold text-white hover:bg-cta-dark">
+            Call {site.phoneDisplay}
+          </CallLink>
               <Link
                 href="/quote/"
                 className="rounded-md border-2 border-white/70 px-6 py-3 text-center text-lg font-bold text-white hover:bg-white hover:text-gray-900"
@@ -90,7 +88,7 @@ export default function HomePage() {
             </p>
           </div>
           <div>
-            <QuoteForm heading="Get a Free Quote" />
+            <QuoteForm heading="Get a Free Quote" formName="homepage_hero" />
           </div>
         </div>
       </section>
@@ -174,12 +172,9 @@ export default function HomePage() {
             Short notice move, urgent single item or a last minute clearance? Call us and we will
             tell you the soonest slot we have. Smaller jobs can often be done same day or next day.
           </p>
-          <a
-            href={`tel:${site.phoneTel}`}
-            className="mt-5 inline-block rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark"
-          >
+          <CallLink where="homepage" className="mt-5 inline-block rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark">
             Call {site.phoneDisplay}
-          </a>
+          </CallLink>
         </div>
       </section>
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import QuoteForm from "@/components/QuoteForm";
 import JsonLd from "@/components/JsonLd";
+import CallLink from "@/components/CallLink";
 import { site } from "@/lib/config";
 import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
@@ -44,12 +45,7 @@ export default function ContactPage() {
           <div className="mt-6 space-y-4">
             <div className="rounded-lg border border-gray-200 bg-brand-light p-5">
               <div className="text-sm font-semibold text-gray-600">Call for a quote</div>
-              <a
-                href={`tel:${site.phoneTel}`}
-                className="mt-1 block text-2xl font-extrabold text-brand-dark"
-              >
-                {site.phoneDisplay}
-              </a>
+              <CallLink where="contact_page" className="mt-1 block text-2xl font-extrabold text-brand-dark" />
               <div className="mt-1 text-sm text-gray-600">{site.hours}</div>
             </div>
             <div className="rounded-lg border border-gray-200 bg-white p-5">
@@ -82,7 +78,7 @@ export default function ContactPage() {
         </div>
 
         <div>
-          <QuoteForm heading="Request a callback" />
+          <QuoteForm heading="Request a callback" formName="contact_page" />
         </div>
       </div>
     </>

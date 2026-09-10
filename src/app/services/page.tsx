@@ -62,7 +62,7 @@ export default function ServicesPage() {
 
       <section className="mx-auto max-w-container px-4 pb-12">
         <div className="mx-auto max-w-xl">
-          <QuoteForm heading="Get a quote for any service" />
+          <QuoteForm heading="Get a quote for any service" formName="services_index" />
         </div>
       </section>
 

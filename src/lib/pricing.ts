@@ -1,16 +1,20 @@
 import { PLACEHOLDER } from "./config";
 
 // -------------------------------------------------------------
-// PRICING DATA. The `from` figures below are INDICATIVE GUIDE PRICES based
-// on typical published Manchester man-and-van rates (2026), shown to help
-// customers budget. They are presented on the page as guide prices, not as
-// fixed quotes, and the exact price is always confirmed per job.
+// PRICING DATA. The `from` figures below are the business's OWN current
+// guide prices for Manchester, confirmed by the operator on 2026-09-10.
+// They are presented as starting points, not fixed quotes, and the exact
+// price is always confirmed per job.
 //
-// OPERATOR: replace these with your own real rates when you have them, so
-// the page reflects what you actually charge. Any value left as a
-// PLACEHOLDER(...) renders as "Price on quote" instead of a number.
-// Do NOT present a guide price as a guaranteed fixed quote.
+// Any value left as a PLACEHOLDER(...) renders as "Price on quote" instead
+// of a number. Do NOT present a guide price as a guaranteed fixed quote.
+//
+// PRICES_LAST_REVIEWED is shown on the prices page. Move it ONLY when a
+// human has genuinely re-checked the rates. It must never be wired to a
+// build date, a timer or new Date().
 // -------------------------------------------------------------
+
+export const PRICES_LAST_REVIEWED = "September 2026";
 
 export type PriceRow = {
   key: string;

@@ -41,18 +41,66 @@ export async function POST(request: Request) {
     source: "vanandmanmanchester.co.uk",
   };
 
-  // Forward to the Google Sheet. A webhook hiccup must not block the customer
-  // or lose the lead, so we log on failure and still return ok.
-  try {
-    const res = await fetch(LEAD_WEBHOOK_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(lead),
-    });
-    if (!res.ok) console.error("Lead webhook non-OK:", res.status, lead);
-  } catch (err) {
-    console.error("Lead webhook failed:", err, lead);
+  // Forward to the Google Sheet. Delivery is attempted twice before it is
+  // called a failure, because a single transient Apps Script blip is common.
+  //
+  // The response reports delivery HONESTLY. A lead that never reached the
+  // sheet must not be reported to the customer as sent, and must not be
+  // counted as a conversion in GA4 - a silently lost lead is the worst
+  // outcome here. Every attempt is logged server-side either way, so the
+  // details survive in the Vercel logs even when the webhook is down.
+  let delivered = false;
+  let lastError = "";
+
+  for (let attempt = 1; attempt <= 2 && !delivered; attempt++) {
+    try {
+      const res = await fetch(LEAD_WEBHOOK_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(lead),
+      });
+      if (res.ok) {
+        // The Apps Script replies {"ok":true,"tab":"Manchester"} on a good
+        // write. Treat an explicit ok:false as a failure; anything that is
+        // not JSON is treated as success, since HTTP 200 is the contract.
+        let body: unknown = null;
+        try {
+          body = JSON.parse(await res.text());
+        } catch {
+          body = null;
+        }
+        const rejected =
+          body !== null &&
+          typeof body === "object" &&
+          "ok" in (body as Record<string, unknown>) &&
+          (body as Record<string, unknown>).ok === false;
+
+        if (rejected) {
+          lastError = "webhook rejected";
+          console.error(`Lead webhook rejected the lead (attempt ${attempt}):`, body, lead);
+        } else {
+          delivered = true;
+        }
+      } else {
+        lastError = `HTTP ${res.status}`;
+        console.error(`Lead webhook non-OK (attempt ${attempt}):`, res.status, lead);
+      }
+    } catch (err) {
+      lastError = err instanceof Error ? err.message : "fetch failed";
+      console.error(`Lead webhook failed (attempt ${attempt}):`, err, lead);
+    }
   }
 
-  return NextResponse.json({ ok: true });
+  if (!delivered) {
+    console.error(
+      `LEAD NOT DELIVERED after 2 attempts (${lastError}), details follow:`,
+      JSON.stringify(lead),
+    );
+    return NextResponse.json(
+      { ok: false, delivered: false, error: "Could not record the enquiry" },
+      { status: 502 },
+    );
+  }
+
+  return NextResponse.json({ ok: true, delivered: true });
 }

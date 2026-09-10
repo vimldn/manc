@@ -1,4 +1,5 @@
 import { site } from "@/lib/config";
+import CallLink from "@/components/CallLink";
 
 export default function Cta({ label = "Ready to Move?" }: { label?: string }) {
   return (
@@ -10,12 +11,9 @@ export default function Cta({ label = "Ready to Move?" }: { label?: string }) {
             Call now for a fast, no obligation quote across Manchester and nearby areas.
           </p>
         </div>
-        <a
-          href={`tel:${site.phoneTel}`}
-          className="whitespace-nowrap rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark"
-        >
-          Call {site.phoneDisplay}
-        </a>
+        <CallLink where="cta_band" className="whitespace-nowrap rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark">
+            Call {site.phoneDisplay}
+          </CallLink>
       </div>
     </section>
   );

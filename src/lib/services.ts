@@ -1,6 +1,17 @@
 export type Faq = { q: string; a: string };
 
-export type Section = { h2: string; body: string };
+// `bullets` renders as a list under the paragraph; `outro` is a closing
+// paragraph after it. Both optional, so existing prose-only sections are
+// unaffected.
+export type Section = {
+  h2: string;
+  body: string;
+  bullets?: string[];
+  outro?: string;
+  // An H3 block nested under this section. Body text may carry inline
+  // [label](/path/) links, resolved by RichText.
+  sub?: { h3: string; body: string };
+};
 
 export type Service = {
   slug: string;
@@ -12,6 +23,13 @@ export type Service = {
   sections: Section[];
   faqs: Faq[];
   related: string[]; // slugs
+  // Schema overrides. serviceType defaults to the H1 and areaServedSchema to
+  // Manchester; set these only where the real coverage differs.
+  serviceType?: string;
+  areaServedSchema?: { "@type": string; name: string };
+  // Heading for the genuine-jobs block near the FAQs. Defaults to
+  // "Recent <navLabel> Moves" when not set.
+  recentMovesHeading?: string;
 };
 
 export const services: Service[] = [
@@ -232,6 +250,11 @@ export const services: Service[] = [
         h2: "Simple, Fair Pricing",
         body:
           "Single item runs are priced on the distance and how awkward the item is to handle. Give us the two postcodes and a rough description and we will give you a quick quote. No need to book a full removal for one settee.",
+        sub: {
+          h3: "Single Item Delivery Prices",
+          body:
+            "Single-item deliveries currently [start from £40](/prices/). The final price depends on the collection and delivery distance, the size and weight of the item, stairs or difficult access and how urgently the collection is needed. For the quickest quote, send us both postcodes and a photo of the item.",
+        },
       },
     ],
     faqs: [
@@ -355,6 +378,11 @@ export const services: Service[] = [
       "Moving further than across town? We run long distance man and van jobs from Manchester to London and anywhere else in the UK. It is one of our most requested routes, whether you are a student heading south, a professional relocating, or someone who bought furniture at the other end of the country. One driver, one van, one clear price, door to door.",
     sections: [
       {
+        h2: "Manchester to London Man and Van: Quick Answer",
+        body:
+          "Need a man and van from Manchester to London? We provide fixed-price, door-to-door long-distance moves from Manchester to London and across the UK. Your belongings stay in the same van from collection to delivery rather than being transferred between depots. To get a firm quote, send us both postcodes, your preferred moving date, details of stairs or lifts and a rough list or photos of what you are moving.",
+      },
+      {
         h2: "Manchester to London and Back",
         body:
           "The Manchester to London run is our most popular long distance route, and we do it both ways: man and van London to Manchester and Manchester to London. Because it is a single driver and van doing the whole journey, your belongings are not passed between depots or left sitting on a pallet. They go straight from your old door to your new one.",
@@ -363,6 +391,24 @@ export const services: Service[] = [
         h2: "Fixed Prices for Long Journeys",
         body:
           "Long distance jobs are priced as a fixed figure based on the route, the load and the mileage, so you know the cost before we set off. That is far clearer than an hourly rate that balloons in motorway traffic. Ask for a quote with both postcodes and what you are moving and we will give you a firm price.",
+      },
+      {
+        h2: "What We Need to Price a Long-Distance Move",
+        body: "We can price most long-distance moves without a home visit. Send us:",
+        bullets: [
+          "Collection postcode",
+          "Delivery postcode",
+          "Preferred moving date",
+          "Rough list of furniture, boxes and other items",
+          "Photos or a short video if the load is difficult to describe",
+          "Floor number at both properties",
+          "Whether there is a lift",
+          "Parking or loading restrictions",
+          "Any unusually heavy or awkward items",
+          "Any extra collection or delivery stops",
+        ],
+        outro:
+          "We then match the van and number of movers to the job and give you a clear price before the move is booked.",
       },
       {
         h2: "Anywhere in the UK",
@@ -390,6 +436,9 @@ export const services: Service[] = [
       },
     ],
     related: ["house-removals", "office-removals", "furniture-delivery"],
+    serviceType: "Long-distance removals and man and van",
+    areaServedSchema: { "@type": "Country", name: "United Kingdom" },
+    recentMovesHeading: "Recent Manchester to London Moves",
   },
 ];
 

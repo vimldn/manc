@@ -2,6 +2,7 @@ import Link from "next/link";
 import { site, isReal } from "@/lib/config";
 import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
+import CallLink from "@/components/CallLink";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -14,15 +15,10 @@ export default function Footer() {
               Man and Van <span className="text-cta">Manchester</span>
             </div>
             <p className="mt-3 text-sm text-gray-400">
-              Reliable man and van removals across Manchester and Greater Manchester. Serving
-              Manchester and nearby areas.
+              {site.name} provides removals, man-and-van hire and furniture delivery across
+              Manchester and Greater Manchester.
             </p>
-            <a
-              href={`tel:${site.phoneTel}`}
-              className="mt-4 inline-block text-lg font-bold text-white"
-            >
-              {site.phoneDisplay}
-            </a>
+            <CallLink where="footer" className="mt-4 inline-block text-lg font-bold text-white" />
             <p className="mt-1 text-sm text-gray-400">{site.hours}</p>
 
             {/* Address and map render only when config marks the address as publishable. */}
@@ -157,9 +153,10 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-gray-800 pt-6 text-xs text-gray-500">
+          {/* One clean entity line. Keyword lists do not belong in a footer. */}
           <p>
-            &copy; {year} {site.name}. Serving Manchester and nearby areas. Man and van in
-            Manchester, house removals, flat removals, rubbish removal and furniture delivery.
+            &copy; {year} {site.name}.
+            {isReal(site.legalName) ? ` Trading as part of ${site.legalName}.` : ""}
           </p>
         </div>
       </div>

@@ -3,6 +3,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import QuoteForm from "@/components/QuoteForm";
 import Faq from "@/components/Faq";
 import JsonLd from "@/components/JsonLd";
+import CallLink from "@/components/CallLink";
 import { site } from "@/lib/config";
 import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
@@ -78,15 +79,13 @@ export default function QuotePage() {
           </ul>
           <p className="mt-4 text-gray-700">
             For the fastest quote, call{" "}
-            <a href={`tel:${site.phoneTel}`} className="font-bold text-brand hover:text-brand-dark">
-              {site.phoneDisplay}
-            </a>
+            <CallLink where="quote_page" className="font-bold text-brand hover:text-brand-dark" />
             .
           </p>
         </div>
 
         <div>
-          <QuoteForm heading="Get your free quote" />
+          <QuoteForm heading="Get your free quote" formName="quote_page" />
         </div>
       </div>
 

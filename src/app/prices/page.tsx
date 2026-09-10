@@ -4,9 +4,10 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Faq from "@/components/Faq";
 import Cta from "@/components/Cta";
 import JsonLd from "@/components/JsonLd";
+import CallLink from "@/components/CallLink";
 import { site, isReal } from "@/lib/config";
 import { pageMeta } from "@/lib/seo";
-import { priceRows, priceFactors, priceExtras } from "@/lib/pricing";
+import { priceRows, priceFactors, priceExtras, PRICES_LAST_REVIEWED } from "@/lib/pricing";
 import { breadcrumbSchema, webPageSchema, faqSchema } from "@/lib/schema";
 
 const PATH = "/prices/";
@@ -65,7 +66,7 @@ export default function PricesPage() {
         <section className="mt-10">
           <h2 className="text-2xl font-bold text-gray-900">Van and Mover Options</h2>
           <p className="mt-2 max-w-3xl text-gray-600">
-            The figures below are typical Manchester guide prices to help you budget, not fixed
+            The figures below are our own Manchester guide prices to help you budget, not fixed
             quotes. Most local work is charged by the hour with a two to three hour minimum, and
             picking the right combination is the biggest single thing that keeps the cost fair. Tell
             us the job and we will recommend the cheapest option that will actually do it.
@@ -95,10 +96,29 @@ export default function PricesPage() {
             </table>
           </div>
           <p className="mt-3 text-sm text-gray-500">
-            Guide prices only, based on typical Manchester rates. Your own price depends on the
-            detail of the job, so for a firm figure send both postcodes and a description of what you
-            are moving. Anything shown as &ldquo;Price on quote&rdquo; is priced per job.
+            Anything shown as &ldquo;Price on quote&rdquo; is priced per job.
           </p>
+        </section>
+
+        <section className="mt-8">
+          <div className="rounded-lg border-l-4 border-brand bg-brand-light p-5">
+            <h2 className="text-2xl font-bold text-brand-dark">Current Manchester Guide Prices</h2>
+            <p className="mt-2 text-gray-800">
+              These are our current guide prices for Manchester, not prices copied from a national
+              comparison site. They are designed to give customers a realistic starting point before
+              requesting a firm quote.
+            </p>
+            <p className="mt-3 text-gray-800">
+              The final price depends on the van, number of movers, journey, loading time, stairs,
+              lifts, parking, access and any unusually heavy items.
+            </p>
+            <p className="mt-3 text-gray-800">
+              For a precise figure, send us both postcodes and a description of the job.
+            </p>
+            <p className="mt-4 text-sm font-semibold text-gray-700">
+              Prices last reviewed: {PRICES_LAST_REVIEWED}
+            </p>
+          </div>
         </section>
 
         {/* Factors */}
@@ -147,12 +167,9 @@ export default function PricesPage() {
             >
               Get a Quote
             </Link>
-            <a
-              href={`tel:${site.phoneTel}`}
-              className="rounded-md border-2 border-brand px-6 py-3 text-center font-bold text-brand-dark hover:bg-white"
-            >
-              Call {site.phoneDisplay}
-            </a>
+            <CallLink where="prices_cta" className="rounded-md border-2 border-brand px-6 py-3 text-center font-bold text-brand-dark hover:bg-white">
+            Call {site.phoneDisplay}
+          </CallLink>
           </div>
         </div>
 

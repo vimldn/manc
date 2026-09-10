@@ -27,7 +27,10 @@ export const site = {
   legalName: PLACEHOLDER("REGISTERED COMPANY NAME"),
 
   domain: "vanandmanmanchester.co.uk",
-  url: "https://vanandmanmanchester.co.uk",
+  // Canonical host is www. Vercel makes www the primary production domain and
+  // 308s the apex to it, so every canonical, og:url, sitemap entry and schema
+  // @id built from this must carry the www prefix. Do not drop it back.
+  url: "https://www.vanandmanmanchester.co.uk",
 
   // Manchester dialling code is 0161.
   phoneDisplay: "0161 399 8702",
@@ -73,6 +76,22 @@ export const site = {
     mapQuery: "3 Piccadilly Place, Manchester M1 3BN",
     publicStatus: "registered" as "staffed" | "registered" | "virtual" | "service-area",
     showPublicly: true,
+  },
+
+  // ---------------------------------------------------------------
+  // NAMED OPERATOR. The real person who runs the business and who takes
+  // editorial responsibility for the moving guides. UNCONFIRMED.
+  //
+  // Nothing here renders while it is a PLACEHOLDER, so the About page shows
+  // no "who runs this" section and the guides keep the anonymous editorial
+  // byline until a real name is supplied. Do NOT invent a person: a fake
+  // named reviewer is a straight E-E-A-T and consumer-law risk.
+  // ---------------------------------------------------------------
+  operator: {
+    name: PLACEHOLDER("REAL OWNER / OPERATOR NAME"),
+    role: PLACEHOLDER("THEIR REAL ROLE e.g. Owner, Operations Manager"),
+    photo: PLACEHOLDER("PATH TO A REAL PHOTOGRAPH e.g. /images/team/name.jpg"),
+    bio: PLACEHOLDER("ONE OR TWO TRUE SENTENCES ABOUT THEM"),
   },
 
   hours: "Mon to Sun, 7am to 9pm",

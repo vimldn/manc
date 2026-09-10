@@ -6,6 +6,9 @@ import QuoteForm from "@/components/QuoteForm";
 import Faq from "@/components/Faq";
 import Cta from "@/components/Cta";
 import JsonLd from "@/components/JsonLd";
+import RichText from "@/components/RichText";
+import RecentMoves from "@/components/RecentMoves";
+import CallLink from "@/components/CallLink";
 import { site } from "@/lib/config";
 import { services, getService } from "@/lib/services";
 import { getServiceDetails } from "@/lib/serviceDetails";
@@ -42,7 +45,13 @@ export default function ServicePage({ params }: { params: { service: string } })
       <JsonLd
         data={[
           webPageSchema({ name: s.h1, url }),
-          serviceSchema({ name: s.h1, description: s.metaDescription, url }),
+          serviceSchema({
+            name: s.h1,
+            description: s.metaDescription,
+            url,
+            serviceType: s.serviceType,
+            areaServed: s.areaServedSchema,
+          }),
           faqSchema(s.faqs),
           breadcrumbSchema([
             { name: "Home", path: "/" },
@@ -67,7 +76,26 @@ export default function ServicePage({ params }: { params: { service: string } })
           {s.sections.map((sec) => (
             <section key={sec.h2} className="mt-8">
               <h2 className="text-xl font-bold text-gray-900">{sec.h2}</h2>
-              <p className="mt-3 text-gray-700">{sec.body}</p>
+              <RichText className="mt-3 text-gray-700" text={sec.body} />
+              {sec.bullets && (
+                <ul className="mt-3 space-y-2 text-gray-700">
+                  {sec.bullets.map((b) => (
+                    <li key={b} className="flex gap-2">
+                      <span aria-hidden className="font-bold text-brand">
+                        &#10003;
+                      </span>
+                      <span>{b}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {sec.outro && <RichText className="mt-3 text-gray-700" text={sec.outro} />}
+              {sec.sub && (
+                <div className="mt-6">
+                  <h3 className="text-lg font-bold text-gray-900">{sec.sub.h3}</h3>
+                  <RichText className="mt-2 text-gray-700" text={sec.sub.body} />
+                </div>
+              )}
             </section>
           ))}
 
@@ -244,22 +272,25 @@ export default function ServicePage({ params }: { params: { service: string } })
             <p className="text-lg font-bold text-white">
               Call Now for {s.navLabel} in Manchester
             </p>
-            <a
-              href={`tel:${site.phoneTel}`}
-              className="mt-3 inline-block rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark"
-            >
-              Call {site.phoneDisplay}
-            </a>
+            <CallLink where="service_page_cta" className="mt-3 inline-block rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark">
+            Call {site.phoneDisplay}
+          </CallLink>
           </div>
         </article>
 
         <aside className="lg:col-span-1">
           <div className="lg:sticky lg:top-24">
-            <QuoteForm heading="Quote for This Service" compact defaultService={s.navLabel} />
+            <QuoteForm
+              heading="Quote for This Service"
+              compact
+              defaultService={s.navLabel}
+              formName="service_page"
+            />
           </div>
         </aside>
       </div>
 
+      <RecentMoves serviceSlug={s.slug} heading={s.recentMovesHeading ?? `Recent ${s.navLabel} Moves`} />
       <Faq faqs={s.faqs} />
       <Cta label={`Book Your ${s.navLabel} in Manchester`} />
     </>

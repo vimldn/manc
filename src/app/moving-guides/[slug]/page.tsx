@@ -5,7 +5,9 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Faq from "@/components/Faq";
 import Cta from "@/components/Cta";
 import JsonLd from "@/components/JsonLd";
-import { site } from "@/lib/config";
+import CallLink from "@/components/CallLink";
+import RichText from "@/components/RichText";
+import { site, isReal } from "@/lib/config";
 import { guides, getGuide } from "@/lib/guides";
 import { articleSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 
@@ -67,8 +69,14 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
       <div className="mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-3">
         <article className="lg:col-span-2">
           <h1 className="text-3xl font-extrabold text-gray-900">{g.h1}</h1>
+          {/* A named reviewer appears only when a REAL person is recorded in
+              config. Until then the byline stays with the editorial team
+              rather than inventing an author. */}
           <p className="mt-2 text-sm text-gray-500">
-            Reviewed by the {site.name} team &bull; Last reviewed {reviewed}
+            {isReal(site.operator.name) && isReal(site.operator.role)
+              ? `Reviewed by ${site.operator.name}, ${site.operator.role} at ${site.name}`
+              : `Reviewed by the ${site.name} team`}{" "}
+            &bull; Last reviewed {reviewed}
           </p>
 
           {/* Direct answer first */}
@@ -96,9 +104,22 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
             <section key={s.h2} id={`s${i}`} className="mt-8 scroll-mt-24">
               <h2 className="text-xl font-bold text-gray-900">{s.h2}</h2>
               {s.body.map((p, j) => (
-                <p key={j} className="mt-3 text-gray-700">
-                  {p}
-                </p>
+                <RichText key={j} className="mt-3 text-gray-700" text={p} />
+              ))}
+              {s.bullets && (
+                <ul className="mt-3 space-y-2 text-gray-700">
+                  {s.bullets.map((b) => (
+                    <li key={b} className="flex gap-2">
+                      <span aria-hidden className="font-bold text-brand">
+                        &#10003;
+                      </span>
+                      <span>{b}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {s.outro?.map((p, j) => (
+                <RichText key={j} className="mt-3 text-gray-700" text={p} />
               ))}
             </section>
           ))}
@@ -150,12 +171,9 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
               >
                 Get a Quote
               </Link>
-              <a
-                href={`tel:${site.phoneTel}`}
-                className="rounded-md border-2 border-white/70 px-6 py-3 font-bold text-white hover:bg-white hover:text-gray-900"
-              >
-                Call {site.phoneDisplay}
-              </a>
+              <CallLink where="guide_cta" className="rounded-md border-2 border-white/70 px-6 py-3 font-bold text-white hover:bg-white hover:text-gray-900">
+            Call {site.phoneDisplay}
+          </CallLink>
             </div>
           </div>
         </article>

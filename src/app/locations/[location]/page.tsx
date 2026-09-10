@@ -6,6 +6,7 @@ import QuoteForm from "@/components/QuoteForm";
 import Faq from "@/components/Faq";
 import Cta from "@/components/Cta";
 import JsonLd from "@/components/JsonLd";
+import CallLink from "@/components/CallLink";
 import { site } from "@/lib/config";
 import { locations, getLocation } from "@/lib/locations";
 import { services } from "@/lib/services";
@@ -113,18 +114,20 @@ export default function LocationPage({ params }: { params: { location: string } 
           {/* Call now CTA */}
           <div className="mt-8 rounded-lg bg-brand p-6 text-center">
             <p className="text-lg font-bold text-white">Man and Van in {l.name}, Ready When You Are</p>
-            <a
-              href={`tel:${site.phoneTel}`}
-              className="mt-3 inline-block rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark"
-            >
-              Call {site.phoneDisplay}
-            </a>
+            <CallLink where="location_page_cta" className="mt-3 inline-block rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark">
+            Call {site.phoneDisplay}
+          </CallLink>
           </div>
         </article>
 
         <aside className="lg:col-span-1">
           <div className="lg:sticky lg:top-24">
-            <QuoteForm heading={`Quote in ${l.name}`} compact defaultLocation={l.name} />
+            <QuoteForm
+              heading={`Quote in ${l.name}`}
+              compact
+              defaultLocation={l.name}
+              formName="location_page"
+            />
           </div>
         </aside>
       </div>

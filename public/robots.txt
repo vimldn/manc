@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vanandmanmanchester.co.uk/sitemap.xml
+User-agent: OAI-SearchBot
+Allow: /
+
+Sitemap: https://www.vanandmanmanchester.co.uk/sitemap.xml

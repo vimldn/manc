@@ -69,7 +69,7 @@ export default function LocationsPage() {
 
       <section className="mx-auto max-w-container px-4 pb-12">
         <div className="mx-auto max-w-xl">
-          <QuoteForm heading="Get a quote for your area" />
+          <QuoteForm heading="Get a quote for your area" formName="locations_index" />
         </div>
       </section>
 

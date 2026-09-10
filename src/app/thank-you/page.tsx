@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { site } from "@/lib/config";
+import CallLink from "@/components/CallLink";
 
 export const metadata: Metadata = {
   title: "Thank You | Man and Van Manchester",
@@ -17,12 +18,9 @@ export default function ThankYouPage() {
         We will be in touch shortly with your man and van quote. If you need us quickly, the fastest
         way to get a price is to call us now.
       </p>
-      <a
-        href={`tel:${site.phoneTel}`}
-        className="mt-8 inline-block rounded-md bg-cta px-8 py-4 text-lg font-bold text-white hover:bg-cta-dark"
-      >
-        Call {site.phoneDisplay}
-      </a>
+      <CallLink where="thank_you" className="mt-8 inline-block rounded-md bg-cta px-8 py-4 text-lg font-bold text-white hover:bg-cta-dark">
+            Call {site.phoneDisplay}
+          </CallLink>
       <div className="mt-8">
         <Link href="/" className="text-sm font-semibold text-brand hover:text-brand-dark">
           Back to home

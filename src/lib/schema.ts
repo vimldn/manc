@@ -15,17 +15,35 @@ import type { Faq } from "./services";
 export function movingCompanySchema() {
   const graph: Record<string, unknown> = {
     "@context": "https://schema.org",
-    "@type": "MovingCompany",
+    // MovingCompany is a LocalBusiness subtype. Both are declared so parsers
+    // that only recognise the generic type still resolve the entity.
+    "@type": ["LocalBusiness", "MovingCompany"],
     "@id": site.url + "/#business",
     name: site.name,
-    url: site.url,
+    url: site.url + "/",
     telephone: site.phoneTel,
     priceRange: "££",
     areaServed: [
       { "@type": "City", name: "Manchester" },
+      { "@type": "AdministrativeArea", name: "Greater Manchester" },
       ...locations.map((l) => ({ "@type": "Place", name: l.name })),
     ],
-    openingHours: site.openingHoursSchema,
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+        ],
+        opens: "07:00",
+        closes: "21:00",
+      },
+    ],
     knowsAbout: [
       "man and van",
       "house removals",
@@ -63,25 +81,32 @@ export function websiteSchema() {
     "@type": "WebSite",
     "@id": site.url + "/#website",
     name: site.name,
-    url: site.url,
+    url: site.url + "/",
     inLanguage: "en-GB",
     publisher: { "@id": site.url + "/#business" },
   };
 }
 
+// Service pages emit this from the service record, so the markup stays in step
+// with the visible page instead of being hand-duplicated per page. `areaServed`
+// defaults to Manchester and is overridden per service where the real coverage
+// is wider (long distance runs UK-wide).
 export function serviceSchema(args: {
   name: string;
   description: string;
   url: string;
+  serviceType?: string;
+  areaServed?: Record<string, unknown>;
 }) {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
+    "@id": args.url + "#service",
     name: args.name,
     description: args.description,
-    serviceType: args.name,
+    serviceType: args.serviceType ?? args.name,
     provider: { "@id": site.url + "/#business" },
-    areaServed: { "@type": "City", name: "Manchester" },
+    areaServed: args.areaServed ?? { "@type": "City", name: "Manchester" },
     url: args.url,
   };
 }

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Cta from "@/components/Cta";
 import JsonLd from "@/components/JsonLd";
+import CallLink from "@/components/CallLink";
 import { site } from "@/lib/config";
 import { pageMeta } from "@/lib/seo";
 import { locations } from "@/lib/locations";
@@ -114,12 +115,9 @@ export default function AreasWeCoverPage() {
             >
               Check my area
             </Link>
-            <a
-              href={`tel:${site.phoneTel}`}
-              className="rounded-md border-2 border-brand px-5 py-2.5 text-sm font-bold text-brand-dark hover:bg-white"
-            >
-              Call {site.phoneDisplay}
-            </a>
+            <CallLink where="areas_we_cover_cta" className="rounded-md border-2 border-brand px-5 py-2.5 text-sm font-bold text-brand-dark hover:bg-white">
+            Call {site.phoneDisplay}
+          </CallLink>
           </div>
         </div>
       </div>

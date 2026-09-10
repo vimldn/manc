@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { services } from "@/lib/services";
+import { site } from "@/lib/config";
 import { locations } from "@/lib/locations";
 import { track } from "@/lib/analytics";
 
@@ -11,6 +12,8 @@ type Props = {
   compact?: boolean;
   defaultService?: string;
   defaultLocation?: string;
+  /** Identifies which instance of the form converted, sent as form_name. */
+  formName?: string;
 };
 
 export default function QuoteForm({
@@ -18,6 +21,7 @@ export default function QuoteForm({
   compact = false,
   defaultService = "",
   defaultLocation = "",
+  formName = "quote_form",
 }: Props) {
   const router = useRouter();
   const [form, setForm] = useState({
@@ -30,12 +34,16 @@ export default function QuoteForm({
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [submitting, setSubmitting] = useState(false);
+  const [sendFailed, setSendFailed] = useState<string | null>(null);
 
   function update(field: string, value: string) {
     setForm((f) => ({ ...f, [field]: value }));
   }
 
-  function validate() {
+  // Returns the error map rather than a boolean, because React state is not
+  // updated synchronously: reading `errors` straight after setErrors would
+  // report the PREVIOUS submit's failures to analytics.
+  function validate(): Record<string, string> {
     const e: Record<string, string> = {};
     if (!form.name.trim()) e.name = "Please enter your name.";
     if (!form.phone.trim()) e.phone = "Please enter a phone number.";
@@ -44,28 +52,61 @@ export default function QuoteForm({
     if (form.email.trim() && !/^\S+@\S+\.\S+$/.test(form.email.trim()))
       e.email = "Please enter a valid email address.";
     setErrors(e);
-    return Object.keys(e).length === 0;
+    return e;
   }
 
+  // Non-PII context attached to every event from this form. Field NAMES are
+  // safe to send; field VALUES are not, so none are included.
+  const context = () => ({
+    form_name: formName,
+    service: form.service || "unset",
+    area: form.location || "unset",
+  });
+
   async function onSubmit() {
-    if (!validate()) {
-      // Non-PII: only the fields that failed, never their values.
-      track("quote_error", { fields: Object.keys(errors).join(",") });
+    const invalid = validate();
+    if (Object.keys(invalid).length > 0) {
+      track("quote_error", {
+        ...context(),
+        error_type: "validation",
+        fields: Object.keys(invalid).join(","),
+      });
       return;
     }
+
     setSubmitting(true);
+    setSendFailed(null);
+
+    let res: Response;
     try {
-      await fetch("/api/lead/", {
+      res = await fetch("/api/lead/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
     } catch {
-      // Even if the endpoint is not wired up yet, still send the user to
-      // thank you so the lead prompt to call by phone is shown.
+      // The request never reached us, so the lead is lost unless the customer
+      // retries or calls. Say so plainly instead of showing a success page.
+      setSubmitting(false);
+      setSendFailed(
+        "We could not send your enquiry, which usually means the connection dropped. Please try again, or call us and we will take the details over the phone.",
+      );
+      track("quote_error", { ...context(), error_type: "network" });
+      return;
     }
-    // Non-PII only: the selected service/area, never name/phone/email.
-    track("quote_submit", { service: form.service || "unset", area: form.location || "unset" });
+
+    if (!res.ok) {
+      setSubmitting(false);
+      setSendFailed(
+        "Something went wrong at our end and your enquiry did not send. Please try again, or call us and we will take the details over the phone.",
+      );
+      track("quote_error", { ...context(), error_type: `http_${res.status}` });
+      return;
+    }
+
+    // Only now has the lead genuinely been accepted. quote_submit fires here
+    // and nowhere else, so it stays a truthful conversion count.
+    track("quote_submit", context());
     router.push("/thank-you/");
   }
 
@@ -184,6 +225,20 @@ export default function QuoteForm({
             onChange={(e) => update("message", e.target.value)}
           />
         </div>
+
+        {sendFailed && (
+          <div role="alert" className="rounded-md border border-red-200 bg-red-50 p-3">
+            <p className="text-sm font-semibold text-red-800">Your enquiry did not send</p>
+            <p className="mt-1 text-sm text-red-700">{sendFailed}</p>
+            <a
+              href={`tel:${site.phoneTel}`}
+              onClick={() => track("call_click", { location: "quote_form_error" })}
+              className="mt-2 inline-block text-sm font-bold text-red-800 underline"
+            >
+              Call {site.phoneDisplay}
+            </a>
+          </div>
+        )}
 
         <button
           type="button"
