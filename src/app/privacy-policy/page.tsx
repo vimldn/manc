@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import JsonLd from "@/components/JsonLd";
 import { site } from "@/lib/config";
 import { pageMeta } from "@/lib/seo";
+import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
   title: "Privacy Policy | Man and Van Manchester",
@@ -12,6 +14,15 @@ export const metadata: Metadata = pageMeta({
 export default function PrivacyPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          webPageSchema({ name: "Privacy Policy", url: site.url + "/privacy-policy/" }),
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Privacy Policy", path: "/privacy-policy/" },
+          ]),
+        ]}
+      />
       <Breadcrumbs trail={[{ name: "Home", path: "/" }, { name: "Privacy Policy", path: "/privacy-policy/" }]} />
       <article className="mx-auto max-w-3xl px-4 py-8 text-gray-700">
         <h1 className="text-3xl font-extrabold text-gray-900">Privacy Policy</h1>
