@@ -98,6 +98,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/student-removals/" className="hover:text-white">
+                  Student Removals
+                </Link>
+              </li>
+              <li>
                 <Link href="/moving-guides/" className="hover:text-white">
                   Moving Guides
                 </Link>

@@ -3,10 +3,11 @@ import { site } from "@/lib/config";
 import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
 import { guides } from "@/lib/guides";
+import { studentPages } from "@/lib/studentRemovals";
 
 // Hardcoded last modified date. Bump this when you make a meaningful
 // content change so search engines see a fresh signal.
-const LAST_MODIFIED = "2026-09-10";
+const LAST_MODIFIED = "2026-09-11";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(LAST_MODIFIED);
@@ -20,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/our-vans/", priority: 0.7 },
     { path: "/insurance-and-compliance/", priority: 0.6 },
     { path: "/moving-guides/", priority: 0.7 },
+    { path: "/student-removals/", priority: 0.9 },
     { path: "/reviews/", priority: 0.5 },
     { path: "/case-studies/", priority: 0.5 },
     { path: "/quote/", priority: 0.8 },
@@ -39,12 +41,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const studentPaths = studentPages.map((p) => ({
+    path: `/student-removals/${p.slug}/`,
+    priority: 0.8,
+  }));
+
   const guidePaths = guides.map((g) => ({
     path: `/moving-guides/${g.slug}/`,
     priority: 0.6,
   }));
 
-  return [...staticPaths, ...servicePaths, ...locationPaths, ...guidePaths].map((p) => ({
+  return [...staticPaths, ...servicePaths, ...locationPaths, ...studentPaths, ...guidePaths].map((p) => ({
     url: site.url + p.path,
     lastModified,
     changeFrequency: "monthly",

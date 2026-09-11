@@ -76,6 +76,12 @@ export default function Header() {
             </div>
           </div>
 
+          <Link
+            href="/student-removals/"
+            className="text-sm font-semibold text-gray-800 hover:text-brand"
+          >
+            Students
+          </Link>
           <Link href="/prices/" className="text-sm font-semibold text-gray-800 hover:text-brand">
             Prices
           </Link>
@@ -201,6 +207,13 @@ function MobileLinks({ onNavigate }: { onNavigate: () => void }) {
           ))}
         </div>
       </div>
+      <Link
+        href="/student-removals/"
+        onClick={onNavigate}
+        className="block font-semibold text-gray-900"
+      >
+        Student Removals
+      </Link>
       <Link href="/prices/" onClick={onNavigate} className="block font-semibold text-gray-900">
         Prices
       </Link>
