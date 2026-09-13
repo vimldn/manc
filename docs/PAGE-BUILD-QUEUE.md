@@ -19,6 +19,8 @@ price is stated that is not in `src/lib/pricing.ts`.
 |---|---|---|---|---|
 | 1 | 2026-09-11 | P0 | University of Manchester Student Removals | `/student-removals/university-of-manchester/` |
 | 1 | 2026-09-11 | P0 | Manchester Metropolitan University Student Removals | `/student-removals/manchester-metropolitan-university/` |
+| 2 | 2026-09-13 | P0 | University of Salford Student Removals | `/student-removals/university-of-salford/` |
+| 2 | 2026-09-13 | P0 | Student Storage Moves Manchester | `/services/student-storage-manchester/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -28,8 +30,6 @@ footer navigation.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 2 | P0 | University of Salford Student Removals | `/student-removals/university-of-salford/` | ready |
-| 2 | P0 | Student Storage and Storage Moves Manchester | `/services/student-storage-manchester/` | ready |
 | 3 | P0 | Student Removals Fallowfield | `/student-removals/fallowfield/` | needs a decision |
 | 3 | P0 | Student Removals Withington | `/student-removals/withington/` | needs a decision |
 

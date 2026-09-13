@@ -1,4 +1,10 @@
+import { priceRows } from "./pricing";
+
 export type Faq = { q: string; a: string };
+
+/** Figures come from pricing.ts so page copy never drifts from the rate card. */
+const rate = (key: string) =>
+  (priceRows.find((r) => r.key === key)?.from ?? "price on quote").replace(/^From /, "");
 
 // `bullets` renders as a list under the paragraph; `outro` is a closing
 // paragraph after it. Both optional, so existing prose-only sections are
@@ -439,6 +445,128 @@ export const services: Service[] = [
     serviceType: "Long-distance removals and man and van",
     areaServedSchema: { "@type": "Country", name: "United Kingdom" },
     recentMovesHeading: "Recent Manchester to London Moves",
+  },
+  {
+    // Transport to and from storage only. The business does not run a storage
+    // facility, so this page must never say or imply that it stores anything.
+    slug: "student-storage-manchester",
+    navLabel: "Student Storage Moves",
+    h1: "Student Storage Moves in Manchester",
+    title: "Student Storage Moves in Manchester | Man and Van Manchester",
+    metaDescription:
+      "Student storage moves in Manchester: we move your room out of halls or a house share into the storage unit you book, then back again for the new contract. Call for a quote.",
+    intro:
+      "Student storage in Manchester is two van runs with a gap in the middle: out of halls or a house share when the contract ends, into a storage unit or somewhere safe, and back out again when the next place is ready. We do both runs. We do not run a storage facility ourselves, so you book the unit and we handle the loading, the lifting and the driving at each end. The gap between contracts is wider than most students expect, and in 2026 it changed shape for anyone in a shared house.",
+    sections: [
+      {
+        h2: "Why Manchester Students End Up Needing Storage",
+        body:
+          "Hall contracts finish in early summer and the next tenancy rarely starts the day after. At the University of Manchester, most 41 week halls end on 1 July 2027 and most 42 week halls end between 3 and 11 July 2027, while the new year's rooms are not handed over until mid September. Manchester Met's 2025/26 halls ran for 44 weeks and ended on 18 July 2026. At Salford's Peel Park Quarter the 42 week contract ends on 22 June 2027. Anyone going home for the summer, or starting a house share in September, has around two months with belongings and nowhere to put them.",
+        bullets: [
+          "University of Manchester: most 41 week halls end on 1 July 2027 and most 42 week halls between 3 and 11 July.",
+          "Manchester Met: 44 week contracts, with 2025/26 rooms cleared by 10am on 18 July 2026.",
+          "University of Salford: Peel Park Quarter's 42 week contract ends on 22 June 2027.",
+        ],
+        outro:
+          "Each campus page has the hall by hall detail, for the [University of Manchester](/student-removals/university-of-manchester/), [Manchester Met](/student-removals/manchester-metropolitan-university/) and the [University of Salford](/student-removals/university-of-salford/).",
+      },
+      {
+        h2: "What Happens to Things Left in Halls",
+        body:
+          "Leaving boxes behind is not a plan. University of Manchester halls do not have storage areas, belongings are not insured outside the dates of your licence agreement, and if anything is left behind the university charges daily until the room is cleared and may dispose of what is not collected. Manchester Met gives you seven days' notice to collect anything left, after which it can dispose of it, and a room booked for the summer can be cleared without notice. Its rooms have to be empty by 10am on the last day of the contract.",
+        outro:
+          "So the storage run needs booking for the final day of the contract or earlier, not the day after. The University of Manchester sets this out on its [moving out guidance](https://www.residents.manchester.ac.uk/moving-out/moving-guidance/), which is worth reading before you pick a date.",
+      },
+      {
+        h2: "House Shares Changed on 1 May 2026",
+        body:
+          "Since 1 May 2026, all assured shorthold tenancies in England have become assured periodic tenancies, and landlords can no longer use section 21. For students in shared houses that removes the neat twelve month contract with a fixed end date. Tenants can give notice to leave, and landlords need a legal ground to take the property back.",
+        sub: {
+          h3: "The Student Possession Ground",
+          body:
+            "One of those grounds is written for student houses. A landlord can recover a house in multiple occupation let to full time students so it can be relet to students for the next academic year, provided the landlord gave written notice of this at the start of the tenancy, and the possession date falls between 1 June and 30 September. It does not apply to purpose built student accommodation. In practice it means some Manchester house shares will be handed back in the summer, which is exactly the gap a storage run fills. The government summarises the rules in its [Renters' Rights Act overview](https://www.gov.uk/guidance/renters-rights-act-an-overview-for-landlords).",
+        },
+      },
+      {
+        h2: "A Storage Unit or a Box Service",
+        body:
+          "There are two ways to store a student room. A box service collects packed boxes from your room and charges by the week, which suits someone with a suitcase and a few boxes going home for the summer. A self storage unit plus a van suits anyone with furniture, a desk, a bike or a whole house of housemates sharing one unit, because the cost of the unit is split and everything goes in one run.",
+        bullets: [
+          "Choose a box service for a handful of boxes and no furniture.",
+          "Choose a unit and a van for furniture, bikes, or three or four housemates sharing.",
+          "Split one unit between housemates and book one van run to collect from each room.",
+        ],
+        outro:
+          "Self storage branches close to the student areas include sites in Hulme, Old Trafford, Salford and the city centre. Pick one close to where you will be living in September rather than where you are leaving, because the return run is the one that happens during the busiest week of the year.",
+      },
+      {
+        h2: "What to Ask the Storage Site Before You Book",
+        body:
+          "Storage sites have their own rules, and the van has to fit around them. A unit that looked cheap online can add an hour to the job if the loading bay is round the back and the lift is booked out.",
+        bullets: [
+          "What are the access hours, and are they the same at weekends?",
+          "Is there a covered loading bay, and how close is it to the unit?",
+          "Does the site provide trolleys, and do upper floor units need a lift booking?",
+          "What size unit fits a single room, and what fits a four person house?",
+          "Can someone else collect on your behalf if you have already gone home?",
+        ],
+        outro:
+          "Send us the answers with your quote request and we will plan the timing so the van arrives inside the access hours with the load packed in the order it goes in.",
+      },
+      {
+        h2: "What a Student Storage Move Costs",
+        body:
+          "Storage moves are priced on time, like any local job. One mover with a small van starts from " +
+          rate("one-small") +
+          ", one mover with a large van from " +
+          rate("one-large") +
+          ", and two movers with a large van from " +
+          rate("two-large") +
+          ". A handful of boxes or a single item into a unit can be done as a single item job from " +
+          rate("single-item") +
+          ".",
+        outro:
+          "Remember to budget for two runs, one into storage and one back out, plus the storage site's own charge, which is separate from ours. Sharing a van with housemates on both runs is the cheapest way to do it. The full breakdown is on our [prices page](/prices/), and the [van size guide](/our-vans/) helps work out which van a room needs.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Do you store belongings yourselves?",
+        a: "No. We do not run a storage facility. You book the storage unit or box service, and we move your things into it at the end of your contract and back out when the new one starts.",
+      },
+      {
+        q: "Can I leave my things in University of Manchester halls over the summer?",
+        a: "No. The university says halls do not have storage areas and belongings are not insured outside your licence dates. Anything left behind is charged daily until cleared and may be disposed of.",
+      },
+      {
+        q: "When do I have to be out of Manchester Met halls?",
+        a: "By 10am on the last day of your contract. In 2025/26 that was 18 July 2026. Belongings left behind can be disposed of after seven days' notice.",
+      },
+      {
+        q: "Has the Renters' Rights Act changed student house moves?",
+        a: "Yes. Since 1 May 2026, tenancies in England are periodic rather than fixed term. A landlord of a student house in multiple occupation who gave written notice at the start can take it back for new students between 1 June and 30 September.",
+      },
+      {
+        q: "Can housemates share one storage unit and one van?",
+        a: "Yes, and it is usually the cheapest way to do it. We collect from each room on one run and load everything into the shared unit.",
+      },
+      {
+        q: "When should I book the return run in September?",
+        a: "As early as possible. Mid September is the busiest moving week in Manchester because the halls hand over rooms across the same few days.",
+      },
+      {
+        q: "What does a storage move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and a single item job from " +
+          rate("single-item") +
+          ". Budget for two runs and for the storage site's own charge, which is separate from ours.",
+      },
+    ],
+    related: ["student-moves", "man-and-van-hire", "furniture-delivery"],
+    serviceType: "Student storage moves",
+    recentMovesHeading: "Recent Student Storage Moves",
   },
 ];
 

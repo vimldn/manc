@@ -410,6 +410,160 @@ export const studentPages: StudentPage[] = [
     ],
     reviewed: "September 2026",
   },
+  {
+    slug: "university-of-salford",
+    navLabel: "University of Salford",
+    name: "University of Salford",
+    h1: "University of Salford Student Removals",
+    title: "University of Salford Student Removals | Man and Van Manchester",
+    metaDescription:
+      "Student removals for University of Salford halls at Peel Park and Frederick Road, plus MediaCity. Crescent roadworks, arrival slots and January starts planned around. Call for a quote.",
+    cardBlurb:
+      "Peel Park Quarter, John Lester and Eddie Colman Courts, and the moves that happen outside September.",
+    intro: [
+      "University of Salford student removals run on a different calendar from the rest of Greater Manchester. Salford teaches in trimesters, so Welcome Week for 2026/27 ran from 7 to 13 September, a week or more before the Manchester universities, and there is a second wave of arrivals in January when Trimester 2 starts on 18 January 2027.",
+      "The university has two halls of its own, both run by Campus Living Villages. Peel Park Quarter is on the main campus beside Peel Park and is for first year undergraduates only. John Lester and Eddie Colman Courts sits near the Frederick Road campus and houses postgraduates and returning students, including the short contracts that begin or end at the turn of the year.",
+      "Salford is its own city rather than a Manchester suburb, and the campus straddles the A6 at The Crescent, which is in the middle of two major works schemes this autumn. We move students across all of it, from a single room at Peel Park into a shared house across [Salford](/locations/salford/), or out to a flat near MediaCity at [Salford Quays](/locations/salford-quays/).",
+    ],
+    keyFacts: [
+      { label: "Campuses", value: "Peel Park (M5 4WT), Frederick Road (M6 6PU), MediaCity (M50 2HE)" },
+      { label: "Welcome Week 2026/27", value: "7 to 13 September 2026" },
+      { label: "Trimester 2 starts", value: "18 January 2027" },
+      { label: "University halls operator", value: "Campus Living Villages" },
+      { label: "Trinity Way and Chapel Street works", value: "Temporary signals until mid-November 2026" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    halls: [
+      {
+        group: "University Halls",
+        note: "Both run by Campus Living Villages in partnership with the university.",
+        names: [
+          "Peel Park Quarter (first year undergraduates only)",
+          "John Lester and Eddie Colman Courts (postgraduates and returning students)",
+        ],
+      },
+      {
+        group: "Private Halls the University Lists",
+        note: "Independently run blocks, each with its own check-in and loading arrangements.",
+        names: ["iQ Student Quarter", "Riverside House", "Sanctuary Tramways", "True Manchester"],
+      },
+    ],
+    sections: [
+      {
+        h2: "Three Campuses Either Side of The Crescent",
+        body:
+          "The university works across three sites. Peel Park is the main campus at 43 Crescent, M5 4WT. Frederick Road sits on Broad Street at M6 6PU, with Salford Crescent station between the two. MediaCity is a separate site in the Orange Tower at Salford Quays, M50 2HE, a couple of miles away beside the ship canal. The university itself describes parking as limited and something that needs planning in advance, which is also the best summary of moving a room in or out.",
+        bullets: [
+          "Peel Park: the busiest arrival point, on the main A6 corridor, where the first year halls are.",
+          "Frederick Road: quieter streets and a multi-storey car park with around 450 spaces, close to John Lester and Eddie Colman Courts.",
+          "MediaCity: apartment blocks and managed buildings, where goods lifts and loading bays decide the timing rather than the traffic.",
+        ],
+        outro:
+          "Tell us which site and which block, because a move into Peel Park Quarter and a move out of a Quays apartment are two very different jobs even though the university is the same.",
+      },
+      {
+        h2: "Roadworks at The Crescent This Autumn",
+        body:
+          "Two schemes shape every Salford campus move until the end of 2026. The Trinity Way and Chapel Street junction improvement runs until mid-November 2026, with temporary traffic signals in place around the clock and lane closures on weekdays between 9:30am and 3:30pm, although two lanes stay open on every approach at peak times. At the same time Network Rail is adding a third platform at Salford Crescent station, due to open in December 2026.",
+        outro:
+          "For a van that means avoiding the middle of a weekday on the Chapel Street side where we can, and allowing more time than the distance suggests. An early start before 9:30am or an afternoon run after 3:30pm is often quicker overall than a late morning slot. The university keeps a [campus disruptions page](https://salford.ac.uk/campus/estates/campus-disruptions) with the current closures, and we check it before the day.",
+      },
+      {
+        h2: "Arrival Slots at Peel Park Quarter",
+        body:
+          "Most Salford student tenancies start in Welcome Week, and the university tells new students they will usually need to book an arrival slot in advance. Peel Park Quarter's 2026/27 contracts started in September, and John Lester and Eddie Colman Courts contracts started on 7 September 2026. If you missed the main weekend, a later arrival is quieter and easier on the roads, but the building still needs to know you are coming.",
+        bullets: [
+          "Book your arrival slot with the hall first, then book the van to match it.",
+          "Tell us the block and floor so we can bring a second mover if there are stairs to deal with.",
+          "Keep the essentials in one clearly marked box, because the kettle and the bedding are always the first things wanted.",
+        ],
+      },
+      {
+        h2: "Salford Moves Happen Outside September",
+        body:
+          "Because Salford teaches in trimesters, its contracts are more varied than most. At John Lester and Eddie Colman Courts there is a 17 week contract that runs from 7 September 2026 to 4 January 2027, and a 24 week contract that runs from 11 January to 28 June 2027. That makes early January a genuine moving week in Salford, with one group leaving and another arriving within days of each other.",
+        outro:
+          "The summer end dates matter too. At Peel Park Quarter the 42 week contract ends on 22 June 2027 and the 51 week contract on 24 August 2027. At John Lester and Eddie Colman Courts they end on 28 June and 30 August 2027. Those late June dates fall weeks before the Manchester universities finish, so Salford students are moving out while the other halls are still full. The full calendar is on the university's [term dates page](https://www.salford.ac.uk/student-life/term-dates).",
+      },
+      {
+        h2: "From Halls Into a Salford House Share",
+        body:
+          "After first year, most students leave Peel Park Quarter for a shared house or a flat. Plenty stay close to campus, and some head towards Salford Quays for the apartment blocks near MediaCity. The distance is usually short, so the price sits in the loading, the stairs and how well everything is boxed up.",
+        outro:
+          "Moving on the same day as your housemates is the cheapest way to do it, because we can collect from several rooms and drop at one address in a single run. The general version of this service is our [student man and van](/services/student-moves/) page, and if you are moving between two universities, the [University of Manchester](/student-removals/university-of-manchester/) page covers the Oxford Road side of the city.",
+      },
+      {
+        h2: "What a University of Salford Move Costs",
+        body:
+          "Local student moves are priced on time. One mover with a small van starts from " +
+          rate("one-small") +
+          ", one mover with a large van from " +
+          rate("one-large") +
+          ", two movers with a large van from " +
+          rate("two-large") +
+          ", and a single item such as a mattress or a desk from " +
+          rate("single-item") +
+          ".",
+        outro:
+          "A room out of Peel Park Quarter into a house nearby usually fits one van load. Upper floors, a long carry from the nearest legal stopping point, or a midday run through the Crescent works all add time. The full breakdown is on our [prices page](/prices/).",
+      },
+    ],
+    booking: [
+      "Tell us the hall or house, the floor and whether there is a lift.",
+      "Book your arrival or checkout slot with the building, then send us the time.",
+      "Send a rough list or a photo of the room so we bring the right van.",
+      "We plan the route around the Trinity Way and Chapel Street works.",
+      "For a January move, book before the Christmas break because that week fills quickly.",
+    ],
+    faqs: [
+      {
+        q: "When is University of Salford Welcome Week?",
+        a: "For 2026/27 it ran from 7 to 13 September 2026, with Trimester 1 teaching starting on 14 September. That is earlier than the University of Manchester and Manchester Met, so Salford arrivals come first.",
+      },
+      {
+        q: "Who runs the Salford halls?",
+        a: "Campus Living Villages runs both university halls, Peel Park Quarter and John Lester and Eddie Colman Courts, in partnership with the university. Peel Park Quarter is for first year undergraduates only.",
+      },
+      {
+        q: "Will the roadworks at The Crescent slow my move down?",
+        a: "They can. The Trinity Way and Chapel Street junction works keep temporary signals in place until mid-November 2026, with lane closures on weekdays from 9:30am to 3:30pm. We avoid that window where we can and plan the route before the day.",
+      },
+      {
+        q: "Do you move students in January?",
+        a: "Yes. Trimester 2 starts on 18 January 2027, and John Lester and Eddie Colman Courts has contracts ending on 4 January and starting on 11 January, so early January is a busy moving week in Salford.",
+      },
+      {
+        q: "When do Salford hall contracts end in summer 2027?",
+        a: "Peel Park Quarter's 42 week contract ends on 22 June 2027 and its 51 week contract on 24 August 2027. John Lester and Eddie Colman Courts end on 28 June and 30 August 2027.",
+      },
+      {
+        q: "Is there parking at the Frederick Road campus?",
+        a: "The Frederick Road multi-storey car park is open with around 450 spaces. The university still describes parking as limited and advises planning ahead, so we confirm the nearest stopping point for the van before moving day.",
+      },
+      {
+        q: "Can you move me from Salford to a flat at Salford Quays?",
+        a: "Yes, it is a short run and a regular one. The time goes on the apartment block's goods lift and loading bay, so book those with the building and tell us the window.",
+      },
+      {
+        q: "What does a Salford student move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". Most room moves fit one van load, and the exact price depends on the floor, the carry and how much there is.",
+      },
+    ],
+    related: [
+      { label: "Man and van in Salford", path: "/locations/salford/" },
+      { label: "Man and van in Salford Quays", path: "/locations/salford-quays/" },
+      { label: "Student man and van in Manchester", path: "/services/student-moves/" },
+      { label: "University of Manchester student removals", path: "/student-removals/university-of-manchester/" },
+      { label: "Flat and apartment removals", path: "/services/flat-apartment-removals/" },
+      { label: "What size van do I need", path: "/moving-guides/what-size-van-do-i-need-for-my-move/" },
+    ],
+    reviewed: "September 2026",
+  },
 ];
 
 export const getStudentPage = (slug: string) => studentPages.find((p) => p.slug === slug);
