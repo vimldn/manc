@@ -568,6 +568,239 @@ export const services: Service[] = [
     serviceType: "Student storage moves",
     recentMovesHeading: "Recent Student Storage Moves",
   },
+  {
+    // Same-day availability is never guaranteed (see serviceDetails). This page
+    // must say availability is confirmed when you call, not promise a van.
+    slug: "same-day-man-and-van",
+    navLabel: "Same-Day Man and Van",
+    h1: "Same-Day Man and Van in Manchester",
+    title: "Same-Day Man and Van in Manchester | Man and Van Manchester",
+    metaDescription:
+      "Same-day man and van in Manchester when a van and crew are free. Loading rules, kerb blips and late completions explained, with prices from our rate card. Call to check today.",
+    intro:
+      "A same-day man and van in Manchester comes down to two questions: is a van and crew free today, and is there somewhere legal to stop at both ends. We answer the first as soon as you call, and we plan the second before we set off. Same-day slots depend on how the day's runs fall, so we never promise one before we have checked, but a single item, a flat or a room is often something we can fit in.",
+    sections: [
+      {
+        h2: "How a Same-Day Booking Works",
+        body:
+          "Call or send a quote request with both postcodes, what needs moving and the floor at each end. We check the day's runs and tell you straight away whether a van is free and roughly when. Small jobs fit into gaps more easily than a full house, so the more precisely you describe the load, the better the chance of a slot today.",
+        bullets: [
+          "Both postcodes, and whether either end is a flat with a lift.",
+          "A list or a photo of the items, including anything heavy or awkward.",
+          "Any time you have to be out of, or into, the property by.",
+          "Whether keys are in hand or still waiting on a solicitor.",
+        ],
+        outro:
+          "If today is already full, we will tell you that rather than keep you waiting, and offer the earliest slot we do have.",
+      },
+      {
+        h2: "Parking When There Is No Time to Book a Bay",
+        body:
+          "The usual way to guarantee a space for a removal van is not available on the day. Manchester City Council will suspend a pay and display bay for domestic removals, or issue a dispensation to park on yellow lines, but both cost £30 a day and need a minimum of five working days' notice. A same-day move has to work within the ordinary loading rules instead.",
+        outro:
+          "Those rules are more generous than most people think. Many traffic orders let a vehicle stop on single or double yellow lines to load or unload, and the council says you can load for as long as it takes, provided the vehicle is moved immediately afterwards. Loading is observed, so a civil enforcement officer can issue a ticket if it is not genuine. The council sets this out on its [loading and unloading page](https://www.manchester.gov.uk/parking/tickets-and-fines/parking-restrictions/loading-and-unloading), and our guide to [reserving parking for a move](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) covers the bookable options for when you do have notice.",
+      },
+      {
+        h2: "Where a Van Cannot Stop at All",
+        body:
+          "Some kerbs are off limits even for loading, and a same-day move has no time to find out the hard way. Rule 247 of the Highway Code says not to load or unload where there are yellow markings on the kerb and upright signs showing restrictions. The council adds pedestrian crossing zigzags and anywhere signed no stopping, such as bus stops, taxi ranks, school markings and disabled bays, and a breach can mean a fine of up to £70.",
+        bullets: [
+          "Kerb blips: short yellow marks on the kerb mean a loading ban at the times on the nearby sign.",
+          "Bus lanes: their hours differ from place to place and are signed, and a lane with no times shown applies around the clock.",
+          "Bus gates: the council warns they may not show up on a satnav, so a route planned on a phone can still drive straight through one.",
+        ],
+        outro:
+          "Around the universities the biggest one is Oxford Road, which is closed to general traffic from 6am to 9pm every day. Our [University of Manchester](/student-removals/university-of-manchester/) page covers the approach to the halls on that corridor.",
+      },
+      {
+        h2: "No Clean Air Charge for the Van",
+        body:
+          "A same-day van can come from anywhere in the region without a daily charge. There are no clean air charges to drive anywhere in Greater Manchester. On 23 January 2025 the government approved an investment-led clean air plan with no charging zone, the local authorities have since removed the signs, and Greater Manchester Police has taken over the cameras for its own use.",
+        outro:
+          "The detail of the plan is on the [Clean Air Greater Manchester](https://cleanairgm.com/clean-air-plan/) site. For you it simply means the price of a same-day job is the van, the crew and the time, with no zone charge on top.",
+      },
+      {
+        h2: "When Completion Day Runs Late",
+        body:
+          "House sales are one of the reasons plans change on the day. Under the Law Society's Standard Conditions of Sale, money that reaches the seller after 2pm is treated as arriving on the next working day, so a chain that runs late can push the keys into the afternoon or beyond. A van booked for the morning may not be able to wait that long.",
+        outro:
+          "If that happens, call us with the time the solicitor expects the keys and we will tell you whether an afternoon slot is free. Keep the van waiting as short as possible by having everything boxed and by the door before it arrives.",
+      },
+      {
+        h2: "Jobs That Suit a Same-Day Van",
+        body:
+          "Same-day works best for jobs that fit one van and a few hours. A sofa or a bed from a seller across town, a room out of halls, a studio flat or a load into a storage unit are all the kind of job that can slot into a gap in the day.",
+        bullets: [
+          "Single items and Marketplace pickups from a seller across town.",
+          "Studio and one bedroom flat moves that fit a single van load.",
+          "Student room moves and runs into or out of a storage unit.",
+        ],
+        outro:
+          "Single items have their own page on [furniture delivery](/services/furniture-delivery/), and storage runs are covered on [student storage moves](/services/student-storage-manchester/). A full house on the same day is possible occasionally, but it needs two movers and most of a day, so the chance of a slot is much lower. Ask anyway, and we will tell you honestly.",
+      },
+      {
+        h2: "What a Same-Day Move Costs",
+        body:
+          "A same-day job is priced the same way as any other local move, on time. One mover with a small van starts from " +
+          rate("one-small") +
+          ", one mover with a large van from " +
+          rate("one-large") +
+          ", two movers with a large van from " +
+          rate("two-large") +
+          ", and a single item collection and drop from " +
+          rate("single-item") +
+          ". Minimum bookings are typically two to three hours.",
+        outro:
+          "Access at both ends is what moves the price, especially a long carry from the nearest legal stopping point or stairs with no lift. The full breakdown is on our [prices page](/prices/).",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can you guarantee a same-day van?",
+        a: "No, and nobody honest can. Same-day slots depend on how the day's runs fall. Call with the details and we will tell you straight away whether a van is free and roughly when.",
+      },
+      {
+        q: "Can I get a parking suspension for a same-day move?",
+        a: "No. Manchester City Council needs a minimum of five working days' notice for a bay suspension or a yellow line dispensation, both at £30 a day. A same-day move uses the normal loading rules instead.",
+      },
+      {
+        q: "Can a van load on double yellow lines in Manchester?",
+        a: "Often, yes. Many traffic orders allow loading on single and double yellow lines for as long as it takes, as long as the van moves straight afterwards. You cannot load where kerb blips and signs show a loading ban, on crossing zigzags or where signs say no stopping.",
+      },
+      {
+        q: "Is there a Clean Air Zone charge for vans in Manchester?",
+        a: "No. There are no clean air charges anywhere in Greater Manchester. The government approved a non-charging clean air plan on 23 January 2025.",
+      },
+      {
+        q: "My keys are late on completion day. Can you help?",
+        a: "Call us with the time your solicitor expects the keys. Money that arrives after 2pm is treated as arriving the next working day under the standard conditions, so we will check whether an afternoon slot is free.",
+      },
+      {
+        q: "What jobs are easiest to fit in on the same day?",
+        a: "Single items, Marketplace pickups, studio and one bedroom flats, student rooms and storage runs. A full house is possible occasionally but much harder to fit in at short notice.",
+      },
+      {
+        q: "How much is a same-day man and van?",
+        a:
+          "The same as any local job. One mover with a large van starts from " +
+          rate("one-large") +
+          " and a single item from " +
+          rate("single-item") +
+          ", with minimum bookings typically two to three hours.",
+      },
+    ],
+    related: ["man-and-van-hire", "furniture-delivery", "flat-apartment-removals"],
+    serviceType: "Same-day man and van",
+  },
+  {
+    slug: "packing-services",
+    navLabel: "Packing Services",
+    h1: "Packing Services in Manchester",
+    title: "Packing Services in Manchester | Man and Van Manchester",
+    metaDescription:
+      "Packing services in Manchester: a full pack, a part pack or just the fragile things, added to your move. Why who packed the box matters, and what to do with the cardboard. Call for a quote.",
+    intro:
+      "Packing services in Manchester are an optional extra on any move, added only if you want them. Some people want every room boxed before the van arrives, some want only the kitchen and the glassware, and some just want to know how to pack so the move goes quickly. We do all three, and we are honest about the one thing that matters most: who packed a box changes who is responsible if something inside it breaks.",
+    sections: [
+      {
+        h2: "Full Pack, Part Pack or the Fragile Things",
+        body:
+          "Packing adds time to the job rather than a fixed fee, so you choose how much of it you want. A full pack suits anyone short of time or moving a whole house. A part pack covers the rooms that take longest, usually the kitchen, the loft and anywhere with glass. A fragile-only pack leaves the books and clothes to you and puts the breakables in our hands.",
+        bullets: [
+          "Full pack: every room boxed, wrapped and labelled before loading.",
+          "Part pack: the kitchen, glassware, pictures and mirrors, or whichever rooms you choose.",
+          "Fragile only: plates, glasses, lamps, screens and ornaments wrapped and boxed properly.",
+        ],
+        outro:
+          "Tell us which you want when you ask for a quote, along with roughly how many rooms, so we allow the right time and bring enough materials.",
+      },
+      {
+        h2: "Why Who Packed the Box Matters",
+        body:
+          "This is the part most people only find out after something breaks. The British Association of Removers says that under most removal company insurances, the company can only accept liability for damage to items it packed itself. A box of glasses you packed and taped up is, in most cases, your responsibility even if it travels in our van.",
+        outro:
+          "So if there is anything valuable or fragile, it is worth having it packed professionally even when you box everything else yourself. The association's [packing tips](https://bar.co.uk/top-ten-packing-tips/) explain the point in more detail, and what our own cover includes is set out on our [insurance and compliance page](/insurance-and-compliance/).",
+      },
+      {
+        h2: "Appliances and Items to Sort Before Packing Day",
+        body:
+          "Some things need dealing with before anyone starts boxing. The British Association of Removers notes that, unless agreed in advance, a removal company will not disconnect gas or electric appliances such as cookers, nor white goods with water hoses such as dishwashers and washing machines. Gas appliances need a Gas Safe registered engineer, and anything with water in it needs draining or defrosting first.",
+        bullets: [
+          "Book a Gas Safe engineer for a gas cooker well before moving day.",
+          "Defrost the freezer the day before and drain the washing machine.",
+          "Keep gas bottles, fuel, paint and other flammable items out of packed boxes and tell us if you have any.",
+          "Keep passports, keys, medication and chargers in a bag that travels with you, not in the van.",
+        ],
+      },
+      {
+        h2: "Packing for a Manchester Flat or Terrace",
+        body:
+          "How a house is packed changes how fast it can be carried. A Victorian terrace in Levenshulme or Chorlton often has a narrow staircase, and a city centre apartment has a goods lift with a booked slot and other residents waiting. Both reward small, heavy boxes and large, light ones rather than a few enormous boxes nobody can lift down a stairwell.",
+        bullets: [
+          "Books and tins go in small boxes, bedding and cushions in large ones.",
+          "Every box is labelled with the room it is going to, not the room it came from.",
+          "Boxes are stacked by the door in the order they will be loaded, so the van fills without a second trip.",
+        ],
+        outro:
+          "In a building with a booked lift, a well packed flat can be the difference between finishing inside the slot and having to book another. Our [flat and apartment removals](/services/flat-apartment-removals/) page covers the lift and loading bay side of the job.",
+      },
+      {
+        h2: "Getting Rid of the Cardboard Afterwards",
+        body:
+          "A packed house leaves a lot of cardboard behind. In Manchester the blue bin is for paper and card, and the council asks you to crush down boxes and large pieces of cardboard so as much as possible fits. Recycle for Greater Manchester adds that boxes should be flattened and cleared of bubble wrap, plastic and polystyrene first, and that cardboard can also go to a recycling centre.",
+        outro:
+          "If you are taking it to a recycling centre in a van or a hire van yourself, you need a free van permit. You apply two working days before your first visit, the van must be registered to a home address in one of the nine Greater Manchester councils, and the permit covers 18 visits a year, resetting on 1 April. Vans over 5.3 metres or 3.5 tonnes are not allowed, and trade waste is not accepted. The rules are on the [van permit page](https://recycleforgreatermanchester.com/van-permit/).",
+      },
+      {
+        h2: "Materials and What Packing Costs",
+        body:
+          "Packing adds time to the job, and our rate card charges for time. One mover with a small van starts from " +
+          rate("one-small") +
+          ", one mover with a large van from " +
+          rate("one-large") +
+          ", and two movers with a large van from " +
+          rate("two-large") +
+          ". Boxes, tape and wrapping materials are priced on the quote, depending on how much of the house you want packed.",
+        outro:
+          "A part pack of the kitchen and the fragile items is usually the best value, because those are the rooms that take longest to do yourself and the ones most likely to break. The full pricing breakdown is on our [prices page](/prices/).",
+      },
+    ],
+    faqs: [
+      {
+        q: "Do I have to use your packing service?",
+        a: "No. Packing is an optional extra, added only if you want it. Plenty of people pack themselves and ask us to do only the fragile items.",
+      },
+      {
+        q: "Are boxes I pack myself covered if something breaks?",
+        a: "Usually not. The British Association of Removers says most removal company insurances only accept liability for damage to items the company packed. Have fragile and valuable items packed professionally if you want them covered.",
+      },
+      {
+        q: "Will you disconnect my washing machine or cooker?",
+        a: "Not unless it is agreed in advance. Gas appliances need a Gas Safe registered engineer, and washing machines and dishwashers need disconnecting and draining before moving day.",
+      },
+      {
+        q: "Can you pack just the kitchen?",
+        a: "Yes. The kitchen and the glassware are the most common part pack, because they take longest and break most easily.",
+      },
+      {
+        q: "What should I not put in a packed box?",
+        a: "Gas bottles, fuel, paint and other flammable items should stay out of packed boxes, and passports, keys, medication and chargers should travel with you rather than in the van.",
+      },
+      {
+        q: "What do I do with the empty boxes in Manchester?",
+        a: "Flatten them for the blue bin, which takes paper and card, or take them to a recycling centre. A van at a recycling centre needs a free Recycle for Greater Manchester permit, applied for two working days before your first visit.",
+      },
+      {
+        q: "How much does packing cost?",
+        a:
+          "Packing adds time to the job, and our rate card starts from " +
+          rate("one-small") +
+          " for one mover, with materials priced on the quote. A part pack of the kitchen and fragile items is usually the best value.",
+      },
+    ],
+    related: ["house-removals", "flat-apartment-removals", "long-distance-removals"],
+    serviceType: "Packing services",
+  },
 ];
 
 export const getService = (slug: string) => services.find((s) => s.slug === slug);

@@ -21,6 +21,8 @@ price is stated that is not in `src/lib/pricing.ts`.
 | 1 | 2026-09-11 | P0 | Manchester Metropolitan University Student Removals | `/student-removals/manchester-metropolitan-university/` |
 | 2 | 2026-09-13 | P0 | University of Salford Student Removals | `/student-removals/university-of-salford/` |
 | 2 | 2026-09-13 | P0 | Student Storage Moves Manchester | `/services/student-storage-manchester/` |
+| 3 | 2026-09-14 | P0 | Same-Day Man and Van Manchester | `/services/same-day-man-and-van/` |
+| 3 | 2026-09-14 | P0 | Packing Services Manchester | `/services/packing-services/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -28,10 +30,18 @@ footer navigation.
 
 ## Next up
 
+Blocked P0 items are skipped, not dropped, and are built as soon as the
+decision below is made. Day 3 skipped Fallowfield, Withington and Rusholme
+student pages for that reason.
+
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 3 | P0 | Student Removals Fallowfield | `/student-removals/fallowfield/` | needs a decision |
-| 3 | P0 | Student Removals Withington | `/student-removals/withington/` | needs a decision |
+| 4 | P0 | Self-Storage Removals Manchester | `/services/self-storage-removals/` | ready, keep it general so it does not repeat the student storage page |
+| 4 | P0 | Man and Van Ancoats | `/locations/ancoats/` | ready |
+| later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
+| later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
+| later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |
+| later | P0 | House Clearance | `/services/house-clearance/` | needs decision 4 |
 
 ## Decisions needed before the pages they block
 
