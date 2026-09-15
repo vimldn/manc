@@ -22,6 +22,7 @@ export const metadata: Metadata = pageMeta({
 // bespoke location page are listed, so nothing links to a thin or missing page.
 const regionOf: Record<string, string> = {
   "manchester-city-centre": "Manchester City Centre",
+  ancoats: "Manchester City Centre",
   salford: "Salford",
   "salford-quays": "Salford",
   didsbury: "South Manchester",

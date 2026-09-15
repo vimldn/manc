@@ -11,6 +11,10 @@ export type Location = {
   local: string[]; // unique local paragraphs
   neighbours: string[]; // nearby area names mentioned in copy
   faqs: Faq[];
+  // A bespoke page lives at app/locations/<slug>/page.tsx with its own
+  // structure. It stays in this list for nav, sitemap and the quote form, and is
+  // skipped by the shared [location] route.
+  customPage?: boolean;
 };
 
 export const locations: Location[] = [
@@ -391,6 +395,21 @@ export const locations: Location[] = [
         a: "Most are a single van load, which keeps the cost down. The main thing is planning the lift and loading bay, which we handle.",
       },
     ],
+  },
+  {
+    slug: "ancoats",
+    name: "Ancoats",
+    postcode: "M4",
+    h1: "Man and Van in Ancoats",
+    title: "Man and Van in Ancoats (M4) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Ancoats, M4. Apartment and mill conversion moves planned around the Zone 2 permit hours and a mobility hub vans cannot enter. Call for a quote.",
+    intro:
+      "Man and van in Ancoats, the former mill district just north of Great Ancoats Street, with moves planned around its permit parking and its car-free new developments.",
+    local: [],
+    neighbours: ["Manchester City Centre", "New Islington", "Miles Platting"],
+    faqs: [],
+    customPage: true,
   },
 ];
 

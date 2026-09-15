@@ -13,7 +13,7 @@ import { services } from "@/lib/services";
 import { faqSchema, breadcrumbSchema, webPageSchema } from "@/lib/schema";
 
 export function generateStaticParams() {
-  return locations.map((l) => ({ location: l.slug }));
+  return locations.filter((l) => !l.customPage).map((l) => ({ location: l.slug }));
 }
 
 export function generateMetadata({ params }: { params: { location: string } }): Metadata {
@@ -30,7 +30,7 @@ export function generateMetadata({ params }: { params: { location: string } }): 
 
 export default function LocationPage({ params }: { params: { location: string } }) {
   const l = getLocation(params.location);
-  if (!l) notFound();
+  if (!l || l.customPage) notFound();
 
   const url = `${site.url}/locations/${l.slug}/`;
 

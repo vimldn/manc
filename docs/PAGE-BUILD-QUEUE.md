@@ -23,10 +23,17 @@ price is stated that is not in `src/lib/pricing.ts`.
 | 2 | 2026-09-13 | P0 | Student Storage Moves Manchester | `/services/student-storage-manchester/` |
 | 3 | 2026-09-14 | P0 | Same-Day Man and Van Manchester | `/services/same-day-man-and-van/` |
 | 3 | 2026-09-14 | P0 | Packing Services Manchester | `/services/packing-services/` |
+| 4 | 2026-09-15 | P0 | Self-Storage Removals Manchester | `/services/self-storage-removals/` |
+| 4 | 2026-09-15 | P0 | Man and Van Ancoats | `/locations/ancoats/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
 footer navigation.
+
+New location pages are bespoke routes at `src/app/locations/<slug>/page.tsx`
+with their own section structure. They stay in `locations.ts` with
+`customPage: true` so nav, sitemap and the quote form list them, and the shared
+`[location]` route skips them.
 
 ## Next up
 
@@ -36,8 +43,9 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 4 | P0 | Self-Storage Removals Manchester | `/services/self-storage-removals/` | ready, keep it general so it does not repeat the student storage page |
-| 4 | P0 | Man and Van Ancoats | `/locations/ancoats/` | ready |
+| 5 | P0 | Man and Van Levenshulme | `/locations/levenshulme/` | ready, bespoke route like Ancoats |
+| 5 | P0 | Man and Van Stockport | `/locations/stockport/` | ready, bespoke route like Ancoats |
+| 6 | P0 | Man and Van Altrincham | `/locations/altrincham/` | ready, bespoke route like Ancoats |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |

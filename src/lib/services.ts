@@ -801,6 +801,122 @@ export const services: Service[] = [
     related: ["house-removals", "flat-apartment-removals", "long-distance-removals"],
     serviceType: "Packing services",
   },
+  {
+    // Transport to and from storage only. The business does not run a storage
+    // facility. Student contract gaps live on student-storage-manchester, so
+    // this page covers households: house sales, completion gaps, decluttering.
+    slug: "self-storage-removals",
+    navLabel: "Self-Storage Removals",
+    h1: "Self-Storage Removals in Manchester",
+    title: "Self-Storage Removals in Manchester | Man and Van Manchester",
+    metaDescription:
+      "Self-storage removals in Manchester: your home moved into the storage unit you book and back out again when the next house is ready. Completion gaps, drive-up units and insurance explained.",
+    intro:
+      "Self-storage removals in Manchester are two moves with a gap between them: your belongings go into a storage unit, and later they come out again to a new address. We do both legs. We do not run a storage facility, so you choose and book the unit, and we handle the loading, the driving and the unloading at each end. Most of the jobs are households caught between one home and the next.",
+    sections: [
+      {
+        h2: "Why Households Use Self Storage",
+        body:
+          "Self storage is a bigger part of moving house than most people realise. The Self Storage Association UK's 2026 industry report counts 3,143 stores across the country at 74.5% occupancy, and says 76% of use is by domestic customers, with lack of space at home the main reason given. In Manchester that usually means a house sale, a rental that ends before the next one starts, or a home being emptied so it can be decorated or sold.",
+        outro:
+          "Whatever the reason, the van work is the same shape: a load in, a gap, and a load out. Planning both legs together is what keeps the cost down. The association publishes its figures in its [annual industry report](https://ssauk.com/publications/uk-annual-industry-report-2026.html).",
+      },
+      {
+        h2: "When Completion Dates Do Not Line Up",
+        body:
+          "The most common household storage job starts with a house sale. The government's home buying guide explains that the completion date is confirmed at exchange of contracts, often around two to four weeks later, and that keys are often handed over around lunchtime on completion day. It also notes that delays in moving money, which are more common in long chains, can stop you getting into a property when you expected to.",
+        outro:
+          "If the sale of your old home completes before the purchase of the new one, everything has to go somewhere in between. Storage fills that gap. Book the first leg for your sale completion date and leave the second leg flexible until the new completion date is fixed. The steps are set out in the government's [how to buy a home guide](https://www.gov.uk/government/publications/how-to-buy-a-home/how-to-buy).",
+      },
+      {
+        h2: "Drive-Up Units and Indoor Units",
+        body:
+          "The type of unit changes how long the van spends at the storage site. A drive-up unit is a garage style unit the van can reverse up to, so the load goes straight in. An indoor unit sits inside a building, which means trolleys, corridors and sometimes a lift between the van and the door. Both work, but an indoor unit on an upper floor adds time at each end.",
+        bullets: [
+          "Apex Self Storage in Hulme, 130/140 Princess Road, M16 7BY, has external drive-up units with 24-hour access. Its reception is open weekdays 8.30am to 5.30pm and Saturday mornings.",
+          "Safestore Old Trafford is at City Park, 34 Brindley Road, M16 9HQ.",
+          "Shurgard Salford, on North Phoebe Street, M5 4EA, offers access seven days a week from 7am.",
+        ],
+        outro:
+          "Access hours differ from site to site, and a unit whose gate shuts before the van arrives turns a one visit job into two. Check the hours for the day of your move, and tell us whether the unit is drive-up or indoor when you ask for a quote.",
+      },
+      {
+        h2: "Loading a Unit You Will Need to Get Into",
+        body:
+          "A house going into storage for a few weeks is not the same as a house going into storage for a year. If there is any chance you will need something before the move out, the order the unit is loaded in matters more than how neatly it is packed.",
+        bullets: [
+          "Furniture and boxes you will not need go in first, at the back.",
+          "Seasonal clothes, paperwork and anything you might need go in last, at the front.",
+          "A clear walkway down one side lets you reach the middle without unloading the lot.",
+          "Every box is labelled on two sides with its room and a short list of what is inside.",
+        ],
+        outro:
+          "The same thinking applies to the return leg. We unload into the new home room by room, so the labels written on the way in save time on the way out. Our [packing services](/services/packing-services/) cover the boxing if you would rather not do it yourself.",
+      },
+      {
+        h2: "Insurance and What a Unit Can Hold",
+        body:
+          "Goods in a storage unit remain your responsibility. The Self Storage Association UK says customers will be required to have insurance cover against loss or damage for the period of storage, and some operators, including Apex, price their units with insurance not included. Check whether the site's own cover suits you before the first leg, not after.",
+        outro:
+          "Some things cannot go into storage at all. The association lists firearms, illegal substances, explosives, dangerous weapons and anything harmful to public health. Operators set their own rules on items such as food, so ask the site before packing anything perishable.",
+      },
+      {
+        h2: "Storing Things to Sell a House",
+        body:
+          "Not every storage job is a gap between homes. Some people put part of a house into storage while it is on the market, so rooms look bigger and viewings go more smoothly, and some clear a house before decorating. These jobs are usually smaller, a room or two of furniture and boxes, and they often need a second trip later when the house sells.",
+        outro:
+          "If you are clearing a room for good rather than storing it, that is a different job, and anything heading to the tip can go at the same time. Students between hall and house contracts have their own page on [student storage moves](/services/student-storage-manchester/).",
+      },
+      {
+        h2: "What a Self-Storage Move Costs",
+        body:
+          "Each leg is priced on time like any local move. One mover with a large van starts from " +
+          rate("one-large") +
+          ", two movers with a large van from " +
+          rate("two-large") +
+          ", and two movers with a Luton van from " +
+          rate("two-luton") +
+          ". Minimum bookings are typically two to three hours.",
+        outro:
+          "Budget for two legs and for the storage site's own charge, which is separate from ours. A drive-up unit close to where you are moving from or to keeps both legs shorter. The full breakdown is on our [prices page](/prices/).",
+      },
+    ],
+    faqs: [
+      {
+        q: "Do you provide the storage?",
+        a: "No. We do not run a storage facility. You book the unit with a storage operator, and we move your belongings into it and back out again.",
+      },
+      {
+        q: "How long is the gap between exchange and completion?",
+        a: "The government's home buying guide says the completion date is confirmed at exchange, often around two to four weeks later, though the two can happen on the same day.",
+      },
+      {
+        q: "Is a drive-up unit better for a removal?",
+        a: "It is usually quicker, because the van reverses up to the unit and the load goes straight in. An indoor unit on an upper floor adds trolley and lift time at both ends.",
+      },
+      {
+        q: "Do I need insurance for a storage unit?",
+        a: "Usually, yes. The Self Storage Association UK says customers will be required to have insurance cover for loss or damage during storage, and goods in the unit remain your responsibility.",
+      },
+      {
+        q: "What can't I put in a storage unit?",
+        a: "Firearms, illegal substances, explosives, dangerous weapons and anything harmful to public health. Operators set their own rules on items such as food.",
+      },
+      {
+        q: "Can you move everything out of storage when my new house completes?",
+        a: "Yes. Tell us the new completion date as soon as it is fixed, and we will book the second leg around when the keys are released.",
+      },
+      {
+        q: "How much does a self-storage removal cost?",
+        a:
+          "Each leg is priced on time. Two movers with a large van start from " +
+          rate("two-large") +
+          ", with minimum bookings typically two to three hours. The storage site's charge is separate.",
+      },
+    ],
+    related: ["house-removals", "packing-services", "student-storage-manchester"],
+    serviceType: "Self-storage removals",
+  },
 ];
 
 export const getService = (slug: string) => services.find((s) => s.slug === slug);
