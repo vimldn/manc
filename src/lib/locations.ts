@@ -397,6 +397,36 @@ export const locations: Location[] = [
     ],
   },
   {
+    slug: "levenshulme",
+    name: "Levenshulme",
+    postcode: "M19",
+    h1: "Man and Van in Levenshulme",
+    title: "Man and Van in Levenshulme (M19) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Levenshulme, M19. Moves planned around the modal filters that close its streets to through traffic, and the A6 works. Call for a quote.",
+    intro:
+      "Man and van in Levenshulme, where fourteen modal filters decide which end of your street the van can reach.",
+    local: [],
+    neighbours: ["Burnage", "Longsight", "Heaton Chapel"],
+    faqs: [],
+    customPage: true,
+  },
+  {
+    slug: "stockport",
+    name: "Stockport",
+    postcode: "SK1 to SK8",
+    h1: "Man and Van in Stockport",
+    title: "Man and Van in Stockport (SK1 to SK8) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Stockport. A different council from Manchester, with its own parking dispensation rules and permit scheme. Town centre and suburb moves. Call for a quote.",
+    intro:
+      "Man and van in Stockport, its own borough with its own parking rules, covered from the town centre out to the SK suburbs.",
+    local: [],
+    neighbours: ["Heaton Chapel", "Cheadle", "Bredbury"],
+    faqs: [],
+    customPage: true,
+  },
+  {
     slug: "ancoats",
     name: "Ancoats",
     postcode: "M4",
