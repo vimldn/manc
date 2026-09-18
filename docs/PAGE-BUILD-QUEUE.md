@@ -27,6 +27,8 @@ price is stated that is not in `src/lib/pricing.ts`.
 | 4 | 2026-09-15 | P0 | Man and Van Ancoats | `/locations/ancoats/` |
 | 5 | 2026-09-16 | P0 | Man and Van Levenshulme | `/locations/levenshulme/` |
 | 5 | 2026-09-16 | P0 | Man and Van Stockport | `/locations/stockport/` |
+| 6 | 2026-09-18 | P0 | Man and Van Altrincham | `/locations/altrincham/` |
+| 6 | 2026-09-18 | P1 | Man and Van Ardwick | `/locations/ardwick/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -45,8 +47,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 6 | P0 | Man and Van Altrincham | `/locations/altrincham/` | ready, last clean P0, bespoke route |
-| 6 | P1 | Man and Van Ardwick | `/locations/ardwick/` | ready, bespoke route |
+| 7 | P1 | Man and Van Longsight | `/locations/longsight/` | ready, bespoke route |
+| 7 | P1 | Man and Van Moss Side | `/locations/moss-side/` | ready, bespoke route |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |

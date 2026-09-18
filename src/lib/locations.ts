@@ -427,6 +427,36 @@ export const locations: Location[] = [
     customPage: true,
   },
   {
+    slug: "altrincham",
+    name: "Altrincham",
+    postcode: "WA14 / WA15",
+    h1: "Man and Van in Altrincham",
+    title: "Man and Van in Altrincham (WA14, WA15) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Altrincham. Trafford Council's own dispensation fees and notice, resident permit hours and the town centre conservation areas, planned for. Call for a quote.",
+    intro:
+      "Man and van in Altrincham, where Trafford Council rather than Manchester sets the parking rules for the move.",
+    local: [],
+    neighbours: ["Hale", "Timperley", "Bowdon"],
+    faqs: [],
+    customPage: true,
+  },
+  {
+    slug: "ardwick",
+    name: "Ardwick",
+    postcode: "M12",
+    h1: "Man and Van in Ardwick",
+    title: "Man and Van in Ardwick (M12) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Ardwick, M12. Moves planned around the weekday permit scheme, O2 Apollo show nights and the A6 and Hyde Road junctions. Call for a quote.",
+    intro:
+      "Man and van in Ardwick, just south east of the city centre, with the permit scheme and Apollo nights planned around.",
+    local: [],
+    neighbours: ["Manchester City Centre", "Longsight", "Chorlton-on-Medlock"],
+    faqs: [],
+    customPage: true,
+  },
+  {
     slug: "ancoats",
     name: "Ancoats",
     postcode: "M4",

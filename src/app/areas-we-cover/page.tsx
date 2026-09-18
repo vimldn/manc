@@ -23,6 +23,8 @@ export const metadata: Metadata = pageMeta({
 const regionOf: Record<string, string> = {
   "manchester-city-centre": "Manchester City Centre",
   ancoats: "Manchester City Centre",
+  ardwick: "Manchester City Centre",
+  altrincham: "Trafford",
   salford: "Salford",
   "salford-quays": "Salford",
   didsbury: "South Manchester",
