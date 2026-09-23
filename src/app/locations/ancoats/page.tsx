@@ -84,7 +84,7 @@ export default function AncoatsPage() {
       <Breadcrumbs trail={trail} />
 
       <div className="mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-3">
-        <article className="lg:col-span-2">
+        <article className="min-w-0 lg:col-span-2">
           <h1 className="text-3xl font-extrabold text-gray-900">{l.h1}</h1>
           <p className="mt-1 text-sm font-semibold text-gray-500">{l.postcode}</p>
           <p className="mt-4 text-lg text-gray-700">

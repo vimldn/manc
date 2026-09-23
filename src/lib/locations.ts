@@ -427,6 +427,36 @@ export const locations: Location[] = [
     customPage: true,
   },
   {
+    slug: "longsight",
+    name: "Longsight",
+    postcode: "M13 / M12",
+    h1: "Man and Van in Longsight",
+    title: "Man and Van in Longsight (M13, M12) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Longsight. Most streets sit outside any permit scheme, so the market days and the current road closures matter more. Call for a quote.",
+    intro:
+      "Man and van in Longsight, where market days on Dickenson Road and the current road closures matter more than permit rules.",
+    local: [],
+    neighbours: ["Rusholme", "Levenshulme", "Victoria Park"],
+    faqs: [],
+    customPage: true,
+  },
+  {
+    slug: "moss-side",
+    name: "Moss Side",
+    postcode: "M14 / M15",
+    h1: "Man and Van in Moss Side",
+    title: "Man and Van in Moss Side (M14, M15) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Moss Side. The residents parking scheme here has no marked bays and the hours change street by street, so we read the sign first. Call for a quote.",
+    intro:
+      "Man and van in Moss Side, where the permit scheme has no marked bays and each street sign sets its own hours.",
+    local: [],
+    neighbours: ["Rusholme", "Hulme", "Whalley Range"],
+    faqs: [],
+    customPage: true,
+  },
+  {
     slug: "altrincham",
     name: "Altrincham",
     postcode: "WA14 / WA15",

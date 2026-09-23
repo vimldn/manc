@@ -13,6 +13,10 @@ restrictions are taken from the institution's or the council's own pages and
 stamped with a `reviewed` month. Nothing on these pages is invented, and no
 price is stated that is not in `src/lib/pricing.ts`.
 
+Every page is checked at 375px before it is committed. A table inside the
+two column grid needs `min-w-0` on the `<article>`, or it forces the whole
+page to scroll sideways on a phone.
+
 ## Done
 
 | Day | Date | Priority | Page | URL |
@@ -29,6 +33,8 @@ price is stated that is not in `src/lib/pricing.ts`.
 | 5 | 2026-09-16 | P0 | Man and Van Stockport | `/locations/stockport/` |
 | 6 | 2026-09-18 | P0 | Man and Van Altrincham | `/locations/altrincham/` |
 | 6 | 2026-09-18 | P1 | Man and Van Ardwick | `/locations/ardwick/` |
+| 7 | 2026-09-23 | P1 | Man and Van Longsight | `/locations/longsight/` |
+| 7 | 2026-09-23 | P1 | Man and Van Moss Side | `/locations/moss-side/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -47,8 +53,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 7 | P1 | Man and Van Longsight | `/locations/longsight/` | ready, bespoke route |
-| 7 | P1 | Man and Van Moss Side | `/locations/moss-side/` | ready, bespoke route |
+| 8 | P1 | Man and Van Eccles | `/locations/eccles/` | ready, bespoke route (Salford council rules) |
+| 8 | P1 | Man and Van Worsley | `/locations/worsley/` | ready, bespoke route |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |

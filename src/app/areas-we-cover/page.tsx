@@ -35,6 +35,8 @@ const regionOf: Record<string, string> = {
   hulme: "South Manchester",
   wythenshawe: "South Manchester",
   levenshulme: "South Manchester",
+  longsight: "South Manchester",
+  "moss-side": "South Manchester",
   stockport: "Stockport",
   "old-trafford": "Trafford",
   stretford: "Trafford",
