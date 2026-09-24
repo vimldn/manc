@@ -427,6 +427,36 @@ export const locations: Location[] = [
     customPage: true,
   },
   {
+    slug: "eccles",
+    name: "Eccles",
+    postcode: "M30",
+    h1: "Man and Van in Eccles",
+    title: "Man and Van in Eccles (M30) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Eccles, M30. Salford does not need a dispensation for a short removals load, and its suspension fees are half Manchester's. Call for a quote.",
+    intro:
+      "Man and van in Eccles, where Salford's parking rules are cheaper and simpler than Manchester's for a removal.",
+    local: [],
+    neighbours: ["Monton", "Patricroft", "Salford Quays"],
+    faqs: [],
+    customPage: true,
+  },
+  {
+    slug: "worsley",
+    name: "Worsley",
+    postcode: "M28",
+    h1: "Man and Van in Worsley",
+    title: "Man and Van in Worsley (M28) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Worsley, M28. Village conservation area streets, RHS Bridgewater traffic and Salford's parking rules planned around. Call for a quote.",
+    intro:
+      "Man and van in Worsley, from the conservation area village streets out to the newer estates around the M60.",
+    local: [],
+    neighbours: ["Boothstown", "Walkden", "Monton"],
+    faqs: [],
+    customPage: true,
+  },
+  {
     slug: "longsight",
     name: "Longsight",
     postcode: "M13 / M12",

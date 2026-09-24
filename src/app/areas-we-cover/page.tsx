@@ -27,6 +27,8 @@ const regionOf: Record<string, string> = {
   altrincham: "Trafford",
   salford: "Salford",
   "salford-quays": "Salford",
+  eccles: "Salford",
+  worsley: "Salford",
   didsbury: "South Manchester",
   chorlton: "South Manchester",
   fallowfield: "South Manchester",
