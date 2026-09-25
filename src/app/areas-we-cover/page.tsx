@@ -29,6 +29,8 @@ const regionOf: Record<string, string> = {
   "salford-quays": "Salford",
   eccles: "Salford",
   worsley: "Salford",
+  swinton: "Salford",
+  bolton: "Bolton",
   didsbury: "South Manchester",
   chorlton: "South Manchester",
   fallowfield: "South Manchester",
@@ -53,6 +55,7 @@ const regionOrder = [
   "Salford",
   "Trafford",
   "Stockport",
+  "Bolton",
 ];
 
 export default function AreasWeCoverPage() {

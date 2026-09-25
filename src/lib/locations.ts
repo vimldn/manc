@@ -427,6 +427,36 @@ export const locations: Location[] = [
     customPage: true,
   },
   {
+    slug: "swinton",
+    name: "Swinton",
+    postcode: "M27",
+    h1: "Man and Van in Swinton",
+    title: "Man and Van in Swinton (M27) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Swinton, M27. Salford's paper and digital permit zones, the civic centre end of town and the current road closures planned around. Call for a quote.",
+    intro:
+      "Man and van in Swinton, Salford's own administrative centre, where some permit zones still run on paper.",
+    local: [],
+    neighbours: ["Pendlebury", "Worsley", "Eccles"],
+    faqs: [],
+    customPage: true,
+  },
+  {
+    slug: "bolton",
+    name: "Bolton",
+    postcode: "BL1 to BL7",
+    h1: "Man and Van in Bolton",
+    title: "Man and Van in Bolton (BL1 to BL7) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Bolton. Bolton Council charges £7.90 a day for a parking dispensation, the cheapest in Greater Manchester, with two working days' notice. Call for a quote.",
+    intro:
+      "Man and van in Bolton, where the council's parking dispensation costs less than anywhere else we work.",
+    local: [],
+    neighbours: ["Farnworth", "Westhoughton", "Horwich"],
+    faqs: [],
+    customPage: true,
+  },
+  {
     slug: "eccles",
     name: "Eccles",
     postcode: "M30",
