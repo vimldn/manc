@@ -561,6 +561,36 @@ export const locations: Location[] = [
     faqs: [],
     customPage: true,
   },
+  {
+    slug: "bury",
+    name: "Bury",
+    postcode: "BL8 / BL9",
+    h1: "Man and Van in Bury",
+    title: "Man and Van in Bury (BL8, BL9) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Bury, BL8 and BL9. Bury's waiver and suspension forms, two working days to process, the market rebuild and the zone permits, planned for.",
+    intro:
+      "Man and van in Bury, where the council uses waivers and suspensions rather than dispensations and asks for two working days.",
+    local: [],
+    neighbours: ["Prestwich", "Radcliffe", "Whitefield", "Ramsbottom"],
+    faqs: [],
+    customPage: true,
+  },
+  {
+    slug: "oldham",
+    name: "Oldham",
+    postcode: "OL1 to OL9",
+    h1: "Man and Van in Oldham",
+    title: "Man and Van in Oldham (OL1 to OL9) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Oldham, OL1 to OL9. Free resident permits, the Oldham Way flyover closure, 36 conservation areas and the Pennine hill streets, planned for.",
+    intro:
+      "Man and van in Oldham, where resident permits cost nothing and the A62 flyover closure changes how the van gets in.",
+    local: [],
+    neighbours: ["Chadderton", "Royton", "Shaw", "Saddleworth"],
+    faqs: [],
+    customPage: true,
+  },
 ];
 
 export const getLocation = (slug: string) => locations.find((l) => l.slug === slug);

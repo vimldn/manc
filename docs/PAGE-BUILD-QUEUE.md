@@ -39,6 +39,8 @@ page to scroll sideways on a phone.
 | 8 | 2026-09-24 | P1 | Man and Van Worsley | `/locations/worsley/` |
 | 9 | 2026-09-25 | P1 | Man and Van Swinton | `/locations/swinton/` |
 | 9 | 2026-09-25 | P1 | Man and Van Bolton | `/locations/bolton/` |
+| 10 | 2026-09-28 | P1 | Man and Van Bury | `/locations/bury/` |
+| 10 | 2026-09-28 | P1 | Man and Van Oldham | `/locations/oldham/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -57,8 +59,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 10 | P1 | Man and Van Bury | `/locations/bury/` | ready, bespoke route (Bury council rules) |
-| 10 | P1 | Man and Van Oldham | `/locations/oldham/` | ready, bespoke route (Oldham council rules) |
+| 11 | P1 | Man and Van Rochdale | `/locations/rochdale/` | ready, bespoke route (Rochdale council rules) |
+| 11 | P1 | Man and Van Wigan | `/locations/wigan/` | ready, bespoke route (Wigan council rules) |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |

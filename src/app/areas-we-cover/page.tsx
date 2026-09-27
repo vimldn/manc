@@ -31,6 +31,8 @@ const regionOf: Record<string, string> = {
   worsley: "Salford",
   swinton: "Salford",
   bolton: "Bolton",
+  bury: "Bury",
+  oldham: "Oldham",
   didsbury: "South Manchester",
   chorlton: "South Manchester",
   fallowfield: "South Manchester",
@@ -56,6 +58,8 @@ const regionOrder = [
   "Trafford",
   "Stockport",
   "Bolton",
+  "Bury",
+  "Oldham",
 ];
 
 export default function AreasWeCoverPage() {
