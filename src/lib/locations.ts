@@ -591,6 +591,36 @@ export const locations: Location[] = [
     faqs: [],
     customPage: true,
   },
+  {
+    slug: "rochdale",
+    name: "Rochdale",
+    postcode: "OL11 / OL12 / OL16",
+    h1: "Man and Van in Rochdale",
+    title: "Man and Van in Rochdale (OL11, OL12, OL16) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Rochdale. A borrowable visitor permit, round the clock enforcement and a £1,130 traffic order, planned for. Call for a quote.",
+    intro:
+      "Man and van in Rochdale, where the visitor permit can be lent to the van and the enforcement never stops.",
+    local: [],
+    neighbours: ["Heywood", "Middleton", "Littleborough", "Milnrow"],
+    faqs: [],
+    customPage: true,
+  },
+  {
+    slug: "wigan",
+    name: "Wigan",
+    postcode: "WN1 to WN6",
+    h1: "Man and Van in Wigan",
+    title: "Man and Van in Wigan (WN1 to WN6) | Man and Van Manchester",
+    metaDescription:
+      "Man and van in Wigan. Controlled parking zones, the June 2026 permit price rise and the visitor day permit that covers a move. Call for a quote.",
+    intro:
+      "Man and van in Wigan, where a controlled parking zone is handled with a day permit rather than a dispensation.",
+    local: [],
+    neighbours: ["Leigh", "Ashton-in-Makerfield", "Standish", "Orrell"],
+    faqs: [],
+    customPage: true,
+  },
 ];
 
 export const getLocation = (slug: string) => locations.find((l) => l.slug === slug);

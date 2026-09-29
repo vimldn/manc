@@ -41,6 +41,8 @@ page to scroll sideways on a phone.
 | 9 | 2026-09-25 | P1 | Man and Van Bolton | `/locations/bolton/` |
 | 10 | 2026-09-28 | P1 | Man and Van Bury | `/locations/bury/` |
 | 10 | 2026-09-28 | P1 | Man and Van Oldham | `/locations/oldham/` |
+| 11 | 2026-09-29 | P1 | Man and Van Rochdale | `/locations/rochdale/` |
+| 11 | 2026-09-29 | P1 | Man and Van Wigan | `/locations/wigan/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -59,8 +61,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 11 | P1 | Man and Van Rochdale | `/locations/rochdale/` | ready, bespoke route (Rochdale council rules) |
-| 11 | P1 | Man and Van Wigan | `/locations/wigan/` | ready, bespoke route (Wigan council rules) |
+| 12 | P1 | Furniture Assembly and Dismantling | `/services/furniture-dismantling/` | clean |
+| 12 | P1 | Loading and Unloading Service | `/services/loading-unloading/` | clean |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |
@@ -68,6 +70,13 @@ student pages for that reason.
 
 After Altrincham the only P0 pages left are the blocked ones below, so the
 queue moves on to the P1 location pages.
+
+Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
+dispensation fee, so four pages already make that negative point. Lead any
+further borough page on what the council does publish, not on the absence.
+Wigan Council's own site is Cloudflare-blocked from this machine; everything on
+that page came from its statutory notices on Public Notice Portal, its
+EasiPermits portal and the developer's own site.
 
 ## Decisions needed before the pages they block
 
