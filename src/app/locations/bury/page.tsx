@@ -102,7 +102,7 @@ export default function BuryPage() {
             />
             <RichText
               className="mt-3 text-gray-700"
-              text="Both are online forms, and both are open to tradespeople and site workers where it is essential to their work, which is how a removals van qualifies. Picking the wrong one wastes the two working days it takes to process, so check what the kerb outside the address actually is before you apply."
+              text="Both are online forms, and both are open to tradespeople and site workers where it is essential to their work, which is how [a van and crew on a house move](/services/man-and-van-hire/) qualifies. Picking the wrong one wastes the two working days it takes to process, so check what the kerb outside the address actually is before you apply."
             />
             <ul className="mt-4 space-y-2 text-gray-700">
               {[
@@ -140,7 +140,7 @@ export default function BuryPage() {
             />
             <RichText
               className="mt-3 text-gray-700"
-              text="For anything urgent the council gives a phone number, 0161 253 5353, and warns that extra charges may apply. Since it does not publish a standard fee either, the honest answer is that a Bury waiver is priced on application. Our [Bolton page](/locations/bolton/) sets out what the surrounding councils charge for the same permission, for comparison."
+              text="For anything urgent the council gives a phone number, 0161 253 5353, and warns that extra charges may apply. Since it does not publish a standard fee either, the honest answer is that a Bury waiver is priced on application. Next door in [Bolton the same permission is £7.90 a day](/locations/bolton/), and in Manchester it is £30, so an unpublished fee is not the same as a free one."
             />
           </section>
 
@@ -215,7 +215,7 @@ export default function BuryPage() {
             />
             <RichText
               className="mt-3 text-gray-700"
-              text="Bury is the far end of the M66 from the city centre, so a move into Manchester is priced on the distance as well as the load. A move inside the borough is a local job. The full breakdown is on our [prices page](/prices/)."
+              text="Bury is the far end of the M66 from the city centre, so a move into Manchester is priced on the distance as well as the load. A move inside the borough is a local job. Every rate we quote from is [published rather than given over the phone](/prices/)."
             />
           </section>
 

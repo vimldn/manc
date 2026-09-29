@@ -166,7 +166,7 @@ export default function OldhamPage() {
             />
             <RichText
               className="mt-3 text-gray-700"
-              text="For a flat move in the centre that means the loading points people used a year ago may not be the ones to aim for now, and event nights at a 1,000 capacity venue are a new thing to plan around. If the address is inside the ring road, tell us the nearest side street and we will check what it looks like this month."
+              text="For [a flat move in the centre](/services/flat-apartment-removals/) that means the loading points people used a year ago may not be the ones to aim for now, and event nights at a 1,000 capacity venue are a new thing to plan around. If the address is inside the ring road, tell us the nearest side street and we will check what it looks like this month."
             />
           </section>
 
@@ -211,7 +211,7 @@ export default function OldhamPage() {
             />
             <RichText
               className="mt-3 text-gray-700"
-              text="Plenty of clearances do not need a skip at all. A van load out is often quicker and cheaper, and it is licensed waste carriage rather than a container sitting on the street for a week. Our [rubbish removal](/services/rubbish-removal/) page covers how we price that."
+              text="Plenty of clearances do not need a skip at all. [Clearing it into the van](/services/rubbish-removal/) is often quicker and cheaper, and it is licensed waste carriage rather than a container sitting on the street for a week while the parking department is chased."
             />
           </section>
 
@@ -223,7 +223,7 @@ export default function OldhamPage() {
             />
             <RichText
               className="mt-3 text-gray-700"
-              text="Oldham sits about seven miles out from the city centre, so a move into town is priced on the distance as well as the load, and the flyover closure adds time rather than cost. The full breakdown is on our [prices page](/prices/)."
+              text="Oldham sits about seven miles out from the city centre, so a move into town is priced on the distance as well as the load, and the flyover closure adds time rather than cost. Every rate we quote from is [published rather than given over the phone](/prices/)."
             />
           </section>
 
