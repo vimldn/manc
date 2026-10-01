@@ -917,6 +917,215 @@ export const services: Service[] = [
     related: ["house-removals", "packing-services", "student-storage-manchester"],
     serviceType: "Self-storage removals",
   },
+  {
+    slug: "furniture-dismantling",
+    navLabel: "Furniture Dismantling",
+    h1: "Furniture Dismantling and Assembly in Manchester",
+    title: "Furniture Dismantling and Assembly in Manchester | Man and Van Manchester",
+    metaDescription:
+      "Furniture dismantling and reassembly in Manchester. What IKEA's own service will not take apart, what charities and the council need, and how it is priced.",
+    intro:
+      "We take furniture apart so it gets out of one door and into another, and we put it back together at the other end. Beds, wardrobes, desks and dining tables are the usual jobs, flat pack or solid. It is often the part of a Manchester move nobody else will do: the shop that built it will not dismantle it, the charity wants it whole, and the council wants it on the pavement by seven in the morning.",
+    sections: [
+      {
+        h2: "Taking It Apart So It Fits",
+        body:
+          "Most dismantling happens because something will not turn a corner. A king size bed frame, a double wardrobe or a corner desk that went up in a room will not always come back down a staircase or into a lift in one piece. We take it down to the parts that travel, keep every fixing with the piece it came from, and rebuild it in the room where it is going rather than in the hallway.",
+        outro:
+          "On a [house removal](/services/house-removals/) it is part of the same booking and the same crew. It can also be a job on its own, when you are keeping the furniture but changing rooms, or clearing a room for a decorator.",
+      },
+      {
+        h2: "IKEA Will Build It but Will Not Take It Apart",
+        body:
+          "IKEA's assembly service is carried out by independent contractors on the TaskRabbit platform, and its terms list what is out of scope. The first item on that list is removal, dismantling or dismounting furniture or fixtures. The same terms exclude non-IKEA products and anything bought from IKEA's RE-shop or re-use range.",
+        bullets: [
+          "IKEA's service will assemble new IKEA furniture.",
+          "It will not take any furniture apart, IKEA or otherwise.",
+          "It will not rebuild second-hand IKEA furniture or anything from another shop.",
+        ],
+        outro:
+          "So when a PAX or a MALM has to come out of a flat in Ancoats and go back up in a house in Levenshulme, that half of the job falls to whoever is moving it. If you are collecting new flat pack from the Manchester store in Ashton-under-Lyne or the Warrington store, our [furniture delivery](/services/furniture-delivery/) service brings it home and we can build it on the same visit. IKEA sets out the exclusions in its [services terms and conditions](https://www.ikea.com/gb/en/customer-service/terms-conditions/services-terms-and-conditions-pub8c206171/).",
+      },
+      {
+        h2: "Selling It Back to IKEA Means Building It First",
+        body:
+          "If the furniture is not coming with you, IKEA's Buy Back scheme will make an offer on some used IKEA pieces, but only built. Its terms say that if a product is returned not fully and correctly assembled, it will not be able to provide an offer, and the scheme only handles complete, assembled and fully functional pieces. System wardrobes, including PAX and its interiors, are not accepted at all.",
+        bullets: [
+          "As new, with no scratches: 45% of the original price.",
+          "Very good, with minor scratches: 35%.",
+          "Well used, with several scratches: 25%.",
+        ],
+        outro:
+          "A wardrobe that has already been taken down for a move has to go back up before it can go back to IKEA. If that is the plan, tell us when you book and we will rebuild it rather than leave it flat.",
+      },
+      {
+        h2: "Charities Want It Whole",
+        body:
+          "Giving furniture away is the other common ending, and the rules are about completeness. The British Heart Foundation will not accept items with missing parts that affect their use, and gives a wardrobe with missing doors and a chest of drawers with a drawer missing as examples. A missing handle is fine. Upholstered items need their fire safety label attached before it can sell them on.",
+        outro:
+          "Some charities will not take flat pack at all. Emmaus in Mossley lists flat-pack furniture and wall units among the things it does not accept. So if a piece is being dismantled to be donated, keep the doors, drawers and shelves with the carcass, keep the fixings, and do not cut the label off the sofa to make it look tidier.",
+      },
+      {
+        h2: "When It Goes Out for the Council",
+        body:
+          "Manchester City Council gives each household one free bulky collection a year of up to three items. After that it charges £32 for up to three items and £64 for up to six. It will not collect from inside the property, from front gardens, driveways or bin stores: items go on the pavement at the front, out by 7am on the day and not before 5pm the evening before. It will not take anything too big or heavy for two people to lift safely, anything with sharp edges, or glass tables and large mirrors.",
+        outro:
+          "That is where dismantling earns its keep. A double wardrobe two people cannot lift becomes six panels they can, and the screws and brackets come out rather than sticking from the edges. Trafford is explicit about it: its collection takes up to five items for £44.10, nothing over three metres long, and all exposed nails or screws removed, covered or made safe. In an apartment block the council is just as clear that shared bin stores are not the place for bulky items, which comes up on most [flat moves](/services/flat-apartment-removals/).",
+      },
+      {
+        h2: "Sofas Have to Be Burned, Not Buried",
+        body:
+          "Old sofas and armchairs are a special case. Government guidance on upholstered domestic seating says it must be incinerated, that no other treatment such as landfill is allowed, and that it must not be mixed with other waste during collection and storage. It covers sofas, armchairs, recliners, kitchen and office chairs with upholstery, futons and bean bags.",
+        outro:
+          "So a sofa that will not go through the new front door, and is not being kept, cannot simply go in a skip with everything else. We take it as a separate item on a [clearance](/services/rubbish-removal/) so it goes where it has to. The rules are set out in the government's [guidance on waste upholstered seating](https://www.gov.uk/guidance/manage-waste-upholstered-domestic-seating-containing-pops).",
+      },
+      {
+        h2: "How Dismantling Is Priced",
+        body:
+          "Dismantling and reassembly are priced on time, as part of the move or on their own. One mover with a small van starts from " +
+          rate("one-small") +
+          ", one mover with a large van from " +
+          rate("one-large") +
+          " and two movers with a large van from " +
+          rate("two-large") +
+          ". A bed takes minutes. A fitted PAX with sliding doors takes a good deal longer, so tell us what the pieces are and we will price the time properly.",
+        outro:
+          "Minimum bookings are typically two to three hours, and every rate is [published rather than given over the phone](/prices/).",
+      },
+    ],
+    faqs: [
+      {
+        q: "Will IKEA dismantle my furniture for a move?",
+        a: "No. IKEA's assembly service, carried out by TaskRabbit contractors, lists removal, dismantling or dismounting furniture among the work it does not do. It also excludes non-IKEA products and second-hand IKEA from its re-use range.",
+      },
+      {
+        q: "Can I sell my IKEA wardrobe back to IKEA after taking it apart?",
+        a: "Not while it is in pieces. IKEA Buy Back only makes offers on complete, assembled and fully functional products, and it does not accept system wardrobes such as PAX at all.",
+      },
+      {
+        q: "Will a charity take my wardrobe if I have taken it apart?",
+        a: "It depends on the charity and on the parts. The British Heart Foundation refuses items with missing parts that affect their use, such as a wardrobe missing its doors, and Emmaus Mossley does not take flat-pack furniture. Keep every part together.",
+      },
+      {
+        q: "Does Manchester council want furniture dismantled for a bulky collection?",
+        a: "It does not require it, but it will not collect anything too big or heavy for two people to lift safely, or with sharp edges. Taking a large piece down to panels is often what makes it collectable.",
+      },
+      {
+        q: "Can an old sofa go in a skip?",
+        a: "No. Government guidance says waste upholstered seating must be incinerated, not landfilled, and kept separate from other waste.",
+      },
+      {
+        q: "How long does dismantling a bed or wardrobe take?",
+        a: "A standard bed frame is quick. A large fitted wardrobe with sliding doors and internal fittings takes much longer, so we price it on time once we know what the pieces are.",
+      },
+    ],
+    related: ["house-removals", "furniture-delivery", "rubbish-removal", "flat-apartment-removals"],
+    serviceType: "Furniture dismantling and assembly",
+  },
+  {
+    slug: "loading-unloading",
+    navLabel: "Loading and Unloading",
+    h1: "Loading and Unloading Help in Manchester",
+    title: "Loading and Unloading Help in Manchester | Man and Van Manchester",
+    metaDescription:
+      "Loading and unloading help in Manchester for a van you have hired, a container or a storage unit. Tip limits, yellow line loading rules and container permits.",
+    intro:
+      "Loading and unloading help is labour without our van. You have hired the vehicle, booked a container or rented a storage unit, and you need people who know how to fill it. We bring the hands, the blankets, the straps and a trolley, load it so it travels, and unload it at the other end if you want us there too.",
+    sections: [
+      {
+        h2: "You Bring the Van, We Bring the Crew",
+        body:
+          "Most of the jobs are self-drive moves. Someone has hired a Luton for the weekend to save on a full removal and has realised that the hard part is not the driving, it is getting a three seater down two flights of stairs and a washing machine up a tail lift. Others are containers dropped on a driveway, freight deliveries that arrive on a pallet with nobody to carry them in, and storage units that need filling in a morning.",
+        outro:
+          "If it turns out simpler for us to bring the van as well, that is [man and van hire](/services/man-and-van-hire/), and we will tell you which works out cheaper for the load.",
+      },
+      {
+        h2: "What a Hired Luton Can and Cannot Carry",
+        body:
+          "A Luton is the van most people hire, and it is [covered by an ordinary car licence](/moving-guides/what-size-van-do-i-need-for-my-move/) because it is built to sit at 3,500kg. That limit is the whole van, loaded. Northgate's Mercedes Sprinter Luton, for example, has a gross weight of 3,500kg and a payload of 892kg, which is the weight of everything you put in it.",
+        bullets: [
+          "Under a tonne of payload goes quickly with books, a solid wood wardrobe and a full fridge freezer.",
+          "Heavy items go in first, low and against the bulkhead, so the van steers properly.",
+          "Soft items fill the gaps, so nothing shifts on the Mancunian Way.",
+        ],
+        outro:
+          "There is no clean air charge on top. Greater Manchester's approved Clean Air Plan does not include a charging zone, there are no charges for vans to drive on local roads, and the old zone signs have been taken down. The details are on the [Clean Air Greater Manchester FAQs](https://cleanairgm.com/faqs/).",
+      },
+      {
+        h2: "A Hired Luton Is Too Long for the Tip",
+        body:
+          "This is the one that catches people at the end of a self-drive move. Greater Manchester's recycling centres do not let in any van over 5.3 metres long or 3.5 tonnes. The Sprinter Luton above is 6,750mm long, so whatever is left over after the move cannot go to the tip in the van you hired for it.",
+        outro:
+          "A smaller hire van can go, but it needs a permit: hire vans are included, the van must be under 5.3 metres, and you apply at least two working days before your first visit. The permit is free and allows 18 visits a year. If the leftovers cannot wait two days, a [clearance in our van](/services/rubbish-removal/) is the quicker route. The rules are on Recycle for Greater Manchester's [van permit page](https://recycleforgreatermanchester.com/van-permit/).",
+      },
+      {
+        h2: "Loading on a Yellow Line Has to Be Continuous",
+        body:
+          "Manchester allows loading and unloading on many single and double yellow lines, but on its own terms. The council's wording is that you can load or unload for as long as it takes, but the vehicle must be moved immediately after you have finished. Loading is observed, a civil enforcement officer can issue a ticket if it is not reasonable, and the fine is up to £70.",
+        bullets: [
+          "The van has to be visibly in use, not parked while everyone has a cup of tea.",
+          "Residents' bays are off limits unless you hold a valid residents or visitors permit for that zone.",
+          "Disabled bays cannot be used for loading at all.",
+        ],
+        outro:
+          "That is exactly what a crew buys you on a self-drive move: the van is being loaded the whole time it is there, so it looks like what it is. Where the street will not allow it, [reserving parking for the move](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) is the other option.",
+      },
+      {
+        h2: "A Container on the Street Needs a Month",
+        body:
+          "A storage container or a removal pod on the road in Manchester needs the council's permission first. The permit costs £265 for 28 days, made up of a £90 inspection fee and a £175 permit, and you need public liability insurance of at least £10 million and a scale plan of the site. The council says it will contact you within 20 working days, and it will not grant permission after the event.",
+        bullets: [
+          "Containers under 3 metres by 2 metres are normally suitable for the highway.",
+          "Anything over 5 metres by 2 metres needs express approval.",
+          "It must be guarded by three traffic cones, lit in the dark and marked with the owner's name and phone number.",
+        ],
+        outro:
+          "Stockport is quicker to price but no lighter on cover: £149 for the first seven days and £54 for each seven after, with at least £5 million of public liability insurance. Most people put the container on a drive instead, which needs none of this.",
+      },
+      {
+        h2: "Filling a Storage Unit in One Visit",
+        body:
+          "Storage sites set their own rules, and the ones that matter for loading are hours and parking. Big Yellow's Manchester store on New Elm Road, for example, runs extended access from 5am to 11pm and gives free covered parking while you are on site, but it is clear that you cannot park and go off site. The van is there to be unloaded, not left.",
+        outro:
+          "A crew means the unit is filled in one visit rather than three, and stacked so the boxes you need first are at the front. If you want us to do the driving as well, that is a [self-storage removal](/services/self-storage-removals/).",
+      },
+      {
+        h2: "How Loading Help Is Priced",
+        body:
+          "Labour-only work is priced on time, and we quote it before the day once we know what is being loaded, how many floors are involved and whether we are needed at both ends. Minimum bookings are typically two to three hours.",
+        outro:
+          "Tell us the van size, the floors and the big items, and every rate we work from is [published rather than given over the phone](/prices/).",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can you just load a van I have hired?",
+        a: "Yes. That is the whole service: you hire and drive the van, we load it, and we can unload it at the other end as well if you want us there.",
+      },
+      {
+        q: "Can I take a hired Luton to the tip in Greater Manchester?",
+        a: "Usually not. The recycling centres do not let in vans over 5.3 metres long or 3.5 tonnes, and a typical Luton such as Northgate's Sprinter is 6,750mm long. A smaller hire van can go with a free permit applied for two working days ahead.",
+      },
+      {
+        q: "Is there a clean air charge for a hired van in Manchester?",
+        a: "No. Greater Manchester's approved Clean Air Plan does not include a charging zone, and there are no charges for vans driving on local roads.",
+      },
+      {
+        q: "How long can a van stay on a yellow line while we load?",
+        a: "As long as the loading takes, as long as it is continuous. Manchester's rule is that the vehicle must be moved immediately after loading finishes, loading is observed, and the fine is up to £70.",
+      },
+      {
+        q: "Do I need permission to put a storage container outside my house?",
+        a: "On the road, yes. Manchester charges £265 for 28 days, needs £10 million of public liability cover and takes up to 20 working days, with no retrospective permission. On your own drive, no.",
+      },
+      {
+        q: "How much is loading and unloading help?",
+        a: "It is priced on time, with minimum bookings typically two to three hours. We quote before the day once we know the load and the floors.",
+      },
+    ],
+    related: ["man-and-van-hire", "self-storage-removals", "rubbish-removal", "same-day-man-and-van"],
+    serviceType: "Loading and unloading help",
+  },
 ];
 
 export const getService = (slug: string) => services.find((s) => s.slug === slug);

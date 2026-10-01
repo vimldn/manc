@@ -43,6 +43,8 @@ page to scroll sideways on a phone.
 | 10 | 2026-09-28 | P1 | Man and Van Oldham | `/locations/oldham/` |
 | 11 | 2026-09-29 | P1 | Man and Van Rochdale | `/locations/rochdale/` |
 | 11 | 2026-09-29 | P1 | Man and Van Wigan | `/locations/wigan/` |
+| 12 | 2026-10-01 | P1 | Furniture Assembly and Dismantling | `/services/furniture-dismantling/` |
+| 12 | 2026-10-01 | P1 | Loading and Unloading Service | `/services/loading-unloading/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -61,8 +63,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 12 | P1 | Furniture Assembly and Dismantling | `/services/furniture-dismantling/` | clean |
-| 12 | P1 | Loading and Unloading Service | `/services/loading-unloading/` | clean |
+| 13 | P1 | Keys Delayed on Moving Day (guide) | `/moving-guides/keys-delayed-moving-day/` | gap-check first |
+| 13 | P1 | Removal Company Has Not Turned Up (guide) | `/moving-guides/removal-company-not-turned-up/` | gap-check first |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |
