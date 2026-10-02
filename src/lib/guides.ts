@@ -394,6 +394,212 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "keys-delayed-moving-day",
+    title: "Keys Delayed on Moving Day? What Happens and Who Pays | Man and Van Manchester",
+    h1: "Keys Delayed on Moving Day: What Happens and Who Pays",
+    metaDescription:
+      "Why keys are late on completion day, the 2pm rule in the Standard Conditions of Sale, notice to complete, and what to do with a loaded van while you wait.",
+    updated: "2026-10-02",
+    answer:
+      "Keys are released only after completion, and completion only happens when the money reaches the seller's solicitor. If your keys are late, the money is usually stuck somewhere in the chain. CHAPS, the system solicitors use, takes customer payments only until 5.40pm, and under the Standard Conditions of Sale money that arrives after 2.00pm is treated as completing on the next working day when the bills and any compensation are worked out. Keep the van loaded, tell your removal firm early, and ask your conveyancer exactly where the money is.",
+    sections: [
+      {
+        h2: "Why the Keys Are Late",
+        body: [
+          "On most sales the keys are left with the estate agent, who releases them when the seller's solicitor confirms completion. Completion is the moment the purchase money arrives, and in a chain each sale waits for the money from the one below it. One late mortgage advance at the bottom of a chain of four holds up all four sets of keys.",
+          "The money moves by CHAPS, the Bank of England's same-day payment system, which it describes as commonly used by solicitors and conveyancers to complete property transactions. CHAPS is usually open from 6am to 6pm, Monday to Friday, excluding bank holidays, and customer payments must be submitted by 5.40pm. A completion that has not been sent by then does not happen that day at all.",
+        ],
+        outro: [
+          "The government's home buying guide puts it plainly: delays in paying the seller are more common in long chains, and when they happen you may not get access to your new home when expected.",
+        ],
+      },
+      {
+        h2: "The 2pm Rule in the Contract",
+        body: [
+          "Most residential sales in England use the Law Society's Standard Conditions of Sale. They say that if the money is received after 2.00pm, completion is treated as taking place on the next working day as a result of the buyer's default, for the purposes of apportioning the bills and working out compensation for late completion.",
+          "There is an important exception. Where the sale is with vacant possession and the buyer is ready to pay but cannot until after 2.00pm because the seller has not moved out, the 2.00pm rule does not apply and the seller is treated as the one in default. A contract can also set a different time by special condition, so the time in yours is worth checking before the day.",
+        ],
+        bullets: [
+          "Money in before 2.00pm: completion that day.",
+          "Money in after 2.00pm: treated as the next working day for bills and compensation, at the buyer's cost.",
+          "Seller still in the house: the seller takes the blame, not the buyer.",
+        ],
+      },
+      {
+        h2: "When Completion Slips by a Day or More",
+        body: [
+          "If completion does not happen on the agreed date at all, either side who is ready, able and willing to complete can serve a notice to complete. Under the Standard Conditions the other side then has ten working days to complete, not counting the day the notice is given, and time becomes of the essence, so missing that deadline is a serious breach.",
+          "The party at fault also pays compensation for late completion, calculated at the contract rate set out in the contract. The government's guide adds that a seller who withdraws may be liable for your costs and even compensation. None of that is something to agree on the doorstep: ask your conveyancer before you accept or pay anything.",
+        ],
+      },
+      {
+        h2: "What to Do With a Loaded Van",
+        body: [
+          "The government's guide warns that completion delays may incur additional charges from your removal company and tells you to check the policy in advance. That is the right instinct. Ask before moving day what waiting time costs, and whether the crew can stay with the van or has another job that afternoon.",
+          "If the keys look like coming late in the day, waiting is usually cheapest. If they are not coming that day, there are two choices: unload back into the old house if the buyer allows it, or take the load [into storage overnight](/services/self-storage-removals/) and bring it out when the keys arrive. Both cost more than a move that happens on time, which is why a short call to your conveyancer at lunchtime is worth more than an hour of waiting outside the agent's office.",
+        ],
+        outro: [
+          "In Manchester a slipped completion can cost you twice. A council parking suspension is booked for a date, costs £30 per bay per day and needs five working days' notice, so a move that slips a day cannot simply carry the suspension with it. Our guide to [reserving parking for a move](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) explains how the booking works.",
+        ],
+      },
+      {
+        h2: "Days That Make Delays More Likely",
+        body: [
+          "The government's guide notes that Fridays and the first and last days of the month are often very busy for removals, and suggests avoiding them for better rates and availability. They are also the days chains are most crowded, and a Friday completion that misses the CHAPS cut-off cannot be put right until Monday.",
+          "If you have any say in the date, a midweek completion early in the month gives everyone in the chain the most room to recover from a late payment. If you do not, book the van for the full day rather than the morning, so a late release does not turn into a second booking. Our [same-day man and van service](/services/same-day-man-and-van/) is the backstop if the original firm cannot wait.",
+        ],
+      },
+      {
+        h2: "Renting Rather Than Buying",
+        body: [
+          "There is no completion on a rental, so keys are usually handed over at the start of the tenancy once the paperwork is signed. In England, any new private tenancy agreed on or after 1 May 2026 is an assured periodic tenancy under the Renters' Rights Act. Your landlord cannot ask for or accept rent before you have signed the agreement, and once it is signed can ask for at most one month's rent in advance.",
+          "That makes the signing, not the money, the thing to chase. If the agreement is not signed, the keys are not coming, so get it signed before the van is loaded rather than on the doorstep.",
+        ],
+      },
+      {
+        h2: "Faster Bank Payments Will Not Mean Earlier Keys",
+        body: [
+          "On 24 February 2026 the Bank of England confirmed that CHAPS will open at 1.30am from September 2027 rather than 6am. That extends the morning, not the afternoon: the 6pm close stays, and the 2.00pm time in the Standard Conditions is a contract term, not a banking one.",
+          "So the practical advice does not change. Keys depend on every payment in the chain arriving, and the earliest any of them can arrive is still the moment the last solicitor in the chain presses send.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Self-storage removals", href: "/services/self-storage-removals/" },
+      { label: "How to reserve parking for a move in Manchester", href: "/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/" },
+      { label: "Same-day man and van", href: "/services/same-day-man-and-van/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "Bank of England: CHAPS", href: "https://www.bankofengland.co.uk/payments/chaps" },
+      { label: "GOV.UK: how to buy a home", href: "https://www.gov.uk/government/publications/how-to-buy-a-home/how-to-buy" },
+    ],
+    faqs: [
+      {
+        q: "What time do you get the keys on completion day?",
+        a: "Only after completion, which happens when the purchase money reaches the seller's solicitor. There is no fixed time, and in a chain it depends on every payment below yours. Under the Standard Conditions of Sale money received after 2.00pm is treated as completing the next working day for the purposes of bills and compensation.",
+      },
+      {
+        q: "Why have I not got my keys on completion day?",
+        a: "Almost always because the money has not reached the seller's solicitor yet, often because a payment lower down the chain is late. CHAPS takes customer payments only until 5.40pm on weekdays.",
+      },
+      {
+        q: "Who pays if completion is late?",
+        a: "The party at fault pays compensation for late completion at the contract rate. If the seller has not moved out of a vacant possession sale, the seller is treated as in default. Ask your conveyancer before agreeing anything.",
+      },
+      {
+        q: "What happens if completion does not happen on the agreed day?",
+        a: "Either side who is ready to complete can serve a notice to complete. Under the Standard Conditions the other side then has ten working days, excluding the day of the notice, and time becomes of the essence.",
+      },
+      {
+        q: "Will my removal company charge if the keys are late?",
+        a: "Often, yes. The government's home buying guide warns that completion delays may incur additional charges from your removal company and says to check their policy in advance.",
+      },
+      {
+        q: "When do I get the keys to a rented flat?",
+        a: "At the start of the tenancy once the agreement is signed. In England a landlord cannot accept rent before you sign, and can then ask for at most one month in advance.",
+      },
+    ],
+  },
+  {
+    slug: "removal-company-not-turned-up",
+    title: "Removal Company Not Turned Up? Your Rights and Next Steps | Man and Van Manchester",
+    h1: "Removal Company Not Turned Up: Your Rights and Next Steps",
+    metaDescription:
+      "What to do when a removal company does not turn up: the Consumer Rights Act remedies, getting a deposit back by Section 75 or chargeback, and reporting the firm.",
+    updated: "2026-10-02",
+    answer:
+      "A removal company that does not turn up on the booked date has broken its contract. Get its answer in writing, then book a replacement for the same day. Under the Consumer Rights Act 2015 you can ask for the service to be done again at the firm's cost or for a price reduction of up to the full price, refunded within 14 days. If it will not pay, Section 75 covers a credit card deposit and chargeback covers a debit card.",
+    sections: [
+      {
+        h2: "A Booked Date Is Part of the Contract",
+        body: [
+          "The Consumer Rights Act 2015 makes what a trader says or writes about a service binding where you relied on it when you booked. A confirmed date and arrival time on a booking email or text is exactly that. The same Act requires the service to be performed with reasonable care and skill, and a firm cannot write those rights out of its terms.",
+          "So a no-show is not a grey area. Before you do anything else, send the firm a short message asking whether it is coming and when, and keep the reply. A written answer, or a written silence, is what every later step relies on.",
+        ],
+        bullets: [
+          "Screenshot the booking confirmation with the date, time and price.",
+          "Message the firm rather than only phoning, so there is a record.",
+          "Note the time you gave up waiting and booked someone else.",
+        ],
+      },
+      {
+        h2: "Getting the Move Done the Same Day",
+        body: [
+          "The priority on the day is the move, not the argument. If you are on a completion or a tenancy end date, a replacement van today is worth more than a refund next week. A firm with a free crew can often still do a flat or a small house in the afternoon, and our [same-day man and van service](/services/same-day-man-and-van/) exists for exactly this.",
+          "The government's home buying guide notes that Fridays and the first and last days of the month are often very busy for removals, so a no-show on one of those days is the hardest to replace. Ring round early rather than waiting another hour for the first firm.",
+        ],
+      },
+      {
+        h2: "Your Remedies Under the Consumer Rights Act",
+        body: [
+          "Where a service is not performed as agreed, the Act gives you two remedies against the firm. The first is repeat performance: the trader must do the job properly within a reasonable time and without significant inconvenience to you, and bear any cost of doing so. The second is a price reduction, which can be the full amount you paid.",
+          "A refund under the price reduction remedy must be given without undue delay, and in any event within 14 days beginning with the day the trader agrees you are entitled to it, using the same means of payment you used unless you agree otherwise, and without any fee. If the move has already been done by someone else, repeat performance is no use to you, and the price reduction is the remedy to ask for.",
+        ],
+      },
+      {
+        h2: "Getting a Deposit Back From the Card Company",
+        body: [
+          "If the firm will not refund, how you paid decides what happens next. Section 75 of the Consumer Credit Act makes a credit card company jointly responsible where the price was more than £100 and no more than £30,000, even if you only paid part of it on the card. Citizens Advice gives the example of a £50 deposit paid by credit card on a £250 purchase, where the full £250 can be claimed.",
+          "If you paid by debit card, ask your bank for a chargeback. The Financial Ombudsman Service says you usually have around 120 days to raise one. If the card company does not send a final response within eight weeks, or you are unhappy with it, you can take the complaint to the ombudsman.",
+        ],
+        outro: [
+          "That is the strongest argument for paying any removals deposit by credit card. A bank transfer to a firm that then disappears has none of this protection.",
+        ],
+      },
+      {
+        h2: "Reporting the Firm",
+        body: [
+          "Complaints about traders go to Trading Standards through the Citizens Advice consumer helpline, on 0808 223 1133, Monday to Friday from 9am to 5pm. Citizens Advice passes the information on, and it is clear that you cannot report to Trading Standards yourself.",
+          "Consumer law also got sharper teeth recently. The Digital Markets, Competition and Consumers Act 2024 came into force in April 2025, and on 15 April 2026 the Competition and Markets Authority used its new powers for the first time to fine the AA and BSM driving schools £4.2 million over a booking fee not shown up front. If a removals quote grew hidden extras before the day, say so when you report it.",
+        ],
+      },
+      {
+        h2: "Choosing a Firm That Turns Up",
+        body: [
+          "A written quote with the date, arrival time and price, a deposit paid on a credit card, and a phone number that a person answers the day before are the three cheapest protections there are. Ask for all three when you book, and treat a firm that will not put the date in writing as a firm that may not turn up on it.",
+          "Larger removal companies that belong to the British Association of Removers carry extra protection for advance payments, which suits bigger moves. Our guide to a [man and van against a removals company](/moving-guides/man-and-van-vs-removals-company/) sets out what that covers and when it is worth paying for.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Same-day man and van", href: "/services/same-day-man-and-van/" },
+      { label: "Man and van vs removals company", href: "/moving-guides/man-and-van-vs-removals-company/" },
+      { label: "Keys delayed on moving day", href: "/moving-guides/keys-delayed-moving-day/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "Consumer Rights Act 2015: services", href: "https://www.legislation.gov.uk/ukpga/2015/15/part/1/chapter/4" },
+      { label: "Citizens Advice: getting your money back if you paid by card", href: "https://www.citizensadvice.org.uk/consumer/somethings-gone-wrong-with-a-purchase/getting-your-money-back-if-you-paid-by-card-or-paypal/" },
+    ],
+    faqs: [
+      {
+        q: "What should I do if my removal company does not turn up?",
+        a: "Message the firm for a written answer, keep the booking confirmation, and book a replacement for the same day. Then ask the original firm for a refund under the Consumer Rights Act.",
+      },
+      {
+        q: "Can I get my removals deposit back?",
+        a: "Yes. A no-show is a breach of contract, and the price reduction remedy can be the full amount paid, refunded within 14 days. If the firm will not pay, use Section 75 for a credit card or chargeback for a debit card.",
+      },
+      {
+        q: "Does Section 75 cover a removals deposit?",
+        a: "Yes, if the total price was more than £100 and no more than £30,000, even if only the deposit went on the credit card.",
+      },
+      {
+        q: "How long do I have to ask for a chargeback?",
+        a: "The Financial Ombudsman Service says you usually have around 120 days to raise a chargeback with your bank.",
+      },
+      {
+        q: "Who do I report a removal company to?",
+        a: "Trading Standards, through the Citizens Advice consumer helpline on 0808 223 1133, Monday to Friday from 9am to 5pm. Citizens Advice passes the complaint on.",
+      },
+      {
+        q: "What if the removal company is just late rather than not coming at all?",
+        a: "A confirmed arrival time is part of the contract too. Get a revised time in writing, and if it no longer works for your completion or tenancy date, treat it as a no-show and book someone else.",
+      },
+    ],
+  },
 ];
 
 export const getGuide = (slug: string) => guides.find((g) => g.slug === slug);

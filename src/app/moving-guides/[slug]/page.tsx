@@ -113,7 +113,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
                       <span aria-hidden className="font-bold text-brand">
                         &#10003;
                       </span>
-                      <span>{b}</span>
+                      <RichText text={b} />
                     </li>
                   ))}
                 </ul>
