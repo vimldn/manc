@@ -436,7 +436,7 @@ export const guides: Guide[] = [
       {
         h2: "What to Do With a Loaded Van",
         body: [
-          "The government's guide warns that completion delays may incur additional charges from your removal company and tells you to check the policy in advance. That is the right instinct. Ask before moving day what waiting time costs, and whether the crew can stay with the van or has another job that afternoon.",
+          "The government's guide warns that completion delays may incur additional charges from your removal company and tells you to check the policy in advance. That is the right instinct. Ask before moving day [what waiting time costs](/moving-guides/removal-company-waiting-charges/), and whether the crew can stay with the van or has another job that afternoon.",
           "If the keys look like coming late in the day, waiting is usually cheapest. If they are not coming that day, there are two choices: unload back into the old house if the buyer allows it, or take the load [into storage overnight](/services/self-storage-removals/) and bring it out when the keys arrive. Both cost more than a move that happens on time, which is why a short call to your conveyancer at lunchtime is worth more than an hour of waiting outside the agent's office.",
         ],
         outro: [
@@ -597,6 +597,190 @@ export const guides: Guide[] = [
       {
         q: "What if the removal company is just late rather than not coming at all?",
         a: "A confirmed arrival time is part of the contract too. Get a revised time in writing, and if it no longer works for your completion or tenancy date, treat it as a no-show and book someone else.",
+      },
+    ],
+  },
+  {
+    slug: "removal-company-waiting-charges",
+    title: "Removal Company Waiting Charges Explained | Man and Van Manchester",
+    h1: "Removal Company Waiting Charges: When They Apply and When You Can Refuse",
+    metaDescription:
+      "How removal firms charge for waiting on completion day, what published terms actually say, and the consumer rule that makes an unagreed extra charge unpayable.",
+    updated: "2026-10-05",
+    answer:
+      "A waiting charge is what a removal firm bills when the crew is held up, almost always waiting for keys on completion day. There is no standard rate: published terms run from an hour free to charges from the first minute, with the clock starting anywhere from 1pm to 5pm. One rule protects you: under the Consumer Contracts Regulations an extra payment is not due unless you gave express consent to it before you were bound by the contract, and a pre-ticked box does not count.",
+    sections: [
+      {
+        h2: "Why the Van Ends Up Waiting",
+        body: [
+          "A crew can load in the morning and then sit outside the new house for hours, because the keys are released only once completion money arrives. Our guide to [keys being delayed on moving day](/moving-guides/keys-delayed-moving-day/) explains why that happens and what the contract says about it.",
+          "The removals trade sees the same problem from the other side. In April 2026 the British Association of Removers launched its Getting Britain Moving report in Westminster, calling for keys to be released by 1pm on moving day and for a mandated minimum period between exchange and completion, so households and removers have time to plan.",
+        ],
+      },
+      {
+        h2: "What Published Terms Actually Say",
+        body: [
+          "We read the waiting clauses of a range of UK removal firms in October 2026. The free period ran from nothing to an hour. The clock started anywhere from 1pm to 5pm on the day. Charges were set per mover per hour, per vehicle, or as a flat hourly rate, and some firms charged any part hour as a whole one.",
+          "One typical example allows up to an hour of waiting during each move, then charges £10 per hour or part hour for each mover, and where the customer is waiting on legal completion that free hour does not start before 1pm. Two movers waiting three hours past the free period would cost £60 on those terms. Other firms charge several times that.",
+        ],
+        bullets: [
+          "When does the waiting clock start: a fixed time, or when the crew arrives?",
+          "Is there a free period, and how long is it?",
+          "Is it charged per mover, per van, or a flat rate?",
+          "Are part hours charged as whole hours?",
+          "Is there a cap, or a point where the whole job is re-priced?",
+        ],
+        outro: [
+          "Ask all five before you book, and get the answers in the written quote. The government's home buying guide gives the same advice: completion delays may incur additional charges from your removal company, so check its policy in advance.",
+        ],
+      },
+      {
+        h2: "The Rule That Makes an Unagreed Charge Unpayable",
+        body: [
+          "Regulation 40 of the Consumer Contracts Regulations 2013 says that no payment is payable in addition to the agreed price for the main service unless, before you became bound by the contract, the trader obtained your express consent. Consent does not count if it is inferred from you not changing a default option, such as a pre-ticked box. If a trader takes an extra payment that was not agreed that way, the contract is treated as requiring the trader to pay it back.",
+          "So a waiting charge set out in the quote you accepted is payable on its terms. A waiting charge that first appears on the day, or that was buried in a box you never actively ticked, is one you can challenge. The Consumer Rights Act 2015 points the same way: what a firm says or writes before you book, and rely on, becomes part of the contract, and where no price was agreed for a service you pay a reasonable price and no more.",
+        ],
+      },
+      {
+        h2: "When the Chain Caused the Delay",
+        body: [
+          "If the keys were late because someone in the chain did not complete on time, the Standard Conditions of Sale make the party at fault pay compensation for late completion at the contract rate, which the conditions define as the Law Society's interest rate. That compensation is between buyer and seller. It does not change what you owe the removal firm on the day.",
+          "Whether you can recover a waiting charge from the party who caused the delay is a question for your conveyancer, and it is worth asking before you pay rather than after. Keep the removal firm's invoice showing the waiting time separately.",
+        ],
+      },
+      {
+        h2: "How We Handle Waiting",
+        body: [
+          "Our position is on our [prices page](/prices/): if keys, completions or building management hold the job up, waiting time may apply, and we tell you the terms up front rather than on the day. On an hourly booking that means you know before the move what an hour of waiting costs and when it starts.",
+          "The cheapest wait is the one you avoid. Book the move for a weekday that is not a Friday where you can, keep the van loaded rather than half unloaded, and if the keys are clearly not coming that day, move the load into [storage overnight](/services/self-storage-removals/) rather than paying a crew to sit outside.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Keys delayed on moving day", href: "/moving-guides/keys-delayed-moving-day/" },
+      { label: "Removal company not turned up", href: "/moving-guides/removal-company-not-turned-up/" },
+      { label: "Man and van prices in Manchester", href: "/prices/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "Consumer Contracts Regulations 2013, regulation 40", href: "https://www.legislation.gov.uk/uksi/2013/3134/regulation/40" },
+      { label: "British Association of Removers: Getting Britain Moving", href: "https://bar.co.uk/getting-britain-moving/" },
+    ],
+    faqs: [
+      {
+        q: "Do removal companies charge for waiting?",
+        a: "Many do, but the terms vary widely. Published clauses range from an hour free to charges from the start, with the clock starting anywhere from 1pm to 5pm, charged per mover, per van or as a flat hourly rate.",
+      },
+      {
+        q: "How much do removal companies charge for waiting time?",
+        a: "There is no standard rate. One typical published clause charges £10 per hour or part hour for each mover after a free hour that does not start before 1pm on a completion day; other firms charge considerably more.",
+      },
+      {
+        q: "Can a removal company add a waiting charge on the day?",
+        a: "Not one you did not agree to. Under regulation 40 of the Consumer Contracts Regulations an extra payment is only due if you gave express consent before you were bound by the contract, and a pre-ticked box does not count.",
+      },
+      {
+        q: "Can I claim waiting charges back from the seller?",
+        a: "The Standard Conditions of Sale make the party at fault pay compensation for late completion, but that is between buyer and seller. Ask your conveyancer whether a waiting charge can be recovered before you pay it.",
+      },
+      {
+        q: "Is there a waiting charge waiver?",
+        a: "Some firms sell one as an add-on. Read what it covers and for how many hours, and compare it with simply booking a firm whose standard terms include a free waiting period.",
+      },
+      {
+        q: "What is the best way to avoid waiting charges?",
+        a: "Avoid Friday completions where you can, agree the waiting terms in writing before you book, and if the keys are not coming that day, put the load into storage rather than paying for a crew to wait.",
+      },
+    ],
+  },
+  {
+    slug: "how-long-does-moving-house-take",
+    title: "How Long Does Moving House Take? | Man and Van Manchester",
+    h1: "How Long Moving House Takes: From Offer to Moving Day",
+    metaDescription:
+      "How long moving house takes: around 120 days from offer to completion in 2026, how long exchange to completion runs, renters' notice periods and the moving day itself.",
+    updated: "2026-10-05",
+    answer:
+      "Buying a home takes around 120 days on average from an accepted offer to completion, according to the government's June 2026 home buying reform roadmap, and around one in three transactions fall through. Renting is quicker to leave: from 1 May 2026 a tenant in England gives two months' notice. The move itself is a day for most homes, from a few hours for a flat to a long day for a family house.",
+    sections: [
+      {
+        h2: "From Offer to Completion",
+        body: [
+          "The government's home buying and selling reform roadmap, published on 19 June 2026, says it takes around 120 days on average to complete after an offer is accepted, that the journey is now around 60% longer than it was in 2007, and that around one in three transactions fall through.",
+          "Most of that time is conveyancing: searches, mortgage offers, enquiries and the chain lining up behind a single date. The roadmap's plans to shorten it come in stages: a non-statutory code of practice for estate agents later this year, a consultation next year on mandatory qualifications for estate and letting agents, and further legislation when parliamentary time allows. None of that will shorten a sale that is already under way.",
+        ],
+      },
+      {
+        h2: "Exchange to Completion",
+        body: [
+          "The completion date is fixed at exchange of contracts. Where a contract uses the Standard Conditions of Sale and says nothing else, completion is twenty working days after the date of the contract, about four weeks, though buyers and sellers often agree something shorter.",
+          "That gap is the window for booking the move, and it is often tighter than people expect. The British Association of Removers has called for a mandated minimum period between exchange and completion for exactly that reason. In Manchester the gap also has to cover a council parking suspension, which needs five working days' notice; our guide to [reserving parking for a move](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) has the detail.",
+        ],
+      },
+      {
+        h2: "Leaving a Rented Home",
+        body: [
+          "Renting moves faster. In England, from 1 May 2026, a tenant on an assured periodic tenancy can end it by giving two months' notice in writing, for example by letter, email or text, on the day the rent is due or the day before. A landlord ending a tenancy has to use the correct forms and usually give four months' notice, though it can be shorter on some grounds.",
+          "So a renter who finds a new place can usually be out within about two months of deciding to go. Book the van once the notice is given, not once the new contract is signed, because the end date is the one you cannot move.",
+        ],
+      },
+      {
+        h2: "The Moving Day Itself",
+        body: [
+          "There is no official figure for how long the day takes, because it depends on the stairs, the carry and how ready the boxes are. One national removals comparison site, reallymoving, estimates six to seven hours for a two bedroom home and ten to twelve hours or more for four or more rooms. Those are estimates for a full removal crew, not a promise.",
+          "A studio or a one bedroom flat with everything boxed is usually a few hours, which is why our minimum booking is typically two to three hours. A family house with a loft, a garage and furniture to dismantle is a full day. What makes it longer is mostly within your control: boxes not packed when the van arrives, a parking spot two streets away, or a lift that has not been booked.",
+        ],
+        bullets: [
+          "Pack everything except the last night's essentials before the day.",
+          "Book parking or a lift slot at both ends ahead of time.",
+          "Measure the big items against doors and stairs at the new place.",
+        ],
+        outro: [
+          "If you would rather hand over the packing as well, our [packing service](/services/packing-services/) takes that part of the day off you, and it is quicker to price than to explain on the morning.",
+        ],
+      },
+      {
+        h2: "The Days That Take Longest",
+        body: [
+          "The government's home buying guide notes that Fridays and the first and last days of the month are often very busy for removals, and suggests avoiding them for better rates and availability. They are also the days chains are most crowded, so a completion on one of them is the most likely to run late into the afternoon.",
+          "If the date is yours to choose, midweek and mid-month gives you the most room. If it is not, book the van for the whole day and read our guide to [removal company waiting charges](/moving-guides/removal-company-waiting-charges/) before you sign the quote.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Keys delayed on moving day", href: "/moving-guides/keys-delayed-moving-day/" },
+      { label: "What size van do I need?", href: "/moving-guides/what-size-van-do-i-need-for-my-move/" },
+      { label: "How much does a man and van cost in Manchester?", href: "/moving-guides/how-much-does-a-man-and-van-cost-in-manchester/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "GOV.UK: home buying and selling reform roadmap", href: "https://www.gov.uk/government/consultations/home-buying-and-selling-reform/outcome/home-buying-and-selling-reform-roadmap" },
+      { label: "GOV.UK: Renters' Rights Act overview for tenants", href: "https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants" },
+    ],
+    faqs: [
+      {
+        q: "How long does it take to move house from offer to completion?",
+        a: "Around 120 days on average, according to the government's June 2026 home buying reform roadmap, which also says the journey is around 60% longer than in 2007.",
+      },
+      {
+        q: "How long between exchange and completion?",
+        a: "Under the Standard Conditions of Sale, twenty working days after the contract unless the parties agree otherwise. Many buyers and sellers agree a shorter gap.",
+      },
+      {
+        q: "How many house sales fall through?",
+        a: "The government's June 2026 roadmap says around one in three transactions fall through.",
+      },
+      {
+        q: "How much notice do I give to leave a rented home in England?",
+        a: "From 1 May 2026, two months' notice in writing, given on the day the rent is due or the day before. A landlord usually has to give four months.",
+      },
+      {
+        q: "How long does the moving day itself take?",
+        a: "A boxed-up flat is usually a few hours. One comparison site estimates six to seven hours for a two bedroom home and ten to twelve hours or more for four or more rooms.",
+      },
+      {
+        q: "Is completion day the same as moving day?",
+        a: "It usually is, because completion day is the first day you can get into the new home. Some buyers book the move a day later to give themselves room if the keys run late.",
       },
     ],
   },
