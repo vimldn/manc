@@ -1,4 +1,4 @@
-# Van and Man Manchester
+# Frank's Van and Man Manchester
 
 Rank-and-rent local lead generation site for the "man and van Manchester" niche.
 Next.js (App Router) + TypeScript + Tailwind. Deployable on Vercel.

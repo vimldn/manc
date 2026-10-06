@@ -20,8 +20,8 @@ export const isReal = (v: unknown): v is string =>
 
 export const site = {
   // Display brand. Domain stays vanandmanmanchester.co.uk; the public brand
-  // reads "Man and Van Manchester" (fleet naming, matches search intent).
-  name: "Man and Van Manchester",
+  // reads "Frank's Van and Man Manchester" (operator rebrand 2026-10-06).
+  name: "Frank's Van and Man Manchester",
 
   // Registered legal entity name for schema/legal pages. UNCONFIRMED.
   legalName: PLACEHOLDER("REGISTERED COMPANY NAME"),

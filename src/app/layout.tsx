@@ -11,7 +11,7 @@ import { movingCompanySchema, websiteSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Man and Van Manchester | House Removals & Van Hire",
+    default: "Frank's Van and Man Manchester | House Removals & Van Hire",
     template: "%s",
   },
   description:

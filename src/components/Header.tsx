@@ -21,13 +21,13 @@ export default function Header() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo.png"
-            alt="Man and Van Manchester logo"
+            alt="Frank's Van and Man Manchester logo"
             width={40}
             height={40}
             className="h-10 w-10 shrink-0 object-contain"
           />
           <span>
-            Man and Van <span className="text-cta">Manchester</span>
+            Frank&apos;s Van and Man <span className="text-cta">Manchester</span>
           </span>
         </Link>
 

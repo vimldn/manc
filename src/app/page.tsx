@@ -15,7 +15,7 @@ import { locations } from "@/lib/locations";
 import { faqSchema, webPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Man and Van Manchester | House Removals & Van Hire",
+  title: "Frank's Van and Man Manchester | House Removals & Van Hire",
   description:
     "Man and van in Manchester for house removals, flat moves, rubbish removal and furniture delivery. Cheap, reliable and covering all of Greater Manchester. Call for a quote.",
   alternates: { canonical: site.url + "/" },
@@ -45,7 +45,7 @@ export default function HomePage() {
     <>
       <JsonLd
         data={[
-          webPageSchema({ name: "Man and Van Manchester", url: site.url + "/" }),
+          webPageSchema({ name: "Frank's Van and Man Manchester", url: site.url + "/" }),
           faqSchema(homeFaqs),
         ]}
       />
@@ -64,7 +64,7 @@ export default function HomePage() {
         <div className="relative mx-auto grid max-w-container items-center gap-8 px-4 py-12 sm:py-16 lg:grid-cols-2 lg:py-20">
           <div className="text-white">
             <h1 className="text-3xl font-extrabold leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.7)] sm:text-4xl lg:text-5xl">
-              Man and Van Manchester
+              Frank&apos;s Van and Man Manchester
             </h1>
             <p className="mt-4 max-w-md text-lg text-white/90 drop-shadow-[0_1px_6px_rgba(0,0,0,0.6)]">
               Reliable local help for house moves, flats, student moves, offices, furniture
@@ -102,7 +102,7 @@ export default function HomePage() {
           Your local man and van in Manchester
         </h2>
         <p className="mt-4 max-w-3xl text-gray-700">
-          Man and Van Manchester is a man and van service covering Manchester and the whole of
+          Frank&apos;s Van and Man Manchester is a man and van service covering Manchester and the whole of
           Greater Manchester. We help people move house and flat, hire a van and a pair of hands by
           the hour, clear rubbish, and deliver furniture and single items. Whether you are a
           student in Fallowfield, a family in Didsbury or a business in the city centre, we turn up
@@ -225,7 +225,7 @@ export default function HomePage() {
       {/* 8. WHY CHOOSE US */}
       <section className="bg-gray-50">
         <div className="mx-auto max-w-container px-4 py-12">
-          <h2 className="text-2xl font-bold text-gray-900">Why Choose Man and Van Manchester</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Why Choose Frank&apos;s Van and Man Manchester</h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
               ["On Time, Every Time", "We turn up when we say we will and keep you posted if anything changes."],

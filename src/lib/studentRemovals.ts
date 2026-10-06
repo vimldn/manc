@@ -44,7 +44,7 @@ export const studentPages: StudentPage[] = [
     navLabel: "University of Manchester",
     name: "University of Manchester",
     h1: "University of Manchester Student Removals",
-    title: "University of Manchester Student Removals | Man and Van Manchester",
+    title: "University of Manchester Student Removals | Frank's Van and Man Manchester",
     metaDescription:
       "Student removals for University of Manchester halls across City, Fallowfield and Victoria Park. Thirty minute drop-off windows and Oxford Road bus gates planned around. Call for a quote.",
     cardBlurb:
@@ -242,7 +242,7 @@ export const studentPages: StudentPage[] = [
     navLabel: "Manchester Metropolitan",
     name: "Manchester Metropolitan University",
     h1: "Manchester Metropolitan University Student Removals",
-    title: "Manchester Metropolitan University Student Removals | Man and Van Manchester",
+    title: "Manchester Metropolitan University Student Removals | Frank's Van and Man Manchester",
     metaDescription:
       "Student removals for Manchester Met halls at All Saints and Birley, plus the partner blocks across the city centre. Loading bays, goods lifts and bus gates handled. Call for a quote.",
     cardBlurb: "All Saints and Birley halls, plus the partner blocks students are now spread across.",
@@ -415,7 +415,7 @@ export const studentPages: StudentPage[] = [
     navLabel: "University of Salford",
     name: "University of Salford",
     h1: "University of Salford Student Removals",
-    title: "University of Salford Student Removals | Man and Van Manchester",
+    title: "University of Salford Student Removals | Frank's Van and Man Manchester",
     metaDescription:
       "Student removals for University of Salford halls at Peel Park and Frederick Road, plus MediaCity. Crescent roadworks, arrival slots and January starts planned around. Call for a quote.",
     cardBlurb:

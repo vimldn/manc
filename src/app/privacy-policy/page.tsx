@@ -6,8 +6,8 @@ import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
-  title: "Privacy Policy | Man and Van Manchester",
-  description: "How Man and Van Manchester collects and uses the information you provide when requesting a man and van quote.",
+  title: "Privacy Policy | Frank's Van and Man Manchester",
+  description: "How Frank's Van and Man Manchester collects and uses the information you provide when requesting a man and van quote.",
   path: "/privacy-policy/",
 });
 

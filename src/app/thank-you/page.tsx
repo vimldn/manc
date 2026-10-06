@@ -4,7 +4,7 @@ import { site } from "@/lib/config";
 import CallLink from "@/components/CallLink";
 
 export const metadata: Metadata = {
-  title: "Thank You | Man and Van Manchester",
+  title: "Thank You | Frank's Van and Man Manchester",
   description: "Thanks for your enquiry. We will be in touch shortly with your man and van quote.",
   alternates: { canonical: site.url + "/thank-you/" },
   robots: { index: false, follow: true },

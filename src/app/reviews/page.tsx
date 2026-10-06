@@ -11,7 +11,7 @@ import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 const PATH = "/reviews/";
 
 export const metadata: Metadata = pageMeta({
-  title: "Customer Reviews | Man and Van Manchester",
+  title: "Customer Reviews | Frank's Van and Man Manchester",
   description:
     "Genuine customer reviews for our Manchester man and van service. See feedback on house moves, flat moves, student moves and furniture deliveries across Greater Manchester.",
   path: PATH,

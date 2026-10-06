@@ -11,7 +11,7 @@ import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 const PATH = "/moving-guides/";
 
 export const metadata: Metadata = pageMeta({
-  title: "Moving Guides for Manchester | Man and Van Manchester",
+  title: "Moving Guides for Manchester | Frank's Van and Man Manchester",
   description:
     "Practical moving guides for Manchester: what a man and van costs, what size van you need, preparing for a flat move and reserving parking for your move.",
   path: PATH,

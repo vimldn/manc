@@ -11,7 +11,7 @@ import { breadcrumbSchema, webPageSchema, faqSchema } from "@/lib/schema";
 const PATH = "/insurance-and-compliance/";
 
 export const metadata: Metadata = pageMeta({
-  title: "Insurance and Compliance | Man and Van Manchester",
+  title: "Insurance and Compliance | Frank's Van and Man Manchester",
   description:
     "What our insurance and compliance means in practice: goods in transit and public liability cover, waste carrier registration, how to request a certificate and how claims work.",
   path: PATH,

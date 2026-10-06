@@ -10,7 +10,7 @@ import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
-  title: "Student Removals in Manchester | Man and Van Manchester",
+  title: "Student Removals in Manchester | Frank's Van and Man Manchester",
   description:
     "Student removals across Manchester by university and campus. Halls drop-off windows, goods lifts and Oxford Road bus gates planned around. Call for a quote.",
   path: "/student-removals/",

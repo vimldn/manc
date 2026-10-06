@@ -9,9 +9,9 @@ import { pageMeta } from "@/lib/seo";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
-  title: "About Man and Van Manchester | Removals and Delivery Service",
+  title: "About Frank's Van and Man Manchester | Removals and Delivery Service",
   description:
-    "Man and Van Manchester is a local removals and delivery service covering Manchester and Greater Manchester, from single items to full house and long-distance moves.",
+    "Frank's Van and Man Manchester is a local removals and delivery service covering Manchester and Greater Manchester, from single items to full house and long-distance moves.",
   path: "/about/",
 });
 
@@ -34,7 +34,7 @@ export default function AboutPage() {
     <>
       <JsonLd
         data={[
-          webPageSchema({ name: "About Man and Van Manchester", url: site.url + "/about/" }),
+          webPageSchema({ name: "About Frank's Van and Man Manchester", url: site.url + "/about/" }),
           breadcrumbSchema([
             { name: "Home", path: "/" },
             { name: "About", path: "/about/" },

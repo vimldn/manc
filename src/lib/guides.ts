@@ -396,7 +396,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "keys-delayed-moving-day",
-    title: "Keys Delayed on Moving Day? What Happens and Who Pays | Man and Van Manchester",
+    title: "Keys Delayed on Moving Day? What Happens and Who Pays | Frank's Van and Man Manchester",
     h1: "Keys Delayed on Moving Day: What Happens and Who Pays",
     metaDescription:
       "Why keys are late on completion day, the 2pm rule in the Standard Conditions of Sale, notice to complete, and what to do with a loaded van while you wait.",
@@ -504,7 +504,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "removal-company-not-turned-up",
-    title: "Removal Company Not Turned Up? Your Rights and Next Steps | Man and Van Manchester",
+    title: "Removal Company Not Turned Up? Your Rights and Next Steps | Frank's Van and Man Manchester",
     h1: "Removal Company Not Turned Up: Your Rights and Next Steps",
     metaDescription:
       "What to do when a removal company does not turn up: the Consumer Rights Act remedies, getting a deposit back by Section 75 or chargeback, and reporting the firm.",
@@ -602,7 +602,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "removal-company-waiting-charges",
-    title: "Removal Company Waiting Charges Explained | Man and Van Manchester",
+    title: "Removal Company Waiting Charges Explained | Frank's Van and Man Manchester",
     h1: "Removal Company Waiting Charges: When They Apply and When You Can Refuse",
     metaDescription:
       "How removal firms charge for waiting on completion day, what published terms actually say, and the consumer rule that makes an unagreed extra charge unpayable.",
@@ -695,7 +695,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "how-long-does-moving-house-take",
-    title: "How Long Does Moving House Take? | Man and Van Manchester",
+    title: "How Long Does Moving House Take? | Frank's Van and Man Manchester",
     h1: "How Long Moving House Takes: From Offer to Moving Day",
     metaDescription:
       "How long moving house takes: around 120 days from offer to completion in 2026, how long exchange to completion runs, renters' notice periods and the moving day itself.",

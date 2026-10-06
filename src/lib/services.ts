@@ -43,11 +43,11 @@ export const services: Service[] = [
     slug: "house-removals",
     navLabel: "House Removals",
     h1: "Man and Van House Removals in Manchester",
-    title: "Man and Van House Removals in Manchester | Man and Van Manchester",
+    title: "Man and Van House Removals in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Man and van house removals in Manchester. Careful loading, wrapped furniture and fair prices across Didsbury, Chorlton, Salford and all of Greater Manchester. Call for a quote.",
     intro:
-      "Moving house in Manchester is stressful enough without worrying about the van. Man and Van Manchester handles full house removals across the city, from a one bedroom terrace in Chorlton to a family home in Didsbury. We turn up on time, wrap your furniture properly and get everything to the new place without the drama. If you want a straight answer on price, call for a quote and we will talk you through it clearly.",
+      "Moving house in Manchester is stressful enough without worrying about the van. Frank's Van and Man Manchester handles full house removals across the city, from a one bedroom terrace in Chorlton to a family home in Didsbury. We turn up on time, wrap your furniture properly and get everything to the new place without the drama. If you want a straight answer on price, call for a quote and we will talk you through it clearly.",
     sections: [
       {
         h2: "House Removals Done Properly",
@@ -90,11 +90,11 @@ export const services: Service[] = [
     slug: "flat-apartment-removals",
     navLabel: "Flat & Apartment Removals",
     h1: "Flat and Apartment Removals in Manchester",
-    title: "Flat & Apartment Removals in Manchester | Man and Van Manchester",
+    title: "Flat & Apartment Removals in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Man and van flat and apartment removals in Manchester. Stairs, lifts, city centre high rises and tight parking sorted. Serving Manchester and nearby areas. Call for a quote.",
     intro:
-      "Flat moves have their own headaches, and most of them involve stairs, lifts and nowhere to park. Man and Van Manchester moves flats and apartments across the city, from city centre high rises to converted terraces in Hulme and Old Trafford. We are used to narrow staircases, booked lift slots and loading bays, so your move goes smoothly instead of turning into an afternoon of hauling boxes.",
+      "Flat moves have their own headaches, and most of them involve stairs, lifts and nowhere to park. Frank's Van and Man Manchester moves flats and apartments across the city, from city centre high rises to converted terraces in Hulme and Old Trafford. We are used to narrow staircases, booked lift slots and loading bays, so your move goes smoothly instead of turning into an afternoon of hauling boxes.",
     sections: [
       {
         h2: "Built for Stairs, Lifts and High Rises",
@@ -137,7 +137,7 @@ export const services: Service[] = [
     slug: "man-and-van-hire",
     navLabel: "Man and Van Hire",
     h1: "Man and Van Hire in Manchester",
-    title: "Man and Van Hire in Manchester | Man and Van Manchester",
+    title: "Man and Van Hire in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Flexible man and van hire in Manchester by the hour or the job. One or two movers, a clean van and fair rates across Greater Manchester. Call for a quote today.",
     intro:
@@ -184,7 +184,7 @@ export const services: Service[] = [
     slug: "rubbish-removal",
     navLabel: "Rubbish Removal",
     h1: "Man and Van Rubbish Removal in Manchester",
-    title: "Man and Van Rubbish Removal in Manchester | Man and Van Manchester",
+    title: "Man and Van Rubbish Removal in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Man and van rubbish removal and house clearance in Manchester. Responsible waste clearance for furniture, junk and garden waste. Serving Manchester. Call for a quote.",
     intro:
@@ -231,7 +231,7 @@ export const services: Service[] = [
     slug: "furniture-delivery",
     navLabel: "Furniture & Single Items",
     h1: "Furniture and Single Item Delivery in Manchester",
-    title: "Furniture & Single Item Delivery in Manchester | Man and Van Manchester",
+    title: "Furniture & Single Item Delivery in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Man and van furniture delivery and single item collection in Manchester. Marketplace pickups, sofas, beds and white goods moved same day. Call for a quote.",
     intro:
@@ -283,7 +283,7 @@ export const services: Service[] = [
     slug: "student-moves",
     navLabel: "Student Moves",
     h1: "Student Man and Van in Manchester",
-    title: "Student Man and Van in Manchester | Man and Van Manchester",
+    title: "Student Man and Van in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Cheap student man and van in Manchester. Halls, house shares and end of tenancy moves around Fallowfield, Withington and the universities. Call for a quote.",
     intro:
@@ -330,7 +330,7 @@ export const services: Service[] = [
     slug: "office-removals",
     navLabel: "Office & Business",
     h1: "Office and Business Removals in Manchester",
-    title: "Office & Business Removals in Manchester | Man and Van Manchester",
+    title: "Office & Business Removals in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Man and van office and business removals in Manchester. Desks, IT, stock and small office moves handled with minimal downtime across Greater Manchester. Call for a quote.",
     intro:
@@ -377,7 +377,7 @@ export const services: Service[] = [
     slug: "long-distance-removals",
     navLabel: "Long Distance",
     h1: "Long Distance Man and Van from Manchester",
-    title: "Long Distance Man and Van from Manchester to London & UK | Man and Van Manchester",
+    title: "Long Distance Man and Van from Manchester to London & UK | Frank's Van and Man Manchester",
     metaDescription:
       "Long distance man and van from Manchester to London and anywhere in the UK. Fixed prices, careful handling and one clear point of contact. Call for a quote.",
     intro:
@@ -452,7 +452,7 @@ export const services: Service[] = [
     slug: "student-storage-manchester",
     navLabel: "Student Storage Moves",
     h1: "Student Storage Moves in Manchester",
-    title: "Student Storage Moves in Manchester | Man and Van Manchester",
+    title: "Student Storage Moves in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Student storage moves in Manchester: we move your room out of halls or a house share into the storage unit you book, then back again for the new contract. Call for a quote.",
     intro:
@@ -574,7 +574,7 @@ export const services: Service[] = [
     slug: "same-day-man-and-van",
     navLabel: "Same-Day Man and Van",
     h1: "Same-Day Man and Van in Manchester",
-    title: "Same-Day Man and Van in Manchester | Man and Van Manchester",
+    title: "Same-Day Man and Van in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Same-day man and van in Manchester when a van and crew are free. Loading rules, kerb blips and late completions explained, with prices from our rate card. Call to check today.",
     intro:
@@ -696,7 +696,7 @@ export const services: Service[] = [
     slug: "packing-services",
     navLabel: "Packing Services",
     h1: "Packing Services in Manchester",
-    title: "Packing Services in Manchester | Man and Van Manchester",
+    title: "Packing Services in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Packing services in Manchester: a full pack, a part pack or just the fragile things, added to your move. Why who packed the box matters, and what to do with the cardboard. Call for a quote.",
     intro:
@@ -808,7 +808,7 @@ export const services: Service[] = [
     slug: "self-storage-removals",
     navLabel: "Self-Storage Removals",
     h1: "Self-Storage Removals in Manchester",
-    title: "Self-Storage Removals in Manchester | Man and Van Manchester",
+    title: "Self-Storage Removals in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Self-storage removals in Manchester: your home moved into the storage unit you book and back out again when the next house is ready. Completion gaps, drive-up units and insurance explained.",
     intro:
@@ -921,7 +921,7 @@ export const services: Service[] = [
     slug: "furniture-dismantling",
     navLabel: "Furniture Dismantling",
     h1: "Furniture Dismantling and Assembly in Manchester",
-    title: "Furniture Dismantling and Assembly in Manchester | Man and Van Manchester",
+    title: "Furniture Dismantling and Assembly in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Furniture dismantling and reassembly in Manchester. What IKEA's own service will not take apart, what charities and the council need, and how it is priced.",
     intro:
@@ -1026,7 +1026,7 @@ export const services: Service[] = [
     slug: "loading-unloading",
     navLabel: "Loading and Unloading",
     h1: "Loading and Unloading Help in Manchester",
-    title: "Loading and Unloading Help in Manchester | Man and Van Manchester",
+    title: "Loading and Unloading Help in Manchester | Frank's Van and Man Manchester",
     metaDescription:
       "Loading and unloading help in Manchester for a van you have hired, a container or a storage unit. Tip limits, yellow line loading rules and container permits.",
     intro:

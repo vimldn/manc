@@ -11,7 +11,7 @@ import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 const PATH = "/case-studies/";
 
 export const metadata: Metadata = pageMeta({
-  title: "Recent Moves and Case Studies | Man and Van Manchester",
+  title: "Recent Moves and Case Studies | Frank's Van and Man Manchester",
   description:
     "Real completed moves across Manchester and Greater Manchester, from student moves and city-centre apartments to house removals and long-distance jobs.",
   path: PATH,

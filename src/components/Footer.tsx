@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
           <div>
             <div className="text-lg font-extrabold text-white">
-              Man and Van <span className="text-cta">Manchester</span>
+              Frank&apos;s Van and Man <span className="text-cta">Manchester</span>
             </div>
             <p className="mt-3 text-sm text-gray-400">
               {site.name} provides removals, man-and-van hire and furniture delivery across
