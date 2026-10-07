@@ -81,6 +81,7 @@ export function websiteSchema() {
     "@type": "WebSite",
     "@id": site.url + "/#website",
     name: site.name,
+    alternateName: ["FranksVanAndManManchester", "Van and Man Manchester"],
     url: site.url + "/",
     inLanguage: "en-GB",
     publisher: { "@id": site.url + "/#business" },
