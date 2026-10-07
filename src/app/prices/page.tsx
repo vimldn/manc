@@ -13,7 +13,7 @@ import { breadcrumbSchema, webPageSchema, faqSchema } from "@/lib/schema";
 const PATH = "/prices/";
 
 export const metadata: Metadata = pageMeta({
-  title: "Man and Van Prices in Manchester | How Our Quotes Work",
+  title: "Man and Van Prices | Frank's Van and Man Manchester",
   description:
     "How man and van pricing works in Manchester: van and mover combinations, the factors that affect the price and the extras to know about before you book.",
   path: PATH,

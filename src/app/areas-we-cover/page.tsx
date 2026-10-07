@@ -12,7 +12,7 @@ import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 const PATH = "/areas-we-cover/";
 
 export const metadata: Metadata = pageMeta({
-  title: "Areas We Cover | Man and Van Across Greater Manchester",
+  title: "Areas We Cover | Frank's Van and Man Manchester",
   description:
     "The Manchester and Greater Manchester areas our man and van service covers, grouped by region. City centre, south Manchester, north Manchester, Salford and Trafford.",
   path: PATH,

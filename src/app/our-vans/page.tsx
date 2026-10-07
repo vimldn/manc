@@ -12,7 +12,7 @@ import { breadcrumbSchema, webPageSchema, faqSchema } from "@/lib/schema";
 const PATH = "/our-vans/";
 
 export const metadata: Metadata = pageMeta({
-  title: "What Size Van Do I Need? Manchester Van Size Guide",
+  title: "Van Size Guide | Frank's Van and Man Manchester",
   description:
     "A plain guide to van sizes for a Manchester move: small, long-wheelbase and Luton vans, what fits in each and how many movers you are likely to need.",
   path: PATH,

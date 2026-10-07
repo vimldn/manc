@@ -36,7 +36,7 @@ export type Guide = {
 export const guides: Guide[] = [
   {
     slug: "how-much-does-a-man-and-van-cost-in-manchester",
-    title: "How Much Does a Man and Van Cost in Manchester? (2026 Guide)",
+    title: "Man and Van Costs in 2026 | Frank's Van and Man Manchester",
     h1: "How Much Does a Man and Van Cost in Manchester?",
     metaDescription:
       "Real 2026 man and van prices in Manchester: typical hourly rates, sample move costs, what pushes the price up, and why there is no clean air charge to factor in.",
@@ -128,7 +128,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "what-size-van-do-i-need-for-my-move",
-    title: "What Size Van Do I Need for My Move? UK Van Size Guide",
+    title: "What Size Van Do I Need? | Frank's Van and Man Manchester",
     h1: "What Size Van Do I Need for My Move?",
     metaDescription:
       "Van sizes explained for a house or flat move: small, medium, long-wheelbase and Luton vans, approximate capacities, what each holds and why weight and access matter.",
@@ -198,7 +198,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "man-and-van-vs-removals-company",
-    title: "Man and Van vs Removals Company | Which Do You Need?",
+    title: "Man and Van vs Removals Company | Frank's Van and Man Manchester",
     h1: "Man and Van vs Removals Company",
     metaDescription:
       "The real differences between a man and van and a full removals company: cost, packing, storage, insurance and BAR membership, and how to choose for your move.",
@@ -267,7 +267,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "how-to-prepare-for-a-flat-move",
-    title: "How to Prepare for a Flat Move in Manchester",
+    title: "How to Prepare for a Flat Move | Frank's Van and Man Manchester",
     h1: "How to Prepare for a Flat Move",
     metaDescription:
       "How to prepare for a flat or apartment move in Manchester: booking the goods lift and loading bay, concierge rules, measuring access, tram-track loading and a move checklist.",
@@ -328,7 +328,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "how-to-reserve-parking-for-a-move-in-manchester",
-    title: "How to Reserve Parking for a Move in Manchester",
+    title: "Reserving Parking for a Move | Frank's Van and Man Manchester",
     h1: "How to Reserve Parking for a Move in Manchester",
     metaDescription:
       "How to arrange a parking bay suspension or dispensation for a move in Manchester, the notice and fee involved, the rules on loading and yellow lines, and why cones give no legal right.",
