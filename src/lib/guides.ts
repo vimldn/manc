@@ -784,6 +784,193 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "what-removal-companies-wont-move",
+    title: "What Removal Companies Won't Move | Frank's Van and Man Manchester",
+    h1: "What Removal Companies Won't Move",
+    metaDescription:
+      "The items removal firms refuse and why: fuel, gas and paint, valuables, plants and food, the jobs removers do not normally do, and where refused items go in Greater Manchester.",
+    updated: "2026-10-07",
+    answer:
+      "Removal firms refuse anything flammable or pressurised, such as gas bottles, petrol, paint and aerosols, and most published terms also leave cash, jewellery, important documents, plants, perishable food and animals to you. The hazardous list has a legal reason: the exemption that lets you carry fuel in your own car does not cover someone moving goods for another person. Sort those items before the day, and tell the crew about anything unusual when you book.",
+    sections: [
+      {
+        h2: "Fuel, Gas and Anything That Burns",
+        body: [
+          "Government guidance on carrying dangerous goods by road has an exemption for private individuals: goods packaged for retail sale and intended for their personal or domestic use or their leisure or sporting activities. Where those goods are flammable liquids in refillable containers, the total must not exceed 60 litres per container and 240 litres per vehicle.",
+          "That exemption is for you carrying your own things. The guidance is explicit that the separate exemption for carrying goods to a place of work applies only to a worker carrying them for immediate use by that worker, and would not apply to a driver delivering goods for use by someone else. A crew moving your mower fuel and patio heater gas is carrying goods for someone else, which is why removal firms refuse them.",
+        ],
+        bullets: [
+          "Gas bottles, full or empty, including camping and barbecue gas.",
+          "Petrol, diesel and the fuel left in a mower or strimmer.",
+          "Paint, paint thinners, oils and garden or cleaning chemicals.",
+          "Aerosols and anything else marked flammable or under pressure.",
+        ],
+        outro: [
+          "Drain the mower, use up or return the gas, and either move the rest in your own car within the private limits or dispose of it before the day.",
+        ],
+      },
+      {
+        h2: "Things Most Firms Leave to You",
+        body: [
+          "Published removal terms are strikingly similar on what they exclude. Alongside the hazardous list they usually leave out money, jewellery, deeds and important documents, and collections such as stamps or coins; plants; perishable and frozen food; and live animals. Several also list firearms.",
+          "None of that means the item cannot travel. It means it travels with you. The [packing service](/services/packing-services/) page sets out the bag that should go in your car rather than the van: passports, keys, medication and chargers. Pets and plants go the same way, and a freezer should be run down and defrosted the day before rather than moved full.",
+        ],
+      },
+      {
+        h2: "Jobs Removers Do Not Normally Do",
+        body: [
+          "The British Association of Removers' Code of Practice, re-approved in September 2026, requires members to point out the services a customer might expect but which would not normally be provided. Its list is disconnecting and reconnecting kitchen and household appliances, taking down and rehanging curtains, clearing out cellars, lofts and attics, dismantling and rebuilding bedroom and kitchen furniture, children's climbing frames, greenhouses, garden sheds and planters, and looking after plants.",
+          "Some of those are things we do as a matter of course on a man and van job. We [take apart and rebuild beds, wardrobes and desks](/services/furniture-dismantling/) so they fit through the door, and we [clear lofts and garages](/services/rubbish-removal/) as part of a move or on their own. Gas and plumbing work is different: a gas cooker needs a Gas Safe engineer, and a washing machine should be disconnected and drained before the van arrives.",
+        ],
+      },
+      {
+        h2: "Where the Refused Items Go in Greater Manchester",
+        body: [
+          "Recycle for Greater Manchester says gas bottles must never go in a household bin because they may explode if crushed. Take them to a recycling centre, or have them refilled or returned to the supplier. Liquid paint must not be poured down the drain: brush a small amount onto scrap paper or cardboard to dry, or mix a larger amount with dry soil, sand or sawdust until it hardens, after which it can go in the household bin.",
+          "Usable paint can be donated at the 10 Renew paint donation points at recycling centres across Greater Manchester, or through Community RePaint, which has locations in Bolton, Rochdale, Moss Side and Wythenshawe. Empty paint cans go to your nearest household waste recycling centre. If you are taking a carload rather than a van, no permit is needed; a van, including a hire van, needs a free permit applied for in advance.",
+        ],
+      },
+      {
+        h2: "Tell the Crew Before the Day",
+        body: [
+          "The BAR code requires members to give a fixed price written quotation with a clear description of the work. That only works if the description is right, and the most common surprise on moving day is an item nobody mentioned: a piano in the back room, a shed full of tools, or a garage shelf of paint tins.",
+          "List anything heavy, awkward, valuable or hazardous when you ask for a price. The crew can then plan for it, refuse it in good time so you can make other arrangements, or tell you how it should be prepared, rather than leaving it on the pavement on the day.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Packing services", href: "/services/packing-services/" },
+      { label: "Furniture dismantling and assembly", href: "/services/furniture-dismantling/" },
+      { label: "Damage during a house move", href: "/moving-guides/damage-during-house-move/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "GOV.UK: carriage of fuel by private individuals", href: "https://www.gov.uk/government/publications/carriage-of-dangerous-goods-guidance-note-23/carriage-by-private-individuals-of-diesel-un1202-petrol-un1203-and-kerosene-un1223-by-road" },
+      { label: "Recycle for Greater Manchester: gas bottles", href: "https://recycleforgreatermanchester.com/recycling-guide/gas-bottles/" },
+    ],
+    faqs: [
+      {
+        q: "What will removal companies not move?",
+        a: "Anything flammable or pressurised, such as gas bottles, petrol, paint and aerosols, and in most published terms also cash, jewellery, important documents, plants, perishable food and animals, which travel with you instead.",
+      },
+      {
+        q: "Will removal companies move gas bottles?",
+        a: "Generally no. The government's private-individual exemption covers you carrying your own goods, and the guidance says the work exemption would not apply to a driver delivering goods for use by someone else.",
+      },
+      {
+        q: "Can I move petrol in my own car?",
+        a: "Within limits. For flammable liquids in refillable containers carried by a private individual, the total must not exceed 60 litres per container and 240 litres per vehicle.",
+      },
+      {
+        q: "Will removers move my plants?",
+        a: "Many exclude plants in their terms, and the BAR code lists looking after plants among services not normally provided. Move them in your own car where you can.",
+      },
+      {
+        q: "How do I get rid of old paint in Manchester?",
+        a: "Never down the drain. Dry small amounts on cardboard or harden larger amounts with soil, sand or sawdust, then bin it. Usable paint can go to a Renew paint donation point or Community RePaint.",
+      },
+      {
+        q: "Do removers disconnect washing machines and cookers?",
+        a: "Not normally. The BAR code lists disconnecting and reconnecting appliances among services removers do not usually provide. Gas cookers need a Gas Safe engineer.",
+      },
+    ],
+  },
+  {
+    slug: "damage-during-house-move",
+    title: "Damaged During a House Move? What to Do Next | Frank's Van and Man Manchester",
+    h1: "Damage During a House Move | What Happens and How to Claim",
+    metaDescription:
+      "What to do if a removal company damages your furniture: report deadlines, per-item limits, your own home insurance, what the trade ombudsman will not handle, and small claims.",
+    updated: "2026-10-07",
+    answer:
+      "Report the damage to the firm in writing straight away, with photos, because removal contracts set short deadlines: one published contract allows 7 days from delivery. Unless you declared a value, liability is often capped per item, at £50 per item in the same contract. The firm must carry out the move with reasonable care and skill. If it will not pay, check your home insurance, and a small claim costs from £35 to issue with free mediation for claims up to £10,000.",
+    sections: [
+      {
+        h2: "Report It in Writing, Quickly",
+        body: [
+          "The single most important thing is the deadline. The British Association of Removers' Code of Practice requires members to draw your attention to the limits of liability and the time limit for making claims in their terms, and those limits are short. One published removals contract requires you to notify any loss or damage within 7 days of delivery, unless the firm agrees to extend it.",
+          "So check the furniture as it comes off the van, photograph anything damaged where it stands, keep the damaged item rather than throwing it away, and send the firm a written message the same day. On our own moves we ask for the same: tell us as soon as you notice it and keep the item, so we can [make the claim under our cover](/insurance-and-compliance/).",
+        ],
+        bullets: [
+          "Photograph the damage before anything is moved or repaired.",
+          "Keep the damaged item and any packaging it came in.",
+          "Report it in writing on the day, even if you are not sure of the cost yet.",
+        ],
+      },
+      {
+        h2: "What the Firm Is Responsible For",
+        body: [
+          "Under the Consumer Rights Act 2015, a trader must perform a service with reasonable care and skill, and a contract term cannot exclude that duty. The Act also says a trader can never exclude or restrict liability for death or personal injury resulting from negligence, and that agreeing to or knowing about such a term does not mean you accepted the risk.",
+          "Limits on how much a firm pays for damaged goods are a different matter. They are common, they are not automatically void, and whether a particular limit is fair depends on the contract. The practical answer is to read the liability clause before you book, not after something breaks.",
+        ],
+      },
+      {
+        h2: "Per-Item Limits and Declared Values",
+        body: [
+          "Most removal contracts limit what they pay unless you declare a value. In one published contract, if no value is declared the firm's liability is limited to a maximum of £50 per item, and an item is defined as any one article, suite, pair, set, complete case, package, carton or other container.",
+          "That definition matters. Under it, a packed carton of china is one item, worth £50 however many plates are inside, and a three piece suite is one item too. If you own anything worth more than the per-item limit, declare its value when you book and ask what it costs to cover it properly. If you are packing fragile things yourself, that is also when to ask whether owner-packed boxes are covered at all; our [packing service](/services/packing-services/) is one way round the question.",
+        ],
+      },
+      {
+        h2: "Your Own Home Insurance",
+        body: [
+          "Some contents policies include cover while you move, but the detail matters. Direct Line's home insurance policy, for example, pays for loss of or damage to contents while they are being moved from your home to another home, where the cause is one listed in its core cover or accidental damage sections, and covers contents in temporary storage for up to 72 hours.",
+          "The same policy will not pay for damage to china, glass, earthenware or other fragile items, or bikes, during the move. Every insurer is different, so read the moving home section of your own policy before the day, and if fragile items are excluded, decide whether to declare them to the removal firm or move them yourself.",
+        ],
+      },
+      {
+        h2: "When the Trade Body Cannot Help",
+        body: [
+          "BAR members offer independent dispute resolution, but it is not the route for a damage claim. BAR's own consumer guide, published in August 2026, says otherwise: its ombudsman will not consider a claim for compensation for damage to goods during the move, damage due to alleged poor packing, or a dispute about the adequacy of an insurance cover limit such as £40 per box.",
+          "Those are insurance matters and go through the firm's insurer. The ombudsman does handle other complaints about members, and those have to be referred within 12 months of the move. Our guide to a [man and van against a removals company](/moving-guides/man-and-van-vs-removals-company/) covers what BAR membership does and does not add.",
+        ],
+      },
+      {
+        h2: "Small Claims as the Last Step",
+        body: [
+          "If the firm will not pay and there is no insurance route, the county court small claims track is the last step. On GOV.UK's current fees, issuing a claim costs £35 for claims up to £300, rising to £455 for claims between £5,000.01 and £10,000.",
+          "If your claim is £10,000 or less and the firm disputes it, you will be told you must attend mediation, which is free and takes up to an hour by phone. You have six years from the move to bring a claim for breach of contract, but the sooner you act the easier the evidence is to find.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Insurance and compliance", href: "/insurance-and-compliance/" },
+      { label: "Removal company not turned up", href: "/moving-guides/removal-company-not-turned-up/" },
+      { label: "What removal companies won't move", href: "/moving-guides/what-removal-companies-wont-move/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "Consumer Rights Act 2015, section 65", href: "https://www.legislation.gov.uk/ukpga/2015/15/section/65" },
+      { label: "GOV.UK: court fees for a money claim", href: "https://www.gov.uk/make-court-claim-for-money/court-fees" },
+    ],
+    faqs: [
+      {
+        q: "What should I do if a removal company damages my furniture?",
+        a: "Photograph it, keep the item and report it to the firm in writing the same day. Removal contracts often set a short deadline, such as 7 days from delivery.",
+      },
+      {
+        q: "Is a removal company liable for damage?",
+        a: "It must carry out the move with reasonable care and skill under the Consumer Rights Act, but most contracts limit what they pay per item unless you declared a value. One published contract caps it at £50 per item.",
+      },
+      {
+        q: "Does home insurance cover damage during a house move?",
+        a: "Often, with conditions. Direct Line's policy, for example, covers contents being moved to another home and up to 72 hours in storage, but not china, glass or other fragile items. Check your own policy.",
+      },
+      {
+        q: "Will the BAR ombudsman deal with a damage claim?",
+        a: "No. BAR's August 2026 consumer guide says its ombudsman will not consider claims for compensation for damaged goods, poor packing or the adequacy of cover limits. Those go through the firm's insurer.",
+      },
+      {
+        q: "How much does it cost to make a small claim?",
+        a: "From £35 for claims up to £300 to £455 for claims between £5,000.01 and £10,000. Disputed claims of £10,000 or less go to free mediation first.",
+      },
+      {
+        q: "What if the removal company damaged my walls or doors?",
+        a: "Report it the same way, with photos taken before any repair. Damage to the property is usually covered by the firm's public liability insurance rather than its goods in transit cover.",
+      },
+    ],
+  },
 ];
 
 export const getGuide = (slug: string) => guides.find((g) => g.slug === slug);

@@ -49,6 +49,8 @@ page to scroll sideways on a phone.
 | 13 | 2026-10-02 | P1 | Removal Company Not Turned Up | `/moving-guides/removal-company-not-turned-up/` |
 | 14 | 2026-10-05 | P1 | Removal Company Waiting Charges | `/moving-guides/removal-company-waiting-charges/` |
 | 14 | 2026-10-05 | P1 | How Long Does Moving House Take? | `/moving-guides/how-long-does-moving-house-take/` |
+| 15 | 2026-10-07 | P1 | What Removal Companies Won't Move | `/moving-guides/what-removal-companies-wont-move/` |
+| 15 | 2026-10-07 | P1 | Damage During a House Move | `/moving-guides/damage-during-house-move/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -67,8 +69,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 15 | P1 | What Removal Companies Won't Move (guide) | `/moving-guides/what-removal-companies-wont-move/` | gap-check first |
-| 15 | P1 | What Happens If Something Is Damaged During a Move? (guide) | `/moving-guides/damage-during-house-move/` | gap-check first |
+| 16 | P1 | Moving House in the Rain (guide) | `/moving-guides/moving-house-in-the-rain/` | gap-check first |
+| 16 | P1 | Will My Sofa Fit Through the Door? (guide) | `/moving-guides/will-my-sofa-fit/` | gap-check first; overlaps decision 3 sofa page |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |
