@@ -51,6 +51,8 @@ page to scroll sideways on a phone.
 | 14 | 2026-10-05 | P1 | How Long Does Moving House Take? | `/moving-guides/how-long-does-moving-house-take/` |
 | 15 | 2026-10-07 | P1 | What Removal Companies Won't Move | `/moving-guides/what-removal-companies-wont-move/` |
 | 15 | 2026-10-07 | P1 | Damage During a House Move | `/moving-guides/damage-during-house-move/` |
+| 16 | 2026-10-08 | P1 | Moving House in the Rain | `/moving-guides/moving-house-in-the-rain/` |
+| 16 | 2026-10-08 | P1 | Will My Sofa Fit Through the Door? | `/moving-guides/will-my-sofa-fit/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -69,8 +71,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 16 | P1 | Moving House in the Rain (guide) | `/moving-guides/moving-house-in-the-rain/` | gap-check first |
-| 16 | P1 | Will My Sofa Fit Through the Door? (guide) | `/moving-guides/will-my-sofa-fit/` | gap-check first; overlaps decision 3 sofa page |
+| 17 | P1 | How Many Boxes Do I Need to Move House? (guide) | `/moving-guides/how-many-moving-boxes/` | gap-check first |
+| 17 | P1 | Can Movers Dismantle Furniture? (guide) | `/moving-guides/do-removal-companies-dismantle-furniture/` | likely collides with the live furniture dismantling service; check |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |

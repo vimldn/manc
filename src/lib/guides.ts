@@ -396,7 +396,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "keys-delayed-moving-day",
-    title: "Keys Delayed on Moving Day? What Happens and Who Pays | Frank's Van and Man Manchester",
+    title: "Keys Delayed on Moving Day? | Frank's Van and Man Manchester",
     h1: "Keys Delayed on Moving Day | What Happens and Who Pays",
     metaDescription:
       "Why keys are late on completion day, the 2pm rule in the Standard Conditions of Sale, notice to complete, and what to do with a loaded van while you wait.",
@@ -504,7 +504,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "removal-company-not-turned-up",
-    title: "Removal Company Not Turned Up? Your Rights and Next Steps | Frank's Van and Man Manchester",
+    title: "Removal Company Not Turned Up? | Frank's Van and Man Manchester",
     h1: "Removal Company Not Turned Up | Your Rights and Next Steps",
     metaDescription:
       "What to do when a removal company does not turn up: the Consumer Rights Act remedies, getting a deposit back by Section 75 or chargeback, and reporting the firm.",
@@ -602,7 +602,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "removal-company-waiting-charges",
-    title: "Removal Company Waiting Charges Explained | Frank's Van and Man Manchester",
+    title: "Removal Company Waiting Charges | Frank's Van and Man Manchester",
     h1: "Removal Company Waiting Charges | When They Apply and When You Can Refuse",
     metaDescription:
       "How removal firms charge for waiting on completion day, what published terms actually say, and the consumer rule that makes an unagreed extra charge unpayable.",
@@ -878,7 +878,7 @@ export const guides: Guide[] = [
   },
   {
     slug: "damage-during-house-move",
-    title: "Damaged During a House Move? What to Do Next | Frank's Van and Man Manchester",
+    title: "Damage During a House Move | Frank's Van and Man Manchester",
     h1: "Damage During a House Move | What Happens and How to Claim",
     metaDescription:
       "What to do if a removal company damages your furniture: report deadlines, per-item limits, your own home insurance, what the trade ombudsman will not handle, and small claims.",
@@ -968,6 +968,178 @@ export const guides: Guide[] = [
       {
         q: "What if the removal company damaged my walls or doors?",
         a: "Report it the same way, with photos taken before any repair. Damage to the property is usually covered by the firm's public liability insurance rather than its goods in transit cover.",
+      },
+    ],
+  },
+  {
+    slug: "moving-house-in-the-rain",
+    title: "Moving House in the Rain | Frank's Van and Man Manchester",
+    h1: "Moving House in the Rain",
+    metaDescription:
+      "How often it rains on a Manchester move, keeping mattresses, sofas and electricals dry, protecting floors, and what your insurance says about bad weather.",
+    updated: "2026-10-08",
+    answer:
+      "Rain rarely stops a move, but it changes how one is done: floors get covered, mattresses and sofas get wrapped, electricals stay dry and nothing is left on the pavement. Around Manchester it is worth planning for. The Met Office station at Woodford, in Stockport, averages about 156 days a year with at least 1mm of rain, and the driest months for a move are in spring.",
+    sections: [
+      {
+        h2: "How Often It Rains on a Manchester Move",
+        body: [
+          "The Met Office publishes long-term averages for Woodford, in Stockport, the closest of its listed stations to south Manchester. Over 1991 to 2020 it averaged 868.4mm of rain a year and 156.49 days with 1mm or more. December is the wettest month at 96.98mm and has the most rain days, 15.70. March is the driest at 52.53mm, and May and April have the fewest rain days, 10.84 and 10.96.",
+          "The hills to the north are wetter. Rochdale averaged 1,197.22mm and 170.75 rain days a year over the same period. So a spring move in south Manchester has the best odds of staying dry, and any move in the north of the county should assume a shower at some point. The Met Office publishes the full monthly table for Woodford.",
+        ],
+        bullets: [
+          "Driest months for a move: March, April and May.",
+          "Wettest: October to January, with December the worst.",
+          "Check the Met Office warnings and the GOV.UK flood check the evening before.",
+        ],
+      },
+      {
+        h2: "Mattresses, Sofas and Anything Soft",
+        body: [
+          "Upholstery and mattresses soak up rain and are slow to dry out. Wrap mattresses in plastic covers before they leave the bedroom, keep sofas wrapped in blankets and covers between the door and the van, and load them from the doorstep straight in rather than staging them on the pavement.",
+          "A soaked mattress is also a disposal problem. Manchester City Council's bulky collection will not take items that become too heavy after being left out in the rain, and gives mattresses as the example. If something soft is not coming with you, keep it under cover until it goes, or have it [taken away in the van](/services/rubbish-removal/) the same day.",
+        ],
+      },
+      {
+        h2: "Floors, Doorways and Slips",
+        body: [
+          "The Health and Safety Executive's guidance on slips makes a simple point that matters on a wet moving day: if rainwater gets onto a smooth surface inside or outside a building, it may create a slip hazard, and good entrance design such as canopies can help. A hallway of laminate or tiles can become the riskiest part of the route once the crew has walked in from the street a dozen times.",
+          "So the floor gets covered before the first item moves, at both ends. Door and floor protection is part of a [house removal](/services/house-removals/) with us as standard, and on a wet day it matters more than anything else on the list. Keep a towel and a mat at the door, and leave the porch clear so the crew is not putting things down outside.",
+        ],
+      },
+      {
+        h2: "Electricals and Boxes",
+        body: [
+          "Televisions, computers and anything with a plug travel best in their original boxes or wrapped and bagged, and they go in the van early and deep, away from the doors. If an appliance does get properly soaked, Electrical Safety First's advice for flood-damaged appliances is not to use it until a registered electrician has checked it, and that is the safe rule to follow.",
+          "Cardboard boxes are fine in a shower but not left standing in one. Close and tape the tops, stack them inside the door rather than on the path, and use plastic crates for anything you cannot afford to get wet, such as paperwork and photographs.",
+        ],
+      },
+      {
+        h2: "What Your Insurance Says About Bad Weather",
+        body: [
+          "Contents insurance can cover a move, but the wording is narrow. One council tenants' contents policy, for example, covers accidental loss or damage to contents while they are being moved by a professional removal contractor directly between the old home and the new one, which leaves open what happens to things you move yourself.",
+          "Storm cover is narrower still. In April 2025 Which? examined 133 policy documents from 67 insurers and found that 20% contained a potentially unfair definition of storm, and that over half of those only covered damage where high winds were involved. Read the storm and removal sections of your own policy before moving day.",
+        ],
+      },
+    ],
+    related: [
+      { label: "House removals in Manchester", href: "/services/house-removals/" },
+      { label: "How long does moving house take?", href: "/moving-guides/how-long-does-moving-house-take/" },
+      { label: "Damage during a house move", href: "/moving-guides/damage-during-house-move/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "Met Office: Woodford climate averages", href: "https://www.metoffice.gov.uk/research/climate/maps-and-data/location-specific-long-term-averages/gcqrrn04p" },
+      { label: "Which?: storm definitions in home insurance", href: "https://www.which.co.uk/news/article/does-your-home-insurance-define-storms-unfairly-at8wa7q2inFI" },
+    ],
+    faqs: [
+      {
+        q: "Can you move house in the rain?",
+        a: "Yes. Rain changes how a move is done rather than whether it happens: floors are covered, soft items are wrapped and loaded straight in, and nothing waits on the pavement.",
+      },
+      {
+        q: "How often does it rain in Manchester?",
+        a: "The Met Office station at Woodford averaged 156.49 days a year with 1mm of rain or more over 1991 to 2020, and 868.4mm a year in total. Rochdale, in the north of the county, averaged 1,197.22mm.",
+      },
+      {
+        q: "What is the driest month to move house in Manchester?",
+        a: "March is the driest month at Woodford by rainfall, at 52.53mm, and May and April have the fewest rain days. December is the wettest.",
+      },
+      {
+        q: "How do I keep a mattress dry on moving day?",
+        a: "Put it in a plastic mattress cover before it leaves the bedroom and load it straight from the door into the van. A soaked mattress is heavy, slow to dry and, in Manchester, may be refused by the council's bulky collection.",
+      },
+      {
+        q: "Does insurance cover rain damage during a move?",
+        a: "It depends on your policy. Some contents policies cover goods moved by a professional removal contractor, and storm definitions vary: Which? found 20% of 133 policies had a potentially unfair one.",
+      },
+      {
+        q: "Should I cancel my move if it is raining?",
+        a: "Usually not. Unless there is a Met Office warning or flooding on the route, a wet move is just a slower and more careful one.",
+      },
+    ],
+  },
+  {
+    slug: "will-my-sofa-fit",
+    title: "Will My Sofa Fit Through the Door? | Frank's Van and Man Manchester",
+    h1: "Will My Sofa Fit Through the Door | How to Measure It",
+    metaDescription:
+      "How to check a sofa will fit: the diagonal depth measurement, how wide UK doors are, why new Greater Manchester homes are built wider, and what to do if it does not fit.",
+    updated: "2026-10-08",
+    answer:
+      "Measure the sofa's diagonal depth, not just its depth, and compare it with the clear width of the narrowest door and turn on the way in. If the diagonal depth is less than the clear width, the sofa can usually be tipped on its back and turned through. New entrance doors in England must give at least 775mm of clear width, and new homes in Greater Manchester are built to a wider standard, but older terraces can be tighter.",
+    sections: [
+      {
+        h2: "The Measurement That Matters Is Diagonal Depth",
+        body: [
+          "A sofa goes through a door on its back or on its end, not the way it sits in the room, so its depth is the wrong number. Darlings of Chelsea's fitting guide sets out the method: take the cushions off, lay a straight edge against the most prominent parts of the back and the arm, then measure from that line to the rear corner of the sofa. That is the diagonal depth.",
+          "The rule in the same guide is that the diagonal depth must be less than the entry width, and the sofa's width must be less than either the door height or the clear space beyond the door. Loaf's guide adds the other way in: if the sofa will not tip through, a crew can try carrying it upright, which works if the door frame is taller than the sofa is long.",
+        ],
+        bullets: [
+          "Measure the sofa's width, height, depth and diagonal depth.",
+          "Measure the clear width and height of every door on the route, not just the front door.",
+          "Measure the hallway beyond each door, because that is where the sofa has to turn.",
+        ],
+      },
+      {
+        h2: "How Wide UK Doors Actually Are",
+        body: [
+          "Building regulations set minimums for new homes, and they are measured as clear opening width, not the size of the door leaf. Approved Document M measures it from the inside face of the door when open to the inside edge of the frame or stop, which is always less than the door itself. Under the basic standard an entrance door must give at least 775mm, and a standard 826mm door leaf is deemed to provide that.",
+          "Internal doors and corridors are paired: a 750mm door needs a 900mm corridor when you approach it head-on, or 1,200mm when you approach it from the side, while from the side a 775mm door needs a 1,050mm corridor and an 800mm door a 900mm one. The stricter accessible and adaptable standard, known as M4(2), raises the entrance door to 850mm.",
+        ],
+      },
+      {
+        h2: "New Greater Manchester Homes Are Built Wider",
+        body: [
+          "There is a local twist. Places for Everyone, the joint development plan for nine Greater Manchester districts, requires all new dwellings to meet the nationally described space standards and to be built to the accessible and adaptable M4(2) standard, unless specific site conditions make that impracticable. That means wider entrance doors and wider hallways in homes approved under the plan.",
+          "The catch is that it only applies to new homes. An older terrace or semi was built long before either standard, and its front door and the turn at the bottom of the stairs are the usual tight spots. If you are moving from a new build into an older house, measure the old house, not the new one.",
+        ],
+      },
+      {
+        h2: "When It Does Not Fit",
+        body: [
+          "There are usually options before giving up. Loaf says its sofa legs can be removed, with standard legs between 3.5cm and 12cm tall, and some of its models have removable arms. Taking off the legs, the arms or the door itself is often the difference, and it is exactly what our [furniture dismantling service](/services/furniture-dismantling/) does.",
+          "Buy before you measure and it can get expensive. SCS's terms say a redelivery charge applies where products have to be redelivered because of access problems, and Sofas & Stuff offers a £59 access check while making clear the customer remains responsible for access. A sofa made to your specification is also outside the usual 14-day right to cancel, because the Consumer Contracts Regulations exclude goods made to the consumer's specifications.",
+        ],
+        outro: [
+          "If you are buying second-hand, measure before you agree to collect. Our [furniture delivery service](/services/furniture-delivery/) collects sofas from shops and private sellers, and we would rather know the door width before the van goes than after.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Furniture dismantling and assembly", href: "/services/furniture-dismantling/" },
+      { label: "Furniture and single item delivery", href: "/services/furniture-delivery/" },
+      { label: "How to prepare for a flat move", href: "/moving-guides/how-to-prepare-for-a-flat-move/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "GOV.UK: Approved Document M, volume 1", href: "https://assets.publishing.service.gov.uk/media/5a7f8a82ed915d74e622b17b/BR_PDF_AD_M1_2015_with_2016_amendments_V3.pdf" },
+      { label: "GMCA: Places for Everyone joint development plan", href: "https://www.greatermanchester-ca.gov.uk/media/2drduk0t/places-for-everyone-joint-development-plan-dec24.pdf" },
+    ],
+    faqs: [
+      {
+        q: "How do I know if my sofa will fit through the door?",
+        a: "Measure the sofa's diagonal depth with the cushions off and compare it with the clear width of the narrowest door on the route. If the diagonal depth is smaller, the sofa can usually be tipped through.",
+      },
+      {
+        q: "How wide is a standard front door in the UK?",
+        a: "For new homes in England, an entrance door must give at least 775mm of clear opening width under Approved Document M, and a standard 826mm door leaf is deemed to provide it. The stricter M4(2) standard requires 850mm.",
+      },
+      {
+        q: "Are new build homes in Manchester easier for sofas?",
+        a: "Usually. Places for Everyone requires new homes in the plan area to be built to the M4(2) accessible standard unless site conditions make it impracticable, which means wider doors and hallways than older terraces.",
+      },
+      {
+        q: "What if my sofa does not fit?",
+        a: "Try removing the legs, the arms or the door first. Some sofas have removable legs or arms, and a crew can often carry a sofa upright if the door frame is taller than the sofa is long.",
+      },
+      {
+        q: "Can I return a sofa that does not fit?",
+        a: "It depends. Retailers can charge for redelivery where access is the problem, and made-to-order sofas are outside the usual 14-day cancellation right because they are made to your specification.",
+      },
+      {
+        q: "Will you take a sofa apart to get it in?",
+        a: "Where it is built to come apart, yes. We remove legs, arms and doors as part of the move and put them back once the sofa is in the room.",
       },
     ],
   },
