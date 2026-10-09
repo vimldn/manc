@@ -995,6 +995,10 @@ export const services: Service[] = [
     ],
     faqs: [
       {
+        q: "Do removal companies dismantle furniture?",
+        a: "Not always. The British Association of Removers' Code of Practice lists dismantling and rebuilding bedroom and kitchen furniture among the services a remover would not normally provide, and tells members to point that out. We do it as part of the move, so ask any firm before you book.",
+      },
+      {
         q: "Will IKEA dismantle my furniture for a move?",
         a: "No. IKEA's assembly service, carried out by TaskRabbit contractors, lists removal, dismantling or dismounting furniture among the work it does not do. It also excludes non-IKEA products and second-hand IKEA from its re-use range.",
       },

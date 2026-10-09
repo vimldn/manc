@@ -53,6 +53,8 @@ page to scroll sideways on a phone.
 | 15 | 2026-10-07 | P1 | Damage During a House Move | `/moving-guides/damage-during-house-move/` |
 | 16 | 2026-10-08 | P1 | Moving House in the Rain | `/moving-guides/moving-house-in-the-rain/` |
 | 16 | 2026-10-08 | P1 | Will My Sofa Fit Through the Door? | `/moving-guides/will-my-sofa-fit/` |
+| 17 | 2026-10-09 | P1 | How Many Boxes Do I Need to Move House? | `/moving-guides/how-many-moving-boxes/` |
+| 17 | 2026-10-09 | P1 | Moving Out of a Rental Checklist | `/moving-guides/moving-out-rental-checklist/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -71,8 +73,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 17 | P1 | How Many Boxes Do I Need to Move House? (guide) | `/moving-guides/how-many-moving-boxes/` | gap-check first |
-| 17 | P1 | Can Movers Dismantle Furniture? (guide) | `/moving-guides/do-removal-companies-dismantle-furniture/` | likely collides with the live furniture dismantling service; check |
+| 18 | P1 | Moving With Children (guide) | `/moving-guides/moving-house-with-children/` | gap-check first |
+| 18 | P1 | Moving With Pets (guide) | `/moving-guides/moving-house-with-pets/` | gap-check first |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |
@@ -121,6 +123,11 @@ would split one intent across two URLs.
    live parking reservation guide, city centre apartment move against the live
    flat move guide, and what makes removals more expensive against the live
    Manchester cost guide.
+
+9. **Can Movers Dismantle Furniture?** (`/moving-guides/do-removal-companies-dismantle-furniture/`, P1).
+   The live `/services/furniture-dismantling/` page owns the intent, and the BAR
+   clause 3.6 list is already on the won't-move guide. Answered as an FAQ on the
+   service page instead of a separate URL (2026-10-09).
 
 ## Clean to build with no decision
 

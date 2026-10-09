@@ -1143,6 +1143,178 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "how-many-moving-boxes",
+    title: "How Many Moving Boxes Do I Need? | Frank's Van and Man Manchester",
+    h1: "How Many Boxes Do I Need to Move House | Counts by Home Size",
+    metaDescription:
+      "How many boxes you need to move house, by home size, why moving kits run short, how heavy a box should be, and what to do with the cardboard in Manchester.",
+    updated: "2026-10-09",
+    answer:
+      "As a rough guide, Pickfords' published estimates are 10 to 15 boxes for a studio, 15 to 23 for a one bedroom flat, 23 to 40 for a two bedroom house and 40 to 65 for a three bedroom house. Moving kits sold for a one or two bedroom home often hold far fewer: Macfarlane's has 15. Buy a kit, count as you pack, top up the difference, and keep heavy things in small boxes.",
+    sections: [
+      {
+        h2: "Box Counts by Home Size",
+        body: [
+          "Pickfords publishes a box estimate by home size and splits it by box size, which is the more useful part. Its figures are a starting point, not a promise: a minimalist two bedroom flat and a two bedroom house with a full loft are very different jobs.",
+        ],
+        bullets: [
+          "Studio flat: 10 to 15 boxes.",
+          "One bedroom flat: 15 to 23 boxes, of which 6 to 10 small, 6 to 8 medium and 3 to 5 large.",
+          "Two bedroom house: 23 to 40 boxes, of which 10 to 15 small, 10 to 15 medium and 5 to 10 large.",
+          "Three bedroom house: 40 to 65 boxes, with 15 to 25 each of small and medium.",
+        ],
+        outro: [
+          "Notice that the small and medium boxes make up most of the count. That is deliberate: they are the sizes that stay liftable when they are full.",
+        ],
+      },
+      {
+        h2: "Why Moving Kits Run Short",
+        body: [
+          "Box kits are sold by home size, and they are usually smaller than the estimates. Macfarlane Packaging's kit for a one to two bedroom house contains 15 boxes: 5 small at 381 by 381 by 203mm, 7 medium at 406mm square, and 3 large at 610 by 457 by 457mm. Against Pickfords' estimate of 15 to 40 boxes for the same homes, that covers the bottom of the range.",
+          "So treat a kit as the first delivery rather than the whole order. Start with the rooms that need the most small boxes, usually the books and the kitchen, and you will know within a day how many more you need.",
+        ],
+      },
+      {
+        h2: "Heavy Things Go in Small Boxes",
+        body: [
+          "Pickfords suggests fill weights of up to 5kg for a small box, 8kg for a medium and 10kg for a large. The reason is the person carrying it. The Health and Safety Executive's guidance on manual handling is clear that the law does not set specific weight limits, and that its own guideline figures are not safe limits for lifting and carrying. The highest figures in its lifting guidelines are 25kg for men and 16kg for women.",
+          "A large box full of books can pass those figures. Books, tins, tools and records go in small boxes; duvets, cushions and lampshades go in the large ones. If you would rather not do the kitchen yourself, our [packing service](/services/packing-services/) can take the part of the house that takes longest and breaks most easily.",
+        ],
+        bullets: [
+          "Small boxes: books, tins, tools, paperwork, records.",
+          "Medium boxes: kitchenware, toys, shoes, small appliances.",
+          "Large boxes: bedding, cushions, lampshades and other light, bulky things.",
+        ],
+      },
+      {
+        h2: "What to Do With the Cardboard in Manchester",
+        body: [
+          "Once you have unpacked, Recycle for Greater Manchester's advice for Manchester households is that cardboard goes in the paper and card bin, flattened to save space. Cardboard can also go to a household waste recycling centre, though Manchester's Reliance Street site is closed for major improvement works and is due to reopen in early 2027.",
+          "A full house of boxes will not fit in one bin collection. Flatten and stack them somewhere dry, give good ones away to the next person moving, or have them taken in the van on the way out. Taking them to a recycling centre in a hired van needs a permit, one of the [self-drive rules](/services/loading-unloading/) that catch people out.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Packing services", href: "/services/packing-services/" },
+      { label: "What size van do I need?", href: "/moving-guides/what-size-van-do-i-need-for-my-move/" },
+      { label: "Moving house in the rain", href: "/moving-guides/moving-house-in-the-rain/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "HSE: manual handling at work (INDG143)", href: "https://www.hse.gov.uk/pubns/indg143.pdf" },
+      { label: "Recycle for Greater Manchester: Manchester recycling", href: "https://recycleforgreatermanchester.com/recycling-in-your-area/manchester/" },
+    ],
+    faqs: [
+      {
+        q: "How many boxes do I need for a one bedroom flat?",
+        a: "Pickfords estimates 15 to 23 boxes for a one bedroom flat: 6 to 10 small, 6 to 8 medium and 3 to 5 large.",
+      },
+      {
+        q: "How many boxes do I need for a three bedroom house?",
+        a: "Pickfords estimates 40 to 65 boxes for a three bedroom house, with 15 to 25 each of small and medium boxes.",
+      },
+      {
+        q: "Is a moving kit enough?",
+        a: "Often not. Macfarlane's kit for a one to two bedroom house has 15 boxes, which is the bottom of Pickfords' 15 to 40 estimate for those homes. Treat a kit as a starting point.",
+      },
+      {
+        q: "How heavy should a moving box be?",
+        a: "Pickfords suggests up to 5kg for a small box, 8kg for a medium and 10kg for a large. HSE's guideline figures for lifting go no higher than 25kg for men and 16kg for women, and HSE says they are not safe limits.",
+      },
+      {
+        q: "Where do moving boxes go in Manchester?",
+        a: "In the paper and card bin, flattened, or to a household waste recycling centre. Reliance Street is closed for improvement works until early 2027.",
+      },
+      {
+        q: "What should go in small boxes?",
+        a: "Anything heavy for its size: books, tins, tools, paperwork and records. Large boxes are for light, bulky things like bedding and cushions.",
+      },
+    ],
+  },
+  {
+    slug: "moving-out-rental-checklist",
+    title: "Moving Out of a Rental Checklist | Frank's Van and Man Manchester",
+    h1: "Moving Out of a Rental Checklist for England",
+    metaDescription:
+      "A moving out checklist for renters in England under the 2026 rules: notice and rent, what a landlord can charge when you leave, getting the deposit back, and clearing out.",
+    updated: "2026-10-09",
+    answer:
+      "Give notice in writing, keep paying rent until the tenancy ends, then leave the home as you found it and agree the deposit. Since 1 May 2026 a landlord cannot charge you more than the rent they would have received if you leave without full notice, and once you both agree how much deposit comes back, it must be returned within 10 days.",
+    sections: [
+      {
+        h2: "Notice and Rent",
+        body: [
+          "Private tenancies agreed in England from 1 May 2026 are rolling, and you end one by giving [two months' notice in writing](/moving-guides/how-long-does-moving-house-take/), on the day the rent is due or the day before. Two points catch people out. You keep paying rent during the notice period, right up to the day the tenancy ends. And if you change your mind after giving notice, you can only stay if your landlord agrees in writing.",
+          "The government's old \"How to rent\" guide was withdrawn on 1 May 2026. The current guidance is GOV.UK's guide to assured periodic tenancies for tenants.",
+        ],
+      },
+      {
+        h2: "What Your Landlord Can Charge When You Leave",
+        body: [
+          "The government's guidance on tenancy fees, published on 1 May 2026, sets out what can and cannot be charged. If you leave without giving the right notice, the charge cannot be more than the rent the landlord would have received had you given the right amount of notice. If you lose a key, the landlord can recover the cost of replacing it, but must give you written evidence that the cost is reasonable.",
+          "Late rent has limits too. A fee can only be charged once rent is at least two weeks overdue, and the maximum rate is 3% above the Bank of England's base rate, applied only to the overdue amount. Anything outside those rules can be challenged before it comes out of your deposit.",
+        ],
+      },
+      {
+        h2: "Getting Your Deposit Back",
+        body: [
+          "Your deposit should be protected in one of three government-backed schemes: the Deposit Protection Service, mydeposits or the Tenancy Deposit Scheme. Once you and your landlord agree how much you will get back, it must be returned within 10 days.",
+          "If you cannot agree, the scheme offers a free dispute resolution service. Using it is optional and both of you have to agree to it, but if you do, the decision on the deposit is final, so the evidence matters. The checklist below is the evidence to collect.",
+        ],
+        bullets: [
+          "Photograph every room, the inside of the oven and fridge, and any marks, on the last day.",
+          "Take meter readings, with photos, and send them to the suppliers.",
+          "Return every key you were given, and get a receipt or a message confirming it.",
+          "Compare the home with the check-in inventory, room by room.",
+          "Send your forwarding address to the landlord in writing.",
+        ],
+      },
+      {
+        h2: "Clearing the Last Things",
+        body: [
+          "Anything left behind is something a landlord may charge to clear. Manchester City Council offers one free bulky collection a year of up to three items, but it needs booking ahead and the items have to be on the pavement by 7am on the day, which may not fit the last day of a tenancy.",
+          "If the timing is tight, a [clearance in the van](/services/rubbish-removal/) on moving day takes the last things away at the same time as the move. If there is a wardrobe or a bed frame that has to come apart to get out, we can [take it apart](/services/furniture-dismantling/) as part of the same job, so the room is empty when the landlord walks in.",
+        ],
+      },
+    ],
+    related: [
+      { label: "How long does moving house take?", href: "/moving-guides/how-long-does-moving-house-take/" },
+      { label: "Keys delayed on moving day", href: "/moving-guides/keys-delayed-moving-day/" },
+      { label: "Student moves in Manchester", href: "/services/student-moves/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "GOV.UK: fees you can charge as part of a tenancy", href: "https://www.gov.uk/guidance/fees-you-can-charge-as-part-of-a-tenancy" },
+      { label: "GOV.UK: tenancy deposit protection", href: "https://www.gov.uk/tenancy-deposit-protection" },
+    ],
+    faqs: [
+      {
+        q: "Do I have to pay rent during my notice period?",
+        a: "Yes. GOV.UK's guidance for tenants says you need to continue to pay rent during the notice period before the tenancy ends.",
+      },
+      {
+        q: "Can my landlord charge me for leaving early?",
+        a: "Only up to a limit. Under the guidance published on 1 May 2026, the charge cannot be more than the rent the landlord would have received had you given the right notice.",
+      },
+      {
+        q: "How long does my landlord have to return my deposit?",
+        a: "Within 10 days of you both agreeing how much you will get back. If you cannot agree, the deposit stays protected and the scheme's free dispute service can decide.",
+      },
+      {
+        q: "Can I change my mind after giving notice?",
+        a: "Only if your landlord agrees in writing. Otherwise the tenancy ends on the date your notice runs out.",
+      },
+      {
+        q: "Is the How to rent guide still current?",
+        a: "No. GOV.UK withdrew it on 1 May 2026 and points tenants to its guidance on assured periodic tenancies instead.",
+      },
+      {
+        q: "What should I photograph when I move out?",
+        a: "Every room, the inside of the oven and fridge, any marks or damage, and the meter readings, all on the last day, so you have evidence if the deposit is disputed.",
+      },
+    ],
+  },
 ];
 
 export const getGuide = (slug: string) => guides.find((g) => g.slug === slug);
