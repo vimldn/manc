@@ -55,6 +55,8 @@ page to scroll sideways on a phone.
 | 16 | 2026-10-08 | P1 | Will My Sofa Fit Through the Door? | `/moving-guides/will-my-sofa-fit/` |
 | 17 | 2026-10-09 | P1 | How Many Boxes Do I Need to Move House? | `/moving-guides/how-many-moving-boxes/` |
 | 17 | 2026-10-09 | P1 | Moving Out of a Rental Checklist | `/moving-guides/moving-out-rental-checklist/` |
+| 18 | 2026-10-13 | P1 | Moving House With Children | `/moving-guides/moving-house-with-children/` |
+| 18 | 2026-10-13 | P1 | Moving House With Pets | `/moving-guides/moving-house-with-pets/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -73,8 +75,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 18 | P1 | Moving With Children (guide) | `/moving-guides/moving-house-with-children/` | gap-check first |
-| 18 | P1 | Moving With Pets (guide) | `/moving-guides/moving-house-with-pets/` | gap-check first |
+| 19 | P2 | RNCM Student Removals | `/student-removals/rncm/` | P1 guides done; P2 starts |
+| 19 | P2 | UA92 Student Removals | `/student-removals/ua92/` | P2 |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |

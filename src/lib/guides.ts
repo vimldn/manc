@@ -1315,6 +1315,168 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "moving-house-with-children",
+    title: "Moving House With Children | Frank's Van and Man Manchester",
+    h1: "Moving House With Children",
+    metaDescription:
+      "Moving house with children in Manchester: getting an in-year school place, registering with a GP, keeping Child Benefit paid, and running moving day around them.",
+    updated: "2026-10-13",
+    answer:
+      "The paperwork that matters most is the school place. In England you can apply for a place mid-year at any time, and the outcome must reach you in writing within 15 school days. After that, register with a GP, tell HMRC your new address so Child Benefit keeps being paid, and keep the children's own things with you on moving day.",
+    sections: [
+      {
+        h2: "Getting a School Place Mid-Year",
+        body: [
+          "The School Admissions Code sets the rules for applying outside the normal September round. Parents must not be refused the chance to make an application, or be told they can only go on a waiting list. Once an in-year application is in, the admission authority should aim to tell you the outcome in writing within 10 school days, and must do so within 15. If a place is refused, it must give the reason and explain your right to appeal.",
+          "In Manchester, in-year applications go through Manchester City Council. The council's form asks for at least three schools, and children who have moved into the city without a school place have their own priority category. Manchester keeps a child on a school's waiting list for one term only, after which you reapply, so put a reminder in the diary if your first choice is full.",
+        ],
+        bullets: [
+          "Apply as soon as you have the new address, not after you move.",
+          "List at least three schools on the Manchester form.",
+          "Note the date the waiting list place runs out, and reapply.",
+        ],
+      },
+      {
+        h2: "GP and Dentist",
+        body: [
+          "Registering with a GP is simpler than many people expect. The NHS says adults do not need ID, proof of address or proof of immigration status to register. Children under 16 are usually registered by a parent or guardian on a separate form, and for a child you may be asked for proof of ID and address, such as a birth certificate, and to show you are the parent or guardian.",
+          "Keep the birth certificates in the box that travels with you rather than in the van, because they are the documents a new surgery is most likely to ask for. NHS dental treatment is free for children under 18, and for young people under 19 in full-time education.",
+        ],
+      },
+      {
+        h2: "Child Benefit and the Other Records",
+        body: [
+          "HMRC needs to know when you move. Its guidance is direct: if you do not report a change of address and HMRC is not able to contact you, your Child Benefit payments will stop. One change of address service covers Child Benefit along with Income Tax and National Insurance, so it is a single job.",
+          "Free school transport in England depends on the distance between home and school, so a new address can change whether a child qualifies. If your child gets it now, check again with the new council once the move date is fixed.",
+        ],
+      },
+      {
+        h2: "Running Moving Day Around Them",
+        body: [
+          "A moving day with small children goes better with fewer people in the house. If a grandparent or friend can take them for the morning while the crew loads, the job is quicker and the stairs are safer. If they are staying, give them one room that is packed last and loaded last, with their own things in a bag that goes in your car.",
+          "At the new house, ask the crew to put the children's beds up first, so bedtime is in a room that looks like theirs. Our [house removals](/services/house-removals/) can include taking beds apart and rebuilding them, and a [packing service](/services/packing-services/) takes the slowest rooms off your hands in the week before. If you are leaving a rented home, sort the [deposit and check-out](/moving-guides/moving-out-rental-checklist/) before the last day, so it is not competing with the children for your attention.",
+        ],
+      },
+    ],
+    related: [
+      { label: "House removals in Manchester", href: "/services/house-removals/" },
+      { label: "Moving out of a rental checklist", href: "/moving-guides/moving-out-rental-checklist/" },
+      { label: "Moving house with pets", href: "/moving-guides/moving-house-with-pets/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "GOV.UK: School Admissions Code 2021", href: "https://assets.publishing.service.gov.uk/media/60ebfeb08fa8f50c76838685/School_admissions_code_2021.pdf" },
+      { label: "GOV.UK: Child Benefit changes of circumstance", href: "https://www.gov.uk/report-changes-child-benefit/if-your-familys-circumstances-change" },
+    ],
+    faqs: [
+      {
+        q: "How do I get a school place if I move mid-year?",
+        a: "Make an in-year application. In Manchester it goes to Manchester City Council. Under the School Admissions Code you must be told the outcome in writing within 15 school days, and you cannot be refused the chance to apply.",
+      },
+      {
+        q: "How long does an in-year school application take?",
+        a: "The admission authority should aim to notify you within 10 school days and must do so within 15 school days.",
+      },
+      {
+        q: "Do I need proof of address to register my child with a GP?",
+        a: "Adults do not need ID or proof of address, but for a child the surgery may ask for proof of the child's ID and address, such as a birth certificate, and for proof that you are the parent or guardian.",
+      },
+      {
+        q: "What happens to Child Benefit if I move?",
+        a: "Tell HMRC your new address. If you do not and HMRC cannot contact you, your payments will stop.",
+      },
+      {
+        q: "How long does a Manchester school waiting list last?",
+        a: "Manchester keeps a child on a waiting list for one term only, after which you need to reapply.",
+      },
+      {
+        q: "Should the children be there on moving day?",
+        a: "It is easier if someone can look after them while the crew loads. If they are there, keep one room for them that is packed and loaded last.",
+      },
+    ],
+  },
+  {
+    slug: "moving-house-with-pets",
+    title: "Moving House With Pets | Frank's Van and Man Manchester",
+    h1: "Moving House With Pets",
+    metaDescription:
+      "Moving house with a dog or cat in Manchester: updating the microchip, asking a landlord for a pet under the 2026 rules, travelling safely and settling in.",
+    updated: "2026-10-13",
+    answer:
+      "Pets travel with you, not in the removal van. The law has two things to say about the move: your pet's microchip details must be kept up to date when you move house, and if you rent in England, from 1 May 2026 you can ask your landlord in writing to keep a pet, and they cannot refuse without a fair reason.",
+    sections: [
+      {
+        h2: "Update the Microchip",
+        body: [
+          "All dogs in the UK must be microchipped and registered by the time they are 8 weeks old, and in England cats must be microchipped and registered by 20 weeks old, including cats that only stay indoors. You can be fined up to £500 if a dog or cat is not microchipped when it needs to be.",
+          "The part that matters on a move is the address. GOV.UK says you are responsible for keeping your pet's microchip information up to date, for example if you move house, by contacting the database company your pet is registered with, and you might be charged a fee. Manchester City Council describes updating the details after a move as a legal requirement.",
+        ],
+      },
+      {
+        h2: "Renting With a Pet From May 2026",
+        body: [
+          "If you are moving into a rented home in England, the rules changed on 1 May 2026. You ask your landlord in writing, describing the animal: what it is, its size and how much room it needs. The landlord has 28 days to respond in writing, and cannot refuse without a fair reason.",
+          "GOV.UK gives examples on both sides. Simply disliking pets or worrying about future damage are not fair reasons. An allergy in the household, a home too small for the animal, a freeholder who bans pets or a pet that is illegal to keep may be. Once a landlord agrees, they cannot change their mind. They can claim through your pet insurance if you have it, but cannot claim for the same damage twice.",
+        ],
+        bullets: [
+          "Ask in writing, and describe the pet properly.",
+          "Expect a written answer within 28 days.",
+          "Keep the landlord's agreement with your tenancy paperwork.",
+        ],
+      },
+      {
+        h2: "Travelling on Moving Day",
+        body: [
+          "Pets go in your car, because [removal firms' terms exclude animals](/moving-guides/what-removal-companies-wont-move/). Highway Code rule 57 says animals in a vehicle should be suitably restrained so they cannot distract you while you drive or injure you, or themselves, if you stop quickly, and gives a seat belt harness, pet carrier, dog cage or dog guard as ways to do it.",
+          "While a [house removal](/services/house-removals/) is being loaded, doors are open for hours. Keep a cat shut in one quiet room with a sign on the door, or with a friend for the day, and walk a dog before the crew arrives. A pet that slips out during loading is an entirely avoidable problem.",
+        ],
+      },
+      {
+        h2: "Settling Into the New Home",
+        body: [
+          "Cats Protection advises keeping a cat indoors for at least three weeks after a move, and notes that some cats let out too soon go missing, sometimes finding their way back to their old home. If you are only moving a few streets, the old home is close enough to find, so keep to the full three weeks.",
+          "Dogs have new rules to learn too. Manchester's dog control orders, extended in July 2025, require dogs to be kept on a lead on any road or pavement in the city and limit one person to walking four dogs at a time, with a £100 fixed penalty or up to £1,000 on prosecution. Walk the new neighbourhood on the lead for the first weeks while you both learn it.",
+        ],
+      },
+    ],
+    related: [
+      { label: "What removal companies won't move", href: "/moving-guides/what-removal-companies-wont-move/" },
+      { label: "Moving house with children", href: "/moving-guides/moving-house-with-children/" },
+      { label: "Moving out of a rental checklist", href: "/moving-guides/moving-out-rental-checklist/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "GOV.UK: get your dog or cat microchipped", href: "https://www.gov.uk/get-your-dog-cat-microchipped" },
+      { label: "GOV.UK: if you want a pet to live with you", href: "https://www.gov.uk/assured-periodic-tenancies-tenants/if-you-want-a-pet-to-live-with-you" },
+    ],
+    faqs: [
+      {
+        q: "Do I need to update my pet's microchip when I move?",
+        a: "Yes. GOV.UK says you are responsible for keeping your pet's microchip details up to date, for example if you move house. Contact the database company your pet is registered with.",
+      },
+      {
+        q: "Can my landlord refuse a pet in 2026?",
+        a: "Only with a fair reason. From 1 May 2026 you can ask in writing, the landlord has 28 days to respond, and disliking pets or worrying about future damage are not fair reasons.",
+      },
+      {
+        q: "Can pets go in the removal van?",
+        a: "No. Removal firms' terms commonly exclude animals. They travel with you, restrained in the car as Highway Code rule 57 describes.",
+      },
+      {
+        q: "How long should I keep my cat in after moving?",
+        a: "Cats Protection advises at least three weeks indoors, because some cats let out too soon go missing or head back to their old home.",
+      },
+      {
+        q: "What is the fine for a dog that is not microchipped?",
+        a: "You can be fined up to £500 if your dog or cat is not microchipped when it needs to be.",
+      },
+      {
+        q: "Do I have to keep my dog on a lead in Manchester?",
+        a: "On any road or pavement in the city, yes, under Manchester's dog control orders extended in July 2025, which also limit one person to four dogs at a time.",
+      },
+    ],
+  },
 ];
 
 export const getGuide = (slug: string) => guides.find((g) => g.slug === slug);
