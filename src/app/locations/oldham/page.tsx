@@ -211,7 +211,7 @@ export default function OldhamPage() {
             />
             <RichText
               className="mt-3 text-gray-700"
-              text="Plenty of clearances do not need a skip at all. [Clearing it into the van](/services/rubbish-removal/) is often quicker and cheaper, and it is licensed waste carriage rather than a container sitting on the street for a week while the parking department is chased."
+              text="Plenty of clearances do not need a skip at all. [Clearing it into the van](/services/rubbish-removal/) is often quicker and cheaper than a container sitting on the street for a week while the parking department is chased."
             />
           </section>
 
