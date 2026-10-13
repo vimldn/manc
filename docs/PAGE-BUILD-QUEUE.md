@@ -75,8 +75,15 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 19 | P2 | RNCM Student Removals | `/student-removals/rncm/` | P1 guides done; P2 starts |
-| 19 | P2 | UA92 Student Removals | `/student-removals/ua92/` | P2 |
+| 19 | P1 | Student Removals Victoria Park | `/student-removals/victoria-park/` | missed P1, clean (no Victoria Park location page) |
+| 19 | P1 | International Student Removals Manchester | `/student-removals/international-students/` | missed P1, clean |
+| 20 | P1 | Student Removals Hulme | `/student-removals/hulme/` | missed P1; gap-check against the live /locations/hulme/ first |
+| 20 | P1 | End-of-Term Student Removals | `/student-removals/end-of-term/` | missed P1; gap-check against the UoM, MMU and Salford pages |
+| 21 | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | missed P1; likely collides with /services/student-storage-manchester/ |
+| 21 | P1 | Moving Home From Manchester University | `/student-removals/moving-home/` | missed P1 |
+| 22 | P1 | Moving Into Manchester University Halls (guide) | `/moving-guides/moving-into-manchester-university-halls/` | missed P1; check overlap with the UoM page |
+| 22 | P1 | Moving From Halls to a Student House (guide) | `/moving-guides/halls-to-student-house-manchester/` | missed P1 |
+| later | P2 | RNCM, UA92, University of Law, BPP, University of Bolton student pages; six route pages; three P2 guides | | after the P1 student pages |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |
@@ -91,6 +98,10 @@ further borough page on what the council does publish, not on the absence.
 Wigan Council's own site is Cloudflare-blocked from this machine; everything on
 that page came from its statutory notices on Public Notice Portal, its
 EasiPermits portal and the developer's own site.
+
+The eight P1 student pages above were skipped when the queue moved on to the
+P1 location pages on day 6 and were never logged. Found and restored on
+2026-10-13; they come before any P2 work.
 
 ## Decisions needed before the pages they block
 
