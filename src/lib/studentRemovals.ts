@@ -564,6 +564,267 @@ export const studentPages: StudentPage[] = [
     ],
     reviewed: "September 2026",
   },
+  {
+    slug: "victoria-park",
+    navLabel: "Victoria Park",
+    name: "Victoria Park",
+    h1: "Student Removals Victoria Park Manchester",
+    title: "Student Removals Victoria Park Manchester | Frank's Van and Man Manchester",
+    metaDescription:
+      "Student removals in Victoria Park, M14: the 1837 gated estate, the Rusholme and Moss Side permit scheme on Upper and Lower Park Road, Anson Road and the private halls. Get a quote.",
+    cardBlurb:
+      "The old gated estate south of the university, its 2024 permit scheme, and the private halls on Upper Park Road.",
+    intro: [
+      "Victoria Park is a conservation area three kilometres south of the city centre, between the backs of Wilmslow Road and Anson Road, and a student move here runs on residential streets rather than campus roads.",
+      "Several [University of Manchester halls](/student-removals/university-of-manchester/) sit inside the estate alongside private halls and houses. This page is about the streets themselves: the residents' parking scheme that went live in January 2024, Anson Road, and the long front gardens that set the length of the carry.",
+      "Runs across to [Longsight](/locations/longsight/) on the east side or down Wilmslow Road to [Fallowfield](/locations/fallowfield/) are short, so the time on the day goes on loading rather than driving.",
+    ],
+    keyFacts: [
+      { label: "Conservation area", value: "Designated March 1972" },
+      { label: "Estate launched", value: "1837, as a 70 acre private estate" },
+      { label: "Residents' parking", value: "Rusholme and Moss Side scheme, live since January 2024" },
+      { label: "Not in the scheme", value: "Anson Road" },
+      { label: "Visitor permit", value: "£45 a year for up to 10 vehicles" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    sections: [
+      {
+        h2: "A Gated Estate From 1837",
+        body:
+          "Victoria Park was laid out as a 70 acre private estate and launched in 1837. Historic England describes it as the first gated suburban residential park in Manchester and one of the earliest in the country, and the council records that for decades access could be gained only by paying a toll at the entrance gates. Anson Road was cut through it in the 1920s, and the council designated what remained a conservation area in March 1972.",
+        outro:
+          "The listing for one of the original houses, on Oxford Place, sets out the estate's early history in Historic England's [Brook House entry](https://historicengland.org.uk/listing/the-list/list-entry/1479087).",
+      },
+      {
+        h2: "Wide Roads, Verges and Long Front Gardens",
+        body:
+          "The council's appraisal describes the roads as nearly all wide, some laid out in gentle curves and some with grass verges. Park Crescent is a circular road that works like a roundabout. Where the verges meet driveways they have been damaged by car tyres, and the most vulnerable stretches have been paved with granite setts.",
+        outro:
+          "For a van that means room to stop but a longer walk. The council notes that Dalton Hall is the only building in the conservation area close to the back of the pavement; everything else sits behind broad gardens with trees, some behind walls high enough to hide the house from the road. We keep the van on the road, not the verge, so the carry is the length of the front garden. Tell us whether it is a front door at the end of a drive or a flat at the back of a large house, because that sets the time more than the mileage does.",
+      },
+      {
+        h2: "Residents' Parking Since January 2024",
+        body:
+          "Victoria Park is inside the Rusholme and Moss Side residents' parking scheme, whose restrictions came into force in January 2024. No bays are marked. Each street has a sign at its entrance giving the permit hours, and outside those hours there is no restriction. A permit does not allow parking on double yellow lines at any time, or on single yellows during the restricted hours.",
+        bullets: [
+          "In the scheme: Upper Park Road, Lower Park Road, Conyngham Road, Park Crescent, Park Range, Crescent Range, Kent Road West and Oxford Place.",
+          "Only some house numbers on Daisy Bank Road and Denison Road are listed.",
+          "Anson Road is not on the list.",
+        ],
+        outro:
+          "If you live on one of those streets, the household visitor permit lets you register vehicles online and change them as often as you need, and when the council consulted on the scheme it set that permit at £45 a year for up to 10 vehicles. Ask us for the van's registration a few days before. Otherwise we read the sign on the day and work to its hours. The full street list is on the council's [scheme address page](https://www.manchester.gov.uk/parking/parking-at-your-home/resident-parking-schemes/rusholme-and-moss-side-residents-parking-scheme/list-of-addresses-included-in-the-scheme).",
+      },
+      {
+        h2: "Anson Road and the Approach",
+        body:
+          "Anson Road forms the eastern edge of the conservation area. The council describes it as a major radial route from the city centre, and says that together with the Rusholme shops on Wilmslow Road it makes traffic noise a problem for the estate. It is outside the permit scheme, but it is a main road, and a van loading on it holds up everything behind it.",
+        outro:
+          "So we load from the side streets wherever the house allows, and keep Anson Road for the drive. Coming from town it is also the way in, because Oxford Road is open only to buses, black cabs and cycles from 6am to 9pm every day. If a side street has no space at all on the day, [reserving parking for the move](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) is the fallback.",
+      },
+      {
+        h2: "Private Halls on Upper Park Road",
+        body:
+          "Not every hall in Victoria Park belongs to the university. Njoy Student Living runs Langdale Hall on Upper Park Road, M14 5RJ, which it reserves for second years and above, and points first years to its Langdale Courtyard and Carfax Court flats instead. Langdale Hall rooms are let on 51 week and 45 week contracts.",
+        outro:
+          "Those contract lengths decide the summer. A 45 week contract ends weeks before a 51 week one, and a room on the shorter contract either goes home, goes into [summer storage](/services/student-storage-manchester/), or moves straight to next year's house. Check the end date on your own contract, because that, not the term timetable, is when the room has to be empty.",
+      },
+      {
+        h2: "What a Victoria Park Move Costs",
+        body:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". A room in a hall or a house share is usually one van load. On these streets the time goes on the walk from the road to the front door and up the stairs, so the floor and the length of the garden matter more than the distance.",
+        outro: "Every band we quote from is [published on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Tell us the street and house number, and whether the room is at the front or the back of the building.",
+      "Check the sign at the entrance to your street for the permit hours, or tell us the street and we will.",
+      "If you are in the scheme, register the van on your visitor permit once we send the registration.",
+      "Give us your contract end date, not the term date.",
+      "We confirm the time, the van and the price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Is Victoria Park in a residents' parking zone?",
+        a: "Its main roads are. Victoria Park is inside the Rusholme and Moss Side scheme, live since January 2024, which lists Upper Park Road, Lower Park Road, Conyngham Road, Park Crescent, Park Range, Crescent Range, Kent Road West and Oxford Place. Anson Road is not on the list.",
+      },
+      {
+        q: "Can a removal van park in the Rusholme and Moss Side scheme?",
+        a: "Outside the hours on the street sign there is no restriction. Inside them, a resident can register the van on the household visitor permit, which the council set at £45 a year for up to 10 vehicles when it consulted on the scheme.",
+      },
+      {
+        q: "Who runs Langdale Hall in Victoria Park?",
+        a: "Njoy Student Living, from Langdale Hall on Upper Park Road, M14 5RJ. It reserves Langdale Hall for second years and above and offers first years its Langdale Courtyard and Carfax Court flats.",
+      },
+      {
+        q: "Is Victoria Park part of the University of Manchester?",
+        a: "No. It is a residential conservation area, designated in March 1972, that contains several University of Manchester halls alongside private halls and houses.",
+      },
+      {
+        q: "Can you drive up Oxford Road to Victoria Park?",
+        a: "Not between 6am and 9pm, when Oxford Road's bus gates are open only to buses, black cabs and cycles, and a penalty notice is £70. A van from town comes down Anson Road instead.",
+      },
+      {
+        q: "Why does a Victoria Park move take longer than the distance suggests?",
+        a: "Because of the carry. The council notes that Dalton Hall is the only building in the conservation area close to the pavement, and the rest sit behind broad front gardens, so every box walks the length of the garden.",
+      },
+      {
+        q: "What does a Victoria Park student move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". Most room moves fit one van load, and the exact price depends on the floor, the carry and how much there is.",
+      },
+    ],
+    related: [
+      { label: "University of Manchester student removals", path: "/student-removals/university-of-manchester/" },
+      { label: "Man and van in Longsight", path: "/locations/longsight/" },
+      { label: "Man and van in Fallowfield", path: "/locations/fallowfield/" },
+      { label: "Student storage in Manchester", path: "/services/student-storage-manchester/" },
+      { label: "Student man and van in Manchester", path: "/services/student-moves/" },
+      { label: "Reserving parking for a move", path: "/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/" },
+    ],
+    reviewed: "October 2026",
+  },
+  {
+    slug: "international-students",
+    navLabel: "International Students",
+    name: "International Students",
+    h1: "International Student Removals Manchester",
+    title: "International Student Removals Manchester | Frank's Van and Man Manchester",
+    metaDescription:
+      "International student removals in Manchester: the airport run, arriving before your contract, customs relief on shipped belongings, eVisas, council tax and the shorter Graduate visa from 2027.",
+    cardBlurb:
+      "Arriving through Manchester Airport, shipping boxes in under customs relief, and the end of course move under the new Graduate visa rules.",
+    intro: [
+      "An international student's Manchester move comes in two halves: two suitcases off a plane in September, and a room's worth of belongings to sort out when the course ends.",
+      "The University of Manchester says it welcomes one of the largest international student populations in the UK each year. We move students at all three universities, from [Manchester Met](/student-removals/manchester-metropolitan-university/) blocks in the city centre to the halls at [Salford](/student-removals/university-of-salford/) and the [University of Manchester](/student-removals/university-of-manchester/).",
+      "This page covers what is different when you come from abroad: the airport, the dates on your visa, customs on anything you ship, council tax once you leave halls, and the 2027 change to the Graduate visa that moves the end of course date for a lot of people.",
+    ],
+    keyFacts: [
+      { label: "Airport to city centre", value: "14km, about 20 minutes by train" },
+      { label: "Taxi to university accommodation", value: "£25 to £35, 25 to 30 minutes" },
+      { label: "Earliest arrival, course over 6 months", value: "1 month before, never before the visa start date" },
+      { label: "Shipped belongings", value: "Student customs relief, CPC 40 00 C06, no ToR1 form" },
+      { label: "Graduate visa from 1 January 2027", value: "18 months, down from 2 years" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    sections: [
+      {
+        h2: "Manchester Airport and the First Night",
+        body:
+          "Manchester Airport is 14 kilometres south of the city centre. The University of Manchester says the train to Piccadilly or Oxford Road takes about 20 minutes, and that a taxi to university accommodation is likely to cost £25 to £35 and take 25 to 30 minutes, depending on traffic and luggage. TfGM lists the 43 and 103 buses from the airport to Piccadilly Gardens among the routes serving the Oxford Road campus.",
+        outro:
+          "The university ran an airport welcome desk in the arrivals halls from 8am to 8pm on 16 to 18 September 2026. Outside those days you make your own way, and its advice is to check you can get into your accommodation on the day you land, in line with your contract start date. Suitcases fit in a taxi. A van is for what comes later: the bedding, desk chair and kitchen kit bought in the first week, and any boxes sent on ahead.",
+      },
+      {
+        h2: "Arriving Before Your Contract Starts",
+        body:
+          "GOV.UK lets you arrive up to one month before a course that lasts more than six months, or up to one week before a shorter one, but never before the start date on your visa. Hall and private contracts do not always start that early, so some students land with a gap of days between the flight and the keys.",
+        outro:
+          "If that happens, the boxes have to wait somewhere. We can bring them over from wherever you are staying once the room opens, and for a gap of weeks rather than days, [storage](/services/student-storage-manchester/) bridges the dates.",
+      },
+      {
+        h2: "Customs Relief on Shipped Belongings",
+        body:
+          "If you are coming to the UK for full-time study, you can ship your personal belongings in under customs relief without the ToR1 form that people moving here permanently fill in. GOV.UK tells students to have their shipping agent declare the goods under customs procedure code 40 00 C06 and to send evidence of the period of study with the entry. The relief covers clothing, the things you need for your studies, including a computer, and household effects. Alcohol and tobacco are excluded.",
+        outro:
+          "The usual rule that you must have owned the goods for six months before moving does not apply to students. If you stay in the UK after graduating, you can claim transfer of residence relief within 12 months of graduation using the ToR1 form. The detail is in GOV.UK's [transfer of residence guidance](https://www.gov.uk/guidance/transfer-of-residence-to-great-britain).",
+      },
+      {
+        h2: "Your eVisa and Renting a Room",
+        body:
+          "Biometric residence permits have gone. GOV.UK says all BRPs have now expired and been replaced by eVisas, a digital record of your immigration status. You travel with the passport you have added to your UKVI account, and you use a share code from that account when you rent a home or start a job.",
+        outro:
+          "In England a private landlord checks your right to rent before the tenancy starts, so have the share code ready before moving day rather than on it. A late check means [a late key](/moving-guides/keys-delayed-moving-day/), and a late key leaves the van waiting at the kerb.",
+      },
+      {
+        h2: "Council Tax Once You Leave Halls",
+        body:
+          "Halls of residence are automatically exempt from council tax in Manchester. A house or flat is not. If everyone living there is a full-time student you will usually have to apply for the exemption, with your student ID, your university, your course dates and the address, and tell the council when your course ends.",
+        outro:
+          "One rule matters to international students in particular. The council can also exempt a home where a full-time student's partner or dependant is not a British citizen and is not allowed to work or claim benefits in the UK, and it asks for a copy of the visa and proof of no recourse to public funds. Apply when you move into the house, not when the first bill arrives.",
+      },
+      {
+        h2: "When the Course Ends",
+        body:
+          "On a course of 12 months or longer, a Student visa runs for four months after the course end date; on a course of six to twelve months, for two. If you want to stay and work, you apply for the Graduate visa from inside the UK before the Student visa expires, and you can apply as soon as the university has told the Home Office you have completed the course, without waiting for graduation.",
+        outro:
+          "The length is changing. A Graduate visa lasts two years if you apply on or before 31 December 2026, and 18 months if you apply on or after 1 January 2027. Staying on usually means leaving a student room for a first flat on an ordinary tenancy, and a room's worth of belongings with a desk and a bike is a single [van load](/services/man-and-van-hire/). The dates are on GOV.UK's [Graduate visa page](https://www.gov.uk/graduate-visa).",
+      },
+      {
+        h2: "Going Home for Good",
+        body:
+          "Leaving the UK means splitting a room three ways: what goes in the suitcase, what is shipped, and what stays behind. Shipping overseas is a job for a freight forwarder or a student shipping company. The Manchester end of it is a van job: furniture that has been sold [delivered to its new owner](/services/furniture-delivery/) across town, and whatever nobody wants [cleared](/services/rubbish-removal/) rather than left for the landlord.",
+        outro:
+          "Book that end of it for before the visa and the contract run out, not after. A room still full on the last day of a contract is the most expensive version of the move.",
+      },
+      {
+        h2: "What an International Student Move Costs",
+        body:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". A room in halls is usually one van load, and the price depends on the floor, the carry and how much there is, the same as for any student move.",
+        outro: "Every band we quote from is [published on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us your hall or street address and your contract start or end date.",
+      "If boxes are arriving separately, tell us roughly how many and where they will be.",
+      "Tell us the floor, whether there is a lift, and the nearest place to stop.",
+      "We confirm the time, the van and the price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "How do I get from Manchester Airport to my accommodation?",
+        a: "The University of Manchester says the train to Piccadilly or Oxford Road takes about 20 minutes, and a taxi to university accommodation costs around £25 to £35 and takes 25 to 30 minutes. TfGM lists the 43 and 103 buses from the airport among the routes serving the Oxford Road campus.",
+      },
+      {
+        q: "How early can I arrive in Manchester before my course?",
+        a: "Up to one month before a course that lasts more than six months, or one week before a shorter one, but never before the start date on your visa. Check your accommodation contract start date as well.",
+      },
+      {
+        q: "Do I pay import duty on belongings I ship to the UK as a student?",
+        a: "Not usually, if you are coming for full-time study. Students can claim customs relief without the ToR1 form: the shipping agent declares the goods under customs procedure code 40 00 C06, with evidence of your period of study. Alcohol and tobacco are excluded.",
+      },
+      {
+        q: "Do I still need my BRP?",
+        a: "No. GOV.UK says all BRPs have now expired and have been replaced by eVisas. An expired card can still be used for a few account tasks, such as signing in and getting a share code, until 31 December 2026 at the latest.",
+      },
+      {
+        q: "Do international students pay council tax in Manchester?",
+        a: "Not in halls, which are automatically exempt. In a house or flat where everyone is a full-time student you usually need to apply for the exemption. A home can also be exempt where a student's partner or dependant is not British and is not allowed to work or claim benefits.",
+      },
+      {
+        q: "How long can I stay after my course ends?",
+        a: "On a course of 12 months or longer, a Student visa runs for four months after the course end date. On a course of six to twelve months, it runs for two.",
+      },
+      {
+        q: "How long is the Graduate visa?",
+        a: "Two years if you apply on or before 31 December 2026, and 18 months if you apply on or after 1 January 2027. You must apply from inside the UK before your Student visa expires.",
+      },
+      {
+        q: "Can you ship my belongings home?",
+        a: "Overseas shipping is a job for a freight forwarder or a student shipping company. We handle the Manchester side: furniture to new owners, unwanted items cleared, and the move into a flat if you are staying.",
+      },
+    ],
+    related: [
+      { label: "University of Manchester student removals", path: "/student-removals/university-of-manchester/" },
+      { label: "Manchester Met student removals", path: "/student-removals/manchester-metropolitan-university/" },
+      { label: "University of Salford student removals", path: "/student-removals/university-of-salford/" },
+      { label: "Student storage in Manchester", path: "/services/student-storage-manchester/" },
+      { label: "Student man and van in Manchester", path: "/services/student-moves/" },
+      { label: "Keys delayed on moving day", path: "/moving-guides/keys-delayed-moving-day/" },
+    ],
+    reviewed: "October 2026",
+  },
 ];
 
 export const getStudentPage = (slug: string) => studentPages.find((p) => p.slug === slug);

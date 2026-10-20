@@ -57,6 +57,8 @@ page to scroll sideways on a phone.
 | 17 | 2026-10-09 | P1 | Moving Out of a Rental Checklist | `/moving-guides/moving-out-rental-checklist/` |
 | 18 | 2026-10-13 | P1 | Moving House With Children | `/moving-guides/moving-house-with-children/` |
 | 18 | 2026-10-13 | P1 | Moving House With Pets | `/moving-guides/moving-house-with-pets/` |
+| 19 | 2026-10-21 | P1 | Student Removals Victoria Park Manchester | `/student-removals/victoria-park/` |
+| 19 | 2026-10-21 | P1 | International Student Removals Manchester | `/student-removals/international-students/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -75,8 +77,6 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 19 | P1 | Student Removals Victoria Park | `/student-removals/victoria-park/` | missed P1, clean (no Victoria Park location page) |
-| 19 | P1 | International Student Removals Manchester | `/student-removals/international-students/` | missed P1, clean |
 | 20 | P1 | Student Removals Hulme | `/student-removals/hulme/` | missed P1; gap-check against the live /locations/hulme/ first |
 | 20 | P1 | End-of-Term Student Removals | `/student-removals/end-of-term/` | missed P1; gap-check against the UoM, MMU and Salford pages |
 | 21 | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | missed P1; likely collides with /services/student-storage-manchester/ |
@@ -102,6 +102,10 @@ EasiPermits portal and the developer's own site.
 The eight P1 student pages above were skipped when the queue moved on to the
 P1 location pages on day 6 and were never logged. Found and restored on
 2026-10-13; they come before any P2 work.
+
+Victoria Park (day 19) is built on the area, not the halls: the UoM page owns
+the Victoria Park hall list and the Oxford Road bus gate section, and the
+Longsight page owns the conservation area boundary. Keep it that way.
 
 ## Decisions needed before the pages they block
 
