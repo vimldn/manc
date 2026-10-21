@@ -1091,6 +1091,124 @@ export const studentPages: StudentPage[] = [
     ],
     reviewed: "October 2026",
   },
+  {
+    slug: "moving-home",
+    navLabel: "Moving Home",
+    name: "Moving Home",
+    h1: "Moving Home From Manchester University",
+    title: "Moving Home From Manchester University | Frank's Van and Man Manchester",
+    metaDescription:
+      "Moving home from university in Manchester: 2027 exam, resit and graduation dates, what a train or coach will carry, Royal Mail redirection, voting at two addresses and council tax after your course.",
+    cardBlurb:
+      "Exam, resit and graduation dates for 2027, what a train or coach will take, and the admin of leaving Manchester.",
+    intro: [
+      "Moving home from a Manchester university is a long distance move timed by exam dates, resit dates and a graduation that may be months away.",
+      "A first year going home for the summer and a graduate leaving for good have the same problem: a year of belongings that will not go on a train. This page covers the dates that decide when you can leave, what the train and coach companies will actually carry, and the admin of leaving the city. The hall end dates are on the [University of Manchester](/student-removals/university-of-manchester/), [Manchester Met](/student-removals/manchester-metropolitan-university/) and [Salford](/student-removals/university-of-salford/) pages.",
+    ],
+    keyFacts: [
+      { label: "UoM semester 2 ends", value: "Friday 11 June 2027" },
+      { label: "UoM exam resits", value: "16 to 27 August 2027" },
+      { label: "UoM summer graduation", value: "12 to 27 July 2027" },
+      { label: "Manchester Met graduation", value: "8 to 19 November 2027" },
+      { label: "Train luggage on Avanti", value: "3 items, largest 30 x 70 x 90cm" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "When Term Ends and When You Can Leave",
+        body:
+          "At the University of Manchester, semester 2 exams run from 17 May to 9 June 2027 and the semester ends on Friday 11 June. Manchester Met's assessment weeks are 10 to 21 May 2027. Resits are the date people forget: the University of Manchester's [key dates](https://www.manchester.ac.uk/about/key-dates/) put them from 16 to 27 August 2027, so a student who might need one should not book a one-way move home for July without a plan to come back.",
+        outro:
+          "Hall contracts usually run past the end of exams, so most students have a choice of weeks. The easiest to book is rarely the last weekend before the contract ends, when everyone else is going too.",
+      },
+      {
+        h2: "Graduation in July or November",
+        body:
+          "The University of Manchester's summer graduation runs from 12 to 27 July 2027, so a final year student can stay on, graduate and then leave. Manchester Met is different: its 2026/27 calendar puts graduation ceremonies from 8 to 19 November 2027.",
+        outro:
+          "A Manchester Met student who finishes assessments in May 2027 will move home months before graduating. Graduation becomes a trip back in a suit rather than the last week of a tenancy, so there is no reason to keep a room for it.",
+      },
+      {
+        h2: "What the Train and Coach Will Take",
+        body:
+          "Avanti West Coast's [luggage rules](https://www.avantiwestcoast.co.uk/onboard/luggage) allow three items on board, as long as you can carry them all yourself, with the largest bag no bigger than 30 x 70 x 90cm. National Express allows two medium suitcases or one large one, each up to 20kg, plus a small piece of hand luggage, and up to three extra items in the hold at £10 each per single journey booked online, or £15 booked offline.",
+        bullets: [
+          "16-25 Railcard: £35 for one year or £80 for three, a third off most fares.",
+          "The Railcard has a £12 minimum fare Monday to Friday between 4:30am and 9:59am.",
+          "National Express hand luggage is limited to 45 x 35 x 20cm.",
+        ],
+        outro:
+          "Three bags will take clothes, a laptop and a few books. A duvet, a desk chair, a monitor, a kettle and eight boxes will not, and that is the point where a van stops being a luxury. Housemates going the same way can share one, which is the cheapest way to do it.",
+      },
+      {
+        h2: "Mail, Voting and Council Tax",
+        body:
+          "Royal Mail's redirection for a single adult costs £45.00 for up to three months, £66.50 for six and £95.00 for twelve, and it needs at least five working days to set up, so apply before the last week. If you are registered to vote at your term address, Manchester City Council says you can stay registered at both addresses as long as they are not in the same council area; you can vote in both places at local elections but only once at a general election.",
+        outro:
+          "Council tax is the one that costs money. Manchester Student Homes warns that a final year student who stays in a private house after the course end date is liable for council tax for that period, and the council asks you to tell it when your course ends. If you are staying for graduation or a summer job, budget for it.",
+      },
+      {
+        h2: "Staying in the North West Instead",
+        body:
+          "Not everyone goes home. The University of Manchester says 35% of its graduates choose to live and work in the North West. For them the end of the course is a different move: out of a student room or house share and into a first flat on an ordinary tenancy, often across town rather than across the country.",
+        outro:
+          "That is a short local job, usually one van load, and our [flat and apartment removals](/services/flat-apartment-removals/) cover the lift bookings and loading bays that come with city centre blocks.",
+      },
+      {
+        h2: "What a Move Home Costs",
+        body:
+          "A move home is priced as a [long distance move](/services/long-distance-removals/): a fixed price on the route, the load and the mileage, agreed before the day. A room's worth of belongings is usually a single small load, so the distance matters more than the volume.",
+        outro:
+          "If you are not sure where everything is going yet, [storage](/services/student-storage-manchester/) over the summer is the alternative to taking it all home and bringing it back in September.",
+      },
+    ],
+    booking: [
+      "Tell us your hall or house address in Manchester and the address you are moving to.",
+      "Give us the last day of your contract and any resit or graduation date that matters.",
+      "Tell us roughly how much there is: boxes, bags and any furniture.",
+      "If housemates are going the same way, tell us and we will price one run.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "When does the University of Manchester summer term end in 2027?",
+        a: "Semester 2 ends on Friday 11 June 2027, after exams from 17 May to 9 June. Resits run from 16 to 27 August 2027.",
+      },
+      {
+        q: "When is Manchester Met graduation in 2027?",
+        a: "Manchester Met's 2026/27 calendar puts graduation ceremonies from 8 to 19 November 2027, months after the May assessment weeks.",
+      },
+      {
+        q: "How much luggage can I take on the train from Manchester?",
+        a: "Avanti West Coast allows three items you can carry yourself, with the largest no bigger than 30 x 70 x 90cm.",
+      },
+      {
+        q: "How much luggage can I take on a National Express coach?",
+        a: "Two medium suitcases or one large one, each up to 20kg, plus a small piece of hand luggage. Up to three extra items can go in the hold at £10 each per single journey booked online.",
+      },
+      {
+        q: "How much does Royal Mail redirection cost?",
+        a: "For a single adult, £45.00 for up to three months, £66.50 for six and £95.00 for twelve. Royal Mail needs at least five working days to set it up.",
+      },
+      {
+        q: "Do I pay council tax if I stay in Manchester after my course?",
+        a: "Manchester Student Homes says a final year student who stays in a private house after the course end date is liable for council tax for that period.",
+      },
+      {
+        q: "Can I be registered to vote in Manchester and at home?",
+        a: "Yes, if the two addresses are in different council areas. You can vote in both at local elections, but only once at a general election.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "End of term student removals", path: "/student-removals/end-of-term/" },
+      { label: "Student storage in Manchester", path: "/services/student-storage-manchester/" },
+      { label: "University of Manchester student removals", path: "/student-removals/university-of-manchester/" },
+      { label: "Manchester Met student removals", path: "/student-removals/manchester-metropolitan-university/" },
+      { label: "International student removals", path: "/student-removals/international-students/" },
+    ],
+    reviewed: "October 2026",
+  },
 ];
 
 export const getStudentPage = (slug: string) => studentPages.find((p) => p.slug === slug);

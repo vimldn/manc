@@ -61,6 +61,8 @@ page to scroll sideways on a phone.
 | 19 | 2026-10-21 | P1 | International Student Removals Manchester | `/student-removals/international-students/` |
 | 20 | 2026-10-22 | P1 | Student Removals Hulme Manchester | `/student-removals/hulme/` |
 | 20 | 2026-10-22 | P1 | End of Term Student Removals Manchester | `/student-removals/end-of-term/` |
+| 21 | 2026-10-23 | P1 | Moving Home From Manchester University | `/student-removals/moving-home/` |
+| 21 | 2026-10-23 | P1 | Moving From Halls to a Student House in Manchester (guide) | `/moving-guides/halls-to-student-house-manchester/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -79,10 +81,8 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 21 | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | missed P1; likely collides with /services/student-storage-manchester/ |
-| 21 | P1 | Moving Home From Manchester University | `/student-removals/moving-home/` | missed P1 |
-| 22 | P1 | Moving Into Manchester University Halls (guide) | `/moving-guides/moving-into-manchester-university-halls/` | missed P1; check overlap with the UoM page |
-| 22 | P1 | Moving From Halls to a Student House (guide) | `/moving-guides/halls-to-student-house-manchester/` | missed P1 |
+| blocked | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | needs decision 10 |
+| blocked | P1 | Moving Into Manchester University Halls (guide) | `/moving-guides/moving-into-manchester-university-halls/` | needs decision 11 |
 | later | P2 | RNCM, UA92, University of Law, BPP, University of Bolton student pages; six route pages; three P2 guides | | after the P1 student pages |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
@@ -150,6 +150,16 @@ would split one intent across two URLs.
    The live `/services/furniture-dismantling/` page owns the intent, and the BAR
    clause 3.6 list is already on the won't-move guide. Answered as an FAQ on the
    service page instead of a separate URL (2026-10-09).
+10. **Summer Student Moves Manchester** (`/student-removals/summer-moves/`, P1).
+   The summer gap is owned twice already: `/services/student-storage-manchester/`
+   ("Why Manchester Students End Up Needing Storage") and the End of Term page
+   ("Deposits and the Summer Gap", summer retainers). Recommendation: drop it,
+   or build it only if a distinct summer query turns up (2026-10-23).
+11. **Moving Into Manchester University Halls** (guide, P1). The UoM, Manchester
+   Met and Salford pages are the move-in pages: arrival addresses, key
+   collection, the thirty minute drop-off limit and the bus gates. A city-wide
+   guide would split that intent four ways. Recommendation: drop it
+   (2026-10-23).
 
 ## Clean to build with no decision
 

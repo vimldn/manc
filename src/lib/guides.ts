@@ -1477,6 +1477,118 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "halls-to-student-house-manchester",
+    title: "Halls to a Student House in Manchester | Frank's Van and Man Manchester",
+    h1: "Moving From Halls to a Student House in Manchester",
+    metaDescription:
+      "Moving from halls to a student house in Manchester: when to look, what a landlord can charge before you move in, contract checks, right to rent, council tax and bins under the 2026 rules.",
+    updated: "2026-10-23",
+    answer:
+      "Start looking early, because Manchester Student Homes says the busiest months are October to January and July to August. Before you move in a landlord can ask for a holding deposit of up to one week's rent, a deposit of up to five weeks' rent and, once the contract is signed, usually no more than one month's rent. Get the contract checked, have your right to rent ready, apply for the council tax exemption and learn the bin day in the first week.",
+    sections: [
+      {
+        h2: "When to Start Looking",
+        body: [
+          "Manchester Student Homes, the universities' housing service, says the busiest house hunting months are normally October to January and July to August. Its advice is to start as soon as possible because the market is competitive, and that if you wait until Easter or the summer you may find it difficult to secure somewhere.",
+          "It also asks you to double check, before anyone signs, that your friends still want to live together and nobody is having second thoughts. A house share signed in November for September is a long time to be sure of four other people.",
+        ],
+        outro: [
+          "One 2026 rule is worth knowing here. A landlord can only use the special student ground to take a house back at the end of the academic year if, among other conditions, the tenancy was signed less than six months before the date the tenants could move in.",
+        ],
+      },
+      {
+        h2: "What You Can Be Asked to Pay",
+        body: [
+          "Since 1 May 2026, new private tenancies in England are assured periodic tenancies, and the money rules at the start are tight. A landlord or agent must not accept, ask for or encourage rent before you both sign the tenancy agreement. Between signing and moving in, the most they can usually ask for is one month's rent if you pay monthly, or 28 days' rent if you pay weekly.",
+          "Before signing, they can ask for a holding deposit of up to one week's rent to reserve the house, and a tenancy deposit of up to five weeks' rent where the yearly rent is under £50,000. A written advert must give a specific rent, not a range, and a landlord cannot ask or encourage you to offer more.",
+        ],
+        bullets: [
+          "Rent before signing: not allowed.",
+          "Rent between signing and moving in: usually up to one month, or 28 days if weekly.",
+          "Holding deposit: up to one week's rent.",
+          "Tenancy deposit: up to five weeks' rent where the yearly rent is under £50,000.",
+          "Rental bidding: banned.",
+        ],
+        outro: [
+          "Manchester Student Homes adds that the ban on rent up front applies even if you do not have a UK guarantor, which matters most for [international students](/student-removals/international-students/) without one.",
+        ],
+      },
+      {
+        h2: "Read the Contract Before You Sign",
+        body: [
+          "Manchester Student Homes says a landlord it accredits should give you at least 24 hours to read the contract in full before you sign, and that you should not feel pressured to sign straight away. Students at its partner institutions can email the contract to it for a free check before signing.",
+          "For tenancies from 1 May 2026, GOV.UK requires the landlord to give you written information about the key terms before you sign. Read who is on the tenancy, whether it is joint, and what the rent covers, because a joint tenancy changes how it ends: under the new rules [one tenant's notice](/moving-guides/moving-out-rental-checklist/) can end it for everyone.",
+        ],
+      },
+      {
+        h2: "Right to Rent Checks",
+        body: [
+          "Halls skip this step, because landlords do not need to check tenants in student accommodation. A private house does not. Before a new tenancy starts, the landlord must check every tenant aged 18 and over, even anyone not named on the agreement, and for someone with time-limited permission to be in the UK the check has to happen in the 28 days before the tenancy starts.",
+        ],
+        outro: [
+          "British and Irish students use their passport. Everyone else proves it with a share code from their UKVI account or their original documents. Have it ready before the key day, because a check that is not done is a key that is not handed over.",
+        ],
+      },
+      {
+        h2: "Council Tax in a Private House",
+        body: [
+          "Halls are automatically exempt from council tax. A private house is not, and in Manchester you will usually need to apply for the exemption with your student ID number, your university, your course start and end dates and the address.",
+          "Manchester Student Homes points out one gap: a first year student who moves into private accommodation before officially enrolling is liable for council tax for that period. If the house starts in July and you enrol in September, ask how the council will treat the summer before you move.",
+        ],
+      },
+      {
+        h2: "Bins in the First Week",
+        body: [
+          "In halls someone else deals with the rubbish. In a Manchester house it is yours. The blue bin is for paper and card, and bins go out by 7am on collection day, visible from the road; in a terrace they go to the end of the alley nearest the house, outside any gates. Put the wrong things in and the council puts an advice tag on the bin and leaves it unemptied.",
+          "Moving in produces a lot of cardboard, and the council's warning to students is that getting rid of items the wrong way can be fly-tipping, with a £400 fine.",
+        ],
+      },
+      {
+        h2: "The Move Itself",
+        body: [
+          "A room in halls is usually one van load, and the run from Fallowfield or the city centre to a house in Withington or Rusholme is short. The awkward part is the dates. The hall contract and the house contract rarely line up, and a [summer retainer](/student-removals/end-of-term/) often holds the house without giving you access.",
+          "If there is a gap, the options are home, [storage](/services/student-storage-manchester/) or a friend's spare room. If the dates meet, housemates moving on the same day can share a [student man and van](/services/student-moves/) and split the cost.",
+        ],
+      },
+    ],
+    related: [
+      { label: "University of Manchester student removals", href: "/student-removals/university-of-manchester/" },
+      { label: "Manchester Met student removals", href: "/student-removals/manchester-metropolitan-university/" },
+      { label: "End of term student removals", href: "/student-removals/end-of-term/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "Manchester Student Homes: house hunting", href: "https://www.manchesterstudenthomes.com/pages/House%20Hunting" },
+      { label: "GOV.UK: assured periodic tenancies, a guide for tenants", href: "https://www.gov.uk/assured-periodic-tenancies-tenants" },
+    ],
+    faqs: [
+      {
+        q: "When should I start looking for a student house in Manchester?",
+        a: "Manchester Student Homes says the busiest months are October to January and July to August, and advises starting as soon as possible because the market is competitive.",
+      },
+      {
+        q: "How much deposit can a student house landlord ask for?",
+        a: "A holding deposit of up to one week's rent, and a tenancy deposit of up to five weeks' rent where the yearly rent is under £50,000.",
+      },
+      {
+        q: "Can a landlord ask for rent up front?",
+        a: "Not before you both sign. Between signing and moving in, the most they can usually ask for is one month's rent, or 28 days' rent if you pay weekly. Manchester Student Homes says this applies even without a UK guarantor.",
+      },
+      {
+        q: "Do I need a right to rent check for a student house?",
+        a: "Yes. Halls are exempt, but for a private house the landlord must check every tenant aged 18 and over before the tenancy starts.",
+      },
+      {
+        q: "Do students pay council tax in a Manchester house?",
+        a: "Not if everyone is a full-time student, but you usually have to apply for the exemption. A first year who moves in before enrolling is liable for that period.",
+      },
+      {
+        q: "Can someone check my contract before I sign?",
+        a: "Manchester Student Homes offers free contract checks to students at its partner institutions. Its accredited landlords should give you at least 24 hours to read the contract.",
+      },
+    ],
+  },
 ];
 
 export const getGuide = (slug: string) => guides.find((g) => g.slug === slug);
