@@ -59,6 +59,8 @@ page to scroll sideways on a phone.
 | 18 | 2026-10-13 | P1 | Moving House With Pets | `/moving-guides/moving-house-with-pets/` |
 | 19 | 2026-10-21 | P1 | Student Removals Victoria Park Manchester | `/student-removals/victoria-park/` |
 | 19 | 2026-10-21 | P1 | International Student Removals Manchester | `/student-removals/international-students/` |
+| 20 | 2026-10-22 | P1 | Student Removals Hulme Manchester | `/student-removals/hulme/` |
+| 20 | 2026-10-22 | P1 | End of Term Student Removals Manchester | `/student-removals/end-of-term/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -77,8 +79,6 @@ student pages for that reason.
 
 | Day | Priority | Page | URL | State |
 |---|---|---|---|---|
-| 20 | P1 | Student Removals Hulme | `/student-removals/hulme/` | missed P1; gap-check against the live /locations/hulme/ first |
-| 20 | P1 | End-of-Term Student Removals | `/student-removals/end-of-term/` | missed P1; gap-check against the UoM, MMU and Salford pages |
 | 21 | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | missed P1; likely collides with /services/student-storage-manchester/ |
 | 21 | P1 | Moving Home From Manchester University | `/student-removals/moving-home/` | missed P1 |
 | 22 | P1 | Moving Into Manchester University Halls (guide) | `/moving-guides/moving-into-manchester-university-halls/` | missed P1; check overlap with the UoM page |
@@ -106,6 +106,11 @@ P1 location pages on day 6 and were never logged. Found and restored on
 Victoria Park (day 19) is built on the area, not the halls: the UoM page owns
 the Victoria Park hall list and the Oxford Road bus gate section, and the
 Longsight page owns the conservation area boundary. Keep it that way.
+
+Hulme (day 20) is the student page for M15: Briarfield, Birley, the four permit
+zones. /locations/hulme/ stays the generic man and van page. End of Term (day
+20) owns the move-out rules and donation and waste; the hall end dates stay on
+the university pages and /services/student-storage-manchester/.
 
 ## Decisions needed before the pages they block
 

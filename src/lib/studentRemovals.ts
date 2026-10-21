@@ -825,6 +825,272 @@ export const studentPages: StudentPage[] = [
     ],
     reviewed: "October 2026",
   },
+  {
+    slug: "hulme",
+    navLabel: "Hulme",
+    name: "Hulme",
+    h1: "Student Removals Hulme Manchester",
+    title: "Student Removals Hulme Manchester | Frank's Van and Man Manchester",
+    metaDescription:
+      "Student removals in Hulme, M15: Briarfield and the Birley halls, the four Hulme resident parking zones and their hours, the Loxford Street permit area and the Birley Fields plans. Get a quote.",
+    cardBlurb:
+      "Briarfield and the Birley halls, the four Hulme permit zones, and the streets where a van cannot park at any hour.",
+    intro: [
+      "Hulme sits just south of the city centre, and a student move here is shaped by Manchester Met halls, four resident parking zones and one area where only permit holders can park at any hour.",
+      "Manchester Student Homes, the universities' housing service, describes Hulme in its [neighbourhood guide](https://www.manchesterstudenthomes.com/Pages/neighbourhood%20guides) as host to Manchester Met's Birley campus and a 10 to 15 minute walk from the universities. The rest of the [Manchester Met halls](/student-removals/manchester-metropolitan-university/), in the city centre, run on loading bays and goods lifts. Hulme runs on permit zones, and knowing which one a street is in decides where the van stands.",
+      "One name catches people out. Hulme Hall is a University of Manchester hall in [Victoria Park](/student-removals/victoria-park/), not in Hulme, so check the postcode before you book.",
+    ],
+    keyFacts: [
+      { label: "Briarfield Hall", value: "23 Stretford Road, Hulme, M15 6DD" },
+      { label: "Birley arrival address", value: "53 Bonsall Street, M15 6GX" },
+      { label: "Resident parking zones", value: "H1, H2, H4 and the Loxford Street area" },
+      { label: "H1, H2 and H4", value: "Free for 2 or 3 hours, 8am to 6pm weekdays; no limit outside those hours" },
+      { label: "Loxford Street area", value: "Permit holders only, at all times" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    sections: [
+      {
+        h2: "Briarfield and the Birley Halls",
+        body:
+          "Manchester Met gives Briarfield Hall's address as 23 Stretford Road, Hulme, M15 6DD, and students check in and collect their fob at the Wilmott reception desk. For the Birley halls the university asks arrivals to use 53 Bonsall Street, M15 6GX; keycards come from the Brooks Building outside the accommodation, or from Archway Halls after the check-in weekend.",
+        bullets: [
+          "Briarfield Hall: 23 Stretford Road, M15 6DD, fobs from the Wilmott reception desk.",
+          "Birley townhouses Dale and Naylor: Bonsall Street, M15 6GR and M15 6GU.",
+          "Birley arrivals: 53 Bonsall Street, M15 6GX, keycards from the Brooks Building.",
+        ],
+        outro:
+          "Parking at the Birley halls is limited to Blue Badge holders, so the van stops on the street. That is where the permit zones come in.",
+      },
+      {
+        h2: "Four Permit Zones and When They Apply",
+        body:
+          "Hulme has a council resident parking scheme in four areas: the Hulme High Street area (H1), Arnott Crescent and the Monton Estate (H2), Old Birley Street and the Royce Road and Rolls Crescent area (H4), and the Loxford Street area. In the first three, anyone can park for two or three hours between 8am and 6pm on weekdays, and a permit is needed only to stay longer. In H1 and H4 the council says there are no restrictions outside those hours.",
+        outro:
+          "That makes a Hulme move easier to time than most. A single room fits inside a two hour stay, a Saturday move sits outside the scheme hours, and a longer weekday job can start late in the afternoon. A permit never covers double yellow lines, and the council's own note is that normal loading rules apply. The street lists are on the council's [Hulme resident parking scheme page](https://www.manchester.gov.uk/parking/parking-at-your-home/resident-parking-schemes/hulme-resident-parking-scheme).",
+      },
+      {
+        h2: "Loxford Street Is Permits Only",
+        body:
+          "The Loxford Street area works differently. The council's rule there is resident permit holder parking only, at all times, and the area takes in listed addresses on Bonsall Street, Hornchurch Court, Broomwood Walk, Chevril Close and parts of Clarendon Street. There is no free first two hours and no weekend gap.",
+        outro:
+          "For a move from one of those addresses we plan where the van stands before the day, and the walk from the nearest legal spot goes into the time. Give us the exact address, flat number included, so we can check it against the council's list.",
+      },
+      {
+        h2: "Renting a Student House in Hulme",
+        body:
+          "Hulme is outside every selective licensing area the council lists, and the council has no additional HMO licensing scheme. Mandatory HMO licensing still applies: a privately rented house occupied by five or more people forming two or more households, who share a kitchen, bathroom or laundry, must be licensed.",
+        outro:
+          "So for a house share of five or more, ask the landlord for the licence before you sign. Since 1 May 2026 most private tenancies in England are rolling tenancies with no end date, student houses included, so a house share now ends on [notice under the new rules](/moving-guides/moving-out-rental-checklist/) rather than on a date in the contract.",
+      },
+      {
+        h2: "Birley Fields and What Comes Next",
+        body:
+          "On 17 March 2026 the council chose Glenbrook to develop the Birley Fields site in Hulme, which it described as underused for many years. The current proposals are for 293 affordable homes with a largely car-free layout, and the developer said it would consult ahead of a planning application later in 2026.",
+        outro:
+          "It is housing rather than student accommodation, and nothing has been built yet, so for now it changes nothing about a move. Once work starts, the streets around it will change, and we check access in the week of the move rather than relying on last year's route.",
+      },
+      {
+        h2: "What a Hulme Move Costs",
+        body:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". A room in Briarfield or Birley is usually one van load, and the price depends on the floor, the walk from the van and how much there is.",
+        outro: "Every band we quote from is [published on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Give us the hall and flat number, or the full street address.",
+      "Tell us whether the street is in a permit zone, or give us the street and we will check.",
+      "For a Loxford Street area address, tell us where visitors usually park.",
+      "Say whether the move is on a weekday or a weekend, because that changes the parking.",
+      "We confirm the time, the van and the price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Do I need a parking permit to move in Hulme?",
+        a: "Usually not. In the H1, H2 and H4 zones anyone can park for two or three hours between 8am and 6pm on weekdays, and in H1 and H4 there are no restrictions outside those hours. The Loxford Street area is the exception: permit holders only, at all times.",
+      },
+      {
+        q: "Can a removal van park in the Loxford Street area?",
+        a: "Not in the resident bays. The council's rule there is permit holder parking only at all times, so we plan where the van stands before the day.",
+      },
+      {
+        q: "Where do Birley students collect their keys?",
+        a: "Manchester Met asks arrivals to use 53 Bonsall Street, M15 6GX, and to collect keycards from the Brooks Building outside the accommodation, or from Archway Halls after the check-in weekend.",
+      },
+      {
+        q: "Is Hulme Hall in Hulme?",
+        a: "No. Hulme Hall is a University of Manchester hall in Victoria Park. The Manchester Met halls in Hulme are Briarfield and the Birley halls.",
+      },
+      {
+        q: "Does a Hulme student house need an HMO licence?",
+        a: "If five or more people from two or more households share it, yes, under mandatory HMO licensing. Hulme is not in a selective licensing area and the council has no additional HMO licensing scheme.",
+      },
+      {
+        q: "What is happening at Birley Fields?",
+        a: "In March 2026 the council chose Glenbrook to develop the site, with proposals for 293 affordable homes and a largely car-free layout. A planning application was expected later in 2026.",
+      },
+      {
+        q: "What does a Hulme student move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". Most room moves fit one van load.",
+      },
+    ],
+    related: [
+      { label: "Manchester Met student removals", path: "/student-removals/manchester-metropolitan-university/" },
+      { label: "Man and van in Hulme", path: "/locations/hulme/" },
+      { label: "Man and van in Moss Side", path: "/locations/moss-side/" },
+      { label: "Student removals in Victoria Park", path: "/student-removals/victoria-park/" },
+      { label: "Student storage in Manchester", path: "/services/student-storage-manchester/" },
+      { label: "Moving out of a rental", path: "/moving-guides/moving-out-rental-checklist/" },
+    ],
+    reviewed: "October 2026",
+  },
+  {
+    slug: "end-of-term",
+    navLabel: "End of Term",
+    name: "End of Term",
+    h1: "End of Term Student Removals Manchester",
+    title: "End of Term Student Removals Manchester | Frank's Van and Man Manchester",
+    metaDescription:
+      "End of term student removals in Manchester: the 10am hall deadline, key returns, charges for what is left behind, Give It Don't Bin It, the council's bulky collection and the new rules for student houses.",
+    cardBlurb:
+      "Hall check-out rules, where unwanted things go, and the first summer of rolling tenancies for student houses.",
+    intro: [
+      "At the end of the year a Manchester student move runs to the hall's deadline, not the van's: Manchester Met wants rooms empty by 10am on the last day.",
+      "The contract dates themselves are on each university's page: the [University of Manchester](/student-removals/university-of-manchester/), [Manchester Met](/student-removals/manchester-metropolitan-university/) and [Salford](/student-removals/university-of-salford/). This page covers the move out: the check-out rules, what happens to anything left behind, where unwanted things can go, and what changed in 2026 for students leaving private houses.",
+    ],
+    keyFacts: [
+      { label: "Manchester Met halls", value: "Empty by 10:00am on the last day" },
+      { label: "Left in a Manchester Met room", value: "Held for 7 days, then disposed of" },
+      { label: "University of Manchester keys", value: "Labelled envelope with your UID, to reception or the drop box" },
+      { label: "Council bulky collection", value: "One free collection of up to 3 items a year, then £32" },
+      { label: "Private student houses", value: "Rolling tenancies since 1 May 2026" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    sections: [
+      {
+        h2: "The 10am Deadline in Manchester Met Halls",
+        body:
+          "Manchester Met's 2026/27 terms say you must vacate the room and remove all your possessions by 10:00am on the last day of your period of residence. Keys, fobs and key cards go back to hall reception, with charges for new locks or replacement fobs. The room has to be left clean and in the condition it started in, fair wear and tear excepted, and charges for rubbish removal apply.",
+        outro:
+          "Anything left behind is held for seven days after the university tells you, and then disposed of. If the room is not being used over the summer, you are charged the standard daily hall rent until your belongings are collected or cleared. So a Manchester Met move goes the day before the last day, or first thing on it, never in the afternoon.",
+      },
+      {
+        h2: "Checking Out of University of Manchester Halls",
+        body:
+          "The University of Manchester suggests starting about a month before your leaving date. Your room is checked against the original inventory and must be left clean, tidy and in its original condition, with any charge capped at what the university spends to repair, replace or clean. Everything goes, including duvets, pillows and bikes; bikes left behind are removed and donated. Keys go in an envelope or small bag marked with your University ID, handed in at reception or put in the key drop box out of hours.",
+        outro:
+          "If belongings are left, the university contacts you and daily charges apply until the room is cleared. It also says halls have no storage areas and belongings are not insured outside the dates of your licence, so if the next place is not ready, the gap needs [storage](/services/student-storage-manchester/) rather than a corner of the hall.",
+      },
+      {
+        h2: "Give It Don't Bin It",
+        body:
+          "Give It Don't Bin It is the end of year donation campaign run by the University of Manchester, Manchester Met, both students' unions and Manchester City Council, and 2026 was its 14th year. The university ran pop-up donation points on 29 and 30 June 2026, with donations going to the British Heart Foundation, Fallowfield and Withington Foodbank and the Bideford Centre in Wythenshawe. It says the previous year's donations raised over £204,000 for the British Heart Foundation and kept over 100 tonnes of unwanted items out of landfill.",
+        outro:
+          "The reason is the street. In summer 2024 an extra 194 tonnes of waste was collected from Fallowfield, Ladybarn and Withington alone. The university's donation points open from the end of May, so sort the room before the van day rather than on it. The campaign is set out in the university's [Give It Don't Bin It announcement](https://www.socialresponsibility.manchester.ac.uk/all-news/give-it-dont-bin-it-2/).",
+      },
+      {
+        h2: "Large Items and the Council Collection",
+        body:
+          "For furniture nobody wants, Manchester City Council offers one free bulky collection of up to three items a year. After that it costs £32 for up to three items and £64 for up to six. Items have to be on the pavement beside the road at the front of the property; the council will not collect from front gardens, driveways or bin stores.",
+        outro:
+          "A broken desk chair or a bed frame that will not survive another move is the usual leftover. If there is more than the council will take, or no time to wait for a collection date, a [clearance on the day](/services/rubbish-removal/) takes it with the move.",
+      },
+      {
+        h2: "Student Houses Are Rolling Tenancies Now",
+        body:
+          "Summer 2027 is the first end of year in which private student houses run on the new rules. Since 1 May 2026 assured periodic tenancies have replaced assured shorthold tenancies in England, and GOV.UK says an assured periodic tenancy cannot have an end date. Halls are outside the change: Manchester Met's terms describe its halls as a licence, outside the Renters' Rights Act 2025, and purpose-built student blocks signed up to the national code are excluded too.",
+        outro:
+          "For a house share that means the end date is set by notice, not by the contract. Manchester Student Homes says a tenant gives at least two months' notice, timed to the rent cycle, and that in a joint tenancy one person's notice ends it for everyone. Agree the leaving date as a house, give [notice the way the new rules require](/moving-guides/moving-out-rental-checklist/), then book the van.",
+      },
+      {
+        h2: "Deposits and the Summer Gap",
+        body:
+          "In a private house the deposit has to come back within 10 days of you and the landlord agreeing the amount, according to GOV.UK's [deposit protection guidance](https://www.gov.uk/tenancy-deposit-protection). Manchester Student Homes adds that a landlord cannot charge for professional cleaning unless the house was professionally cleaned at check-in.",
+        outro:
+          "The summer gap is the other trap. Manchester Student Homes explains that a summer retainer holds next year's house for you but usually comes without access, so the new house may not open the day the old one closes. Agree the move-in date with the new landlord before you book the move out.",
+      },
+      {
+        h2: "The Mancunian Way Weekend",
+        body:
+          "The council closes the Mancunian Way every year for its safety inspection, and the closure lands in moving season. In 2026 the main road and all its slip roads were shut in both directions from 6am on Saturday 27 June to 6am on Monday 29 June.",
+        outro:
+          "A van crossing the south side of the city centre that weekend is on the diversion with everyone else. The 2027 date has not been published yet; when it is, we plan the end of year runs around it.",
+      },
+      {
+        h2: "What an End of Term Move Costs",
+        body:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". A room in halls is usually one van load. Housemates leaving on the same day can share a van run, which brings the cost per room down.",
+        outro: "Every band we quote from is [published on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Tell us your hall, flat and room number, and the last day of your contract.",
+      "Book for the day before the last day, or first thing on it.",
+      "Donate or clear what is not coming before the van arrives.",
+      "Say where it is going: home, storage or next year's house.",
+      "We confirm the time, the van and the price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "What time do I have to leave Manchester Met halls?",
+        a: "By 10:00am on the last day of your period of residence, with all your possessions removed and your keys, fobs or cards returned to hall reception.",
+      },
+      {
+        q: "What happens to things I leave in my hall room?",
+        a: "At Manchester Met they are held for seven days after you are told and then disposed of, and daily hall rent can be charged until they are cleared. At the University of Manchester daily charges apply until the room is cleared, and bikes left behind are donated.",
+      },
+      {
+        q: "How do I return my keys at the University of Manchester?",
+        a: "Put the key or card in an envelope or small bag marked with your University ID and hand it in at reception, or use the key drop box outside opening hours. Do not leave it in the room.",
+      },
+      {
+        q: "Where can I donate things at the end of term in Manchester?",
+        a: "Through Give It Don't Bin It, run by both universities, both students' unions and the council. In 2026 the University of Manchester ran pop-up donation points on 29 and 30 June, with donations going to the British Heart Foundation and two local charities.",
+      },
+      {
+        q: "Will the council collect my old furniture?",
+        a: "Manchester City Council gives one free bulky collection of up to three items a year, then charges £32 for up to three items. Items must be on the pavement at the front of the property.",
+      },
+      {
+        q: "Does my student house contract still end on a fixed date?",
+        a: "Not for a private house let since the new rules started on 1 May 2026: an assured periodic tenancy has no end date and ends on notice. Halls and national code student blocks keep fixed end dates.",
+      },
+      {
+        q: "How quickly should I get my deposit back?",
+        a: "GOV.UK says the landlord must return it within 10 days of you both agreeing how much you will get back.",
+      },
+      {
+        q: "What does an end of term move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". Most hall rooms fit one van load.",
+      },
+    ],
+    related: [
+      { label: "University of Manchester student removals", path: "/student-removals/university-of-manchester/" },
+      { label: "Manchester Met student removals", path: "/student-removals/manchester-metropolitan-university/" },
+      { label: "University of Salford student removals", path: "/student-removals/university-of-salford/" },
+      { label: "Student storage in Manchester", path: "/services/student-storage-manchester/" },
+      { label: "Moving out of a rental", path: "/moving-guides/moving-out-rental-checklist/" },
+      { label: "Rubbish removal", path: "/services/rubbish-removal/" },
+    ],
+    reviewed: "October 2026",
+  },
 ];
 
 export const getStudentPage = (slug: string) => studentPages.find((p) => p.slug === slug);
