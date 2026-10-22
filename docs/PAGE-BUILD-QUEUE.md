@@ -115,6 +115,14 @@ zones. /locations/hulme/ stays the generic man and van page. End of Term (day
 20) owns the move-out rules and donation and waste; the hall end dates stay on
 the university pages and /services/student-storage-manchester/.
 
+## Indexing
+
+GSC Request Indexing quota is shared across the whole fleet account and was
+already spent on 2026-10-22. Request first on the next free day: `/prices/`
+(Discovered, not indexed), then the newest student pages. Home, house removals,
+man and van hire, student moves, the student hub, the UoM page, student storage
+and long distance were all indexed on 2026-10-22. Sitemap resubmitted 2026-10-22.
+
 ## Decisions needed before the pages they block
 
 These are collisions with pages that are already live. Building over them
