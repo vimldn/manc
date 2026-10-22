@@ -1209,6 +1209,255 @@ export const studentPages: StudentPage[] = [
     ],
     reviewed: "October 2026",
   },
+  {
+    slug: "rncm",
+    navLabel: "RNCM",
+    name: "Royal Northern College of Music",
+    h1: "RNCM Student Removals",
+    title: "RNCM Student Removals | Frank's Van and Man Manchester",
+    metaDescription:
+      "Student removals for the Royal Northern College of Music: Sir Charles Groves Hall's move-in weekend, its 2.1m car park entrance, the Oxford Road bus gate and moving a room with instruments. Get a quote.",
+    cardBlurb:
+      "Sir Charles Groves Hall, a car park a van will not clear, and a room with an instrument in it.",
+    intro: [
+      "RNCM student removals are mostly about one building: Sir Charles Groves Hall, right next door to the college, where RNCM students take a large share of the 612 rooms.",
+      "The hall is owned and managed by Unite Students rather than the college. Rooms are let on 42 week contracts, and move-in for 2026/27 started the weekend before Welcome Week, on 19 and 20 September 2026. The college itself is at 124 Oxford Road, on the corner of Booth Street West, on the same corridor as the [University of Manchester](/student-removals/university-of-manchester/) and [Manchester Met](/student-removals/manchester-metropolitan-university/) campuses, and with the same bus gate.",
+    ],
+    keyFacts: [
+      { label: "Hall", value: "Sir Charles Groves Hall, 612 rooms, run by Unite Students" },
+      { label: "2026/27 room", value: "£221.07 a week on a 42 week let" },
+      { label: "Move-in weekend 2026", value: "19 and 20 September" },
+      { label: "Hall car park entrance", value: "2.1m high, 2.3m wide" },
+      { label: "Semester 2 ends", value: "11 July 2027" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    sections: [
+      {
+        h2: "Sir Charles Groves Hall",
+        body:
+          "RNCM's [accommodation page](https://www.rncm.ac.uk/study/apply/accommodation/) describes standard en-suite rooms grouped in fours around a shared kitchen and lounge, with Unite Students security on site around the clock and swipe card entry. The 2026/27 price was £221.07 a week on a 42 week let covering all term dates, and 51 week studio lets may be available directly from Unite Students. Offer holders who accepted by 10 February 2026 were reserved a room automatically; after that, rooms go first come, first served as cancellations come up.",
+        outro:
+          "RNCM does not publish the date a 42 week let ends, so check it with Unite Students before you book the move out. That date, not the end of the semester, is when the room has to be empty, and if the next place is not ready by then, [summer storage](/services/student-storage-manchester/) covers the gap.",
+      },
+      {
+        h2: "A Car Park the Van Will Not Fit",
+        body:
+          "The hall has an underground car park off Rosamond Street West, but RNCM warns that its entrance and exit are 2.1 metres high and 2.3 metres wide, and suggests owners of larger vehicles use other car parks. A Luton will not clear it. Visitor parking there costs £5 a visit, and overnight parking is not allowed.",
+        outro:
+          "So an RNCM move loads from the street, and the time on the day goes on the walk from the van to the room. The college has step-free taxi drop-off points at its Booth Street West and Rosamond Street West entrances, which is a useful landmark when you tell us where you are.",
+      },
+      {
+        h2: "Oxford Road and the Daytime Bus Gate",
+        body:
+          "RNCM's own [getting here page](https://www.rncm.ac.uk/about/visit/getting-here/) spells out the rule: general traffic is not allowed on the Oxford Road route between 6am and 9pm, seven days a week, and drivers should use Upper Brook Street and Princess Street instead. There is also no public parking at the college before 5pm on weekdays and Saturdays.",
+        outro:
+          "The nearest public car parks it names are the University of Manchester's Booth Street West car park, reached from Higher Cambridge Street, and the NCP at the Manchester Aquatics Centre on Booth Street East. For a family helping with the move, those are where the second car goes.",
+      },
+      {
+        h2: "A Room With an Instrument in It",
+        body:
+          "RNCM students can practise in their rooms from 9am to 9pm, and pianists can request a loan piano. That changes what a room move looks like. Instruments in cases travel like any other fragile item, but most players would rather carry their own, so tell us what is going in the van and what is going with you.",
+        outro:
+          "A loan piano is not yours to move, and we do not move pianos, so leave it for whoever supplied it. Music stands, amplifiers and boxes of scores are ordinary van cargo, and a room's worth is usually one [student man and van](/services/student-moves/) load.",
+      },
+      {
+        h2: "Term Dates for 2026/27",
+        body:
+          "RNCM's 2026/27 year runs from Welcome Week on 21 to 25 September 2026, through Semester 1 from 28 September to 29 January, to the end of Semester 2 on 11 July 2027. That is a month after the University of Manchester's semester 2 ends on 11 June, so an RNCM move out falls later than most of the city's.",
+        outro:
+          "For students starting in 2027, RNCM's pre-arrival checklist puts Enrolment and Welcome Week on 20 to 24 September 2027. The move-in dates for the hall follow from Unite Students' contracts.",
+      },
+      {
+        h2: "RNCM Renew",
+        body:
+          "On 7 October 2026 RNCM launched RNCM Renew, a ten year capital programme to revitalise its campus. The first phase, from 2026 to 2030, puts more than £10 million into essential infrastructure, improving safety, accessibility, sustainability and resilience.",
+        outro:
+          "The college has not said the works affect the hall. If access around the Booth Street West building changes during a move, we will route around it on the day.",
+      },
+      {
+        h2: "What an RNCM Move Costs",
+        body:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". A room at Sir Charles Groves Hall is usually one van load, and the price depends on the floor, the walk from the van and how much there is.",
+        outro: "Every band we quote from is [published on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Tell us your room and flat number at Sir Charles Groves Hall, or your house address.",
+      "Give us the end date of your Unite Students contract.",
+      "List any instruments, amplifiers or music stands, and say what you are carrying yourself.",
+      "Tell us whether family are coming by car, so we can plan around the car parks.",
+      "We confirm the time, the van and the price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Who runs RNCM's hall of residence?",
+        a: "Sir Charles Groves Hall is owned and managed by Unite Students, working with RNCM. RNCM students take a large share of its 612 rooms.",
+      },
+      {
+        q: "Can a removal van use the Sir Charles Groves Hall car park?",
+        a: "Usually not. RNCM says the underground car park entrance is 2.1 metres high and 2.3 metres wide and suggests larger vehicles use other car parks, so we load from the street.",
+      },
+      {
+        q: "When do RNCM students move in?",
+        a: "For 2026/27, move-in dates started the weekend before Welcome Week, on 19 and 20 September 2026. Welcome Week ran from 21 to 25 September.",
+      },
+      {
+        q: "Can I drive up Oxford Road to RNCM?",
+        a: "Not between 6am and 9pm, seven days a week. RNCM tells drivers to use Upper Brook Street and Princess Street instead.",
+      },
+      {
+        q: "Can you move my instruments?",
+        a: "Yes, cased instruments, amplifiers and stands travel in the van with the rest of the room, though many players prefer to carry their own instrument. We do not move pianos.",
+      },
+      {
+        q: "When does the RNCM year end in 2027?",
+        a: "Semester 2 ends on 11 July 2027. Check your Unite Students contract for the date the room has to be empty.",
+      },
+      {
+        q: "What does an RNCM student move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". Most rooms fit one van load.",
+      },
+    ],
+    related: [
+      { label: "University of Manchester student removals", path: "/student-removals/university-of-manchester/" },
+      { label: "Manchester Met student removals", path: "/student-removals/manchester-metropolitan-university/" },
+      { label: "Student removals in Hulme", path: "/student-removals/hulme/" },
+      { label: "End of term student removals", path: "/student-removals/end-of-term/" },
+      { label: "Student storage in Manchester", path: "/services/student-storage-manchester/" },
+      { label: "Moving home from university", path: "/student-removals/moving-home/" },
+    ],
+    reviewed: "October 2026",
+  },
+  {
+    slug: "ua92",
+    navLabel: "UA92",
+    name: "UA92",
+    h1: "UA92 Student Removals",
+    title: "UA92 Student Removals | Frank's Van and Man Manchester",
+    metaDescription:
+      "Student removals for UA92 at Old Trafford: Academy Apartments across the road, induction weeks through the year, Trafford's event-day permit zones and the Old Trafford regeneration. Get a quote.",
+    cardBlurb:
+      "Academy Apartments, induction weeks all year, and match days in Trafford.",
+    intro: [
+      "UA92 student removals run to a different calendar from the rest of Manchester: new students start in induction weeks spread through the year, not only in September.",
+      "UA92's main campus is on Brian Statham Way, Old Trafford, M16 0PU, and its degrees are awarded by Lancaster University. Old Trafford is in Trafford rather than the city of Manchester, so the parking rules that matter on moving day are Trafford Council's, and they change on match days. The wider area is covered on our [Old Trafford](/locations/old-trafford/) page.",
+    ],
+    keyFacts: [
+      { label: "Campus", value: "Brian Statham Way, Old Trafford, M16 0PU" },
+      { label: "Halls", value: "Academy Apartments, across the road, UA92 students only" },
+      { label: "Next induction weeks", value: "w/c 2 Nov 2026, 11 Jan, 1 Mar and 19 Apr 2027" },
+      { label: "Event-day parking", value: "Permit holders only past the signs" },
+      { label: "Degrees awarded by", value: "Lancaster University" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    sections: [
+      {
+        h2: "Academy Apartments Across the Road",
+        body:
+          "UA92's halls are Academy Apartments, directly opposite the main campus and exclusive to UA92 students. Room costs include heating, electricity, Wi-Fi and the on-site laundry, and you can only register your interest once you have firmly accepted your offer. White goods are already in the apartment, and UA92 sends a list of what you need, along with the rules and contract, before you move in.",
+        outro:
+          "So the first move in is mostly bags, bedding and kitchen kit rather than furniture, and usually a single [student man and van](/services/student-moves/) load. Parking on campus is only for visitors with a Blue Badge, so the van and any family car stop on the street.",
+      },
+      {
+        h2: "Induction Weeks Through the Year",
+        body:
+          "UA92 teaches in six week blocks, and new Level 4 students have an induction week before almost every one. After September, the 2026/27 induction weeks start on 2 November 2026, 11 January 2027, 1 March 2027 and 19 April 2027.",
+        outro:
+          "A UA92 move can land in November or January as easily as September. Book once your start block is confirmed.",
+      },
+      {
+        h2: "Event Days in Trafford",
+        body:
+          "Around Old Trafford, Trafford Council runs permit schemes marked \"Past This Point\": signs at every way into the area mark it as permit holders only, and they show the dates and times of the next restricted event. The restrictions apply for events at both Old Trafford and Emirates Old Trafford. In December 2025 the council said its officers would issue fines more regularly, and that drivers breaking the rules could almost certainly expect a £70 fine.",
+        outro:
+          "The council lists upcoming restricted dates on its website; for a Sunday afternoon match on 25 October 2026, for example, the restriction runs from 12pm to 4:45pm. A move booked into that window is a move done twice, so we check the fixture list and the signs before we fix the day. The schemes are explained on Trafford's [event-day permit page](https://www.trafford.gov.uk/parking/resident-parking-schemes/event-day-permit-schemes).",
+      },
+      {
+        h2: "Teaching Inside the Stadium",
+        body:
+          "Since January 2026 UA92 has used suites in the Sir Bobby Charlton Stand at Old Trafford as teaching space. On Manchester United home game days it has no access to those rooms, and teaching moves to other UA92 locations or online.",
+        outro:
+          "For a move, the useful part is the warning built into the arrangement: match days shut parts of the area down. If the university plans around them, the van should too.",
+      },
+      {
+        h2: "The Old Trafford Regeneration",
+        body:
+          "The Old Trafford Regeneration Mayoral Development Corporation came into force on 23 January 2026. Trafford Council describes it as catalysed by a new 100,000 seat stadium for Manchester United, and says the 370 acre regeneration area will eventually see 15,000 new homes and 48,000 new jobs locally. A draft masterplan for Trafford Wharfside, covering 150 hectares, was published in July 2026 and its consultation has closed.",
+        outro:
+          "Nothing has been built yet. When work starts, the roads around Wharfside and the stadium will change, and we will check the route in the week of each move rather than relying on last year's. The council set out the plans in its [development corporation announcement](https://www.trafford.gov.uk/news/2026/old-trafford-regeneration-mayoral-development-corporation-officially-launched).",
+      },
+      {
+        h2: "What a UA92 Move Costs",
+        body:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". A room at Academy Apartments is usually one van load, and a move out to a house share in [Stretford](/locations/stretford/) or across the city is priced on the same basis.",
+        outro: "Every band we quote from is [published on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Tell us your Academy Apartments flat and room number, or your house address.",
+      "Give us your induction week or the end date of your contract.",
+      "Check whether the date clashes with a home match or a cricket fixture.",
+      "Tell us whether family are coming by car, since campus parking is Blue Badge only.",
+      "We confirm the time, the van and the price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Where is UA92?",
+        a: "The main campus is on Brian Statham Way, Old Trafford, M16 0PU. Academy Apartments, the UA92 halls, are directly opposite.",
+      },
+      {
+        q: "When do new UA92 students start?",
+        a: "In induction weeks before most teaching blocks. After September, the 2026/27 inductions start in the weeks of 2 November 2026, 11 January 2027, 1 March 2027 and 19 April 2027.",
+      },
+      {
+        q: "Can I park at UA92 on moving day?",
+        a: "Campus parking is only for visitors with a Blue Badge, so plan for street parking, and check Trafford's event-day restrictions if there is a match.",
+      },
+      {
+        q: "How do match day parking restrictions work around Old Trafford?",
+        a: "Trafford runs \"Past This Point\" permit schemes. Signs at every entry mark the area as permit holders only and show the next restricted dates and times, which cover events at Old Trafford and Emirates Old Trafford. The council has warned of £70 fines.",
+      },
+      {
+        q: "Who awards UA92 degrees?",
+        a: "Lancaster University, which co-founded UA92.",
+      },
+      {
+        q: "What is happening with the Old Trafford regeneration?",
+        a: "A mayoral development corporation came into force on 23 January 2026 for a 370 acre area around a planned new Manchester United stadium, with 15,000 homes planned. A Wharfside masterplan was consulted on in summer 2026.",
+      },
+      {
+        q: "What does a UA92 student move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". Most rooms fit one van load.",
+      },
+    ],
+    related: [
+      { label: "Man and van in Old Trafford", path: "/locations/old-trafford/" },
+      { label: "Man and van in Stretford", path: "/locations/stretford/" },
+      { label: "Student man and van in Manchester", path: "/services/student-moves/" },
+      { label: "Student storage in Manchester", path: "/services/student-storage-manchester/" },
+      { label: "End of term student removals", path: "/student-removals/end-of-term/" },
+      { label: "Moving home from university", path: "/student-removals/moving-home/" },
+    ],
+    reviewed: "October 2026",
+  },
 ];
 
 export const getStudentPage = (slug: string) => studentPages.find((p) => p.slug === slug);

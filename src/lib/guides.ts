@@ -1483,7 +1483,7 @@ export const guides: Guide[] = [
     h1: "Moving From Halls to a Student House in Manchester",
     metaDescription:
       "Moving from halls to a student house in Manchester: when to look, what a landlord can charge before you move in, contract checks, right to rent, council tax and bins under the 2026 rules.",
-    updated: "2026-10-23",
+    updated: "2026-10-22",
     answer:
       "Start looking early, because Manchester Student Homes says the busiest months are October to January and July to August. Before you move in a landlord can ask for a holding deposit of up to one week's rent, a deposit of up to five weeks' rent and, once the contract is signed, usually no more than one month's rent. Get the contract checked, have your right to rent ready, apply for the council tax exemption and learn the bin day in the first week.",
     sections: [
