@@ -57,7 +57,7 @@ export default function StudentRemovalsPage({ params }: { params: { slug: string
       />
       <Breadcrumbs trail={trail} />
 
-      <div className="mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-3">
+      <div className="interior-page interior-student-removals mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-3">
         <article className="lg:col-span-2">
           <h1 className="text-3xl font-extrabold text-gray-900">{p.h1}</h1>
 

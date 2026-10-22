@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function ThankYouPage() {
   return (
-    <section className="mx-auto max-w-2xl px-4 py-20 text-center">
+    <section className="interior-page interior-thank-you mx-auto max-w-2xl px-4 py-20 text-center">
       <h1 className="text-3xl font-extrabold text-gray-900">Thanks, we have got your details</h1>
       <p className="mt-4 text-lg text-gray-700">
         We will be in touch shortly with your man and van quote. If you need us quickly, the fastest

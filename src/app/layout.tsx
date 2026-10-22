@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import "./fonts.css";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#1e5fbf",
+  themeColor: "#123f30",
 };
 
 export default function RootLayout({
@@ -51,8 +52,9 @@ export default function RootLayout({
         </Script>
 
         <JsonLd data={[websiteSchema(), movingCompanySchema()]} />
+        <a className="skip-link" href="#main-content">Skip to content</a>
         <Header />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <Footer />
         <StickyCallButton />
       </body>

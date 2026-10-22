@@ -54,7 +54,7 @@ export default function PricesPage() {
         ]}
       />
 
-      <div className="mx-auto max-w-container px-4 py-8">
+      <div className="interior-page interior-prices mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">Man and Van Prices in Manchester</h1>
         <p className="mt-4 max-w-3xl text-lg text-gray-700">
           Every move is a little different, so we quote on what you are actually moving rather than a

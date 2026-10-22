@@ -24,7 +24,7 @@ export default function TermsPage() {
         ]}
       />
       <Breadcrumbs trail={[{ name: "Home", path: "/" }, { name: "Terms", path: "/terms/" }]} />
-      <article className="mx-auto max-w-3xl px-4 py-8 text-gray-700">
+      <article className="interior-page interior-terms mx-auto max-w-3xl px-4 py-8 text-gray-700">
         <h1 className="text-3xl font-extrabold text-gray-900">Terms of Use</h1>
         <p className="mt-4">
           By using this website you agree to these terms. The information on this site is provided in

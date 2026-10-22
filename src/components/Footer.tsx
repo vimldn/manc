@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Brand from "./Brand";
 import { site, isReal } from "@/lib/config";
 import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
@@ -7,13 +8,11 @@ import CallLink from "@/components/CallLink";
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="mt-16 border-t border-gray-200 bg-gray-900 text-gray-300">
+    <footer className="site-footer bg-gray-900 text-gray-300">
       <div className="mx-auto max-w-container px-4 py-12">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
           <div>
-            <div className="text-lg font-extrabold text-white">
-              Frank&apos;s Van and Man <span className="text-cta">Manchester</span>
-            </div>
+            <Brand />
             <p className="mt-3 text-sm text-gray-400">
               {site.name} provides removals, man-and-van hire and furniture delivery across
               Manchester and Greater Manchester.

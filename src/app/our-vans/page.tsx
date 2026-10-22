@@ -53,7 +53,7 @@ export default function OurVansPage() {
         ]}
       />
 
-      <div className="mx-auto max-w-container px-4 py-8">
+      <div className="interior-page interior-our-vans mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">
           What Size Van Do I Need? Manchester Van Guide
         </h1>

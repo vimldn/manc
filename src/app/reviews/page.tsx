@@ -39,7 +39,7 @@ export default function ReviewsPage() {
         ]}
       />
 
-      <div className="mx-auto max-w-container px-4 py-8">
+      <div className="interior-page interior-reviews mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">Customer Reviews</h1>
         <p className="mt-4 max-w-3xl text-lg text-gray-700">
           We would rather show you genuine feedback than a wall of made-up five-star quotes. Real

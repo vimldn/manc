@@ -54,7 +54,7 @@ export default function QuotePage() {
         ]}
       />
 
-      <div className="mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-2">
+      <div className="interior-page interior-quote mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-2">
         <div>
           <h1 className="text-3xl font-extrabold text-gray-900">
             Man and Van Quotes in Manchester

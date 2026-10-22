@@ -84,7 +84,7 @@ export default function InsuranceCompliancePage() {
         ]}
       />
 
-      <div className="mx-auto max-w-container px-4 py-8">
+      <div className="interior-page interior-insurance-and-compliance mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">Insurance and Compliance</h1>
         <p className="mt-4 max-w-3xl text-lg text-gray-700">
           &ldquo;Fully insured&rdquo; means little on its own, so here is what our cover actually

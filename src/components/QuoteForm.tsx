@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { useRouter } from "next/navigation";
 import { services } from "@/lib/services";
 import { site } from "@/lib/config";
@@ -24,6 +24,7 @@ export default function QuoteForm({
   formName = "quote_form",
 }: Props) {
   const router = useRouter();
+  const formId = useId();
   const [form, setForm] = useState({
     name: "",
     phone: "",
@@ -32,6 +33,18 @@ export default function QuoteForm({
     location: defaultLocation,
     message: "",
   });
+  useEffect(() => {
+    if (formName !== "quote_page") return;
+    try {
+      const saved = sessionStorage.getItem("franks-move");
+      if (!saved) return;
+      const move = JSON.parse(saved);
+      const from = typeof move.from === "string" ? move.from.slice(0, 200) : "";
+      const to = typeof move.to === "string" ? move.to.slice(0, 200) : "";
+      if (from || to) setForm(f => ({ ...f, message: `Moving from: ${from}\nMoving to: ${to}\n\n` }));
+      sessionStorage.removeItem("franks-move");
+    } catch { /* Optional move details must never block an enquiry. */ }
+  }, [formName]);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [submitting, setSubmitting] = useState(false);
   const [sendFailed, setSendFailed] = useState<string | null>(null);
@@ -117,13 +130,8 @@ export default function QuoteForm({
   const label = "mb-1 block text-sm font-semibold text-gray-800";
 
   return (
-    <div
-      className={
-        compact
-          ? "rounded-lg bg-white p-5 shadow-md"
-          : "rounded-lg border border-gray-200 bg-white p-6 shadow-md"
-      }
-    >
+    <form className={`quote-form ${compact ? "quote-form-compact" : ""}`} onSubmit={e => { e.preventDefault(); if (!submitting) void onSubmit(); }} noValidate>
+      <p className="eyebrow">LET’S MAKE A MOVE</p>
       <h2 className="text-lg font-bold text-gray-900">{heading}</h2>
       <p className="mb-4 mt-1 text-sm text-gray-600">
         Tell us what you are moving and we will call you back with a price.
@@ -131,54 +139,63 @@ export default function QuoteForm({
 
       <div className="space-y-3">
         <div>
-          <label className={label} htmlFor="qf-name">
+          <label className={label} htmlFor={`${formId}-name`}>
             Name
           </label>
           <input
-            id="qf-name"
+            id={`${formId}-name`}
+              autoComplete="name"
+              aria-invalid={!!errors.name}
+              aria-describedby={errors.name ? `${formId}-name-error` : undefined}
             className={input}
             value={form.name}
             onChange={(e) => update("name", e.target.value)}
           />
-          {errors.name && <p className="mt-1 text-xs text-red-600">{errors.name}</p>}
+          {errors.name && <p id={`${formId}-name-error`} role="alert" className="mt-1 text-xs text-red-600">{errors.name}</p>}
         </div>
 
         <div className="grid gap-3 sm:grid-cols-2">
           <div>
-            <label className={label} htmlFor="qf-phone">
+            <label className={label} htmlFor={`${formId}-phone`}>
               Phone
             </label>
             <input
-              id="qf-phone"
+              id={`${formId}-phone`}
+              autoComplete="tel"
+              aria-invalid={!!errors.phone}
+              aria-describedby={errors.phone ? `${formId}-phone-error` : undefined}
               inputMode="tel"
               className={input}
               value={form.phone}
               onChange={(e) => update("phone", e.target.value)}
             />
-            {errors.phone && <p className="mt-1 text-xs text-red-600">{errors.phone}</p>}
+            {errors.phone && <p id={`${formId}-phone-error`} role="alert" className="mt-1 text-xs text-red-600">{errors.phone}</p>}
           </div>
           <div>
-            <label className={label} htmlFor="qf-email">
+            <label className={label} htmlFor={`${formId}-email`}>
               Email (optional)
             </label>
             <input
-              id="qf-email"
+              id={`${formId}-email`}
+              autoComplete="email"
+              aria-invalid={!!errors.email}
+              aria-describedby={errors.email ? `${formId}-email-error` : undefined}
               inputMode="email"
               className={input}
               value={form.email}
               onChange={(e) => update("email", e.target.value)}
             />
-            {errors.email && <p className="mt-1 text-xs text-red-600">{errors.email}</p>}
+            {errors.email && <p id={`${formId}-email-error`} role="alert" className="mt-1 text-xs text-red-600">{errors.email}</p>}
           </div>
         </div>
 
         <div className="grid gap-3 sm:grid-cols-2">
           <div>
-            <label className={label} htmlFor="qf-service">
+            <label className={label} htmlFor={`${formId}-service`}>
               Service needed
             </label>
             <select
-              id="qf-service"
+              id={`${formId}-service`}
               className={input}
               value={form.service}
               onChange={(e) => update("service", e.target.value)}
@@ -192,11 +209,11 @@ export default function QuoteForm({
             </select>
           </div>
           <div>
-            <label className={label} htmlFor="qf-location">
+            <label className={label} htmlFor={`${formId}-location`}>
               Area
             </label>
             <select
-              id="qf-location"
+              id={`${formId}-location`}
               className={input}
               value={form.location}
               onChange={(e) => update("location", e.target.value)}
@@ -213,11 +230,11 @@ export default function QuoteForm({
         </div>
 
         <div>
-          <label className={label} htmlFor="qf-message">
+          <label className={label} htmlFor={`${formId}-message`}>
             What are you moving?
           </label>
           <textarea
-            id="qf-message"
+            id={`${formId}-message`}
             rows={compact ? 2 : 3}
             className={input}
             placeholder="e.g. one bed flat, from and to postcodes, date"
@@ -241,8 +258,7 @@ export default function QuoteForm({
         )}
 
         <button
-          type="button"
-          onClick={onSubmit}
+          type="submit"
           disabled={submitting}
           className="w-full rounded-md bg-cta px-4 py-3 text-base font-bold text-white hover:bg-cta-dark disabled:opacity-60"
         >
@@ -252,6 +268,6 @@ export default function QuoteForm({
           Or call us direct for a quote. No obligation.
         </p>
       </div>
-    </div>
+    </form>
   );
 }

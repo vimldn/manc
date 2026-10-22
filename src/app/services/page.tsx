@@ -44,7 +44,7 @@ export default function ServicesPage() {
         ]}
       />
 
-      <section className="mx-auto max-w-container px-4 py-8">
+      <section className="interior-page interior-services mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">Man and Van Services in Manchester</h1>
         <p className="mt-4 max-w-3xl text-gray-700">
           Whatever you need moving, we have a service for it. From a single item collected across

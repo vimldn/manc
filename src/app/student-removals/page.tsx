@@ -36,7 +36,7 @@ export default function StudentRemovalsIndex() {
       <JsonLd data={[collection, breadcrumbSchema(trail)]} />
       <Breadcrumbs trail={trail} />
 
-      <section className="mx-auto max-w-container px-4 py-8">
+      <section className="interior-page interior-student-removals mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">Student Removals in Manchester</h1>
         <p className="mt-4 max-w-3xl text-lg text-gray-700">
           Manchester moves more students in a single September week than most cities do all year, and

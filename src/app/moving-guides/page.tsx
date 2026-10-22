@@ -36,7 +36,7 @@ export default function MovingGuidesPage() {
         ]}
       />
 
-      <div className="mx-auto max-w-container px-4 py-8">
+      <div className="interior-page interior-moving-guides mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">Moving Guides for Manchester</h1>
         <p className="mt-4 max-w-3xl text-lg text-gray-700">
           Straight answers to the questions people actually ask before a move, written from real

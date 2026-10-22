@@ -1,19 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
-import QuoteForm from "@/components/QuoteForm";
-import ServiceCard from "@/components/ServiceCard";
 import Faq from "@/components/Faq";
 import Cta from "@/components/Cta";
-import WhatsAppButton from "@/components/WhatsAppButton";
-import TrustBar from "@/components/TrustBar";
 import JsonLd from "@/components/JsonLd";
 import CallLink from "@/components/CallLink";
+import MoveStarter from "@/components/MoveStarter";
 import { site } from "@/lib/config";
 import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
 import { faqSchema, webPageSchema } from "@/lib/schema";
-
 export const metadata: Metadata = {
   title: "Frank's Van and Man Manchester | House Removals & Van Hire",
   description:
@@ -41,260 +37,26 @@ const homeFaqs = [
 ];
 
 export default function HomePage() {
-  return (
-    <>
-      <JsonLd
-        data={[
-          webPageSchema({ name: "Frank's Van and Man Manchester", url: site.url + "/" }),
-          faqSchema(homeFaqs),
-        ]}
-      />
-
-      {/* 1. HERO */}
-      <section className="relative isolate overflow-hidden">
-        <Image
-          src="/hero.jpg"
-          alt="Man and van in Manchester loading a white removals van outside a red-brick warehouse conversion in the Northern Quarter"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/45 to-transparent" />
-        <div className="relative mx-auto grid max-w-container items-center gap-8 px-4 py-12 sm:py-16 lg:grid-cols-2 lg:py-20">
-          <div className="text-white">
-            <h1 className="text-3xl font-extrabold leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.7)] sm:text-4xl lg:text-5xl">
-              Frank&apos;s Van and Man Manchester
-            </h1>
-            <p className="mt-4 max-w-md text-lg text-white/90 drop-shadow-[0_1px_6px_rgba(0,0,0,0.6)]">
-              Reliable local help for house moves, flats, student moves, offices, furniture
-              collections and long distance removals across Manchester and Greater Manchester.
-              Same day or booked ahead, seven days a week.
-            </p>
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <CallLink where="homepage" className="rounded-md bg-cta px-6 py-3 text-center text-lg font-bold text-white hover:bg-cta-dark">
-            Call {site.phoneDisplay}
-          </CallLink>
-              <Link
-                href="/quote/"
-                className="rounded-md border-2 border-white/70 px-6 py-3 text-center text-lg font-bold text-white hover:bg-white hover:text-gray-900"
-              >
-                Get a Quote
-              </Link>
-              <WhatsAppButton variant="solid" className="px-6 py-3 text-lg" />
-            </div>
-            <p className="mt-4 text-sm font-semibold text-white/80">
-              {site.hours} &bull; Covering all of Greater Manchester
-            </p>
-          </div>
-          <div>
-            <QuoteForm heading="Get a Free Quote" formName="homepage_hero" />
-          </div>
-        </div>
-      </section>
-
-      {/* 1b. TRUST BAR */}
-      <TrustBar />
-
-      {/* 2. INTRO */}
-      <section className="mx-auto max-w-container px-4 py-12">
-        <h2 className="text-2xl font-bold text-gray-900">
-          Your local man and van in Manchester
-        </h2>
-        <p className="mt-4 max-w-3xl text-gray-700">
-          Frank&apos;s Van and Man Manchester is a man and van service covering Manchester and the whole of
-          Greater Manchester. We help people move house and flat, hire a van and a pair of hands by
-          the hour, clear rubbish, and deliver furniture and single items. Whether you are a
-          student in Fallowfield, a family in Didsbury or a business in the city centre, we turn up
-          on time, handle your things carefully and charge a fair price. Call for a quote and you
-          get a straight answer, not a runaround.
-        </p>
-      </section>
-
-      {/* 3. SERVICES GRID */}
-      <section className="bg-gray-50">
-        <div className="mx-auto max-w-container px-4 py-12">
-          <h2 className="text-2xl font-bold text-gray-900">Our Man and Van Services</h2>
-          <p className="mt-2 text-gray-600">
-            Everything from a single sofa to a full house move. Pick the service that fits.
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {services.map((s) => (
-              <ServiceCard key={s.slug} service={s} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 4. MAIN SERVICE EXPLANATION */}
-      <section className="mx-auto max-w-container px-4 py-12">
-        <div className="grid gap-8 lg:grid-cols-2">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900">Man and Van in Manchester</h2>
-            <p className="mt-4 text-gray-700">
-              Most people call us for a house or flat move, and that is what we do best. We bring a
-              clean, insured van, blankets, straps and a trolley, and the manpower to shift your
-              furniture without damage. Manchester has its quirks, from tight terraced streets in
-              Chorlton to loading bays in the city centre, and we plan around all of them so your
-              move runs smoothly.
-            </p>
-            <p className="mt-4 text-gray-700">
-              Need something smaller? Man and van hire lets you book us by the hour for exactly as
-              long as you need. Bought a sofa on Marketplace? Our furniture and single item service
-              collects and delivers the same day where we can. Got a pile of junk? Our rubbish
-              removal service loads it and takes it away.
-            </p>
-          </div>
-          {/* 5. MOBILE / FLEXIBLE SERVICE SECTION */}
-          <div className="rounded-lg border border-gray-200 bg-brand-light p-6">
-            <h2 className="text-xl font-bold text-brand-dark">Flexible, Mobile Service</h2>
-            <p className="mt-3 text-gray-700">
-              We come to you, anywhere in Manchester. There is no depot to visit and nothing to
-              collect. Book us for a one hour single item run or a full day house move, on weekdays,
-              evenings or weekends. That flexibility is why locals search for a man and van near me
-              and end up calling us.
-            </p>
-            <ul className="mt-4 space-y-2 text-sm text-gray-700">
-              <li>&bull; One or two movers, whatever the job needs</li>
-              <li>&bull; Same day and next day where available</li>
-              <li>&bull; Weekend and evening slots</li>
-              <li>&bull; Clear prices, no hidden fees</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* 6. SAME DAY / URGENT SECTION */}
-      <section className="bg-gray-900">
-        <div className="mx-auto max-w-container px-4 py-10 text-center">
-          <h2 className="text-2xl font-bold text-white">Need a Man and Van Today?</h2>
-          <p className="mx-auto mt-2 max-w-2xl text-gray-300">
-            Short notice move, urgent single item or a last minute clearance? Call us and we will
-            tell you the soonest slot we have. Smaller jobs can often be done same day or next day.
-          </p>
-          <CallLink where="homepage" className="mt-5 inline-block rounded-md bg-cta px-6 py-3 text-lg font-bold text-white hover:bg-cta-dark">
-            Call {site.phoneDisplay}
-          </CallLink>
-        </div>
-      </section>
-
-      {/* 7. COVERAGE AREA */}
-      <section className="mx-auto max-w-container px-4 py-12">
-        <h2 className="text-2xl font-bold text-gray-900">Areas We Cover in Manchester</h2>
-        <p className="mt-2 text-gray-600">
-          We serve Manchester and nearby areas. Tap your area for local man and van information.
-        </p>
-        <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-          {locations.map((l) => (
-            <Link
-              key={l.slug}
-              href={`/locations/${l.slug}/`}
-              className="rounded-md border border-gray-200 bg-white px-4 py-3 text-sm font-semibold text-brand-dark hover:border-brand hover:bg-brand-light"
-            >
-              Man and van in {l.name}
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* 7b. "Near me" keyword block (A/B test) */}
-      <section className="bg-brand-light">
-        <div className="mx-auto max-w-container px-4 py-14">
-          <h2 className="text-2xl font-bold text-brand-dark sm:text-3xl">
-            Man and Van Near Me in Manchester
-          </h2>
-          <div className="mt-6 grid gap-8 text-base leading-relaxed text-gray-700 md:grid-cols-2">
-            <p>
-              When you search for a man and van near you, what you really want is someone
-              local who can get to you quickly and knows the roads. That is us. We are based
-              in and around Manchester and cover the whole city and Greater Manchester, from
-              Chorlton, Didsbury and Withington in the south to Salford, Prestwich and
-              Cheetham Hill in the north, so wherever you are there is a van close by.
-            </p>
-            <p>
-              Being local keeps things simple. We can often reach you the same day or the
-              next, we know which streets and estates are tight for a Luton and where to
-              park, and you get a fixed price agreed before we load a thing. Whether it is a
-              single item from Fallowfield, a full house move in Sale or an office shift near
-              Salford Quays, a nearby van and a friendly pair of hands is only a call away.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 8. WHY CHOOSE US */}
-      <section className="bg-gray-50">
-        <div className="mx-auto max-w-container px-4 py-12">
-          <h2 className="text-2xl font-bold text-gray-900">Why Choose Frank&apos;s Van and Man Manchester</h2>
-          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              ["On Time, Every Time", "We turn up when we say we will and keep you posted if anything changes."],
-              ["Careful With Your Stuff", "Blankets, straps and proper handling so nothing gets scratched or broken."],
-              ["Clear, Fair Prices", "A straight quote before we start. No hidden fuel charges or surprise extras."],
-              ["Local Knowledge", "We know Manchester parking, permits and loading bays, so moves run smoothly."],
-            ].map(([title, body]) => (
-              <div key={title} className="rounded-lg border border-gray-200 bg-white p-5">
-                <h3 className="text-base font-bold text-brand-dark">{title}</h3>
-                <p className="mt-2 text-sm text-gray-700">{body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 9. SIMPLE PROCESS */}
-      <section className="mx-auto max-w-container px-4 py-12">
-        <h2 className="text-2xl font-bold text-gray-900">How It Works</h2>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {[
-            ["1. Call", "Call or send a quick message with what you are moving."],
-            ["2. Quote", "We give you a clear price and a time that suits you."],
-            ["3. Schedule", "We book you in, weekdays, evenings or weekends."],
-            ["4. Complete", "We turn up, load up and get you moved."],
-          ].map(([title, body]) => (
-            <div key={title} className="rounded-lg bg-brand-light p-5">
-              <h3 className="text-base font-bold text-brand-dark">{title}</h3>
-              <p className="mt-2 text-sm text-gray-700">{body}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* 9b. EXPLORE / INTERNAL LINKS */}
-      <section className="mx-auto max-w-container px-4 py-12">
-        <h2 className="text-2xl font-bold text-gray-900">Plan Your Move</h2>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {[
-            ["/prices/", "Prices", "How our quotes work and what affects the cost."],
-            ["/our-vans/", "Van Size Guide", "What fits in each van and how many movers you need."],
-            ["/areas-we-cover/", "Areas We Cover", "Every Manchester area, grouped by region."],
-            ["/moving-guides/", "Moving Guides", "Straight answers to the questions people ask before a move."],
-            ["/insurance-and-compliance/", "Insurance and Compliance", "What our cover means and how to request a certificate."],
-            ["/case-studies/", "Recent Moves", "The kinds of jobs we do across Manchester."],
-          ].map(([href, title, body]) => (
-            <Link
-              key={href}
-              href={href}
-              className="block rounded-lg border border-gray-200 bg-white p-5 hover:border-brand hover:bg-brand-light"
-            >
-              <h3 className="text-base font-bold text-brand-dark">{title}</h3>
-              <p className="mt-2 text-sm text-gray-700">{body}</p>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* 10. FAQ */}
-      <Faq faqs={homeFaqs} />
-
-      {/* 11. TESTIMONIALS
-          Intentionally left empty. Do NOT add fabricated testimonials or star
-          ratings. When the operator has genuine, verifiable reviews (e.g. from
-          Google Business Profile), add them here and only then consider review
-          schema. Shipping fake reviews is both against policy and a trust risk. */}
-
-      {/* 12. FINAL CTA */}
-      <Cta label="Get Your Man and Van Quote Today" />
-    </>
-  );
+  return <div className="home-page">
+    <JsonLd data={[webPageSchema({ name: site.name, url: site.url + "/" }), faqSchema(homeFaqs)]} />
+    <section className="home-hero">
+      <div className="hero-inner"><div className="hero-copy">
+        <p className="eyebrow">FRANK’S VAN AND MAN MANCHESTER</p>
+        <h1>Big moves.<br /><span className="hand-underline">Good hands.</span></h1>
+        <p className="hero-description">Your local man and van in Manchester. From a single sofa to a whole new home, we’ll help you get there.</p>
+        <p className="hero-small">{site.hours} · Across Greater Manchester</p>
+      </div><div className="hero-art"><Image src="/images/franks-moving-van.webp" alt="Illustration of Frank’s green moving van packed with furniture, boxes and houseplants in Manchester" width={1536} height={1024} priority sizes="(max-width: 760px) 100vw, 60vw" /></div></div>
+      <div className="starter-wrap"><MoveStarter /></div>
+    </section>
+    <section className="home-intro section-wrap"><p className="eyebrow">A FRIENDLY FACE. A HELPING HAND.</p><h2>A little lift.<br />Or the <em>whole lot.</em></h2><p>Moving is a big enough job already. We help with the heavy bit — house moves, flat moves, furniture collections and everything in between. Tell us what’s coming, where it’s going and when you need us.</p><Link className="text-link" href="/about/">Get to know Frank’s ↗</Link></section>
+    <section className="home-services section-wrap"><div className="section-heading"><p className="eyebrow">WHAT ARE WE MOVING?</p><Link className="text-link" href="/services/">Explore all services ↗</Link></div><div className="service-editorial">
+      {[['01','A few things.','A sofa you’ve fallen for. A student room. The boxes that won’t fit in your car.','/services/furniture-delivery/'],['02','A whole home.','From the first box to the last armchair. Flats, houses and fresh starts.','/services/house-removals/'],['03','Your business.','Desks, equipment and the next chapter for your team. Let’s make room for it.','/services/office-removals/']].map(([n,title,body,href]) => <Link className="service-feature" href={href} key={n}><span className="service-number">{n}</span><h2>{title}</h2><p>{body}</p><span className="service-arrow" aria-hidden>↗</span></Link>)}
+    </div><div className="all-services">{services.map(s => <Link key={s.slug} href={`/services/${s.slug}/`}>{s.navLabel}<span aria-hidden>↗</span></Link>)}</div></section>
+    <section className="local-section"><div className="section-wrap local-grid"><div><p className="eyebrow">LOCAL KNOW-HOW GOES A LONG WAY</p><h2>Manchester,<br /><em>door to door.</em></h2><p>Terraced streets in Chorlton. A flat in Fallowfield. An office in Salford Quays. Tell us about the stairs, parking and tight corners so we can plan your move properly.</p><Link className="text-link" href="/areas-we-cover/">Find your area ↗</Link></div><div className="local-note"><span className="hand-note">Third-floor flat?<br />Massive sofa?</span><p>Tell us now.<br />We’ll plan the right help.</p><Link href="/our-vans/">Which van do I need? ↗</Link></div></div><div className="section-wrap area-directory">{locations.map(l => <Link key={l.slug} href={`/locations/${l.slug}/`}>{l.name} <span aria-hidden>↗</span></Link>)}</div></section>
+    <section className="section-wrap how-section"><div><p className="eyebrow">LESS FUSS. MORE MOVING.</p><h2>From here<br />to <em>sorted.</em></h2><Link href="/prices/" className="text-link">How our prices work ↗</Link></div><ol>{[['Tell us the plan','What you’re moving, both addresses, your date and anything we should know about access.'],['Get your quote','We’ll work out the van and help you need, and agree the price before your move.'],['Leave the lifting to us','We’ll load up, head over and help get your things into their new home.']].map(([title,body],i) => <li key={title}><span>0{i+1}</span><div><h3>{title}</h3><p>{body}</p></div></li>)}</ol></section>
+    <section className="urgent-band"><div className="section-wrap"><h2>Need a hand <em>today?</em></h2><p>Short-notice jobs welcome, subject to availability. Give us a ring and we’ll tell you what’s possible.</p><CallLink where="homepage_same_day" className="button">Call {site.phoneDisplay} ↗</CallLink></div></section>
+    <section className="section-wrap planning-section"><p className="eyebrow">A LITTLE PREPARATION HELPS</p><h2>Before the big day.</h2><div>{[['/moving-guides/','Good advice. Less guesswork.','Packing, planning and the practical bits.'],['/our-vans/','Make room for everything.','Our guide to van sizes and moving help.'],['/insurance-and-compliance/','Know where you stand.','Straight answers about cover and compliance.'],['/case-studies/','Every move is different.','Explore our recent moves.']].map(([href,title,body]) => <Link key={href} href={href}><h3>{title} <span aria-hidden>↗</span></h3><p>{body}</p></Link>)}</div></section>
+    <Faq faqs={homeFaqs} heading="A few things you might be wondering." />
+    <Cta label="New beginnings. This way." />
+  </div>;
 }

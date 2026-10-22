@@ -68,7 +68,7 @@ export default function ServicePage({ params }: { params: { service: string } })
         ]}
       />
 
-      <div className="mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-3">
+      <div className="interior-page interior-services mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-3">
         <article className="lg:col-span-2">
           <h1 className="text-3xl font-extrabold text-gray-900">{s.h1}</h1>
           <p className="mt-4 text-lg text-gray-700">{s.intro}</p>

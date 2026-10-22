@@ -38,7 +38,7 @@ export default function CaseStudiesPage() {
         ]}
       />
 
-      <div className="mx-auto max-w-container px-4 py-8">
+      <div className="interior-page interior-case-studies mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">Recent Moves</h1>
         <p className="mt-4 max-w-3xl text-lg text-gray-700">
           Real jobs from around Manchester, with the van, crew and access challenge for each. We only

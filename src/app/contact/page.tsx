@@ -33,7 +33,7 @@ export default function ContactPage() {
         ]}
       />
 
-      <div className="mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-2">
+      <div className="interior-page interior-contact mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-2">
         <div>
           <h1 className="text-3xl font-extrabold text-gray-900">Contact Frank&apos;s Van and Man Manchester</h1>
           <p className="mt-4 text-gray-700">

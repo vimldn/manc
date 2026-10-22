@@ -24,7 +24,7 @@ export default function PrivacyPage() {
         ]}
       />
       <Breadcrumbs trail={[{ name: "Home", path: "/" }, { name: "Privacy Policy", path: "/privacy-policy/" }]} />
-      <article className="mx-auto max-w-3xl px-4 py-8 text-gray-700">
+      <article className="interior-page interior-privacy-policy mx-auto max-w-3xl px-4 py-8 text-gray-700">
         <h1 className="text-3xl font-extrabold text-gray-900">Privacy Policy</h1>
         <p className="mt-4">
           This privacy policy explains how {site.name} handles the information you provide through

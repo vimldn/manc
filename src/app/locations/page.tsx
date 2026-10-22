@@ -44,7 +44,7 @@ export default function LocationsPage() {
         ]}
       />
 
-      <section className="mx-auto max-w-container px-4 py-8">
+      <section className="interior-page interior-locations mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">Areas We Cover in Manchester</h1>
         <p className="mt-4 max-w-3xl text-gray-700">
           Frank&apos;s Van and Man Manchester covers the whole of Manchester and Greater Manchester. Whether you

@@ -66,7 +66,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
         ]}
       />
 
-      <div className="mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-3">
+      <div className="interior-page interior-moving-guides mx-auto grid max-w-container gap-10 px-4 py-8 lg:grid-cols-3">
         <article className="lg:col-span-2">
           <h1 className="text-3xl font-extrabold text-gray-900">{g.h1}</h1>
           {/* A named reviewer appears only when a REAL person is recorded in

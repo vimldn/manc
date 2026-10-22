@@ -90,7 +90,7 @@ export default function AreasWeCoverPage() {
         ]}
       />
 
-      <div className="mx-auto max-w-container px-4 py-8">
+      <div className="interior-page interior-areas-we-cover mx-auto max-w-container px-4 py-8">
         <h1 className="text-3xl font-extrabold text-gray-900">
           Areas We Cover in Greater Manchester
         </h1>
