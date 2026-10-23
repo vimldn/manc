@@ -7,17 +7,38 @@ import Cta from "@/components/Cta";
 import JsonLd from "@/components/JsonLd";
 import CallLink from "@/components/CallLink";
 import RichText from "@/components/RichText";
+import StudentArticle from "@/components/StudentArticle";
+import { getPublishedStudentArticle, getStudentPhoto } from "@/lib/studentArticles";
 import { site, isReal } from "@/lib/config";
 import { guides, getGuide } from "@/lib/guides";
 import { articleSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 
-export function generateStaticParams() {
-  return guides.map((g) => ({ slug: g.slug }));
-}
+// Check the release time on every request: publication never depends on a
+// visitor warming an ISR cache or a daily deployment succeeding.
+export const dynamic = "force-dynamic";
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const article = getPublishedStudentArticle(params.slug);
+  if (article) {
+    const url = `${site.url}/moving-guides/${article.slug}/`;
+    const photo = getStudentPhoto(article.photos[0]);
+    return {
+      title: article.seoTitle,
+      description: article.description,
+      alternates: { canonical: url },
+      robots: { index: true, follow: true },
+      openGraph: {
+        title: article.seoTitle, description: article.description, url, type: "article",
+        siteName: site.name, locale: "en_GB", publishedTime: article.originalPublishedAt ?? article.publishAt,
+        modifiedTime: article.publishAt,
+        images: [{ url: site.url + photo.src, width: photo.width, height: photo.height, alt: photo.alt }],
+      },
+      twitter: { card: "summary_large_image", title: article.seoTitle,
+        description: article.description, images: [site.url + photo.src] },
+    };
+  }
   const g = getGuide(params.slug);
-  if (!g) return {};
+  if (!g) return { robots: { index: false, follow: false } };
   const url = `${site.url}/moving-guides/${g.slug}/`;
   return {
     title: g.title,
@@ -29,6 +50,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 }
 
 export default function GuidePage({ params }: { params: { slug: string } }) {
+  const article = getPublishedStudentArticle(params.slug);
+  if (article) return <StudentArticle article={article} />;
   const g = getGuide(params.slug);
   if (!g) notFound();
 

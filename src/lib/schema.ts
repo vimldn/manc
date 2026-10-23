@@ -143,6 +143,8 @@ export function articleSchema(args: {
   url: string;
   datePublished: string;
   dateModified: string;
+  image?: string[];
+  keywords?: string[];
 }) {
   return {
     "@context": "https://schema.org",
@@ -152,6 +154,8 @@ export function articleSchema(args: {
     url: args.url,
     datePublished: args.datePublished,
     dateModified: args.dateModified,
+    ...(args.image ? { image: args.image } : {}),
+    ...(args.keywords ? { keywords: args.keywords } : {}),
     inLanguage: "en-GB",
     // Anonymous editorial byline: the operator, not a fabricated person.
     author: { "@type": "Organization", name: site.name },

@@ -6,6 +6,12 @@ import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
 import { guides } from "@/lib/guides";
 import { studentPages } from "@/lib/studentRemovals";
+import { getPublishedStudentArticles, getStudentPhoto } from "@/lib/studentArticles";
+import previousDates from "@/content/sitemap-dates.json";
+
+export const dynamic = "force-dynamic";
+const hasGit = existsSync(".git");
+const commitDates = new Map<string, Date | undefined>();
 
 // lastModified is the one sitemap hint Google reads, so it has to be true.
 // A single hand-bumped date on every URL told Google the whole site changed at
@@ -21,17 +27,25 @@ import { studentPages } from "@/lib/studentRemovals";
 // If git is unavailable, as in a tarball build, the date is omitted rather than
 // guessed. A sitemap with no lastmod is a smaller problem than a wrong one.
 function lastCommit(...files: string[]): Date | undefined {
+  if (!hasGit) return undefined;
   let latest: Date | undefined;
   for (const file of files) {
+    if (commitDates.has(file)) {
+      const date = commitDates.get(file);
+      if (date && (!latest || date > latest)) latest = date;
+      continue;
+    }
     try {
       const iso = execFileSync("git", ["log", "-1", "--format=%cI", "--", file], {
         encoding: "utf8",
         stdio: ["ignore", "pipe", "ignore"],
       }).trim();
-      if (!iso) continue;
+      if (!iso) { commitDates.set(file, undefined); continue; }
       const d = new Date(iso);
+      commitDates.set(file, d);
       if (!latest || d > latest) latest = d;
     } catch {
+      commitDates.set(file, undefined);
       // git missing or not a repository: leave this file out.
     }
   }
@@ -42,8 +56,8 @@ function lastCommit(...files: string[]): Date | undefined {
 const routeFile = (path: string) =>
   path === "/" ? "src/app/page.tsx" : `src/app${path.replace(/\/$/, "")}/page.tsx`;
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  // Shared sources, resolved once per build rather than once per URL.
+function buildBaseEntries() {
+  // Resolve unchanged sources once per server instance, not on every request.
   const servicesData = lastCommit("src/lib/services.ts", "src/lib/serviceDetails.ts");
   const locationsData = lastCommit("src/lib/locations.ts");
   const studentData = lastCommit("src/lib/studentRemovals.ts");
@@ -101,8 +115,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   return entries.map((p) => ({
+    ...p,
+    lastModified: p.lastModified ?? (previousDates[p.path as keyof typeof previousDates]
+      ? new Date(previousDates[p.path as keyof typeof previousDates]) : undefined),
+  }));
+}
+
+// Production functions do not contain .git. The snapshot preserves the last
+// verified dates of existing pages; scheduled guides supply their own dates.
+const baseEntries = buildBaseEntries();
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const entries = new Map<string, { path: string; priority: number; lastModified?: Date; images?: string[] }>(
+    baseEntries.map((entry) => [entry.path, { ...entry }]),
+  );
+  const published = getPublishedStudentArticles();
+  for (const article of published) {
+    const path = `/moving-guides/${article.slug}/`;
+    entries.set(path, { path, priority: 0.7, lastModified: new Date(article.publishAt),
+      images: article.photos.map((id) => site.url + getStudentPhoto(id).src) });
+  }
+  const index = entries.get("/moving-guides/");
+  if (index && published.length > 0) {
+    const latestRelease = new Date(published[0].publishAt);
+    if (!index.lastModified || latestRelease > index.lastModified) index.lastModified = latestRelease;
+  }
+  return Array.from(entries.values()).map((p) => ({
     url: site.url + p.path,
     ...(p.lastModified ? { lastModified: p.lastModified } : {}),
+    ...(p.images ? { images: p.images } : {}),
     changeFrequency: "monthly",
     priority: p.priority,
   }));

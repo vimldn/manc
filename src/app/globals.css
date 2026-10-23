@@ -172,3 +172,32 @@ main a.bg-cta { border-radius:40px; }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition:none!important; animation:none!important; } }
 
 .hero-art { mask-image:linear-gradient(to bottom,transparent 0%,black 12%,black 86%,transparent 100%); }
+
+/* Student articles use the site's existing green editorial design. */
+.student-article-byline { color:#536255; font-size:12px; }
+.student-article-byline p { line-height:1.65; }
+.student-article-intro { font-size:17px; }
+.student-article-photo { margin:30px 0; }
+.student-article-photo img { display:block; }
+.student-article-photo figcaption { margin-top:8px; color:#536255; font-size:11px; line-height:1.6; }
+.student-article-photo figcaption a { text-decoration:underline; text-underline-offset:3px; }
+.student-article-photo-portrait img { aspect-ratio:4/3; object-fit:cover; object-position:50% 65%; }
+.student-article-contents ul { display:grid; gap:9px; margin-top:12px; padding-left:18px; list-style:disc; font-size:14px; }
+.student-article-contents a,.student-article-body a,.student-article-sources a,.student-article-related a { color:var(--green); text-decoration:underline; text-underline-offset:3px; text-decoration-color:#123f3060; overflow-wrap:anywhere; }
+.student-article-contents a:hover,.student-article-body a:hover,.student-article-sources a:hover,.student-article-related a:hover { color:var(--red); }
+.student-article-body h2 { margin:36px 0 16px; scroll-margin-top:28px; }
+.student-article-body h3 { margin:25px 0 12px; }
+.student-article-body p { margin:15px 0; }
+.student-article-body ul,.student-article-body ol { margin:16px 0; padding-left:24px; }
+.student-article-body ul { list-style:disc; }
+.student-article-body ol { list-style:decimal; }
+.student-article-body li { margin:10px 0; line-height:1.8; }
+.student-table-scroll { width:100%; max-width:100%; overflow-x:auto; margin:24px 0; border:1px solid var(--line); }
+.student-table-scroll table { width:100%; border-collapse:collapse; text-align:left; }
+.student-table-scroll th,.student-table-scroll td { padding:13px 14px; vertical-align:top; border-bottom:1px solid var(--line); overflow-wrap:anywhere; }
+.student-table-scroll th { font-weight:700; }
+.student-article-related { font-size:14px; line-height:1.7; }
+.student-article-sources { font-size:14px; }
+.student-guide-card h3 { font-size:23px; }
+.student-guide-card p { line-height:1.7; }
+@media(max-width:760px) { .student-article-intro { font-size:16px; } .student-article-body h2 { font-size:27px; } .student-table-scroll th,.student-table-scroll td { padding:10px; min-width:100px; } }
