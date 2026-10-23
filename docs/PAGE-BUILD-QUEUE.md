@@ -65,6 +65,8 @@ page to scroll sideways on a phone.
 | 21 | 2026-10-22 | P1 | Moving From Halls to a Student House in Manchester (guide) | `/moving-guides/halls-to-student-house-manchester/` |
 | 22 | 2026-10-22 | P2 | RNCM Student Removals | `/student-removals/rncm/` |
 | 22 | 2026-10-22 | P2 | UA92 Student Removals | `/student-removals/ua92/` |
+| 23 | 2026-10-23 | P2 | University of Law Manchester Student Removals | `/student-removals/university-of-law/` |
+| 23 | 2026-10-23 | P2 | BPP Manchester Student Removals | `/student-removals/bpp/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -85,7 +87,7 @@ student pages for that reason.
 |---|---|---|---|---|
 | blocked | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | needs decision 10 |
 | blocked | P1 | Moving Into Manchester University Halls (guide) | `/moving-guides/moving-into-manchester-university-halls/` | needs decision 11 |
-| 23 | P2 | University of Law, BPP and University of Bolton student pages | | gap-check each: Bolton has /locations/bolton/ |
+| 24 | P2 | University of Bolton student page | | gap-check against /locations/bolton/ first |
 | later | P2 | Six route pages; three P2 guides | | after the P2 student pages |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |

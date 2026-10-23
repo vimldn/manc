@@ -1458,6 +1458,222 @@ export const studentPages: StudentPage[] = [
     ],
     reviewed: "October 2026",
   },
+  {
+    slug: "university-of-law",
+    navLabel: "University of Law",
+    name: "The University of Law Manchester",
+    h1: "University of Law Manchester Student Removals",
+    title: "University of Law Manchester Student Removals | Frank's Van and Man Manchester",
+    metaDescription:
+      "Student removals for The University of Law in Manchester: the New York Street campus by Piccadilly Gardens, partner rooms in Rusholme, January, May and September starts, and city centre parking rules. Get a quote.",
+    cardBlurb:
+      "Piccadilly Gardens campus, partner rooms in Rusholme, and moves timed to January, May and September starts.",
+    intro: [
+      "University of Law students in Manchester do not move on a September-only calendar: the full-time PGDL starts here in January, May and September, so moves happen through the year.",
+      "The campus is at 2 New York Street, M1 4HJ, overlooking Piccadilly Gardens, and the university has no halls of its own in the city. It reserves a limited number of rooms with a partner provider for some students; everyone else finds their own room or flat.",
+    ],
+    keyFacts: [
+      { label: "Campus", value: "2 New York Street, M1 4HJ" },
+      { label: "Partner rooms", value: "Manchester Student Village South, Rusholme (Dwell)" },
+      { label: "Full-time PGDL starts", value: "January, May and September" },
+      { label: "Portland Street bus gate", value: "Buses, black cabs and cycles only, 24 hours" },
+      { label: "Bay suspension for a removal", value: "£30 per bay per day, 5 working days' notice" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    sections: [
+      {
+        h2: "Rooms at Manchester Student Village South",
+        body:
+          "The University of Law reserves a limited number of rooms each year for first-year undergraduate, foundation year and international students through its nominated providers. In Manchester that is Manchester Student Village South, run by Dwell Student Living, which Dwell lists on Great Western Street, Rusholme, M14 4AH, and which the university describes as about 25 minutes by public transport or a 45 minute walk from the campus. The details are on the university's [accommodation page](https://www.law.ac.uk/students/accommodation/).",
+        outro:
+          "Home students on the PGDL or the SQE courses are not on that list, so they find their own housing, and a January or May start means house hunting outside the usual September rush. The move into a private room or flat is usually one van load; the move out of a city centre flat is where the lift and the loading bay come into it, and our [flat and apartment removals](/services/flat-apartment-removals/) cover both.",
+      },
+      {
+        h2: "January, May and September Starts",
+        body:
+          "The full-time PGDL runs in Manchester from January 2027, May 2027 and September 2027, and again in January and May 2028. Manchester is one of only six University of Law locations with a full-time May start, alongside Birmingham, Bristol, Leeds and two London campuses.",
+        outro:
+          "That spreads University of Law moves across the year. A January starter moves in over Christmas and New Year, and a May starter at the end of April. We work to those dates as easily as September; book once your start date is confirmed.",
+      },
+      {
+        h2: "Piccadilly Gardens and the Portland Street Bus Gate",
+        body:
+          "The campus overlooks Piccadilly Gardens, which is about to be rebuilt. In September 2026 the council announced the scheme had been approved, with the main works due to start in November and the space due to be ready next year. Alongside it, the Portland Street bus gate runs from Minshull Street to Aytoun Street, at the edge of the Gardens, and is open only to buses, black cabs and cycles 24 hours a day, with a £70 penalty, reduced to £35 if paid within 21 days. The council sets it out on its [Portland Street bus gate page](https://www.manchester.gov.uk/parking/tickets-and-fines/bus-gates/the-portland-street-bus-gate).",
+        outro:
+          "For a move to or from a city centre flat near New York Street, that rules out the obvious route along Portland Street, and the hoardings around the Gardens will change the side streets while the works run. We check the route in the week of the move.",
+      },
+      {
+        h2: "Parking for a City Centre Move",
+        body:
+          "Manchester City Council will suspend pay and display bays for domestic removals at £30 per bay per day, and will give a dispensation to park on single or double yellow lines during restricted hours at £30 per vehicle per day. Both need at least five working days' notice. Loading on yellow lines is allowed without either, as long as the van does not cause an obstruction and there is no loading ban, which is shown by yellow stripes on the kerb.",
+        outro:
+          "For a quick room move, loading on the line is usually enough. For a full flat that will take hours, [reserving parking for the move](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) is worth the £30.",
+      },
+      {
+        h2: "What a University of Law Move Costs",
+        body:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". A room or a studio is usually one van load, and the price depends on the floor, the lift and the walk from the van.",
+        outro: "Every band we quote from is [published on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Tell us both addresses, with flat numbers and floors.",
+      "Give us your course start date, or the end of your tenancy.",
+      "Say whether either building has a lift or a loading bay that needs booking.",
+      "If the move is long, decide whether to suspend a bay; the council needs five working days.",
+      "We confirm the time, the van and the price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Does The University of Law have halls in Manchester?",
+        a: "No halls of its own. It reserves a limited number of rooms at Manchester Student Village South in Rusholme for first-year undergraduate, foundation year and international students.",
+      },
+      {
+        q: "Where is The University of Law in Manchester?",
+        a: "At 2 New York Street, M1 4HJ, overlooking Piccadilly Gardens.",
+      },
+      {
+        q: "When does the PGDL start in Manchester?",
+        a: "The full-time PGDL starts in January, May and September. Manchester is one of six University of Law locations with a full-time May start.",
+      },
+      {
+        q: "Can a van drive along Portland Street?",
+        a: "Not between Minshull Street and Aytoun Street. That stretch is a bus gate open only to buses, black cabs and cycles, 24 hours a day.",
+      },
+      {
+        q: "How do I reserve parking for a city centre move?",
+        a: "Apply to Manchester City Council to suspend a pay and display bay for a domestic removal, at £30 per bay per day, or for a dispensation to park on yellow lines, at £30 per vehicle per day. Both need five working days' notice.",
+      },
+      {
+        q: "What does a University of Law student move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". Most room moves fit one van load.",
+      },
+    ],
+    related: [
+      { label: "Flat and apartment removals", path: "/services/flat-apartment-removals/" },
+      { label: "Reserving parking for a move", path: "/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/" },
+      { label: "BPP Manchester student removals", path: "/student-removals/bpp/" },
+      { label: "International student removals", path: "/student-removals/international-students/" },
+      { label: "Student man and van in Manchester", path: "/services/student-moves/" },
+      { label: "Moving out of a rental", path: "/moving-guides/moving-out-rental-checklist/" },
+    ],
+    reviewed: "October 2026",
+  },
+  {
+    slug: "bpp",
+    navLabel: "BPP",
+    name: "BPP University Manchester",
+    h1: "BPP Manchester Student Removals",
+    title: "BPP Manchester Student Removals | Frank's Van and Man Manchester",
+    metaDescription:
+      "Student removals for BPP University Manchester: the St James Building on Oxford Street, September, January and February law starts, no BPP halls, and the city centre parking and bus lane rules. Get a quote.",
+    cardBlurb:
+      "St James Building on Oxford Street, law starts through the year, and private rooms and flats rather than halls.",
+    intro: [
+      "BPP University publishes no halls of its own in Manchester, so a BPP student move is into a private room or flat, timed to a law course that can start in September, January or February.",
+      "The study centre is in the St James Building, 79 Oxford Street, M1 6FQ, a two-minute walk from Oxford Road station. It is open until 9pm Monday to Thursday and through both weekend days, which suits students who are working while they study.",
+    ],
+    keyFacts: [
+      { label: "Study centre", value: "St James Building, 79 Oxford Street, M1 6FQ" },
+      { label: "Opening hours", value: "Mon to Thu 8am to 9pm; weekends 8.30am to 6pm" },
+      { label: "PGDL starts in Manchester", value: "September 2026 and January 2027" },
+      { label: "BPP accommodation", value: "None published for Manchester" },
+      { label: "Oxford Street pay and display", value: "5 bays, 2 hours, £7 for 2 hours" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    sections: [
+      {
+        h2: "The St James Building",
+        body:
+          "BPP describes its Manchester centre as being in the historic St James's building on Oxford Street, two minutes' walk from Manchester Oxford Road station and five from the main shopping areas, with 32 classrooms and mock courtrooms. Its opening hours run from 8am to 9pm Monday to Thursday, 8am to 6pm on Friday and 8.30am to 6pm on Saturday and Sunday. The centre is described on BPP's [Manchester page](https://www.bpp.com/about-bpp/locations/manchester).",
+        outro:
+          "Nobody moves into the study centre itself. For a student moving into a flat near Oxford Road or the city centre, the move comes down to the lift, the loading bay and the managed entrance rather than the distance.",
+      },
+      {
+        h2: "September, January and February Starts",
+        body:
+          "BPP's PGDL runs full-time in Manchester from September 2026 and January 2027; its May start is in London and online only. The LLM Legal Practice for the SQE starts in Manchester in September 2026 and February 2027, and the Barrister Training Course in September 2026 and January 2027.",
+        outro:
+          "So a BPP move can fall in late August, over Christmas or at the end of January. We work to those dates as easily as September, and an early booking matters most for the January and February starts, when the move sits close to the holidays.",
+      },
+      {
+        h2: "No BPP Halls in Manchester",
+        body:
+          "BPP publishes no accommodation page and no partner provider for its Manchester centre, so students find their own rooms and flats. Since 1 May 2026 most private tenancies in England are rolling tenancies with no fixed end date, so the move out is set by [notice under the new rules](/moving-guides/moving-out-rental-checklist/) rather than a date in the contract.",
+        outro:
+          "Students arriving from abroad for a January start face the same search in winter rather than summer, and the paperwork that comes with it, from a share code for the landlord's right to rent check to council tax, is covered for [international students](/student-removals/international-students/).",
+      },
+      {
+        h2: "Oxford Street, Bus Lanes and Bay Suspensions",
+        body:
+          "Oxford Street itself has five pay and display bays, limited to two hours with no return within an hour, charged from 8am to 8pm every day at £7 for two hours. Nearby, the Whitworth Street West contraflow bus lane, from Albion Street to Deansgate, has been in force around the clock since 11 August 2025, and the Oxford Road bus gate closes the main road south to general traffic from 6am to 9pm.",
+        outro:
+          "For a longer flat move, the council will suspend a pay and display bay for a domestic removal at £30 per bay per day with five working days' notice. The rules are on the council's [suspensions and dispensations page](https://www.manchester.gov.uk/parking/tickets-and-fines/parking-restrictions/suspending-parking-bays-and-getting-permission-to-park-on-yellow-lines).",
+      },
+      {
+        h2: "What a BPP Move Costs",
+        body:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". A room or a studio flat is usually one van load, and the price depends on the floor, the lift and the walk from the van.",
+        outro: "Every band we quote from is [published on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Tell us both addresses, with flat numbers and floors.",
+      "Give us your course start date, or the end of your tenancy.",
+      "Say whether either building has a lift or a loading bay that needs booking.",
+      "If the move is long, decide whether to suspend a bay; the council needs five working days.",
+      "We confirm the time, the van and the price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Where is BPP in Manchester?",
+        a: "In the St James Building, 79 Oxford Street, M1 6FQ, two minutes' walk from Manchester Oxford Road station.",
+      },
+      {
+        q: "Does BPP have student accommodation in Manchester?",
+        a: "BPP publishes no accommodation page or partner provider for its Manchester centre, so students find their own rooms and flats.",
+      },
+      {
+        q: "When do BPP law courses start in Manchester?",
+        a: "The PGDL starts in September 2026 and January 2027, the LLM Legal Practice for the SQE in September 2026 and February 2027, and the Barrister Training Course in September 2026 and January 2027.",
+      },
+      {
+        q: "Can I park on Oxford Street to move?",
+        a: "There are five pay and display bays, limited to two hours. For longer, apply to the council to suspend a bay for a domestic removal at £30 per bay per day, with five working days' notice.",
+      },
+      {
+        q: "What does a BPP student move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". Most room moves fit one van load.",
+      },
+    ],
+    related: [
+      { label: "Flat and apartment removals", path: "/services/flat-apartment-removals/" },
+      { label: "University of Law Manchester student removals", path: "/student-removals/university-of-law/" },
+      { label: "International student removals", path: "/student-removals/international-students/" },
+      { label: "Reserving parking for a move", path: "/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/" },
+      { label: "Student man and van in Manchester", path: "/services/student-moves/" },
+      { label: "Moving out of a rental", path: "/moving-guides/moving-out-rental-checklist/" },
+    ],
+    reviewed: "October 2026",
+  },
 ];
 
 export const getStudentPage = (slug: string) => studentPages.find((p) => p.slug === slug);
