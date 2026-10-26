@@ -6,6 +6,7 @@ import { services } from "@/lib/services";
 import { locations } from "@/lib/locations";
 import { guides } from "@/lib/guides";
 import { studentPages } from "@/lib/studentRemovals";
+import { routePages } from "@/lib/routePages";
 import { getPublishedStudentArticles, getStudentPhoto } from "@/lib/studentArticles";
 import previousDates from "@/content/sitemap-dates.json";
 
@@ -61,6 +62,7 @@ function buildBaseEntries() {
   const servicesData = lastCommit("src/lib/services.ts", "src/lib/serviceDetails.ts");
   const locationsData = lastCommit("src/lib/locations.ts");
   const studentData = lastCommit("src/lib/studentRemovals.ts");
+  const routesData = lastCommit("src/lib/routePages.ts");
   const guidesData = lastCommit("src/lib/guides.ts");
 
   // Index pages also change when the list they show changes.
@@ -106,6 +108,14 @@ function buildBaseEntries() {
       path: `/student-removals/${p.slug}/`,
       priority: 0.8,
       lastModified: studentData,
+    })),
+    ...(routePages.length > 0
+      ? [{ path: "/routes/", priority: 0.7, lastModified: routesData }]
+      : []),
+    ...routePages.map((p) => ({
+      path: `/routes/${p.slug}/`,
+      priority: 0.7,
+      lastModified: routesData,
     })),
     ...guides.map((g) => ({
       path: `/moving-guides/${g.slug}/`,

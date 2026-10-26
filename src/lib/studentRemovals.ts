@@ -1674,6 +1674,116 @@ export const studentPages: StudentPage[] = [
     ],
     reviewed: "October 2026",
   },
+  {
+    slug: "university-of-bolton",
+    navLabel: "University of Bolton",
+    name: "University of Greater Manchester",
+    h1: "University of Bolton Student Removals",
+    title: "University of Bolton Student Removals | Frank's Van and Man Manchester",
+    metaDescription:
+      "Student removals for the University of Greater Manchester, formerly the University of Bolton: Orlando Village halls, the 11am move-out rule, 2026/27 term dates and Bolton bay suspensions. Get a quote.",
+    cardBlurb:
+      "Now the University of Greater Manchester: Orlando Village, the 11am move-out rule and Bolton's parking charges.",
+    intro: [
+      "The University of Bolton is now the University of Greater Manchester, but the campus has not moved: Deane Road, Bolton, BL3 5AB, with one approved hall of residence, Orlando Village, a short walk away.",
+      "The Office for Students approved the new name in December 2024, and the old bolton.ac.uk address now forwards to the new site. The town is still Bolton rather than Manchester, so the parking rules that matter on moving day are Bolton Council's. The wider borough is covered on our [Bolton](/locations/bolton/) page.",
+    ],
+    keyFacts: [
+      { label: "Campus", value: "Deane Road, Bolton, BL3 5AB" },
+      { label: "Halls", value: "Orlando Village, Thynne Street, BL3 6BA" },
+      { label: "Orlando Village rooms", value: "From £139 a week on a 49 week licence" },
+      { label: "Move out", value: "By 11am on the tenancy end date" },
+      { label: "Bolton bay suspension", value: "£26.50 plus £7.90 per bay per day" },
+      { label: "Van and one mover", value: "From " + rate("one-large") },
+    ],
+    sections: [
+      {
+        h2: "Orlando Village",
+        body:
+          "Orlando Village, on Thynne Street, is the university's approved hall. Its rooms page lists four types: Bronze from £139 a week on a 49 week licence or a single-semester licence, Bronze Plus from £159 and Silver from £169, both on 49 weeks, and en-suite Gold from £199 on a 50 week licence. The details are on [Orlando Village's rooms page](https://orlandovillage.co.uk/our-rooms/).",
+        outro:
+          "The rooms are furnished, and every kitchen has a microwave, kettle, toaster, fridge and freezer, but crockery, cutlery and pans are not provided, and residents may not bring their own fridges, tumble dryers or portable heaters. So the move in is bedding, kitchen kit, clothes and books, which is usually a single [student man and van](/services/student-moves/) load.",
+      },
+      {
+        h2: "Moving In and Moving Out",
+        body:
+          "Orlando Village's rules put the deadline at the end, not the start. You have to vacate your room by 11am on the tenancy end date in your agreement, and anything left after that is removed and disposed of. The start date is set in the tenancy agreement too, so check both before you book a van.",
+        outro:
+          "With a 49 or 50 week licence, the end date falls well after the last teaching week in May, which gives a choice of weeks for the move home or into a house. The tight one is the last morning: a van booked for the afternoon of the end date is too late.",
+      },
+      {
+        h2: "Term Dates for 2026/27",
+        body:
+          "The university's 2026/27 calendar runs most courses from 14 September to 18 December, 4 January to 20 March and 5 April to 28 May. Semester 1 runs from 14 September 2026 to 23 January 2027 and Semester 2 from 26 January to 28 May 2027. The full list by subject is in the [academic calendar](https://greatermanchester.ac.uk/student-area/academic-calendars).",
+        outro:
+          "Some health and education courses start earlier, so check your own course's dates before fixing a September move.",
+      },
+      {
+        h2: "Parking in Bolton",
+        body:
+          "Bolton Council will suspend parking bays for a standard charge of £26.50 plus £7.90 per bay per day, so a single bay for one day costs £34.40. Applications have to be in at least two working days before the suspension starts, and the same notice applies to cancelling one.",
+        outro:
+          "In October 2026 the council brought seven town centre car parks back in-house, including the Deane Road multistorey, after the previous operator went into administration. Bradshawgate and Great Moor Street are also due to be resurfaced and repaved, so check the route into the town centre in the week of the move.",
+      },
+      {
+        h2: "What a Bolton Student Move Costs",
+        body:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". A room at Orlando Village is usually one van load, and a move into Manchester from Bolton is priced on the same basis as any other run.",
+        outro: "Every band we quote from is [published on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Tell us your Orlando Village flat and room number, or your house address.",
+      "Give us your tenancy start or end date from the agreement.",
+      "Tell us where you are moving to, in Bolton or further afield.",
+      "If the street at either end is busy, decide whether to suspend a bay; Bolton needs two working days.",
+      "We confirm the time, the van and the price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Is the University of Bolton now the University of Greater Manchester?",
+        a: "Yes. The Office for Students approved the name in December 2024. The campus is still on Deane Road in Bolton.",
+      },
+      {
+        q: "What halls does the University of Greater Manchester have?",
+        a: "Orlando Village on Thynne Street, BL3 6BA, which is the university's approved hall. Rooms range from Bronze at £139 a week to en-suite Gold at £199.",
+      },
+      {
+        q: "What time do I have to leave Orlando Village?",
+        a: "By 11am on the tenancy end date in your agreement. Anything left in the room after that is removed and disposed of.",
+      },
+      {
+        q: "Can I bring my own fridge to Orlando Village?",
+        a: "No. Kitchens already have a fridge and freezer, and residents may not bring their own fridges, tumble dryers or portable heaters.",
+      },
+      {
+        q: "How much does it cost to suspend a parking bay in Bolton?",
+        a: "A standard charge of £26.50 plus £7.90 per bay per day, so £34.40 for one bay for a day. Apply at least two working days ahead.",
+      },
+      {
+        q: "What does a Bolton student move cost?",
+        a:
+          "One mover with a large van starts from " +
+          rate("one-large") +
+          " and two movers from " +
+          rate("two-large") +
+          ". Most room moves fit one van load.",
+      },
+    ],
+    related: [
+      { label: "Man and van in Bolton", path: "/locations/bolton/" },
+      { label: "Student man and van in Manchester", path: "/services/student-moves/" },
+      { label: "Student storage in Manchester", path: "/services/student-storage-manchester/" },
+      { label: "Moving home from university", path: "/student-removals/moving-home/" },
+      { label: "End of term student removals", path: "/student-removals/end-of-term/" },
+      { label: "International student removals", path: "/student-removals/international-students/" },
+    ],
+    reviewed: "October 2026",
+  },
 ];
 
 export const getStudentPage = (slug: string) => studentPages.find((p) => p.slug === slug);

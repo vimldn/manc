@@ -67,6 +67,8 @@ page to scroll sideways on a phone.
 | 22 | 2026-10-22 | P2 | UA92 Student Removals | `/student-removals/ua92/` |
 | 23 | 2026-10-23 | P2 | University of Law Manchester Student Removals | `/student-removals/university-of-law/` |
 | 23 | 2026-10-23 | P2 | BPP Manchester Student Removals | `/student-removals/bpp/` |
+| 24 | 2026-10-26 | P2 | University of Bolton Student Removals (now University of Greater Manchester) | `/student-removals/university-of-bolton/` |
+| 24 | 2026-10-26 | P2 | Manchester to Liverpool Removals | `/routes/manchester-to-liverpool/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -87,8 +89,14 @@ student pages for that reason.
 |---|---|---|---|---|
 | blocked | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | needs decision 10 |
 | blocked | P1 | Moving Into Manchester University Halls (guide) | `/moving-guides/moving-into-manchester-university-halls/` | needs decision 11 |
-| 24 | P2 | University of Bolton student page | | gap-check against /locations/bolton/ first |
-| later | P2 | Six route pages; three P2 guides | | after the P2 student pages |
+| 25 | P2 | Manchester to Leeds Removals | `/routes/manchester-to-leeds/` | route segment built day 24 |
+| 25 | P2 | Manchester to Birmingham Removals | `/routes/manchester-to-birmingham/` | Birmingham clean air zone |
+| 26 | P2 | Manchester to Sheffield Removals | `/routes/manchester-to-sheffield/` | Sheffield clean air zone |
+| 26 | P2 | Manchester to Edinburgh Removals | `/routes/manchester-to-edinburgh/` | Scottish LEZ |
+| 27 | P2 | Manchester to Glasgow Removals | `/routes/manchester-to-glasgow/` | Scottish LEZ |
+| 27 | P2 | Moving Day Completion Guide | `/moving-guides/completion-day-moving-house/` | gap-check against keys-delayed guide |
+| 28 | P2 | Seller Hasn't Moved Out on Completion Day | `/moving-guides/seller-not-moved-out/` | |
+| 28 | P2 | How Far in Advance Should I Book Removals? | `/moving-guides/how-far-in-advance-book-removals/` | |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |
