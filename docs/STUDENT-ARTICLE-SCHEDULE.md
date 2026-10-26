@@ -80,3 +80,5 @@ Photo source URLs, photographer names and licence references are recorded in `sr
 | 28 | Vita Circle Square moving out | `/moving-guides/moving-out-vita-circle-square/` |
 | 29 | Vita First Street moving out | `/moving-guides/moving-out-vita-first-street/` |
 | 30 | how to pack a student room for summer storage | `/moving-guides/pack-student-room-summer-storage/` |
+
+Update 26 October 2026: the six Pexels stock photographs were replaced with generated illustrations at the same file paths (OpenAI image generation via Codex), because the fleet does not use stock imagery. Captions now read "Generated illustration. It does not show a named hall or a real customer." and student-photo-credits.json records the provenance.

@@ -18,7 +18,7 @@ function ArticlePhoto({ photo, priority = false }: { photo: StudentPhoto; priori
         sizes="(max-width: 760px) calc(100vw - 46px), (max-width: 1023px) calc(100vw - 72px), 760px"
         priority={priority} className="h-auto w-full rounded-lg" />
       <figcaption>
-        Illustrative stock photograph. Photo: <a href={photo.sourceUrl}>{photo.photographer} / Pexels</a>.
+        Generated illustration. It does not show a named hall or a real customer.
       </figcaption>
     </figure>
   );
