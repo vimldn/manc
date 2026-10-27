@@ -69,6 +69,8 @@ page to scroll sideways on a phone.
 | 23 | 2026-10-23 | P2 | BPP Manchester Student Removals | `/student-removals/bpp/` |
 | 24 | 2026-10-26 | P2 | University of Bolton Student Removals (now University of Greater Manchester) | `/student-removals/university-of-bolton/` |
 | 24 | 2026-10-26 | P2 | Manchester to Liverpool Removals | `/routes/manchester-to-liverpool/` |
+| 25 | 2026-10-27 | P2 | Manchester to Leeds Removals | `/routes/manchester-to-leeds/` |
+| 25 | 2026-10-27 | P2 | Manchester to Birmingham Removals | `/routes/manchester-to-birmingham/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -89,8 +91,6 @@ student pages for that reason.
 |---|---|---|---|---|
 | blocked | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | needs decision 10 |
 | blocked | P1 | Moving Into Manchester University Halls (guide) | `/moving-guides/moving-into-manchester-university-halls/` | needs decision 11 |
-| 25 | P2 | Manchester to Leeds Removals | `/routes/manchester-to-leeds/` | route segment built day 24 |
-| 25 | P2 | Manchester to Birmingham Removals | `/routes/manchester-to-birmingham/` | Birmingham clean air zone |
 | 26 | P2 | Manchester to Sheffield Removals | `/routes/manchester-to-sheffield/` | Sheffield clean air zone |
 | 26 | P2 | Manchester to Edinburgh Removals | `/routes/manchester-to-edinburgh/` | Scottish LEZ |
 | 27 | P2 | Manchester to Glasgow Removals | `/routes/manchester-to-glasgow/` | Scottish LEZ |
