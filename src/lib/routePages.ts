@@ -332,6 +332,206 @@ export const routePages: RoutePage[] = [
     ],
     reviewed: "October 2026",
   },
+  {
+    slug: "manchester-to-sheffield",
+    navLabel: "Manchester to Sheffield",
+    name: "Manchester to Sheffield",
+    h1: "Manchester to Sheffield Removals",
+    title: "Man and Van Manchester to Sheffield | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Sheffield and back: Woodhead, the Snake Pass or the motorway, the A57 works at Mottram, Sheffield's £10 clean air zone charge for vans, bay suspensions and the cost. Get a quote.",
+    cardBlurb: "Over the Peak District to a clean air zone that charges vans and not cars.",
+    intro: [
+      "Manchester to Sheffield is a short run on the map and often a slow one, because both direct roads cross the Peak District.",
+      "The price works the same in both directions. What needs planning is the road on the day, the works at Mottram on the way out of Greater Manchester, and a Sheffield clean air zone that charges vans while leaving private cars alone.",
+    ],
+    keyFacts: [
+      { label: "Clean air zone", value: "Inner ring road and city centre, £10 a day for a non-compliant van" },
+      { label: "Private cars", value: "Not charged by the Sheffield zone" },
+      { label: "Bay suspension", value: "£31.60 admin, then £18.95 per 5m a day in the city centre, £6.45 elsewhere" },
+      { label: "Notice for a suspension", value: "At least 14 days, paid 9 days ahead" },
+      { label: "M67 junctions 3 to 4", value: "Closed overnight on weekdays until the end of December 2026" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "Woodhead, the Snake Pass or the Motorway",
+        body:
+          "There are two direct roads and one long way round. The A628 over the Woodhead Pass and the A57 over the Snake Pass both cross open moorland, and both close for weather and for repairs to hillsides that move. Derbyshire County Council shut the Snake Pass between Glossop and Ladybower Reservoir from 15 June to 3 July 2026 to start drilling at the Doctor's Gate landslip, and says three more landslip sites need investigating before a permanent repair can be designed.",
+        outro:
+          "The long way round is the M62 east, the same road as a [move to Leeds](/routes/manchester-to-leeds/), then the M1 south into Sheffield: more miles, but mostly motorway. Which road the van takes is decided on the morning by the weather and the traffic, and it does not change the fixed price.",
+      },
+      {
+        h2: "The A57 Works at Mottram",
+        body:
+          "Both Pennine roads leave Greater Manchester through Mottram in Longdendale, where National Highways is building the A57 Link Roads: a dual carriageway from junction 4 of the M67 to Mottram Moor, and a single carriageway on to Woolley Bridge, to take through traffic out of the village. Work started in December 2024, and National Highways gives the finish only as its 2026 to 2031 road period.",
+        outro:
+          "Its update of 7 October 2026 has the M67 closed overnight between junctions 3 and 4 in both directions, 8pm to 6am from Monday to Friday, until the end of December, and Old Road closed from 8pm on Friday 6 November to 6am on Monday 9 November. A daytime move does not meet the overnight closures, and the [National Highways scheme page](https://nationalhighways.co.uk/our-roads/north-west/a57-link-roads) carries the current list.",
+      },
+      {
+        h2: "Sheffield's Clean Air Zone",
+        body:
+          "Sheffield charges vehicles that drive within or enter its inner ring road and city centre. The zone is aimed at commercial traffic: a non-compliant van, taxi or other light goods vehicle pays £10 a day, and private cars do not pay at all, apart from some SUVs and four-by-fours. The charge can be paid up to six days before, on the day, or up to six days after.",
+        outro:
+          "Miss the payment and the council issues a £120 penalty, cut to £60 if it is paid within 14 days, on top of the charge itself. Most of Sheffield's suburbs are outside the zone. A city centre flat is the case to check, and the council's [charges page](https://www.sheffield.gov.uk/clean-air-zone-sheffield/clean-air-zone-charges-and-how-pay) links to the vehicle checker. If either address is inside, we say so when we quote.",
+      },
+      {
+        h2: "Parking at the Sheffield End",
+        body:
+          "Sheffield City Council charges for a bay suspension in two parts: a £31.60 administration fee that is never refunded, and a daily charge for each 5 metre section of bay, £18.95 inside the city centre controlled parking zone and £6.45 everywhere else. The application has to reach the council at least 14 days before the date, and the full payment at least 9 days before.",
+        outro:
+          "On those charges, a 10 metre stretch outside the city centre for one day comes to £44.50, and the same inside the city centre zone to £69.50. A cancellation received in writing at least two working days before the start can be refunded, less the administration fee. Fourteen days is a long lead time, so if the Sheffield address has bays outside, apply as soon as the date is fixed.",
+      },
+      {
+        h2: "What a Manchester to Sheffield Move Costs",
+        body:
+          "Sheffield is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. A Sheffield bay suspension is paid to the council, not to us, and because it has to be paid nine days ahead, it belongs in the budget early.",
+        outro: "The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Check whether the Sheffield address is inside the inner ring road.",
+      "For a long load, apply to Sheffield City Council for a bay suspension at least 14 days ahead.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Does a removal van pay Sheffield's clean air zone charge?",
+        a: "Only a van that does not meet the standard and drives within or into the inner ring road and city centre. It pays £10 a day, and the charge can be paid up to six days before or after.",
+      },
+      {
+        q: "Will I pay the clean air zone charge driving my own car to Sheffield?",
+        a: "No. Sheffield's zone does not charge private cars, apart from some SUVs and four-by-fours. The vehicles it charges are vans, taxis, buses, coaches, lorries and campervans that do not meet the standard.",
+      },
+      {
+        q: "How much is a parking bay suspension in Sheffield?",
+        a: "A £31.60 administration fee, which is not refunded, plus £18.95 per 5 metre section per day in the city centre controlled parking zone or £6.45 per section elsewhere.",
+      },
+      {
+        q: "How much notice does Sheffield need for a bay suspension?",
+        a: "The application must be in at least 14 days before the date, and full payment made at least 9 days before the suspension starts.",
+      },
+      {
+        q: "Which road does the van take from Manchester to Sheffield?",
+        a: "The Woodhead Pass, the Snake Pass, or the M62 and M1, chosen on the morning by the weather and the traffic. The Peak District roads are shorter but close for weather and repairs. The price is the same whichever is used.",
+      },
+      {
+        q: "Are there road closures at Mottram?",
+        a: "Overnight ones. For the A57 Link Roads works, the M67 between junctions 3 and 4 is closed 8pm to 6am, Monday to Friday, until the end of December 2026. Daytime moves are not affected.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Leeds removals", path: "/routes/manchester-to-leeds/" },
+      { label: "Manchester to Birmingham removals", path: "/routes/manchester-to-birmingham/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Packing services", path: "/services/packing-services/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "October 2026",
+  },
+  {
+    slug: "manchester-to-edinburgh",
+    navLabel: "Manchester to Edinburgh",
+    name: "Manchester to Edinburgh",
+    h1: "Manchester to Edinburgh Removals",
+    title: "Man and Van Manchester to Edinburgh | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Edinburgh and back: a full day up the M6 and M74, Edinburgh's low emission zone penalties, loading dispensations, the Scottish date of entry and the cost. Get a quote.",
+    cardBlurb: "A full day up the M6 to a low emission zone that fines rather than charges.",
+    intro: [
+      "Manchester to Edinburgh is a full day's work for a van: more than 200 miles each way, with loading at one end and unloading at the other.",
+      "The price works the same in both directions. The Edinburgh end has its own rules: a low emission zone that issues penalties instead of selling a day pass, a council that grants dispensations to load on yellow lines, and a Scottish buying process where moving day is the date of entry.",
+    ],
+    keyFacts: [
+      { label: "Low emission zone", value: "City centre, penalty from £60 for a non-compliant van" },
+      { label: "Repeat penalties", value: "£120, £240, then £480" },
+      { label: "Van standard", value: "Euro 6 diesel or Euro 4 petrol" },
+      { label: "Loading dispensation", value: "£16 a request, at least 24 hours' notice" },
+      { label: "Drivers' hours", value: "10 hours' driving and 11 on duty a day" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "A Full Day on the M6 and M74",
+        body:
+          "The run goes north on the M6 past Preston, Lancaster and Carlisle, into Scotland on the M74, and across to Edinburgh for the last stretch. It is more than 200 miles each way, and a goods van driven for work comes under the GB domestic drivers' hours rules: no more than 10 hours' driving and 11 hours on duty in a working day.",
+        outro:
+          "With loading at one end and unloading at the other, an Edinburgh job uses most of that day. It starts early, and a late key release at either end costs far more time than it would on a local job.",
+      },
+      {
+        h2: "Edinburgh's Low Emission Zone",
+        body:
+          "Edinburgh's zone is a ring round the city centre, running from Tollcross west to Palmerston Place, along Queen Street to Picardy Place, round Abbeyhill, Holyrood Road and the Pleasance, and back to Tollcross by the Meadows. Enforcement began on 1 June 2024. A van has to meet Euro 6 if it is diesel or Euro 4 if it is petrol, and the boundary roads themselves are outside the zone, so any vehicle can drive them.",
+        outro:
+          "Unlike [Birmingham](/routes/manchester-to-birmingham/) or [Sheffield](/routes/manchester-to-sheffield/), there is no daily charge to pay. A non-compliant vehicle that drives in gets a penalty: £60 the first time, then £120, £240 and £480, halved if paid within 14 days, and back to £60 after 90 days without entering. The council recorded 2,397 contraventions in September 2026 alone, and its [penalty charges page](https://www.edinburgh.gov.uk/low-emission-zone/lez-penalty-charges/3) sets out the scale. If either address is inside the zone, we say so when we quote.",
+      },
+      {
+        h2: "Loading on Edinburgh's Yellow Lines",
+        body:
+          "The City of Edinburgh Council's answer for a removal is a dispensation, which it lists for furniture and home removals: permission to load or unload on a single yellow line for longer than 30 minutes. It costs £16 for each request, per vehicle and location, needs at least 24 hours' notice, and has to be paid by card by 3pm on the last working day before.",
+        outro:
+          "Where the van needs bays rather than a yellow line, the council suspends them at the public parking rate for that street, with no lower rate for permit bays, paid in full before the request is processed and with at least three working days' notice for resident permit bays. Both are on the council's [dispensations and suspensions page](https://www.edinburgh.gov.uk/parking-spaces/dispensations-suspensions/1).",
+      },
+      {
+        h2: "Moving Day Is the Date of Entry",
+        body:
+          "Buying in Scotland runs differently from England. The offer names the date you want the keys, the solicitors exchange letters called missives, and once the missives are concluded they form a binding contract. On the agreed date of entry your solicitor settles: the purchase money goes over, and in return the solicitor receives the disposition, the deeds and the keys.",
+        outro:
+          "A Manchester sale completes under English rules on the same day, so two sets of solicitors have to line the dates up. Book the van for the date of entry, and tell us early if either side looks like slipping; [keys delayed on moving day](/moving-guides/keys-delayed-moving-day/) covers what happens if one does.",
+      },
+      {
+        h2: "What a Manchester to Edinburgh Move Costs",
+        body:
+          "Edinburgh is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. Any Edinburgh dispensation or suspension is paid to the council, not to us. If late keys could push the unloading into a second day, agree what that costs before the move rather than on the day.",
+        outro: "The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Check whether the Edinburgh address is inside the low emission zone.",
+      "For loading on a single yellow line, apply for an Edinburgh dispensation at least 24 hours ahead.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Does a removal van pay to enter Edinburgh's low emission zone?",
+        a: "No, there is no charge to pay. A van that does not meet Euro 6 for diesel or Euro 4 for petrol must stay out, and driving in brings a penalty starting at £60.",
+      },
+      {
+        q: "How much is an Edinburgh low emission zone fine?",
+        a: "£60 for the first, then £120, £240 and £480 for repeat entries, halved if paid within 14 days. The scale goes back to £60 after 90 days without entering the zone.",
+      },
+      {
+        q: "Does the low emission zone cover all of Edinburgh?",
+        a: "No. It is a ring round the city centre, from Tollcross to Palmerston Place, Queen Street, Picardy Place, Abbeyhill and the Pleasance. The boundary roads themselves can be driven by any vehicle.",
+      },
+      {
+        q: "Can a removal van load on a yellow line in Edinburgh?",
+        a: "For longer than 30 minutes on a single yellow line it needs a dispensation from the council, which costs £16 per request and needs at least 24 hours' notice.",
+      },
+      {
+        q: "Can a man and van do Manchester to Edinburgh in a day?",
+        a: "Yes, for most loads, but it is a full day. A goods van driven for work is limited to 10 hours' driving and 11 hours on duty a day, so the job starts early and late keys at either end matter.",
+      },
+      {
+        q: "When do I get the keys when buying in Scotland?",
+        a: "On the date of entry, at settlement. Your solicitor pays over the purchase money and receives the disposition, the deeds and the keys in return.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Sheffield removals", path: "/routes/manchester-to-sheffield/" },
+      { label: "Manchester to Birmingham removals", path: "/routes/manchester-to-birmingham/" },
+      { label: "Keys delayed on moving day", path: "/moving-guides/keys-delayed-moving-day/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "October 2026",
+  },
 ];
 
 export const getRoutePage = (slug: string) => routePages.find((p) => p.slug === slug);

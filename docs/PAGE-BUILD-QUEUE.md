@@ -71,6 +71,8 @@ page to scroll sideways on a phone.
 | 24 | 2026-10-26 | P2 | Manchester to Liverpool Removals | `/routes/manchester-to-liverpool/` |
 | 25 | 2026-10-27 | P2 | Manchester to Leeds Removals | `/routes/manchester-to-leeds/` |
 | 25 | 2026-10-27 | P2 | Manchester to Birmingham Removals | `/routes/manchester-to-birmingham/` |
+| 26 | 2026-10-28 | P2 | Manchester to Sheffield Removals | `/routes/manchester-to-sheffield/` |
+| 26 | 2026-10-28 | P2 | Manchester to Edinburgh Removals | `/routes/manchester-to-edinburgh/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -91,9 +93,7 @@ student pages for that reason.
 |---|---|---|---|---|
 | blocked | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | needs decision 10 |
 | blocked | P1 | Moving Into Manchester University Halls (guide) | `/moving-guides/moving-into-manchester-university-halls/` | needs decision 11 |
-| 26 | P2 | Manchester to Sheffield Removals | `/routes/manchester-to-sheffield/` | Sheffield clean air zone |
-| 26 | P2 | Manchester to Edinburgh Removals | `/routes/manchester-to-edinburgh/` | Scottish LEZ |
-| 27 | P2 | Manchester to Glasgow Removals | `/routes/manchester-to-glasgow/` | Scottish LEZ |
+| 27 | P2 | Manchester to Glasgow Removals | `/routes/manchester-to-glasgow/` | Scottish LEZ; Edinburgh page already explains Scottish LEZs are penalties not charges, so lead Glasgow on its own zone and rules |
 | 27 | P2 | Moving Day Completion Guide | `/moving-guides/completion-day-moving-house/` | gap-check against keys-delayed guide |
 | 28 | P2 | Seller Hasn't Moved Out on Completion Day | `/moving-guides/seller-not-moved-out/` | |
 | 28 | P2 | How Far in Advance Should I Book Removals? | `/moving-guides/how-far-in-advance-book-removals/` | |
