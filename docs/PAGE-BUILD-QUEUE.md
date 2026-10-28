@@ -127,6 +127,8 @@ the university pages and /services/student-storage-manchester/.
 
 ## Indexing
 
+Quota was already spent when tried on 2026-10-28. Request on the next free day: `/routes/manchester-to-sheffield/` and `/routes/manchester-to-edinburgh/` (day 26).
+
 GSC Request Indexing quota is shared across the whole fleet account and was
 already spent on 2026-10-22. Request first on the next free day: `/prices/`
 (Discovered, not indexed), then the newest student pages. Home, house removals,
