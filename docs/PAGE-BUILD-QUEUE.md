@@ -73,6 +73,8 @@ page to scroll sideways on a phone.
 | 25 | 2026-10-27 | P2 | Manchester to Birmingham Removals | `/routes/manchester-to-birmingham/` |
 | 26 | 2026-10-28 | P2 | Manchester to Sheffield Removals | `/routes/manchester-to-sheffield/` |
 | 26 | 2026-10-28 | P2 | Manchester to Edinburgh Removals | `/routes/manchester-to-edinburgh/` |
+| 27 | 2026-10-30 | P2 | Manchester to Glasgow Removals | `/routes/manchester-to-glasgow/` |
+| 27 | 2026-10-30 | P2 | Completion Day When Moving House (guide) | `/moving-guides/completion-day-moving-house/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -93,10 +95,8 @@ student pages for that reason.
 |---|---|---|---|---|
 | blocked | P1 | Summer Student Moves Manchester | `/student-removals/summer-moves/` | needs decision 10 |
 | blocked | P1 | Moving Into Manchester University Halls (guide) | `/moving-guides/moving-into-manchester-university-halls/` | needs decision 11 |
-| 27 | P2 | Manchester to Glasgow Removals | `/routes/manchester-to-glasgow/` | Scottish LEZ; Edinburgh page already explains Scottish LEZs are penalties not charges, so lead Glasgow on its own zone and rules |
-| 27 | P2 | Moving Day Completion Guide | `/moving-guides/completion-day-moving-house/` | gap-check against keys-delayed guide |
-| 28 | P2 | Seller Hasn't Moved Out on Completion Day | `/moving-guides/seller-not-moved-out/` | |
-| 28 | P2 | How Far in Advance Should I Book Removals? | `/moving-guides/how-far-in-advance-book-removals/` | |
+| blocked | P2 | Seller Hasn't Moved Out on Completion Day | `/moving-guides/seller-not-moved-out/` | needs decision 12 |
+| blocked | P2 | How Far in Advance Should I Book Removals? | `/moving-guides/how-far-in-advance-book-removals/` | needs decision 13 |
 | later | P0 | Student Removals Fallowfield, Withington, Rusholme | `/student-removals/...` | needs decision 1 |
 | later | P0 | Last-Minute Removals | `/services/last-minute-removals/` | needs decision 6, same-day page now live |
 | later | P0 | Small Removals | `/services/small-removals/` | needs decision 5 |
@@ -108,7 +108,7 @@ queue moves on to the P1 location pages.
 Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
 dispensation fee, so four pages already make that negative point. Lead any
 further borough page on what the council does publish, not on the absence.
-Wigan Council's own site is Cloudflare-blocked from this machine; everything on
+Wigan Council's own site is Cloudflare-blocked from this machine, and so is glasgow.gov.uk (bot check in the user's Chrome too, 2026-10-30; the Glasgow page uses mygov.scot, legislation.gov.uk and STV instead); everything on
 that page came from its statutory notices on Public Notice Portal, its
 EasiPermits portal and the developer's own site.
 
@@ -183,6 +183,15 @@ would split one intent across two URLs.
    collection, the thirty minute drop-off limit and the bus gates. A city-wide
    guide would split that intent four ways. Recommendation: drop it
    (2026-10-22).
+
+12. **Seller Hasn't Moved Out on Completion Day** (P2). The keys-delayed guide already
+   covers the seller still in the house, notice to complete and compensation, and the
+   completion day guide (day 27) covers vacant possession. Recommendation: fold any new
+   angle into those two as an FAQ, not a third URL (2026-10-30).
+13. **How Far in Advance Should I Book Removals?** (P2). The flat move guide already
+   gives four to six weeks in summer and two to four off-peak, and the how-long guide
+   says to book once notice is given. Recommendation: drop it, or answer it as an FAQ
+   on the how-long guide (2026-10-30).
 
 ## Clean to build with no decision
 

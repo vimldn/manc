@@ -407,7 +407,7 @@ export const guides: Guide[] = [
       {
         h2: "Why the Keys Are Late",
         body: [
-          "On most sales the keys are left with the estate agent, who releases them when the seller's solicitor confirms completion. Completion is the moment the purchase money arrives, and in a chain each sale waits for the money from the one below it. One late mortgage advance at the bottom of a chain of four holds up all four sets of keys.",
+          "On most sales the keys are left with the estate agent, who releases them when the seller's solicitor confirms [completion](/moving-guides/completion-day-moving-house/). Completion is the moment the purchase money arrives, and in a chain each sale waits for the money from the one below it. One late mortgage advance at the bottom of a chain of four holds up all four sets of keys.",
           "The money moves by CHAPS, the Bank of England's same-day payment system, which it describes as commonly used by solicitors and conveyancers to complete property transactions. CHAPS is usually open from 6am to 6pm, Monday to Friday, excluding bank holidays, and customer payments must be submitted by 5.40pm. A completion that has not been sent by then does not happen that day at all.",
         ],
         outro: [
@@ -1586,6 +1586,107 @@ export const guides: Guide[] = [
       {
         q: "Can someone check my contract before I sign?",
         a: "Manchester Student Homes offers free contract checks to students at its partner institutions. Its accredited landlords should give you at least 24 hours to read the contract.",
+      },
+    ],
+  },
+  {
+    slug: "completion-day-moving-house",
+    title: "Completion Day Moving House | Frank's Van and Man Manchester",
+    h1: "Completion Day When Moving House | What Happens and When",
+    metaDescription:
+      "What happens on completion day when you move house in England: the money, keys around lunchtime, timing the van, meter readings, what stays with the house and the Stamp Duty return.",
+    updated: "2026-10-30",
+    answer:
+      "Completion day is when your solicitor sends the rest of the money to the seller's solicitor, the house becomes yours and the keys are released, usually by the estate agent. The date was fixed at exchange, often two to four weeks earlier. The government's home buying guide says keys are often handed over around lunchtime, so a buyer's van is planned for the afternoon and a seller's for the morning. When you arrive, photograph the meters and check that what was sold with the house is there. Your solicitor usually files the Stamp Duty return on the day, and the legal deadline is 14 days.",
+    sections: [
+      {
+        h2: "What Completion Day Is",
+        body: [
+          "Two dates matter in an English house purchase. Exchange is when buyer and seller swap signed contracts and become legally bound, the buyer pays the deposit, and the completion date is confirmed, often around two to four weeks later. Completion is the day the rest of the money moves and ownership changes hands.",
+          "For a [house removal](/services/house-removals/), completion day is the first day you can get into the new home, which is why most people move on it. The government's guide says to tell your removal firm the date between exchange and completion, and to give as much notice as possible.",
+        ],
+      },
+      {
+        h2: "The Order of the Day",
+        body: [
+          "Each step waits for the one before it, and in a chain each sale waits for the money from the sale below it.",
+        ],
+        bullets: [
+          "The buyer's solicitor sends the balance of the price to the seller's solicitor.",
+          "The seller moves out and leaves the house empty, unless something else was agreed.",
+          "The seller's solicitor confirms the money has arrived and tells the estate agent.",
+          "The agent releases the keys, often around lunchtime, and the buyer moves in.",
+        ],
+        outro: [
+          "When the money is late, everything after it slides. [Keys delayed on moving day](/moving-guides/keys-delayed-moving-day/) covers why that happens and who pays for the wait.",
+        ],
+      },
+      {
+        h2: "Timing the Van Around the Keys",
+        body: [
+          "If you are only buying, book the van to load at your old address in the morning and reach the new one after lunch, so it is not parked outside a locked house. If you are only selling, the house has to be empty for your buyer, so the van loads early and the job is finished before the money lands.",
+          "Selling and buying on the same day means both at once: the old house is emptied in the morning and the loaded van waits for the new keys. Book the van for the whole day rather than a morning slot, and ask before the day [what waiting time costs](/moving-guides/removal-company-waiting-charges/).",
+        ],
+        outro: [
+          "Manchester parking adds a date of its own. A council bay suspension is booked for a specific day, so have the completion date confirmed at exchange before you apply. [Reserving parking for a move](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) explains how the booking works.",
+        ],
+      },
+      {
+        h2: "Meters, Keys and What Was Sold With the House",
+        body: [
+          "Take meter readings at both homes, when you leave the old one and when you arrive at the new one. The government's guide suggests a date-stamped photograph, which settles any argument with a supplier later.",
+          "Then walk round before the van is unloaded. Fixtures are the things fixed to the floor or wall, fittings are the things that are not, and your offer said which were included. If something agreed in the sale is missing, photograph it and tell your conveyancer rather than arguing with the seller on the doorstep.",
+        ],
+      },
+      {
+        h2: "The Paperwork That Follows",
+        body: [
+          "Stamp Duty Land Tax has to be returned and paid within 14 days of completion. In practice your solicitor or conveyancer usually files the return and pays on completion day, then adds it to their bill; missing the deadline brings penalties and interest.",
+          "After the move, your legal representative registers the change of ownership with HM Land Registry. The rest is yours to do: council tax at both ends, the electoral register, and redirecting the post.",
+        ],
+      },
+      {
+        h2: "What the 2026 Reforms Will Change",
+        body: [
+          "The government's home buying and selling roadmap, published on 19 June 2026, moves information to the start of a sale: sales packs with searches and a property condition report before a home is listed, required by law when parliamentary time allows. Binding conditional contracts are meant to follow, but only once sales packs are embedded.",
+          "None of that changes completion day yet. The nearer change is a non-statutory code of practice for property agents due in 2026, and a sale going through now completes in the order set out above.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Keys delayed on moving day", href: "/moving-guides/keys-delayed-moving-day/" },
+      { label: "How long does moving house take?", href: "/moving-guides/how-long-does-moving-house-take/" },
+      { label: "Removal company waiting charges", href: "/moving-guides/removal-company-waiting-charges/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "GOV.UK: how to buy a home", href: "https://www.gov.uk/government/publications/how-to-buy-a-home/how-to-buy" },
+      { label: "GOV.UK: how to pay Stamp Duty Land Tax", href: "https://www.gov.uk/stamp-duty-land-tax/how-to-pay" },
+    ],
+    faqs: [
+      {
+        q: "What time do you get the keys on completion day?",
+        a: "There is no fixed time, but the government's home buying guide says keys are often handed over around lunchtime, once the seller's solicitor confirms the money has arrived.",
+      },
+      {
+        q: "Do I have to be out of my house early on completion day?",
+        a: "The house has to be empty for your buyer when completion happens, so plan for the van to be loaded by late morning. Your conveyancer can tell you if your contract sets anything more specific.",
+      },
+      {
+        q: "Who pays the Stamp Duty on completion day?",
+        a: "Your solicitor or conveyancer usually files the return and pays it on completion day, then recovers it in their bill. The legal deadline is 14 days after completion.",
+      },
+      {
+        q: "Should I take meter readings on completion day?",
+        a: "Yes, at both homes: when you leave the old one and when you arrive at the new one. A date-stamped photo is the easiest record.",
+      },
+      {
+        q: "What if the seller has taken something that was included in the sale?",
+        a: "Photograph it and tell your conveyancer before agreeing anything with the seller. Your offer set out which fixtures and fittings were included.",
+      },
+      {
+        q: "Do the 2026 home buying reforms change completion day?",
+        a: "Not yet. The June 2026 roadmap plans sales packs before listing and binding conditional contracts after that, but both need legislation, so a sale going through now completes the same way.",
       },
     ],
   },

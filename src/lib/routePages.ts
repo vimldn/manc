@@ -532,6 +532,99 @@ export const routePages: RoutePage[] = [
     ],
     reviewed: "October 2026",
   },
+  {
+    slug: "manchester-to-glasgow",
+    navLabel: "Manchester to Glasgow",
+    name: "Manchester to Glasgow",
+    h1: "Manchester to Glasgow Removals",
+    title: "Man and Van Manchester to Glasgow | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Glasgow and back: a full day up the M6 and M74, Glasgow's city centre low emission zone, Scotland's pavement parking ban and its 20 minute loading limit, and the cost. Get a quote.",
+    cardBlurb: "Up the M74 to a low emission zone and a pavement parking ban.",
+    intro: [
+      "Manchester to Glasgow is a full day for a van: more than 200 miles each way up the M6 and the M74, with loading at one end and unloading at the other.",
+      "The price works the same in both directions. At the Glasgow end, two Scottish rules shape the day: a city centre low emission zone enforced by penalties, and a national ban on pavement parking that gives a removal van 20 minutes at most.",
+    ],
+    keyFacts: [
+      { label: "Low emission zone", value: "City centre inside the M8, the Clyde and High Street" },
+      { label: "First LEZ penalty", value: "£60, or £30 if paid within 14 days" },
+      { label: "Repeat LEZ penalties", value: "Double within 90 days, up to £480 for a van" },
+      { label: "Pavement parking", value: "£100 penalty, or £50 if paid within 14 days" },
+      { label: "Loading on a pavement", value: "No more than 20 minutes, and only if there is no other way" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "The M74 and the Way Into Glasgow",
+        body:
+          "The run is the M6 north past Preston, Lancaster and Carlisle, then the M74 into Glasgow. It is the same full day as a [move to Edinburgh](/routes/manchester-to-edinburgh/), with the same limit on a goods van driven for work: no more than 10 hours at the wheel in a working day, so the job starts early.",
+        outro:
+          "The last mile depends on where the van leaves the motorway. The M8 runs round the north and west of the city centre and is not part of the low emission zone, so the van can travel round the centre on it without entering the zone.",
+      },
+      {
+        h2: "Glasgow's Low Emission Zone",
+        body:
+          "Glasgow's zone covers the city centre, bounded by the M8 to the north and west, the River Clyde to the south and Saltmarket and High Street to the east. Penalties began in June 2023, residents had until 1 June 2024, and the zone now runs 24 hours a day, every day. A van has to meet Euro 6 if it is diesel or Euro 4 if it is petrol.",
+        outro:
+          "There is nothing to buy at the door, and you cannot prepay. A non-compliant vehicle that drives in gets a £60 penalty, halved if paid within 14 days, which doubles each time the same vehicle enters within 90 days, up to £480 for a car or van; the Scottish Government sets the scale on its [LEZ fines page](https://www.mygov.scot/low-emission-zones/fines). Glasgow issued 29,838 penalties between April 2024 and March 2025. If either address is inside the zone, we say so when we quote.",
+      },
+      {
+        h2: "The Pavement Parking Ban",
+        body:
+          "Scotland bans parking on the pavement, double parking and parking at dropped kerbs, and councils have been able to fine for it since 11 December 2023. The penalty is £100, reduced to £50 if paid within 14 days, and Glasgow City Council enforces it. A removal van gets one narrow exception, set out in [section 55 of the Transport (Scotland) Act 2019](https://www.legislation.gov.uk/asp/2019/17/section/55): loading or unloading at premises in the course of business, where it cannot reasonably be done without the pavement, with no part of the van within 1.5 metres of the far edge of the pavement, and for no more than 20 minutes in one go.",
+        outro:
+          "Twenty minutes does not empty a van, so on a narrow Glasgow street the van stands on the road wherever that is legal, and a long load needs a proper place to stop. Glasgow City Council handles parking dispensations and bay suspensions, so if the street is tight, apply to the council as soon as the date is fixed and we will say what the street needs.",
+      },
+      {
+        h2: "What a Manchester to Glasgow Move Costs",
+        body:
+          "Glasgow is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. Any council dispensation or suspension is paid to the council, not to us. If you are buying, moving day is the Scottish date of entry, when your solicitor settles and receives the keys, so book the van for that date and tell us early if it looks like slipping.",
+        outro: "The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Check whether the Glasgow address is inside the low emission zone.",
+      "If the Glasgow street is narrow or always full, ask the council about a dispensation or suspension early.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Does a removal van pay to enter Glasgow's low emission zone?",
+        a: "No. There is no charge to pay and no way to prepay. A van that does not meet Euro 6 for diesel or Euro 4 for petrol must stay out, and driving in brings a penalty starting at £60.",
+      },
+      {
+        q: "How much is a Glasgow low emission zone fine?",
+        a: "£60, halved if paid within 14 days. It doubles each time the same vehicle enters within 90 days, up to £480 for a car or van, and only one penalty is issued per day.",
+      },
+      {
+        q: "Is the M8 in Glasgow's low emission zone?",
+        a: "No. The M8 forms the zone's northern and western edge but the motorway itself is not included.",
+      },
+      {
+        q: "Can a removal van park on the pavement in Glasgow?",
+        a: "Only to load or unload in the course of business where there is no reasonable alternative, with no part of the van within 1.5 metres of the far edge of the pavement, and for no more than 20 minutes at a time.",
+      },
+      {
+        q: "What is the fine for pavement parking in Glasgow?",
+        a: "£100, reduced to £50 if paid within 14 days. The same ban covers double parking and parking at dropped kerbs.",
+      },
+      {
+        q: "Can a man and van do Manchester to Glasgow in a day?",
+        a: "Yes, for most loads, but it is a full day. A goods van driven for work is limited to 10 hours' driving a day, so the job starts early.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Edinburgh removals", path: "/routes/manchester-to-edinburgh/" },
+      { label: "Manchester to Sheffield removals", path: "/routes/manchester-to-sheffield/" },
+      { label: "Completion day when moving house", path: "/moving-guides/completion-day-moving-house/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "October 2026",
+  },
 ];
 
 export const getRoutePage = (slug: string) => routePages.find((p) => p.slug === slug);

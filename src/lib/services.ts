@@ -419,7 +419,7 @@ export const services: Service[] = [
       {
         h2: "Anywhere in the UK",
         body:
-          "It is not just London. We take jobs from Manchester to [Birmingham](/routes/manchester-to-birmingham/), [Leeds](/routes/manchester-to-leeds/), [Liverpool](/routes/manchester-to-liverpool/), [Sheffield](/routes/manchester-to-sheffield/), [Edinburgh](/routes/manchester-to-edinburgh/), Bristol, the South Coast and beyond. If you can name the two postcodes, we can price the run. Longer jobs may be best booked a little in advance to lock in the day.",
+          "It is not just London. We take jobs from Manchester to [Birmingham](/routes/manchester-to-birmingham/), [Leeds](/routes/manchester-to-leeds/), [Liverpool](/routes/manchester-to-liverpool/), [Sheffield](/routes/manchester-to-sheffield/), [Edinburgh](/routes/manchester-to-edinburgh/), [Glasgow](/routes/manchester-to-glasgow/), Bristol, the South Coast and beyond. If you can name the two postcodes, we can price the run. Longer jobs may be best booked a little in advance to lock in the day.",
       },
       {
         h2: "One Point of Contact",
