@@ -127,6 +127,8 @@ the university pages and /services/student-storage-manchester/.
 
 ## Indexing
 
+Quota spent again on 2026-10-30 (Quota Exceeded on the first request); sitemap resubmitted that day instead. Also request on the next free day: `/routes/manchester-to-glasgow/` and `/moving-guides/completion-day-moving-house/` (day 27).
+
 Quota was already spent when tried on 2026-10-28. Request on the next free day: `/routes/manchester-to-sheffield/` and `/routes/manchester-to-edinburgh/` (day 26).
 
 GSC Request Indexing quota is shared across the whole fleet account and was
