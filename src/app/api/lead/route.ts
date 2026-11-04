@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { fetchWithLivePush } from "@/lib/live-push";
 
 // Lead form submissions are validated here and forwarded to the Van and Man
 // Manchester Google Sheet via its Apps Script webhook (public /exec endpoint).
@@ -54,7 +55,7 @@ export async function POST(request: Request) {
 
   for (let attempt = 1; attempt <= 2 && !delivered; attempt++) {
     try {
-      const res = await fetch(LEAD_WEBHOOK_URL, {
+      const res = await fetchWithLivePush(lead, LEAD_WEBHOOK_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(lead),
