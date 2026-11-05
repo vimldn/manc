@@ -1690,6 +1690,99 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "donating-furniture-in-manchester",
+    title: "Donating Furniture in Manchester | Frank's Van and Man Manchester",
+    h1: "Donating Furniture in Manchester | Collections, Labels and Renew",
+    metaDescription:
+      "Where to donate furniture in Manchester before a move: free collections from the BHF and Mustard Tree, Renew containers at recycling centres, the fire label rule and the 2026 reform.",
+    updated: "2026-11-05",
+    answer:
+      "Most furniture in good condition can be given away for free in Manchester. The British Heart Foundation and Mustard Tree both collect from your home at no charge, and every Recycle for Greater Manchester recycling centre except Reliance Street has a Renew donation container for items you bring yourself. Anything upholstered needs its permanent fire safety label, or none of them can take it. Book a collection as soon as you know what is staying behind, because the BHF takes up to five working days just to agree a date, and keep the furniture indoors until it goes.",
+    sections: [
+      {
+        h2: "Free Collection From Your Home",
+        body: [
+          "Two charities will come to you. The British Heart Foundation picks up furniture and electrical items from homes for free, and the local store gets back to you within five working days to agree a date; its furniture and electrical stores in Greater Manchester include one in Harpurhey. Mustard Tree, the charity on Oldham Road in Ancoats, collects large items such as furniture and white goods for free from anywhere in Greater Manchester and aims to reply within two working days.",
+          "Both can turn items down. The BHF lists items in poor condition, upholstered items without fire safety labels, used pillows, duvets and quilts, carpet off cuts and furniture painted with lead paint among the things it cannot accept, and Mustard Tree's driver may refuse anything not suitable for reuse. Mustard Tree also will not take anything that has been left outside, so a sofa put out in the rain the night before is no longer a donation.",
+        ],
+        outro: [
+          "On a move the timing matters more than the charity. If you only decide what is staying behind a week before completion, book the collection first, or the furniture is still in the house when the [house removal](/services/house-removals/) van arrives.",
+        ],
+      },
+      {
+        h2: "Renew Containers at the Recycling Centres",
+        body: [
+          "If you can get it there yourself, Recycle for Greater Manchester runs Renew donation containers at its recycling centres, every one except Reliance Street. They take furniture, electricals, white goods, bikes, toys and DIY and garden equipment, and what goes in is taken to the Renew Hub, repaired where it needs it and sold on.",
+          "Renew does not collect, so this route needs a car or a van of your own. Reliance Street in Newton Heath is closed for improvement works and is due to reopen in early 2027 with a Renew shop of its own; until then Spring Vale, Arkwright Street and Ash Road are the nearest alternatives.",
+        ],
+      },
+      {
+        h2: "The Fire Label Decides",
+        body: [
+          "Upholstered furniture can only be passed on with its permanent fire safety label, under the Furniture and Furnishings (Fire) (Safety) Regulations 1988, which cover second-hand supply as well as new. Renew says all upholstered furniture must have a fire safety tag attached, and the BHF and Mustard Tree apply the same rule.",
+          "The regulations changed on 30 October 2025, when manufacturers stopped having to attach the separate display label to new furniture. The permanent label stayed, and the government's guidance on the 2025 amendment says second-hand supply still requires it. Look under the seat cushions and on the base of the frame before you book anyone, and never cut the label off to tidy a sofa up.",
+        ],
+      },
+      {
+        h2: "What Could Change for Second-Hand Sofas",
+        body: [
+          "A bigger change is being planned. The government consulted from 31 March to 23 June 2026 on a new fire safety regime for upholstered furniture, and it proposes that second-hand furniture will not be in scope of the future regulations, falling under the General Product Safety Regulations instead.",
+          "Nothing has changed yet. The consultation has closed and the government has said it will publish its response later in 2026, so for now a sofa without its label still cannot be donated, and the charities will keep checking for it.",
+        ],
+      },
+      {
+        h2: "When Nobody Will Take It",
+        body: [
+          "A sofa, armchair or dining chair that cannot be reused is still not ordinary rubbish. Upholstered seating can contain chemicals that are harmful if released, so in Greater Manchester it is handled separately and sent to an Energy from Waste plant rather than landfill. The rule covers sofas, sofa beds, armchairs, kitchen and dining chairs, stools, futons, bean bags and cushions, but not mattresses, carpets or curtains.",
+          "That is where a van comes in. If a charity turns a piece down, or it is not worth reselling, our [rubbish removal](/services/rubbish-removal/) service takes it away as a registered waste carrier and disposes of it through the proper routes. If it is going to a new home instead, [furniture delivery](/services/furniture-delivery/) moves a single piece across town.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Rubbish removal", href: "/services/rubbish-removal/" },
+      { label: "Furniture delivery", href: "/services/furniture-delivery/" },
+      { label: "What removal companies won't move", href: "/moving-guides/what-removal-companies-wont-move/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      {
+        label: "GOV.UK: Furniture and Furnishings (Fire) (Safety) (Amendment) Regulations 2025",
+        href: "https://www.gov.uk/government/publications/furniture-and-furnishings-fire-safety-regulations/furniture-and-furnishings-fire-safety-amendment-regulations-2025-uk",
+      },
+      { label: "Recycle for Greater Manchester: Renew", href: "https://recycleforgreatermanchester.com/renew/" },
+    ],
+    faqs: [
+      {
+        q: "Who collects donated furniture for free in Manchester?",
+        a: "The British Heart Foundation collects furniture and electrical items from your home for free, and Mustard Tree collects large items such as furniture and white goods for free from anywhere in Greater Manchester.",
+      },
+      {
+        q: "Can I donate a sofa without a fire label?",
+        a: "No. Second-hand upholstered furniture still needs its permanent fire safety label, and the BHF, Mustard Tree and Renew all refuse upholstered items without one.",
+      },
+      {
+        q: "Can I take furniture to a Manchester tip for reuse?",
+        a: "Yes. Every Recycle for Greater Manchester recycling centre except Reliance Street has a Renew donation container, and what goes in is repaired where needed and sold on.",
+      },
+      {
+        q: "Did the furniture fire label rules change in 2025?",
+        a: "Only the display label. Since 30 October 2025 manufacturers no longer have to attach it to new furniture, but the permanent label is still required, including when furniture is supplied second-hand.",
+      },
+      {
+        q: "Will second-hand sofas still need a fire label in future?",
+        a: "Possibly not. A 2026 government consultation proposed taking second-hand furniture out of the future fire safety regulations, but no response has been published yet, so the label is still needed now.",
+      },
+      {
+        q: "When does Reliance Street recycling centre reopen?",
+        a: "It is closed for improvement works and due to reopen in early 2027 with a new Renew shop. Spring Vale, Arkwright Street and Ash Road are the nearest alternatives.",
+      },
+      {
+        q: "How do I get rid of a sofa nobody will take in Manchester?",
+        a: "Upholstered seating has to be handled separately and sent to an Energy from Waste plant, not landfill. Take it to a recycling centre yourself or use a registered waste carrier, such as our rubbish removal service.",
+      },
+    ],
+  },
 ];
 
 export const getGuide = (slug: string) => guides.find((g) => g.slug === slug);

@@ -75,6 +75,8 @@ page to scroll sideways on a phone.
 | 26 | 2026-10-28 | P2 | Manchester to Edinburgh Removals | `/routes/manchester-to-edinburgh/` |
 | 27 | 2026-10-30 | P2 | Manchester to Glasgow Removals | `/routes/manchester-to-glasgow/` |
 | 27 | 2026-10-30 | P2 | Completion Day When Moving House (guide) | `/moving-guides/completion-day-moving-house/` |
+| 28 | 2026-11-05 | P2 | Manchester to Bristol Removals | `/routes/manchester-to-bristol/` |
+| 28 | 2026-11-05 | P2 | Donating Furniture in Manchester (guide) | `/moving-guides/donating-furniture-in-manchester/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -105,6 +107,14 @@ student pages for that reason.
 After Altrincham the only P0 pages left are the blocked ones below, so the
 queue moves on to the P1 location pages.
 
+Day 28 gap-check (2026-11-05): a `/routes/manchester-to-london/` page was dropped,
+because `/services/long-distance-removals/` owns "man and van Manchester to London"
+(title, two H2s, an FAQ and the recent moves block). London driving rules (ULEZ,
+the £18 Congestion Charge from 2 January 2026, red-route loading) belong as an H2 on
+that page instead, but tfl.gov.uk is 403 to WebFetch, so verify them in Chrome first.
+manchester.gov.uk and emmaus.org.uk are also 403 to WebFetch, so the donation guide
+gives no council bulky waste price.
+
 Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
 dispensation fee, so four pages already make that negative point. Lead any
 further borough page on what the council does publish, not on the absence.
@@ -127,9 +137,7 @@ the university pages and /services/student-storage-manchester/.
 
 ## Indexing
 
-Quota spent again on 2026-10-30 (Quota Exceeded on the first request); sitemap resubmitted that day instead. Also request on the next free day: `/routes/manchester-to-glasgow/` and `/moving-guides/completion-day-moving-house/` (day 27).
-
-Quota was already spent when tried on 2026-10-28. Request on the next free day: `/routes/manchester-to-sheffield/` and `/routes/manchester-to-edinburgh/` (day 26).
+2026-11-05: the day 26 and 27 backlog is cleared. Glasgow, completion day, Sheffield and `/prices/` were already indexed; Edinburgh was Discovered, not indexed, and was requested. Day 28 pages (`/routes/manchester-to-bristol/`, `/moving-guides/donating-furniture-in-manchester/`) go in after deploy; if GSC refuses, request them on the next free day.
 
 GSC Request Indexing quota is shared across the whole fleet account and was
 already spent on 2026-10-22. Request first on the next free day: `/prices/`

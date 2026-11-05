@@ -419,7 +419,7 @@ export const services: Service[] = [
       {
         h2: "Anywhere in the UK",
         body:
-          "It is not just London. We take jobs from Manchester to [Birmingham](/routes/manchester-to-birmingham/), [Leeds](/routes/manchester-to-leeds/), [Liverpool](/routes/manchester-to-liverpool/), [Sheffield](/routes/manchester-to-sheffield/), [Edinburgh](/routes/manchester-to-edinburgh/), [Glasgow](/routes/manchester-to-glasgow/), Bristol, the South Coast and beyond. If you can name the two postcodes, we can price the run. Longer jobs may be best booked a little in advance to lock in the day.",
+          "It is not just London. We take jobs from Manchester to [Birmingham](/routes/manchester-to-birmingham/), [Leeds](/routes/manchester-to-leeds/), [Liverpool](/routes/manchester-to-liverpool/), [Sheffield](/routes/manchester-to-sheffield/), [Edinburgh](/routes/manchester-to-edinburgh/), [Glasgow](/routes/manchester-to-glasgow/), [Bristol](/routes/manchester-to-bristol/), the South Coast and beyond. If you can name the two postcodes, we can price the run. Longer jobs may be best booked a little in advance to lock in the day.",
       },
       {
         h2: "One Point of Contact",
@@ -963,7 +963,7 @@ export const services: Service[] = [
         body:
           "Giving furniture away is the other common ending, and the rules are about completeness. The British Heart Foundation will not accept items with missing parts that affect their use, and gives a wardrobe with missing doors and a chest of drawers with a drawer missing as examples. A missing handle is fine. Upholstered items need their fire safety label attached before it can sell them on.",
         outro:
-          "Some charities will not take flat pack at all. Emmaus in Mossley lists flat-pack furniture and wall units among the things it does not accept. So if a piece is being dismantled to be donated, keep the doors, drawers and shelves with the carcass, keep the fixings, and do not cut the label off the sofa to make it look tidier.",
+          "Some charities will not take flat pack at all. Emmaus in Mossley lists flat-pack furniture and wall units among the things it does not accept. So if a piece is being dismantled to be [donated](/moving-guides/donating-furniture-in-manchester/), keep the doors, drawers and shelves with the carcass, keep the fixings, and do not cut the label off the sofa to make it look tidier.",
       },
       {
         h2: "When It Goes Out for the Council",

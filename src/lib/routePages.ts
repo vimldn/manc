@@ -59,7 +59,7 @@ export const routePages: RoutePage[] = [
         body:
           "Liverpool does not charge vans to drive in. GOV.UK's list of charging clean air zones in England covers Bath, Birmingham, Bradford, Bristol, Portsmouth, Sheffield and Tyneside, and Liverpool's own cabinet moved away from a charging model in favour of other measures. GOV.UK keeps the list on its [clean air zones page](https://www.gov.uk/clean-air-zones).",
         outro:
-          "So unlike a move to [Birmingham](/routes/manchester-to-birmingham/) or Bristol, there is no daily charge to plan around at the Liverpool end.",
+          "So unlike a move to [Birmingham](/routes/manchester-to-birmingham/) or [Bristol](/routes/manchester-to-bristol/), there is no daily charge to plan around at the Liverpool end.",
       },
       {
         h2: "Moving Light by Train",
@@ -624,6 +624,99 @@ export const routePages: RoutePage[] = [
       { label: "Prices", path: "/prices/" },
     ],
     reviewed: "October 2026",
+  },
+  {
+    slug: "manchester-to-bristol",
+    navLabel: "Manchester to Bristol",
+    name: "Manchester to Bristol",
+    h1: "Manchester to Bristol Removals",
+    title: "Man and Van Manchester to Bristol | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Bristol and back: the M6 and M5 run, Almondsbury roadworks to February 2027, Bristol's Clean Air Zone and £9 van charge, and £38 bay suspensions.",
+    cardBlurb: "Down the M5 to a Clean Air Zone, a £9 van charge and £38 bay suspensions.",
+    intro: [
+      "Manchester to Bristol is about 170 miles down the M6 and the M5, which makes it a full day for a van once loading and unloading are added at each end.",
+      "The price works the same in both directions. At the Bristol end, three things shape the day: roadworks at the Almondsbury Interchange until February 2027, a city centre Clean Air Zone that charges older vans, and council bay suspensions that are quick to book but never confirmed.",
+    ],
+    keyFacts: [
+      { label: "Clean Air Zone", value: "Class D, 1.18 square miles of central Bristol" },
+      { label: "Non-compliant van", value: "£9 a day, the same as a car" },
+      { label: "Paying the charge", value: "Up to 6 days before or 6 days after" },
+      { label: "Clean Air Zone penalty", value: "£120 plus the charge, or £60 within 14 days" },
+      { label: "Bay suspension", value: "£38 a day for up to 5 metres" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "The M6, the M5 and Almondsbury",
+        body:
+          "The run is the M6 south to Birmingham and the M5 the rest of the way, and the M5 meets the M4 at the Almondsbury Interchange just north of Bristol. National Highways is working on that interchange from 15 September 2026 to February 2027, so the last stretch in can be slower than the rest of the trip.",
+        outro:
+          "The way home is where it matters most. From 11 October to December 2026 the link from the M4 westbound onto the M5 northbound is closed around the clock, so a van leaving Bristol on the M32 and the M4 cannot use it to turn north. We plan the return around the closure before the day rather than finding it on the slip road.",
+      },
+      {
+        h2: "Bristol's Clean Air Zone",
+        body:
+          "Bristol runs a Class D Clean Air Zone covering 1.18 square miles of the city centre, and it operates 24 hours a day, every day of the year. Since it started on 28 November 2022, a van under 3.5 tonnes that does not meet the standard pays £9 a day, the same as a car. Diesel vans meet it at Euro 6, roughly the end of 2015 or newer, and petrol vans at Euro 4, roughly 2006 or newer.",
+        outro:
+          "The charge is paid online, up to six days before the trip or by 11:59pm on the sixth day after; the government sets the rules out on its [clean air zone page](https://www.gov.uk/guidance/driving-in-a-clean-air-zone). Miss it and Bristol issues a £120 penalty on top of the charge, reduced to £60 plus the charge if paid within 14 days, and the council is chasing them: in March 2026 it was reported to have £22 million of Clean Air Zone fines unpaid. If either address is inside the zone, we say so when we quote.",
+      },
+      {
+        h2: "Suspending a Bay in Bristol",
+        body:
+          "Bristol City Council suspends a parking bay for £38 a day for one vehicle up to 5 metres long, and a domestic removal is one of the reasons it accepts. Where there is no bay, it can cone off a stretch of road or yellow lines instead, at £38 a day for each 5 metres, up to £152 a day.",
+        outro:
+          "Allow three working days for the application, and do not wait for a reply: the council says it will not contact you to confirm approval, only if it needs more information. Apply through the council's [parking suspension page](https://www.bristol.gov.uk/residents/parking/parking-suspension-dispensations-and-coning-requests/suspensions) as soon as the date is fixed, and ask for the length the van needs rather than one car's space, because most removal vans are longer than 5 metres.",
+      },
+      {
+        h2: "What a Manchester to Bristol Move Costs",
+        body:
+          "Bristol is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. A bay suspension or coning is paid to the council, not to us. If you are buying, the van is booked for [completion day](/moving-guides/completion-day-moving-house/), and the earlier we know the date, the easier the run is to plan around the roadworks.",
+        outro: "The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Check whether the Bristol address is inside the Clean Air Zone.",
+      "If there are bays or yellow lines outside the Bristol address, apply to the council at least three working days ahead.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Do vans pay to enter Bristol's Clean Air Zone?",
+        a: "Only if they do not meet the standard. A non-compliant van under 3.5 tonnes pays £9 a day, the same as a car. Diesel vans meet it at Euro 6 and petrol vans at Euro 4.",
+      },
+      {
+        q: "How long do I have to pay the Bristol Clean Air Zone charge?",
+        a: "You can pay up to six days before you travel, on the day, or by 11:59pm on the sixth day after you drive in.",
+      },
+      {
+        q: "What is the fine for not paying Bristol's Clean Air Zone charge?",
+        a: "A £120 penalty charge notice plus the unpaid charge, reduced to £60 plus the charge if paid within 14 days.",
+      },
+      {
+        q: "How much does it cost to suspend a parking bay in Bristol for a move?",
+        a: "£38 a day for one vehicle up to 5 metres long. On a road without bays, coning costs £38 a day per 5 metres, up to £152 a day. Allow three working days, and the council will not confirm approval.",
+      },
+      {
+        q: "Are there roadworks on the M5 near Bristol?",
+        a: "Yes. National Highways is working on the M4 and M5 Almondsbury Interchange from 15 September 2026 to February 2027, and the link from the M4 westbound to the M5 northbound is closed around the clock from 11 October to December 2026.",
+      },
+      {
+        q: "Can a man and van do Manchester to Bristol in a day?",
+        a: "Yes, for most loads. It is about 170 miles each way, so the job starts early.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Birmingham removals", path: "/routes/manchester-to-birmingham/" },
+      { label: "Manchester to Sheffield removals", path: "/routes/manchester-to-sheffield/" },
+      { label: "Completion day when moving house", path: "/moving-guides/completion-day-moving-house/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "November 2026",
   },
 ];
 
