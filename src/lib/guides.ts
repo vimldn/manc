@@ -1783,6 +1783,92 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "moving-to-manchester-from-london",
+    title: "Moving to Manchester From London | Frank's Van and Man Manchester",
+    h1: "Moving to Manchester From London | Costs, Council Tax and Getting About",
+    metaDescription:
+      "Moving to Manchester from London: ONS rents and house prices, council tax above the London average, the same Stamp Duty, the £2 Bee Network bus fare and no clean air charge.",
+    updated: "2026-11-06",
+    answer:
+      "Housing is the big saving. The ONS put average private rent at £1,380 a month in Manchester in September 2026 against £2,338 in London, and the average house price at £257,000 in Manchester in August 2026 against £554,430 in London. Council tax goes the other way: Manchester's 2026-27 Band D is £2,312.04, above the London average of £2,068. Stamp Duty is the same on both sides because it applies across England. Buses across Greater Manchester run as the Bee Network with a £2 adult single, and there is no clean air charge to drive into the city.",
+    sections: [
+      {
+        h2: "Rents and House Prices",
+        body: [
+          "More people are making the move than arriving the other way. The ONS says London's population fell by 0.29% in the year to mid-2025, because more people moved out to other parts of the UK than came in, while the North West had the highest population growth of any region.",
+          "The ONS figures published on 21 October 2026 put the average private rent in Manchester at £1,380 a month in September 2026, up 4.6% on a year earlier. London's average was £2,338, the highest of any region, with rents there rising 3.5%. Rents in the North West rose 5.7%, faster than in any other English region, so budget for a rise at renewal.",
+          "House prices show a wider gap. The average Manchester home cost £257,000 in August 2026, up 2.1% on the year, while the average London home cost £554,430, down 2.2%.",
+        ],
+      },
+      {
+        h2: "Council Tax Costs More",
+        body: [
+          "Council tax is the one bill that usually goes up. Manchester's 2026-27 Band D is £2,312.04: £1,872.79 for the city council, £285.30 for the Mayor's police precept and £153.95 for the Mayor's general precept, which includes fire. The government's figures put the London average Band D at £2,068, and some inner London boroughs charge far less, with Westminster at £1,049.55 and Wandsworth at £1,028.21.",
+          "Check the band of the new home before you commit, and register with Manchester City Council when you move in. [Completion day](/moving-guides/completion-day-moving-house/) covers the rest of the paperwork that follows a purchase.",
+        ],
+      },
+      {
+        h2: "The Same Stamp Duty on a Smaller Price",
+        body: [
+          "Stamp Duty Land Tax works the same in Manchester as in London, because it applies across England. Since 1 April 2025 there is nothing to pay on the first £125,000, then 2% up to £250,000 and 5% up to £925,000. First-time buyers pay nothing up to £300,000 on a home costing up to £500,000.",
+          "The price is what changes the bill. A first-time buyer paying Manchester's average of £257,000 pays no Stamp Duty at all, while at London's average of £554,430 the first-time buyer relief does not apply.",
+        ],
+      },
+      {
+        h2: "Getting About Without a Car",
+        body: [
+          "Greater Manchester's buses have all been run as the Bee Network since 5 January 2025, when the last services came under local control. An adult single costs £2 and a child's £1, and fares are capped daily and weekly across bus and tram. Metrolink trams serve 99 stops.",
+          "Local trains are joining next. Greater Manchester plans to bring eight commuter lines into the Bee Network in three phases to 2028, with all local rail services part of it by 2030. Driving in costs nothing extra either: the government ruled out a charging Clean Air Zone for Greater Manchester in January 2025.",
+        ],
+      },
+      {
+        h2: "Booking the Van",
+        body: [
+          "The move itself is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the load and the mileage, agreed before the day, the same in either direction. At the Manchester end, book a parking bay as soon as you have a date; [reserving parking for a move](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) explains how the council's suspensions work.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", href: "/services/long-distance-removals/" },
+      { label: "Completion day when moving house", href: "/moving-guides/completion-day-moving-house/" },
+      { label: "How to reserve parking for a move", href: "/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      { label: "ONS: housing prices and rents in Manchester", href: "https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000003" },
+      {
+        label: "GOV.UK: council tax levels set by local authorities in England 2026 to 2027",
+        href: "https://www.gov.uk/government/statistics/council-tax-levels-set-by-local-authorities-in-england-2026-to-2027/council-tax-levels-set-by-local-authorities-in-england-2026-to-2027",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is it cheaper to live in Manchester than London?",
+        a: "For housing, yes. The ONS put average rent at £1,380 a month in Manchester against £2,338 in London in September 2026, and the average house price at £257,000 against £554,430 in August 2026. Council tax is the exception, with Manchester's Band D above the London average.",
+      },
+      {
+        q: "How much is council tax in Manchester?",
+        a: "Band D is £2,312.04 for 2026-27, including the Mayor's police and general precepts. The London average Band D is £2,068.",
+      },
+      {
+        q: "Do I pay Stamp Duty when I buy in Manchester?",
+        a: "Yes, on the same rules as London, because Stamp Duty Land Tax applies across England. A first-time buyer pays none on a home up to £300,000, which covers Manchester's average price of £257,000.",
+      },
+      {
+        q: "How much is a bus fare in Manchester?",
+        a: "£2 for an adult single and £1 for a child on the Bee Network, with daily and weekly caps across bus and tram.",
+      },
+      {
+        q: "Is there a clean air charge in Manchester?",
+        a: "No. In January 2025 the government approved Greater Manchester's non-charging plan, which rules out a charging Clean Air Zone.",
+      },
+      {
+        q: "Are many people moving from London to Manchester?",
+        a: "The ONS says London's population fell by 0.29% in the year to mid-2025 because more people moved to other parts of the UK than arrived, and the North West had the highest population growth of any region.",
+      },
+    ],
+  },
 ];
 
 export const getGuide = (slug: string) => guides.find((g) => g.slug === slug);

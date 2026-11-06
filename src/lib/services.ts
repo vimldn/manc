@@ -391,7 +391,7 @@ export const services: Service[] = [
       {
         h2: "Manchester to London and Back",
         body:
-          "The Manchester to London run is our most popular long distance route, and we do it both ways: man and van London to Manchester and Manchester to London. Because it is a single driver and van doing the whole journey, your belongings are not passed between depots or left sitting on a pallet. They go straight from your old door to your new one.",
+          "The Manchester to London run is our most popular long distance route, and we do it both ways: man and van [London to Manchester](/moving-guides/moving-to-manchester-from-london/) and Manchester to London. Because it is a single driver and van doing the whole journey, your belongings are not passed between depots or left sitting on a pallet. They go straight from your old door to your new one.",
       },
       {
         h2: "Fixed Prices for Long Journeys",
@@ -419,7 +419,7 @@ export const services: Service[] = [
       {
         h2: "Anywhere in the UK",
         body:
-          "It is not just London. We take jobs from Manchester to [Birmingham](/routes/manchester-to-birmingham/), [Leeds](/routes/manchester-to-leeds/), [Liverpool](/routes/manchester-to-liverpool/), [Sheffield](/routes/manchester-to-sheffield/), [Edinburgh](/routes/manchester-to-edinburgh/), [Glasgow](/routes/manchester-to-glasgow/), [Bristol](/routes/manchester-to-bristol/), the South Coast and beyond. If you can name the two postcodes, we can price the run. Longer jobs may be best booked a little in advance to lock in the day.",
+          "It is not just London. We take jobs from Manchester to [Birmingham](/routes/manchester-to-birmingham/), [Leeds](/routes/manchester-to-leeds/), [Liverpool](/routes/manchester-to-liverpool/), [Sheffield](/routes/manchester-to-sheffield/), [Edinburgh](/routes/manchester-to-edinburgh/), [Glasgow](/routes/manchester-to-glasgow/), [Newcastle](/routes/manchester-to-newcastle/), [Bristol](/routes/manchester-to-bristol/), the South Coast and beyond. If you can name the two postcodes, we can price the run. Longer jobs may be best booked a little in advance to lock in the day.",
       },
       {
         h2: "One Point of Contact",

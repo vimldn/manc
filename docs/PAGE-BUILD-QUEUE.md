@@ -77,6 +77,8 @@ page to scroll sideways on a phone.
 | 27 | 2026-10-30 | P2 | Completion Day When Moving House (guide) | `/moving-guides/completion-day-moving-house/` |
 | 28 | 2026-11-05 | P2 | Manchester to Bristol Removals | `/routes/manchester-to-bristol/` |
 | 28 | 2026-11-05 | P2 | Donating Furniture in Manchester (guide) | `/moving-guides/donating-furniture-in-manchester/` |
+| 29 | 2026-11-06 | P2 | Manchester to Newcastle Removals | `/routes/manchester-to-newcastle/` |
+| 29 | 2026-11-06 | P2 | Moving to Manchester From London (guide) | `/moving-guides/moving-to-manchester-from-london/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -114,6 +116,12 @@ the £18 Congestion Charge from 2 January 2026, red-route loading) belong as an 
 that page instead, but tfl.gov.uk is 403 to WebFetch, so verify them in Chrome first.
 manchester.gov.uk and emmaus.org.uk are also 403 to WebFetch, so the donation guide
 gives no council bulky waste price.
+Day 29 (2026-11-06): tfl.gov.uk now shows a Cloudflare human check in Chrome as well, so
+the London H2 stays parked until the TfL figures can be read without it. The London
+relocation guide is informational (costs, council tax, transport) and links to the
+long-distance page for the van, so it does not compete with it. newcastle.gov.uk and
+gateshead.gov.uk are unreachable from this machine, so the Newcastle page gives no
+bay suspension fee.
 
 Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
 dispensation fee, so four pages already make that negative point. Lead any
@@ -136,6 +144,8 @@ zones. /locations/hulme/ stays the generic man and van page. End of Term (day
 the university pages and /services/student-storage-manchester/.
 
 ## Indexing
+
+2026-11-06: day 28 pages were requested on 2026-11-05 after deploy (accepted). Day 29 pages (`/routes/manchester-to-newcastle/`, `/moving-guides/moving-to-manchester-from-london/`) go in after deploy; if GSC refuses, request them on the next free day.
 
 2026-11-05: the day 26 and 27 backlog is cleared. Glasgow, completion day, Sheffield and `/prices/` were already indexed; Edinburgh was Discovered, not indexed, and was requested. Day 28 pages (`/routes/manchester-to-bristol/`, `/moving-guides/donating-furniture-in-manchester/`) go in after deploy; if GSC refuses, request them on the next free day.
 

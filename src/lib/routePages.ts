@@ -718,6 +718,99 @@ export const routePages: RoutePage[] = [
     ],
     reviewed: "November 2026",
   },
+  {
+    slug: "manchester-to-newcastle",
+    navLabel: "Manchester to Newcastle",
+    name: "Manchester to Newcastle",
+    h1: "Manchester to Newcastle Removals",
+    title: "Man and Van Manchester to Newcastle | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Newcastle and back: 142 miles on the M62 and A1(M), the Simister Island works, Tyneside's Clean Air Zone and £12.50 van charge, and the Tyne Bridge restoration.",
+    cardBlurb: "Over the Pennines to a £12.50 van charge and a bridge under restoration.",
+    intro: [
+      "Manchester to Newcastle is about 142 miles, east on the M62 and north up the A1(M), which with loading at both ends makes a full day for the van.",
+      "The price works the same in both directions. At the Newcastle end, the city's Clean Air Zone charges older vans but not private cars, and the Tyne Bridge is part way through a restoration due to finish in 2028.",
+    ],
+    keyFacts: [
+      { label: "Clean Air Zone", value: "Class C, Newcastle city centre and the Tyne crossings" },
+      { label: "Non-compliant van", value: "£12.50 a day; private cars are not charged" },
+      { label: "Paying the charge", value: "Up to 6 days before or 6 days after" },
+      { label: "Clean Air Zone penalty", value: "£120 plus the charge, or £60 within 14 days" },
+      { label: "Tyne Bridge", value: "Restoration due to finish in 2028" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "The M62, the A1(M) and Simister Island",
+        body:
+          "The run leaves Manchester on the M60 and joins the M62 at Simister Island, junction 18, then crosses the Pennines to the A1(M) and heads north to Tyneside. [National Highways](https://nationalhighways.co.uk/roads-and-travel/road-projects/north-west/m60-junction-18-simister-island-interchange/) started rebuilding Simister Island in summer 2026, in a scheme due to run to 2029 or 2030, and overnight works there are under way now.",
+        outro:
+          "On a run this long the start time matters more than the route. A goods van driven for work is limited to 10 hours at the wheel in a working day, so a full load to Newcastle is planned as one long day with an early start.",
+      },
+      {
+        h2: "Newcastle's Clean Air Zone",
+        body:
+          "Newcastle and Gateshead run a Class C Clean Air Zone covering Newcastle city centre and the routes over the Tyne, Swing, High Level and Redheugh bridges. Private cars are not charged, but since 17 July 2023 a van that does not meet the standard has paid £12.50 a day. A van meets it with a Euro 6 diesel or a Euro 4 petrol engine.",
+        outro:
+          "The charge can be paid up to six days before the trip or by 11:59pm on the sixth day after; the councils set the rules out on their [van drivers page](https://www.breathe-cleanair.com/van-drivers). Miss it and the penalty is £120 plus the charge, reduced to £60 plus the charge if paid within 14 days. The zone is staying for now: in June 2025 the councils' clean air programme reported that nitrogen dioxide had fallen 9% across the city since 2023, but Percy Street in the city centre and Stephenson Road in Heaton were still over the legal limit. If either address is inside the zone, we say so when we quote.",
+      },
+      {
+        h2: "The Tyne Bridge Restoration",
+        body:
+          "The Tyne Bridge is being restored in time for its centenary in 2028. The plan set out in April 2026 was for scaffolding on the deck from autumn 2026, to build a protection deck above the carriageway, followed by work on the main arch in 2027.",
+        outro:
+          "All four central crossings, the Tyne, Swing, High Level and Redheugh bridges, sit inside the Clean Air Zone, so a non-compliant van coming over from Gateshead pays the same charge whichever one it uses. If the address is south of the river, tell us, because the way in changes the plan.",
+      },
+      {
+        h2: "What a Manchester to Newcastle Move Costs",
+        body:
+          "Newcastle is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. If the street at the Newcastle end is busy, ask the council about a bay suspension as soon as the date is fixed, and if you are buying, the van is booked for [completion day](/moving-guides/completion-day-moving-house/).",
+        outro: "The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Check whether the Newcastle address is inside the Clean Air Zone or south of the river.",
+      "If the Newcastle street is busy, ask the council about a bay suspension early.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Do vans pay to enter Newcastle's Clean Air Zone?",
+        a: "Only if they do not meet the standard. A non-compliant van pays £12.50 a day; a van with a Euro 6 diesel or Euro 4 petrol engine pays nothing, and private cars are not charged.",
+      },
+      {
+        q: "What is the fine for not paying Newcastle's Clean Air Zone charge?",
+        a: "£120 plus the unpaid charge, reduced to £60 plus the charge if paid within 14 days.",
+      },
+      {
+        q: "Are the Tyne bridges in the Clean Air Zone?",
+        a: "Yes. The zone covers Newcastle city centre and the routes over the Tyne, Swing, High Level and Redheugh bridges.",
+      },
+      {
+        q: "When will the Tyne Bridge restoration finish?",
+        a: "It is due to be complete in time for the bridge's centenary in 2028, with work on the main arch planned for 2027.",
+      },
+      {
+        q: "Are there roadworks at Simister Island?",
+        a: "Yes. National Highways started rebuilding junction 18 of the M60, where the M62 begins, in summer 2026, and the scheme runs to 2029 or 2030.",
+      },
+      {
+        q: "Can a man and van do Manchester to Newcastle in a day?",
+        a: "Yes, for most loads. It is about 142 miles each way, so the job starts early.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Leeds removals", path: "/routes/manchester-to-leeds/" },
+      { label: "Manchester to Edinburgh removals", path: "/routes/manchester-to-edinburgh/" },
+      { label: "Completion day when moving house", path: "/moving-guides/completion-day-moving-house/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "November 2026",
+  },
 ];
 
 export const getRoutePage = (slug: string) => routePages.find((p) => p.slug === slug);
