@@ -79,6 +79,8 @@ page to scroll sideways on a phone.
 | 28 | 2026-11-05 | P2 | Donating Furniture in Manchester (guide) | `/moving-guides/donating-furniture-in-manchester/` |
 | 29 | 2026-11-06 | P2 | Manchester to Newcastle Removals | `/routes/manchester-to-newcastle/` |
 | 29 | 2026-11-06 | P2 | Moving to Manchester From London (guide) | `/moving-guides/moving-to-manchester-from-london/` |
+| 30 | 2026-11-10 | P2 | Manchester to Bradford Removals | `/routes/manchester-to-bradford/` |
+| 30 | 2026-11-10 | P2 | Moving Into a New Build Home in Manchester (guide) | `/moving-guides/moving-into-a-new-build-in-manchester/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -123,6 +125,12 @@ long-distance page for the van, so it does not compete with it. newcastle.gov.uk
 gateshead.gov.uk are unreachable from this machine, so the Newcastle page gives no
 bay suspension fee.
 
+Day 30 (2026-11-10): Bradford Council's waiver permit page lists building work,
+scaffolding, filming and similar jobs, not house moves, so the Bradford page tells
+customers to ask the parking permits team rather than promising a suspension. The
+New Homes Ombudsman site (newhomesombudsman.co.uk) did not resolve, so the new build
+guide uses the New Homes Quality Board's own Code pages and gives no award limit.
+
 Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
 dispensation fee, so four pages already make that negative point. Lead any
 further borough page on what the council does publish, not on the absence.
@@ -144,6 +152,8 @@ zones. /locations/hulme/ stays the generic man and van page. End of Term (day
 the university pages and /services/student-storage-manchester/.
 
 ## Indexing
+
+2026-11-10: day 29 pages were already indexed when inspected, so no requests were spent. Day 30 pages (`/routes/manchester-to-bradford/`, `/moving-guides/moving-into-a-new-build-in-manchester/`) go in after deploy; if GSC refuses, request them on the next free day.
 
 2026-11-06: day 28 pages were requested on 2026-11-05 after deploy (accepted). Day 29 pages (`/routes/manchester-to-newcastle/`, `/moving-guides/moving-to-manchester-from-london/`) go in after deploy; if GSC refuses, request them on the next free day.
 

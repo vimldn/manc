@@ -1092,7 +1092,7 @@ export const guides: Guide[] = [
         h2: "New Greater Manchester Homes Are Built Wider",
         body: [
           "There is a local twist. Places for Everyone, the joint development plan for nine Greater Manchester districts, requires all new dwellings to meet the nationally described space standards and to be built to the accessible and adaptable M4(2) standard, unless specific site conditions make that impracticable. That means wider entrance doors and wider hallways in homes approved under the plan.",
-          "The catch is that it only applies to new homes. An older terrace or semi was built long before either standard, and its front door and the turn at the bottom of the stairs are the usual tight spots. If you are moving from a new build into an older house, measure the old house, not the new one.",
+          "The catch is that it only applies to [new homes](/moving-guides/moving-into-a-new-build-in-manchester/). An older terrace or semi was built long before either standard, and its front door and the turn at the bottom of the stairs are the usual tight spots. If you are moving from a new build into an older house, measure the old house, not the new one.",
         ],
       },
       {
@@ -1866,6 +1866,109 @@ export const guides: Guide[] = [
       {
         q: "Are many people moving from London to Manchester?",
         a: "The ONS says London's population fell by 0.29% in the year to mid-2025 because more people moved to other parts of the UK than arrived, and the North West had the highest population growth of any region.",
+      },
+    ],
+  },
+  {
+    slug: "moving-into-a-new-build-in-manchester",
+    title: "Moving Into a New Build in Manchester | Frank's Van and Man Manchester",
+    h1: "Moving Into a New Build Home in Manchester",
+    metaDescription:
+      "Moving into a new build in Manchester: the pre-completion inspection, two years of snagging under the New Homes Quality Code, NHBC cover, high-rise safety information, council tax banding and moving day.",
+    updated: "2026-11-10",
+    answer:
+      "Inspect the home before completion, report snags in writing during the first two years, and plan moving day around an address the sat nav may not know yet. Homes from developers registered with the New Homes Quality Board come under the New Homes Quality Code, which gives two years of after-sales service and a free route to the New Homes Ombudsman Service, and an NHBC Buildmark warranty, where the home has one, runs for ten years.",
+    sections: [
+      {
+        h2: "Manchester's New Build Boom",
+        body: [
+          "Manchester completed 4,766 new homes in 2025/26, according to city council figures reported by PBC Today, and 901 of them were affordable, 439 of those for social rent. Some are on large regeneration sites such as Victoria North, a planned 15,000 homes, where the first phase of Victoria Riverside at Red Bank had handed over 341 of its 634 homes by July 2025.",
+          "Moving into a home that new is not the same as moving into an older house. The site may still be busy around you, the address may be new to every map, and the first months are when snags turn up.",
+        ],
+      },
+      {
+        h2: "Inspect Before Completion",
+        body: [
+          "If the developer is registered with the New Homes Quality Board, the New Homes Quality Code applies from the day you reserve. For homes reserved from 2 March 2026, version 2 of the Code says the developer must give you the chance of a pre-completion inspection, carried out by you or by a suitably qualified inspector, after the notice to complete has been served and before the completion date.",
+          "If you do it yourself, you must use the Board's standard checklist, which explains how to look, for example inspecting internal walls in natural daylight from at least two metres away without shining a light on them. Anything that breaches the warranty's technical standards is the developer's to put right, ideally before completion or within 30 days if that is not possible.",
+        ],
+      },
+      {
+        h2: "Snagging in the First Two Years",
+        body: [
+          "The Code requires an after-sales service for at least two years from completion, and says the developer must be able to settle an issue within 30 days unless there is a significant reason for a delay. Report every snag in writing, with photos and dates, and keep copies of the replies.",
+          "You have two years from reservation or completion, whichever is later, to make a complaint, and if it is not settled after 56 days you can take it to the New Homes Ombudsman Service free of charge. Buyers are using it: the service's annual report in September 2026 showed new complaints up from 593 to 1,802 in a year, with defects and snagging the biggest issues.",
+        ],
+      },
+      {
+        h2: "The Ten Year Warranty",
+        body: [
+          "NHBC's Buildmark is a ten year warranty and insurance for newly built homes. The builder warranty period, usually the first two years of the policy, is when the builder must put right problems caused by not meeting NHBC's requirements, and NHBC insures years three to ten. Tell the builder about a problem as soon as you reasonably can, and always within those two years.",
+          "If the builder does not deal with it, NHBC may be able to help through its resolution service once the builder's own complaints process is finished. If your home has a different warranty provider, its policy document sets out the cover.",
+        ],
+      },
+      {
+        h2: "Finding the Address on Moving Day",
+        body: [
+          "A new street can be missing from sat navs for months. One council's street naming team puts it plainly: mapping providers only update their data every six months, so new addresses take some time to appear. When you book, give us the plot number and the nearest established road as well as the postcode, or drop a map pin, and tell us if the site has gates, a site office or construction traffic the van needs to work around.",
+          "In a new apartment block the goods lift and loading bay usually need booking, as in any block, and [preparing for a flat move](/moving-guides/how-to-prepare-for-a-flat-move/) covers how. For a house on an estate, check whether the road outside is finished, because the van needs somewhere firm to stand while it loads.",
+        ],
+      },
+      {
+        h2: "Safety Information in High-Rise Blocks",
+        body: [
+          "A block of at least 18 metres or seven storeys with two or more homes is a higher-risk building under the Building Safety Act 2022. It must have a principal accountable person, usually the organisation that owns or must repair the structure and exterior, who registers the building with the Building Safety Regulator and makes sure its structural and fire safety risks are managed.",
+          "The accountable person has to give residents, without being asked, a summary of the latest fire risk assessment, the location of fire escape routes, fire doors and alarms, how to report a safety risk and the evacuation information for the building. Residents aged 16 or over and flat owners can request further prescribed information, which must be provided as soon as reasonably practicable. It is worth asking for when you collect the keys.",
+        ],
+      },
+      {
+        h2: "Council Tax, Meters and Broadband",
+        body: [
+          "A brand new home needs a council tax band, and the Valuation Office Agency sets it, not the council. In England it values homes as at 1 April 1991, so for a new build it looks at sales of similar homes that were new around then, adds the band to the list and tells the council, which sends the bill.",
+          "Read the gas and electricity meters on the day you move in and give the readings to the supplier; until you choose a tariff you are on a deemed contract. Since 26 December 2022 new homes in England have had to be built with gigabit-ready infrastructure and, within a £2,000 cost cap per home, a gigabit-capable connection, but the cable being there is not the same as a live service, so order broadband as soon as you have the postcode.",
+        ],
+      },
+    ],
+    related: [
+      { label: "Flat and apartment removals", href: "/services/flat-apartment-removals/" },
+      { label: "How to prepare for a flat move", href: "/moving-guides/how-to-prepare-for-a-flat-move/" },
+      { label: "Completion day when moving house", href: "/moving-guides/completion-day-moving-house/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      {
+        label: "New Homes Quality Board: after-sales service, complaints and the New Homes Ombudsman",
+        href: "https://www.nhqb.org.uk/the-code/part-3-after-sales-service-complaints-and-the-new-homes-ombudsman/",
+      },
+      {
+        label: "GOV.UK: information accountable persons must provide in high-rise residential buildings",
+        href: "https://www.gov.uk/guidance/high-rise-residential-building-information-accountable-persons-must-provide",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I do my own snagging inspection on a new build?",
+        a: "Yes, if the developer is registered under the New Homes Quality Code. For homes reserved from 2 March 2026 the developer must offer a pre-completion inspection, which you can carry out yourself using the Board's checklist or hand to a suitably qualified inspector.",
+      },
+      {
+        q: "How long does a developer have to fix snags?",
+        a: "The New Homes Quality Code says the developer must be able to settle an after-sales issue within 30 days unless there is a significant reason for a delay, and the after-sales service must run for at least two years from completion.",
+      },
+      {
+        q: "When can I go to the New Homes Ombudsman?",
+        a: "Once 56 days have passed since your complaint started, as long as you complained within two years of reservation or completion, whichever is later. The service is free for buyers.",
+      },
+      {
+        q: "What does an NHBC warranty cover?",
+        a: "Buildmark is a ten year warranty and insurance. The builder must put right defects during the builder warranty period, usually the first two years, and NHBC insures years three to ten.",
+      },
+      {
+        q: "Who sets the council tax band for a new build?",
+        a: "The Valuation Office Agency. It values the home as at 1 April 1991 by looking at similar homes that were new around then, adds the band to the list and tells the council, which sends the bill.",
+      },
+      {
+        q: "Why can't the removal van find my new build?",
+        a: "New addresses can take months to reach sat navs, because mapping providers only update their data every six months or so. Give us the plot number, the nearest established road and a map pin when you book.",
       },
     ],
   },

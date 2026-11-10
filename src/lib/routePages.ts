@@ -166,7 +166,7 @@ export const routePages: RoutePage[] = [
         body:
           "Leeds planned a charging clean air zone and then dropped it. In October 2020 the council said the zone was no longer required, because businesses had moved to cleaner vehicles faster than expected, and Leeds is not among the charging zones listed by GOV.UK.",
         outro:
-          "Bradford, next door, does charge. Its zone covers more than nine square miles; cars go free, but a van below Euro 6 diesel or Euro 4 petrol pays £9 a day. It only matters if one of the two addresses is inside Bradford's zone, and if it is, we say so when we quote.",
+          "[Bradford](/routes/manchester-to-bradford/), next door, does charge. Its zone covers more than nine square miles; cars go free, but a van below Euro 6 diesel or Euro 4 petrol pays £9 a day. It only matters if one of the two addresses is inside Bradford's zone, and if it is, we say so when we quote.",
       },
       {
         h2: "Moving Light by Train",
@@ -806,6 +806,106 @@ export const routePages: RoutePage[] = [
       { label: "Manchester to Leeds removals", path: "/routes/manchester-to-leeds/" },
       { label: "Manchester to Edinburgh removals", path: "/routes/manchester-to-edinburgh/" },
       { label: "Completion day when moving house", path: "/moving-guides/completion-day-moving-house/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "November 2026",
+  },
+  {
+    slug: "manchester-to-bradford",
+    navLabel: "Manchester to Bradford",
+    name: "Manchester to Bradford",
+    h1: "Manchester to Bradford Removals",
+    title: "Man and Van Manchester to Bradford | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Bradford and back: about 38 miles on the M62 and M606, the Broad Lane bridge works, Bradford's Clean Air Zone and £9 van charge, and the city centre bus lanes.",
+    cardBlurb: "Along the M62 to a £9 van charge inside the outer ring road.",
+    intro: [
+      "Manchester to Bradford is about 38 miles, east on the M62 over the Pennines and into the city on the M606, roughly an hour's drive with a clear road.",
+      "The price works the same in both directions. What shapes the day is the Bradford end: a Clean Air Zone that charges older vans but not private cars, and a city centre where several streets are now pedestrianised and new bus lanes run at all hours.",
+    ],
+    keyFacts: [
+      { label: "Road distance", value: "About 38 miles via the M62 and M606" },
+      { label: "Clean Air Zone", value: "Inside the outer ring road, plus Shipley and Saltaire" },
+      { label: "Non-compliant van", value: "£9 a day; passenger cars are not charged" },
+      { label: "Clean Air Zone penalty", value: "£120, or £60 plus the charge within 14 days" },
+      { label: "M62 junctions 20 to 21", value: "Bridge works, some overnight closures to mid-December" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "The M62 and the Broad Lane Bridge Works",
+        body:
+          "The van leaves Manchester on the M60, joins the M62 at junction 18 and crosses the Pennines to junction 26, where the M606 runs into Bradford. Near Rochdale, between junctions 20 and 21, [National Highways](https://nationalhighways.co.uk/roads-and-travel/road-projects/north-west/north-west-maintenance-schemes/) is repairing Broad Lane bridge, which carries the B6194 over the motorway. Lane three is shut in both directions with narrow lanes and a 50mph limit, but the hard shoulder is in use, so three lanes stay open each way.",
+        outro:
+          "The bridge pier repairs are due to finish by 15 November. Resurfacing follows, with the motorway closed between junctions 20 and 21 from 9pm to 5am on set nights between 16 November and 16 December, and drainage work at junction 20 then carries on overnight until the end of April 2027. A daytime move misses all of it, and if you want an evening run we check the closure nights first. The Scammonden Bridge works further east are on our [Manchester to Leeds](/routes/manchester-to-leeds/) page.",
+      },
+      {
+        h2: "Bradford's Clean Air Zone",
+        body:
+          "Bradford's Clean Air Zone went live on 26 September 2022. It covers the area inside and including the outer ring road, the A6177, plus the Aire Valley corridor along Manningham Lane, Bradford Road and Canal Road out to Shipley and Saltaire, and the [council's FAQ](https://bradford.gov.uk/breathe-better-bradford/where-is-the-clean-air-zone/frequently-asked-questions/) sets out the boundary and the charges. Passenger cars and motorbikes do not pay. A van that does not meet the standard pays £9 a day, whether it is used privately or for business, and that includes car-derived vans, campervans and motorhomes. A Euro 6 diesel or Euro 4 petrol engine meets the standard.",
+        outro:
+          "The charge can be paid up to six days before, on the day or up to six days after, and a charging day runs from midnight to midnight, so a van driven in the zone either side of midnight pays for two days. Miss it and the penalty is £120, cut to £60 plus the charge if paid within 14 days. If either address is inside the zone, we say so when we quote. The zone has made a difference: research reported by Born in Bradford in February 2025 found that GP visits for respiratory illness fell by 25% in its first year.",
+      },
+      {
+        h2: "Driving Into Bradford City Centre",
+        body:
+          "Bradford's city centre has been rebuilt around people on foot. A £45m scheme that finished in April 2025 pedestrianised Market Street, Bridge Street, Bank Street, Broadway and Hall Ings, and buses now run on a loop around the centre rather than through it.",
+        outro:
+          "In October 2025 the council added bus lanes at Hall Ings by George Street and at Jacob's Well, on Princes Way at Manchester Road, on Vicar Lane and on Well Street. They apply at all hours on every day, only buses, hackney carriages, emergency vehicles, cycles and motorcycles may use them, and a driver caught on camera can get a penalty charge notice. For a city centre address, send us the postcode and we plan the approach around them.",
+      },
+      {
+        h2: "Parking at the Bradford End",
+        body:
+          "Bradford Council issues waiver permits that let a vehicle park on a restriction for operational reasons. They cost £15 per space up to 5 metres per day when booked in advance, or £20 with less than 24 hours' notice, and the council asks for applications at least three working days ahead. Suspending 10 metres or more with cones and notices needs an email to its parking permits team at least two working days before the date.",
+        outro:
+          "The council lists building work, scaffolding, filming and similar jobs as the work it grants dispensations for, rather than house moves, and permits are not usually allowed where there is a loading ban or on disabled bays. If the street is busy, ask the parking permits team early what it will allow. Our [guide to reserving parking](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) covers the Manchester end.",
+      },
+      {
+        h2: "What a Manchester to Bradford Move Costs",
+        body:
+          "Bradford is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. At about 38 miles each way, there is time to load, drive over and unload on the same day.",
+        outro: "The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Check whether the Bradford address is inside the Clean Air Zone, which runs out to Shipley and Saltaire.",
+      "If the Bradford street is busy, ask the council's parking permits team early.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Do vans pay to enter Bradford's Clean Air Zone?",
+        a: "Only if they do not meet the standard. A non-compliant van pays £9 a day, whether used privately or for business; a Euro 6 diesel or Euro 4 petrol van pays nothing, and passenger cars are not charged.",
+      },
+      {
+        q: "Where is Bradford's Clean Air Zone?",
+        a: "Inside and including the outer ring road, the A6177, plus the Aire Valley corridor along Manningham Lane, Bradford Road and Canal Road, and Shipley and Saltaire.",
+      },
+      {
+        q: "What is the fine for not paying Bradford's Clean Air Zone charge?",
+        a: "£120, reduced to £60 plus the unpaid charge if paid within 14 days. It goes up by 50% if the council issues a charge certificate.",
+      },
+      {
+        q: "Does a campervan or hired van pay in Bradford?",
+        a: "Yes, if it does not meet the standard. The council's chargeable vehicles include light goods vehicles, car-derived vans, campervans and motorhomes.",
+      },
+      {
+        q: "Are there roadworks on the M62 between Manchester and Bradford?",
+        a: "Yes. Broad Lane bridge works between junctions 20 and 21 near Rochdale run into December 2026 with a 50mph limit and some overnight closures, and drainage work at junction 20 runs overnight until the end of April 2027.",
+      },
+      {
+        q: "How far is Manchester to Bradford?",
+        a: "About 38 miles by road, roughly an hour on the M62 and M606 with a clear run.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Leeds removals", path: "/routes/manchester-to-leeds/" },
+      { label: "Manchester to Sheffield removals", path: "/routes/manchester-to-sheffield/" },
+      { label: "How to reserve parking for a move", path: "/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/" },
       { label: "House removals", path: "/services/house-removals/" },
       { label: "Prices", path: "/prices/" },
     ],
