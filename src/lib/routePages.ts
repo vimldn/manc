@@ -857,7 +857,7 @@ export const routePages: RoutePage[] = [
       {
         h2: "Parking at the Bradford End",
         body:
-          "Bradford Council issues waiver permits that let a vehicle park on a restriction for operational reasons. They cost £15 per space up to 5 metres per day when booked in advance, or £20 with less than 24 hours' notice, and the council asks for applications at least three working days ahead. Suspending 10 metres or more with cones and notices needs an email to its parking permits team at least two working days before the date.",
+          "Bradford Council issues waiver permits that let a vehicle park on a restriction for operational reasons. They cost £15 per space up to 5 metres per day when booked in advance, or £20 with less than 24 hours' notice, and the council asks for applications at least three working days ahead. The council decides whether the job qualifies and only accepts shorter notice in special cases, so check with the parking team before relying on a waiver. Suspending 10 metres or more with cones and notices needs an email to its parking permits team at least two working days before the date.",
         outro:
           "The council lists building work, scaffolding, filming and similar jobs as the work it grants dispensations for, rather than house moves, and permits are not usually allowed where there is a loading ban or on disabled bays. If the street is busy, ask the parking permits team early what it will allow. Our [guide to reserving parking](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) covers the Manchester end.",
       },
@@ -906,6 +906,199 @@ export const routePages: RoutePage[] = [
       { label: "Manchester to Leeds removals", path: "/routes/manchester-to-leeds/" },
       { label: "Manchester to Sheffield removals", path: "/routes/manchester-to-sheffield/" },
       { label: "How to reserve parking for a move", path: "/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "November 2026",
+  },
+  {
+    slug: "manchester-to-york",
+    navLabel: "Manchester to York",
+    name: "Manchester to York",
+    h1: "Manchester to York Removals",
+    title: "Man and Van Manchester to York | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to York and back: about 78 miles on the M62 and A64, the Tadcaster night closures, York's footstreets and £50 access permit, parking suspensions and the bus-only clean air zone.",
+    cardBlurb: "Over the Pennines to a city centre where the van must be out by 10.30am.",
+    intro: [
+      "Manchester to York is about 78 miles, east on the M62 and then along the A64, and Google Maps puts the drive at about two hours.",
+      "The price works the same in both directions. What shapes the day is the York end: the city centre footstreets close to vehicles at 10.30am, and a parking suspension needs three weeks' notice.",
+    ],
+    keyFacts: [
+      { label: "Road distance", value: "About 78 miles via the M62 and A64" },
+      { label: "Footstreets", value: "Closed to vehicles 10.30am to 5pm every day" },
+      { label: "Christmas Market", value: "Footstreets until 7.30pm, 12 November to 21 December" },
+      { label: "Footstreet access permit", value: "£50 per vehicle per day, 5 working days' notice" },
+      { label: "Parking suspension", value: "£272, with 21 days' notice" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "The M62, the A64 and the Tadcaster Closures",
+        body:
+          "The run leaves Manchester on the M62 over the Pennines and picks up the A64 for the last stretch into York, past Tadcaster. Since April 2026, [National Highways](https://nationalhighways.co.uk/roads-and-travel/road-projects/yorkshire-and-north-east/yorkshire-and-north-east-maintenance-schemes/) has been renewing the parapets on the A64 bridge over the River Wharfe at Tadcaster, with a 50mph limit and narrow lanes until the work is finished.",
+        outro:
+          "The eastbound carriageway, towards York, closes overnight from 8pm to 6am, Sunday to Friday until 1 December and then every night from 1 to 18 December, with traffic diverted via the A659. A daytime move never meets it, and an evening run to York in those weeks takes the diversion. The Pennine stretch of the M62 is covered on our [Manchester to Leeds](/routes/manchester-to-leeds/) page.",
+      },
+      {
+        h2: "York's Footstreets",
+        body:
+          "York's city centre footstreets are closed to vehicles from 10.30am to 5pm every day, and automated sliding bollards guard the way in at streets including Blake Street, Goodramgate, High Petergate, Lendal, Shambles, Spurriergate and parts of Parliament Street. The [council's vehicle access page](https://www.york.gov.uk/york-city-centre/city-centre-access-vehicles) says delivery vehicles must leave before 10.30am and must not arrive until after 5pm. During the Christmas Market, from 12 November to 21 December 2026, the hours run to 7.30pm from Wednesday to Monday, with Tuesdays unchanged.",
+        outro:
+          "Driving in during footstreet hours needs a City Centre Vehicle Access Application, a combined parking waiver and authority to drive through the restriction, which costs £50 per vehicle per day and should go in at least five working days ahead. For an address inside the footstreets, we plan to load before 10.30am or after 5pm, and if the timing will not work, the permit is the way in.",
+      },
+      {
+        h2: "Parking Suspensions in York",
+        body:
+          "Outside the footstreets, City of York Council can suspend parking bays, but it is neither quick nor cheap. A suspension costs £272, the council charges £250 to put the cones out if you do not supply your own, and it needs at least 21 days' notice. The council's examples are building works, roadworks and events, and its page does not mention house moves, so ask early if a move needs one.",
+        outro:
+          "On most residential streets a suspension is not needed, and the van parks as close as the restrictions allow. Our [guide to reserving parking](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) covers the Manchester end.",
+      },
+      {
+        h2: "York's Bus-Only Clean Air Zone",
+        body:
+          "York does have a Clean Air Zone, but it only applies to local bus services. It came in during January 2020 and has been fully operational since January 2021. Vans, lorries, coaches, taxis and private cars are not affected, so a removal van pays nothing to drive in.",
+        outro:
+          "Repairs to Lendal Bridge, which were due in spring 2026, have been put back to 2027 so that they do not overlap with the delayed Station Gateway works at the railway station. If your York address is near the station, tell us and we check the latest traffic management before the day.",
+      },
+      {
+        h2: "What a Manchester to York Move Costs",
+        body:
+          "York is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. At about 78 miles each way, there is time to load, drive over and unload on the same day, with an early start if the York address is inside the footstreets.",
+        outro: "The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Tell us if the York address is inside the footstreets, so we can plan around 10.30am.",
+      "If a York street needs a parking suspension, apply at least 21 days ahead.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Can a removal van drive into York city centre?",
+        a: "Outside footstreet hours, yes. The footstreets are closed to vehicles from 10.30am to 5pm every day, and to 7.30pm from Wednesday to Monday during the Christmas Market, so delivery vehicles must be out before 10.30am.",
+      },
+      {
+        q: "How do I get vehicle access to York's footstreets during the day?",
+        a: "Through a City Centre Vehicle Access Application, which costs £50 per vehicle per day and should be made at least five working days ahead.",
+      },
+      {
+        q: "How much is a parking suspension in York?",
+        a: "£272, plus £250 if the council puts out the cones, with at least 21 days' notice.",
+      },
+      {
+        q: "Does a van pay York's Clean Air Zone?",
+        a: "No. York's Clean Air Zone applies to local bus services only, and vans, lorries, taxis and private cars are not affected.",
+      },
+      {
+        q: "Are there roadworks on the A64 near Tadcaster?",
+        a: "Yes. The A64 eastbound at Tadcaster closes overnight from 8pm to 6am, Sunday to Friday until 1 December 2026 and every night from 1 to 18 December, with a diversion via the A659.",
+      },
+      {
+        q: "How far is Manchester to York?",
+        a: "About 78 miles by road, roughly two hours on the M62 and A64.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Leeds removals", path: "/routes/manchester-to-leeds/" },
+      { label: "Manchester to Bradford removals", path: "/routes/manchester-to-bradford/" },
+      { label: "How to reserve parking for a move", path: "/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "November 2026",
+  },
+  {
+    slug: "manchester-to-nottingham",
+    navLabel: "Manchester to Nottingham",
+    name: "Manchester to Nottingham",
+    h1: "Manchester to Nottingham Removals",
+    title: "Man and Van Manchester to Nottingham | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Nottingham and back: about 81 miles via the M1, no clean air charge, Nottingham's 24 hour bus gates and £70 penalty, and the loading rules at the Nottingham end.",
+    cardBlurb: "Down the M1 to a city of bus gates that never switch off.",
+    intro: [
+      "Manchester to Nottingham is about 81 miles, and Google Maps' best route runs via the M1, at about two and a half hours in ordinary traffic.",
+      "The price works the same in both directions. Nottingham charges nothing for clean air, but its city centre has camera-enforced bus gates, and a van that strays into one gets a penalty.",
+    ],
+    keyFacts: [
+      { label: "Road distance", value: "About 81 miles via the M1" },
+      { label: "Clean Air Zone", value: "None in Nottingham" },
+      { label: "Bus gates", value: "Enforced by camera 24 hours a day" },
+      { label: "Bus lane penalty", value: "£70, or £35 within 21 days" },
+      { label: "Loading", value: "Allowed on yellow lines unless kerb bars show a ban" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "No Clean Air Charge in Nottingham",
+        body:
+          "Nottingham does not have a charging Clean Air Zone. [GOV.UK's list](https://www.gov.uk/guidance/driving-in-a-clean-air-zone) of zones that charge covers Bath, Birmingham, Bradford, Bristol, Portsmouth, Sheffield and Tyneside, and Nottingham is not on it, so a van of any age drives in without a daily charge.",
+        outro:
+          "What Nottingham does have is a Clear Zone, first introduced in the city centre in 1993. Its pedestrian streets are closed to traffic in core times, and loading there is allowed outside core times only.",
+      },
+      {
+        h2: "Bus Gates and Bus Lanes",
+        body:
+          "Nottingham has 61 bus lanes and bus gates. Most bus lanes run at weekday peak times, 7.30am to 9.30am and 4pm to 6pm, but bus gates, tram gates and bus-only streets are enforced 24 hours a day by cameras. A bus gate is closed to everything except buses and cycles, and sometimes wheelchair accessible taxis; the [council's bus lane rules](https://www.nottinghamcity.gov.uk/information-for-residents/transport-parking-and-streets/tickets-and-fines/penalty-charge-notices/parking-contraventions-faqs/34-driving-down-a-bus-lane/) list the exemptions, vans are not among them, and the restrictions apply on bank holidays too.",
+        outro:
+          "The penalty is £70, reduced to £35 if paid within 21 days. In February 2025 the council added cameras on Shakespeare Street, from Goldsmith Street, and on Victoria Embankment, from the suspension bridge. We plan the approach to a Nottingham address before the day so the van stays out of them.",
+      },
+      {
+        h2: "Loading at the Nottingham End",
+        body:
+          "Nottingham's parking enforcement policy allows loading and unloading on yellow lines where there is no loading ban, and in pay and display and residents' bays, but only while loading is actually going on. A loading ban is marked by yellow bars on the kerb, and if a penalty is issued, the council will consider a challenge backed by evidence that the driver was moving heavy goods.",
+        outro:
+          "Collecting keys counts as well. The policy says a driver who has to fetch a key to get into a property should take no more than five minutes, which is covered by the time a parking officer watches before issuing a ticket, unless there is a loading ban. For a busy street, tell us when you book and we plan where the van will stand.",
+      },
+      {
+        h2: "What a Manchester to Nottingham Move Costs",
+        body:
+          "Nottingham is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. At about 81 miles each way, there is time to load, drive down and unload on the same day.",
+        outro: "The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Tell us if the Nottingham street has yellow kerb bars or sits near a bus gate.",
+      "If you are driving your own car behind the van, check the route for bus gates too.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "Does Nottingham have a Clean Air Zone charge?",
+        a: "No. Nottingham is not on GOV.UK's list of charging Clean Air Zones, so vans and cars drive in without a daily charge.",
+      },
+      {
+        q: "Can vans use Nottingham bus gates?",
+        a: "No. A bus gate is closed to everything except buses and cycles, and sometimes wheelchair accessible taxis, and bus gates are enforced by camera 24 hours a day.",
+      },
+      {
+        q: "What is the fine for driving through a Nottingham bus gate?",
+        a: "£70, reduced to £35 if paid within 21 days.",
+      },
+      {
+        q: "Can a removal van load on double yellow lines in Nottingham?",
+        a: "Yes, while loading is actually taking place, unless yellow bars on the kerb show a loading ban.",
+      },
+      {
+        q: "Are Nottingham bus lanes enforced on bank holidays?",
+        a: "Yes. The council says all its bus lanes and moving traffic restrictions operate on bank holidays unless stated otherwise.",
+      },
+      {
+        q: "How far is Manchester to Nottingham?",
+        a: "About 81 miles by road, roughly two and a half hours via the M1.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Sheffield removals", path: "/routes/manchester-to-sheffield/" },
+      { label: "Manchester to Birmingham removals", path: "/routes/manchester-to-birmingham/" },
+      { label: "Completion day when moving house", path: "/moving-guides/completion-day-moving-house/" },
       { label: "House removals", path: "/services/house-removals/" },
       { label: "Prices", path: "/prices/" },
     ],

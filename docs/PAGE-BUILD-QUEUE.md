@@ -81,6 +81,8 @@ page to scroll sideways on a phone.
 | 29 | 2026-11-06 | P2 | Moving to Manchester From London (guide) | `/moving-guides/moving-to-manchester-from-london/` |
 | 30 | 2026-11-10 | P2 | Manchester to Bradford Removals | `/routes/manchester-to-bradford/` |
 | 30 | 2026-11-10 | P2 | Moving Into a New Build Home in Manchester (guide) | `/moving-guides/moving-into-a-new-build-in-manchester/` |
+| 31 | 2026-11-18 | P2 | Manchester to York Removals | `/routes/manchester-to-york/` |
+| 31 | 2026-11-18 | P2 | Manchester to Nottingham Removals | `/routes/manchester-to-nottingham/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -131,6 +133,12 @@ customers to ask the parking permits team rather than promising a suspension. Th
 New Homes Ombudsman site (newhomesombudsman.co.uk) did not resolve, so the new build
 guide uses the New Homes Quality Board's own Code pages and gives no award limit.
 
+Day 31 (2026-11-18): York publishes no fee for a removals waiver on yellow lines
+(its ParkingWaiver page returns 404), so the York page gives only the footstreet
+access permit and the bay suspension. Nottingham publishes no bay suspension fee for a
+house move, so the Nottingham page covers the loading rules instead. The A52 closures
+on National Highways' Nottingham corridor page carry no year, so they are left out.
+
 Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
 dispensation fee, so four pages already make that negative point. Lead any
 further borough page on what the council does publish, not on the absence.
@@ -152,6 +160,8 @@ zones. /locations/hulme/ stays the generic man and van page. End of Term (day
 the university pages and /services/student-storage-manchester/.
 
 ## Indexing
+
+2026-11-18: day 30 pages were requested on 2026-11-10 (accepted). Day 31 pages (`/routes/manchester-to-york/`, `/routes/manchester-to-nottingham/`) go in after deploy; if GSC refuses, request them on the next free day.
 
 2026-11-10: day 29 pages were already indexed when inspected, so no requests were spent. Day 30 pages (`/routes/manchester-to-bradford/`, `/moving-guides/moving-into-a-new-build-in-manchester/`) go in after deploy; if GSC refuses, request them on the next free day.
 
