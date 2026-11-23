@@ -1104,6 +1104,114 @@ export const routePages: RoutePage[] = [
     ],
     reviewed: "November 2026",
   },
+  {
+    slug: "manchester-to-hull",
+    navLabel: "Manchester to Hull",
+    name: "Manchester to Hull",
+    h1: "Manchester to Hull Removals",
+    title: "Man and Van Manchester to Hull | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Hull and back: about 98 miles on the M62 and A63, the works at Whitley Bridge, the new Castle Street underpass, Hull's bus gates, parking for the van and the Humber Bridge toll.",
+    cardBlurb: "East along the M62 to its end, then the A63 into Hull.",
+    intro: [
+      "Manchester to Hull is about 98 miles, east on the M62 almost to its end and then along the A63 into the city, and Google Maps puts the drive at a little over two hours.",
+      "The price works the same in both directions. The Hull end changed this year: the A63 now runs under the Mytongate junction, and the city's bus gates and parking rules are worth knowing about before the day.",
+    ],
+    keyFacts: [
+      { label: "Road distance", value: "About 98 miles via the M62 and A63" },
+      { label: "M62 at Whitley Bridge", value: "50mph, lane 1 shut eastbound until April 2027" },
+      { label: "A63 Castle Street", value: "Mytongate underpass open since March 2026" },
+      { label: "Carr Lane bus gate", value: "Enforced 24 hours a day, 7 days a week" },
+      { label: "Humber Bridge", value: "£2 a crossing for a car or small van" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "The M62 East of Leeds",
+        body:
+          "From Manchester the van runs the length of the M62, east past Leeds and Goole, and the motorway becomes the A63 for the last stretch into Hull. At junction 34, Whitley Bridge, National Highways is upgrading the Flyboat bridge parapets from 21 September 2026 to the end of April 2027, with the hard shoulder and lane 1 closed eastbound around the clock, narrow lanes and a 50mph limit throughout.",
+        outro:
+          "The junction 34 eastbound entry slip is closed for the same work, which only matters for a collection near Whitley Bridge. The Pennine end of the M62 is covered on our [Manchester to Leeds](/routes/manchester-to-leeds/) page.",
+      },
+      {
+        h2: "The New Castle Street Underpass",
+        body:
+          "The A63 Castle Street runs along the waterfront through Hull city centre, and [National Highways](https://nationalhighways.co.uk/roads-and-travel/road-projects/yorkshire-and-north-east/a63-castle-street/) has spent six years and £355 million rebuilding it. At the Mytongate junction the A63 now drops into an underpass, with Ferensway and Commercial Road crossing over it. The underpass opened to traffic on 23 March 2026, and the junction was completed on 26 March.",
+        outro:
+          "National Highways is now upgrading the lighting at Daltry Street, at the west end of the city, with one slip road closed each night from 8pm to 6am on 25, 26 and 27 November and 4 December 2026, so a daytime move does not meet it. If your sat nav predates the new layout at Mytongate, follow the road signs.",
+      },
+      {
+        h2: "Hull's Bus Gates and Bus Lanes",
+        body:
+          "Carr Lane in the city centre is a bus gate, not a bus lane, and the [council's bus lane page](https://www.hull.gov.uk/roads-pavements/bus-lanes/3) says it operates 24 hours a day, 7 days a week. A vehicle that is not authorised to pass gets a penalty charge notice. Monument Bridge is also a bus gate, closed to general traffic all day, every day.",
+        outro:
+          "The bus lanes on the main roads, including Anlaby Road, Beverley Road, Holderness Road, Spring Bank and Ferensway, run Monday to Saturday from 7am to 9.30am and 4pm to 6.30pm, public holidays included, and only buses, licensed taxis and motorcycles may use them then. We plan the approach to a Hull address so the van keeps out of them.",
+      },
+      {
+        h2: "Parking a Removal Van in Hull",
+        body:
+          "Hull City Council does not publish a bay suspension for house moves. Its parking exemption permit is written for commercial vehicles doing maintenance or improvement work, is bought in person at a Hull library, and is not issued for some streets, including Anlaby Road, Beverley Road and Holderness Road.",
+        outro:
+          "In a residents' permit zone outside the city centre, residents can buy daily visitor permits at 75p each, up to 10 a month, though the council describes them as covering visitors' time limits, so check whether one suits a van. Loading follows the Highway Code: not where yellow kerb marks and signs show a loading ban. Tell us about parking at the Hull end when you book.",
+      },
+      {
+        h2: "The Humber Bridge Toll",
+        body:
+          "For a move across the estuary into North Lincolnshire, the van crosses the Humber Bridge. Its new toll system went live on 2 February 2026, and a car or small van under 3.5 tonnes pays £2.00 a crossing, or £1.50 with an account. A two axle vehicle between 3.5 and 7 tonnes pays £5.00, or £4.00 with an account.",
+        outro:
+          "The toll is paid online, by phone or at a PayPoint store, and it has to be paid by midnight the day after crossing, or an Unpaid Toll Notification follows with an admin fee added. If either address is south of the Humber, tell us when you book so the fixed price covers the crossing.",
+      },
+      {
+        h2: "What a Manchester to Hull Move Costs",
+        body:
+          "Hull is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. At about 98 miles each way, there is time to load, drive over and unload on the same day.",
+        outro:
+          "Hull is not on GOV.UK's list of charging Clean Air Zones, so the van pays no daily charge. The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Tell us if the Hull street is in a residents' permit zone or near Carr Lane.",
+      "If either address is south of the Humber, mention the bridge crossing.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "How far is Manchester to Hull?",
+        a: "About 98 miles by road, a little over two hours on the M62 and A63.",
+      },
+      {
+        q: "Is the A63 underpass in Hull open?",
+        a: "Yes. The underpass at the Mytongate junction opened to traffic on 23 March 2026, and National Highways completed the junction on 26 March.",
+      },
+      {
+        q: "Are there roadworks on the M62 towards Hull?",
+        a: "At junction 34, Whitley Bridge, the eastbound hard shoulder and lane 1 are closed with narrow lanes and a 50mph limit from 21 September 2026 to the end of April 2027.",
+      },
+      {
+        q: "Can a van drive through Carr Lane in Hull?",
+        a: "No. Carr Lane is a bus gate that operates 24 hours a day, 7 days a week, and an unauthorised vehicle gets a penalty charge notice.",
+      },
+      {
+        q: "How much is the Humber Bridge toll for a van?",
+        a: "£2.00 a crossing for a car or small van under 3.5 tonnes, or £1.50 with an account. A two axle vehicle between 3.5 and 7 tonnes pays £5.00, or £4.00 with an account. Pay by midnight the day after crossing.",
+      },
+      {
+        q: "Does Hull have a Clean Air Zone?",
+        a: "No. Hull is not on GOV.UK's list of charging Clean Air Zones.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Leeds removals", path: "/routes/manchester-to-leeds/" },
+      { label: "Manchester to York removals", path: "/routes/manchester-to-york/" },
+      { label: "Who to tell when you move house", path: "/moving-guides/who-to-tell-when-you-move-house/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "November 2026",
+  },
 ];
 
 export const getRoutePage = (slug: string) => routePages.find((p) => p.slug === slug);

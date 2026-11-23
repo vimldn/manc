@@ -83,6 +83,8 @@ page to scroll sideways on a phone.
 | 30 | 2026-11-10 | P2 | Moving Into a New Build Home in Manchester (guide) | `/moving-guides/moving-into-a-new-build-in-manchester/` |
 | 31 | 2026-11-18 | P2 | Manchester to York Removals | `/routes/manchester-to-york/` |
 | 31 | 2026-11-18 | P2 | Manchester to Nottingham Removals | `/routes/manchester-to-nottingham/` |
+| 32 | 2026-11-23 | P2 | Manchester to Hull Removals | `/routes/manchester-to-hull/` |
+| 32 | 2026-11-23 | P2 | Who to Tell When You Move House in Manchester (guide) | `/moving-guides/who-to-tell-when-you-move-house/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -139,6 +141,13 @@ access permit and the bay suspension. Nottingham publishes no bay suspension fee
 house move, so the Nottingham page covers the loading rules instead. The A52 closures
 on National Highways' Nottingham corridor page carry no year, so they are left out.
 
+Day 32 (2026-11-23): Hull City Council publishes no bay suspension for house moves,
+so the Hull page describes the parking exemption permit and visitor permits without
+promising either covers a removal van. Manchester City Council's council tax pages sit
+behind a Cloudflare check, so the who-to-tell guide gives no Manchester-specific council
+tax process. GOV.UK puts the fine for not registering when asked at up to £1,000; the
+£80 figure in press coverage is not on GOV.UK and is not used.
+
 Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
 dispensation fee, so four pages already make that negative point. Lead any
 further borough page on what the council does publish, not on the absence.
@@ -160,6 +169,8 @@ zones. /locations/hulme/ stays the generic man and van page. End of Term (day
 the university pages and /services/student-storage-manchester/.
 
 ## Indexing
+
+2026-11-23: day 31 pages were requested on 2026-11-18 (accepted). Day 32 pages (`/routes/manchester-to-hull/`, `/moving-guides/who-to-tell-when-you-move-house/`) go in after deploy; if GSC refuses, request them on the next free day.
 
 2026-11-18: day 30 pages were requested on 2026-11-10 (accepted). Day 31 pages (`/routes/manchester-to-york/`, `/routes/manchester-to-nottingham/`) go in after deploy; if GSC refuses, request them on the next free day.
 

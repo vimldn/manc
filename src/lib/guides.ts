@@ -1347,7 +1347,7 @@ export const guides: Guide[] = [
       {
         h2: "Child Benefit and the Other Records",
         body: [
-          "HMRC needs to know when you move. Its guidance is direct: if you do not report a change of address and HMRC is not able to contact you, your Child Benefit payments will stop. One change of address service covers Child Benefit along with Income Tax and National Insurance, so it is a single job.",
+          "HMRC needs to know when you move. Its guidance is direct: if you do not report a change of address and HMRC is not able to contact you, your Child Benefit payments will stop. One change of address service covers Child Benefit along with Income Tax and National Insurance, so it is a single job, and our list of [who to tell when you move house](/moving-guides/who-to-tell-when-you-move-house/) covers the rest.",
           "Free school transport in England depends on the distance between home and school, so a new address can change whether a child qualifies. If your child gets it now, check again with the new council once the move date is fixed.",
         ],
       },
@@ -1642,7 +1642,7 @@ export const guides: Guide[] = [
         h2: "The Paperwork That Follows",
         body: [
           "Stamp Duty Land Tax has to be returned and paid within 14 days of completion. In practice your solicitor or conveyancer usually files the return and pays on completion day, then adds it to their bill; missing the deadline brings penalties and interest.",
-          "After the move, your legal representative registers the change of ownership with HM Land Registry. The rest is yours to do: council tax at both ends, the electoral register, and redirecting the post.",
+          "After the move, your legal representative registers the change of ownership with HM Land Registry. The rest is yours to do: [council tax at both ends, the electoral register, and redirecting the post](/moving-guides/who-to-tell-when-you-move-house/).",
         ],
       },
       {
@@ -1969,6 +1969,102 @@ export const guides: Guide[] = [
       {
         q: "Why can't the removal van find my new build?",
         a: "New addresses can take months to reach sat navs, because mapping providers only update their data every six months or so. Give us the plot number, the nearest established road and a map pin when you book.",
+      },
+    ],
+  },
+  {
+    slug: "who-to-tell-when-you-move-house",
+    title: "Who to Tell When You Move House | Frank's Van and Man Manchester",
+    h1: "Who to Tell When You Move House in Manchester",
+    metaDescription:
+      "Who to tell when you move house in Manchester: DVLA and the £1,000 fine, council tax, the electoral register and the 2026 voting bill, HMRC, benefits, your GP and post redirection prices.",
+    updated: "2026-11-23",
+    answer:
+      "Set up post redirection before moving day, then tell DVLA, the council, the electoral register, HMRC and any benefit office once you have moved, and register with a GP near the new address if you change surgery. Changing the address on a driving licence is free, and not doing it can bring a fine of up to £1,000.",
+    sections: [
+      {
+        h2: "Before Moving Day",
+        body: [
+          "Post redirection is the one job to set up before the van arrives. Royal Mail redirects mail to a new UK or overseas address for 3, 6 or 12 months, and the Post Office lists the price for the lead applicant at £45, £66.50 and £95, with £11 to £13.50 for each extra person. People receiving Universal Credit or Pension Credit can get a concession price, and there is no fee for under 16s.",
+          "Council tax is billed by the council for each address, so tell the council you are leaving which date you move out, and register at the new address when you arrive. For a move within Manchester it is the same council, but it still needs the date. Our [completion day guide](/moving-guides/completion-day-moving-house/) covers what else happens on the day itself.",
+        ],
+      },
+      {
+        h2: "Your Licence, Log Book and Vehicle Tax",
+        body: [
+          "Changing the address on a driving licence costs nothing. Apply online and the new licence should arrive within a week, and you can keep driving while you wait. Changing the photo at the same time costs £14. You can be fined up to £1,000 if you do not tell DVLA when your address changes.",
+          "The vehicle log book, the V5C, has to be updated too, and that is usually free online. If the car needs taxing in the next four weeks, tax it on the current V5C before changing the address. Contact DVLA if the new log book has not arrived after four weeks; after six weeks without telling DVLA, a replacement costs £25. If you pay vehicle tax by Direct Debit, tell DVLA about that separately, and update a personalised registration document, the V750 or V778, if you have one.",
+        ],
+      },
+      {
+        h2: "The Electoral Register and the 2026 Voting Bill",
+        body: [
+          "You have to register to vote again after you move. It takes about five minutes online and asks for your National Insurance number. If an electoral registration officer asks you to register and you do not, GOV.UK says you could be fined up to £1,000.",
+          "That could change. The Representation of the People Bill, introduced on 12 February 2026 and reintroduced on 14 May 2026, would lower the voting age to 16 for all UK elections and let electoral registration officers update a register entry without an application once they know someone has moved, for example from a council tax change of address. In late November 2026 the Bill was at committee stage in the House of Lords and not yet law, so for now you still re-register yourself.",
+        ],
+      },
+      {
+        h2: "HMRC, Benefits and Pensions",
+        body: [
+          "HMRC has one online service that updates your address for Child Benefit, Income Tax, National Insurance and State Pension. You sign in to your personal tax account, and you can only use it once you have moved. Our guide to [moving house with children](/moving-guides/moving-house-with-children/) explains why the Child Benefit part matters.",
+          "Moving house is one of the changes you must report if you get benefits, and each benefit is reported separately: Universal Credit through your online account, Housing Benefit to your local council, Pension Credit to the Pension Service, and other benefits to Jobcentre Plus. If you do not report it, you might be paid too much, have to pay some back and face a £50 penalty. Tell Us Once is only for when someone dies, so it does not cover a move.",
+        ],
+      },
+      {
+        h2: "Registering With a GP",
+        body: [
+          "If you are moving out of your surgery's area, register with a GP near the new address. The NHS says you do not need ID, proof of address or proof of immigration status, the online form takes about 15 minutes for each person, and you usually hear within five days of the surgery getting your details.",
+          "A surgery can refuse you if you live outside its area, and it must write to you within 14 days to explain why. If you are staying with the same surgery, tell it your new address directly.",
+        ],
+      },
+      {
+        h2: "Everything Else on the List",
+        body: [
+          "The rest are organisations only you know about: your bank and card providers, insurers for the home, contents and car, mobile and broadband, energy and water, any pension schemes, your employer, and TV Licensing, whose website lets you update the address online. Take meter readings at both addresses on moving day.",
+          "If you are still planning the move itself, our [house removals](/services/house-removals/) page explains how we price it, and the guide to [reserving parking for a move](/moving-guides/how-to-reserve-parking-for-a-move-in-manchester/) covers the van at a Manchester address.",
+        ],
+      },
+    ],
+    related: [
+      { label: "House removals", href: "/services/house-removals/" },
+      { label: "Completion day when moving house", href: "/moving-guides/completion-day-moving-house/" },
+      { label: "Moving house with children", href: "/moving-guides/moving-house-with-children/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      {
+        label: "GOV.UK: change the address on your driving licence",
+        href: "https://www.gov.uk/change-address-driving-licence",
+      },
+      {
+        label: "NHS: how to register with a GP surgery",
+        href: "https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/",
+      },
+    ],
+    faqs: [
+      {
+        q: "Who should I tell when I move house?",
+        a: "DVLA, the council, the electoral register, HMRC and any benefit office, your GP if you change surgery, and your bank, insurers, employer, utilities and TV Licensing. Set up post redirection before moving day.",
+      },
+      {
+        q: "Is it free to change the address on my driving licence?",
+        a: "Yes. It costs nothing, the new licence should arrive within a week if you apply online, and you can drive while you wait. Not telling DVLA can bring a fine of up to £1,000.",
+      },
+      {
+        q: "Do I need to register to vote again after moving?",
+        a: "Yes, and it takes about five minutes online. The Representation of the People Bill would let registration officers update the register when they know you have moved, but it is not yet law.",
+      },
+      {
+        q: "How much is Royal Mail redirection?",
+        a: "The Post Office lists £45 for 3 months, £66.50 for 6 months and £95 for 12 months for the lead applicant, and there is a concession price for people receiving Universal Credit or Pension Credit.",
+      },
+      {
+        q: "Do I need proof of address to register with a GP?",
+        a: "No. The NHS says you do not need ID, proof of address or proof of immigration status to register with a GP surgery.",
+      },
+      {
+        q: "Does Tell Us Once work when you move house?",
+        a: "No. Tell Us Once is for reporting a death. When you move, you tell each organisation yourself.",
       },
     ],
   },
