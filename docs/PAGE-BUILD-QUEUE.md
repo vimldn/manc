@@ -85,6 +85,7 @@ page to scroll sideways on a phone.
 | 31 | 2026-11-18 | P2 | Manchester to Nottingham Removals | `/routes/manchester-to-nottingham/` |
 | 32 | 2026-11-23 | P2 | Manchester to Hull Removals | `/routes/manchester-to-hull/` |
 | 32 | 2026-11-23 | P2 | Who to Tell When You Move House in Manchester (guide) | `/moving-guides/who-to-tell-when-you-move-house/` |
+| 33 | 2026-11-24 | P2 | Manchester to Leicester Removals | `/routes/manchester-to-leicester/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -148,6 +149,12 @@ behind a Cloudflare check, so the who-to-tell guide gives no Manchester-specific
 tax process. GOV.UK puts the fine for not registering when asked at up to £1,000; the
 £80 figure in press coverage is not on GOV.UK and is not used.
 
+Day 33 (2026-11-24): from today the owner's instruction is ONE page per site per day,
+two in total across Manchester and Cardiff. leicester.gov.uk is 403 to WebFetch, so the
+Leicester page gives no bay suspension process or fee and does not quote the 2006
+consolidation order's loading rules, which a newer order may have replaced. The A594
+red route clearway is described as announced in June 2026, not as confirmed in force.
+
 Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
 dispensation fee, so four pages already make that negative point. Lead any
 further borough page on what the council does publish, not on the absence.
@@ -169,6 +176,8 @@ zones. /locations/hulme/ stays the generic man and van page. End of Term (day
 the university pages and /services/student-storage-manchester/.
 
 ## Indexing
+
+2026-11-24: day 32 pages were requested on 2026-11-23 (accepted). Day 33 page (`/routes/manchester-to-leicester/`) goes in after deploy; if GSC refuses, request it on the next free day.
 
 2026-11-23: day 31 pages were requested on 2026-11-18 (accepted). Day 32 pages (`/routes/manchester-to-hull/`, `/moving-guides/who-to-tell-when-you-move-house/`) go in after deploy; if GSC refuses, request them on the next free day.
 

@@ -1212,6 +1212,107 @@ export const routePages: RoutePage[] = [
     ],
     reviewed: "November 2026",
   },
+  {
+    slug: "manchester-to-leicester",
+    navLabel: "Manchester to Leicester",
+    name: "Manchester to Leicester",
+    h1: "Manchester to Leicester Removals",
+    title: "Man and Van Manchester to Leicester | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Leicester and back: about 105 miles via the M6, A50 and M1, the M6 works near Crewe, Leicester's 24 hour bus gates, its red routes and camera car, and parking for the van.",
+    cardBlurb: "South on the M6, across on the A50, into a city of red routes.",
+    intro: [
+      "Manchester to Leicester is about 105 miles. Google Maps' usual route takes the M56 and M6 south, the A500 and A50 across to the M1, and the M1 south to junction 22 for the A50 into Leicester, at a little over two hours in ordinary traffic.",
+      "The price works the same in both directions. The roads into Leicester are the part to plan for: the city enforces its bus gates by camera around the clock, and on its red routes a van cannot stop even to unload.",
+    ],
+    keyFacts: [
+      { label: "Road distance", value: "About 105 miles via the M6, A50 and M1" },
+      { label: "M6 Knutsford to Crewe", value: "Overnight closures until summer 2027" },
+      { label: "Bus gates", value: "Camera enforced 24 hours a day" },
+      { label: "Red routes", value: "No stopping, even for deliveries" },
+      { label: "Clean Air Zone", value: "None in Leicester" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "The M6 and the A50",
+        body:
+          "From Manchester the van takes the M56 to the M6 and heads south, leaving at junction 16 for the A500 past Stoke. The A50 then runs east past Uttoxeter and Derby to the M1 at junction 24, the same motorway that carries moves to [Nottingham](/routes/manchester-to-nottingham/), and the van follows it south to junction 22 for the A50 into Leicester.",
+        outro:
+          "Between junction 19 at Knutsford and junction 16 at Crewe, [National Highways](https://nationalhighways.co.uk/roads-and-travel/road-projects/north-west/north-west-maintenance-schemes/) is resurfacing the M6 from 14 October 2026 to summer 2027, with lane and slip road closures from 9pm to 6am on weekdays and weekends throughout. A daytime move runs clear of them, but an early start before 6am can meet them, so we time the departure around the works.",
+      },
+      {
+        h2: "Bus Gates in Leicester",
+        body:
+          "Leicester City Council enforces its bus gates and bus lanes by camera, 24 hours a day, seven days a week. In the city centre the bus gates are on Charles Street, in both directions, Causeway Lane, Rutland Street, Horsefair Street and Abbey Street, and there are two more on Duns Lane and Thurcaston Road.",
+        outro:
+          "Cameras also watch bus lanes on roads including London Road, Narborough Road, Melton Road and the A50 Groby Road inbound, which is the way in from the M1, and the yellow box junctions at Abbey Street and Gravel Street and at Vaughan Way and Causeway Lane. We plan the approach to a Leicester address before the day so the van stays out of all of them.",
+      },
+      {
+        h2: "Red Routes and the Camera Car",
+        body:
+          "Leicester has red routes, where stopping is banned outright. On the A6, along Abbey Lane and St Margaret's Way between the inner ring road and Red Hill Circle, [the council's red route rules](https://news.leicester.gov.uk/news-articles/2025/february/new-red-route-to-be-introduced-on-busy-city-road) mean no vehicle may stop at any time where there are double red lines, even to drop off or collect deliveries. Parts of London Road have had a red route since 2020, and in June 2026 the council announced a red route clearway on Burleys Way, St Matthews Way and St George's Way, marked by signs rather than red lines, to join the two.",
+        outro:
+          "Stopping on a red route brings a £70 penalty, reduced to £35 if paid within 21 days. From April 2026 the council has also run a CCTV car that issues £70 penalties for illegal parking in places with no fixed camera, so a van left on a red route can be ticketed anywhere along it. An address on one of these roads needs a side street to load from, and we find one before the day.",
+      },
+      {
+        h2: "Parking and Permits in Leicester",
+        body:
+          "Leicester runs residents' parking zones, and the newest, in Stoneygate around Evington Road, started on 17 November 2025 and covers about 1,300 homes and businesses. Under the council's permit scheme a residents' permit costs £35 a year, and residents can buy visitor permits at £40 a year or £2 for 24 hours.",
+        outro:
+          "A vehicle parked in a zone without a valid permit gets a £70 penalty, reduced to £35 if paid within 14 days. If you are moving into a permit zone, apply for your own permit as soon as you have the address, and tell us the street when you book so we can plan where the van will stand.",
+      },
+      {
+        h2: "What a Manchester to Leicester Move Costs",
+        body:
+          "Leicester is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. At about 105 miles each way, there is time to load, drive down and unload on the same day.",
+        outro:
+          "Leicester is not on GOV.UK's list of charging Clean Air Zones, so the van pays no daily charge. The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Tell us if the Leicester street is in a residents' permit zone or on a red route.",
+      "If the address is in the city centre, mention it so we can plan a way in that avoids the bus gates.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "How far is Manchester to Leicester?",
+        a: "About 105 miles by road, a little over two hours via the M6, A50 and M1.",
+      },
+      {
+        q: "Are there roadworks on the M6 towards Leicester?",
+        a: "Between junction 19 at Knutsford and junction 16 at Crewe, the M6 is being resurfaced from 14 October 2026 to summer 2027, with overnight lane and slip road closures from 9pm to 6am. A daytime move avoids them.",
+      },
+      {
+        q: "Can a removal van stop on a red route in Leicester?",
+        a: "No. On a red route no vehicle may stop at any time, even for deliveries, and the penalty is £70, or £35 if paid within 21 days. The A6 Abbey Lane and St Margaret's Way and parts of London Road are red routes.",
+      },
+      {
+        q: "Where are the bus gates in Leicester?",
+        a: "Charles Street, Causeway Lane, Rutland Street, Horsefair Street, Abbey Street, Duns Lane and Thurcaston Road. All of them are enforced by camera 24 hours a day, seven days a week.",
+      },
+      {
+        q: "Does Leicester have a Clean Air Zone?",
+        a: "No. Leicester is not on GOV.UK's list of charging Clean Air Zones, so a van pays no daily charge.",
+      },
+      {
+        q: "How much is a visitor parking permit in Leicester?",
+        a: "Residents can buy visitor permits at £2 for 24 hours or £40 a year. A residents' permit costs £35 a year.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Nottingham removals", path: "/routes/manchester-to-nottingham/" },
+      { label: "Manchester to Birmingham removals", path: "/routes/manchester-to-birmingham/" },
+      { label: "Manchester to Sheffield removals", path: "/routes/manchester-to-sheffield/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "November 2026",
+  },
 ];
 
 export const getRoutePage = (slug: string) => routePages.find((p) => p.slug === slug);
