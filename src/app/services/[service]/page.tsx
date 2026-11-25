@@ -9,6 +9,7 @@ import JsonLd from "@/components/JsonLd";
 import RichText from "@/components/RichText";
 import RecentMoves from "@/components/RecentMoves";
 import CallLink from "@/components/CallLink";
+import { priceRows, priceExtras } from "@/lib/pricing";
 import { site } from "@/lib/config";
 import { services, getService } from "@/lib/services";
 import { getServiceDetails } from "@/lib/serviceDetails";
@@ -73,6 +74,7 @@ export default function ServicePage({ params }: { params: { service: string } })
           <h1 className="text-3xl font-extrabold text-gray-900">{s.h1}</h1>
           <p className="mt-4 text-lg text-gray-700">{s.intro}</p>
 
+          {s.slug === "man-and-van-hire" && <section className="mt-6 rounded-lg border border-gray-200 p-5"><h2 className="text-xl font-bold">Hourly hire guide prices</h2><dl className="mt-3 divide-y">{priceRows.filter(r => ["one-small", "one-large", "two-large", "two-luton"].includes(r.key)).map(r => <div key={r.key} className="flex justify-between gap-3 py-3"><dt>{r.label}</dt><dd className="font-semibold">{r.from}</dd></div>)}</dl><p className="mt-3 text-sm">Minimum booking: {priceExtras.find(e => e.label === "Minimum booking")?.value}. Final price confirmed before booking.</p><Link href="/quote/" className="mt-4 inline-block rounded-md bg-cta px-5 py-3 font-bold text-white">Get an hourly hire quote</Link></section>}
           {s.sections.map((sec) => (
             <section key={sec.h2} className="mt-8">
               <h2 className="text-xl font-bold text-gray-900">{sec.h2}</h2>
