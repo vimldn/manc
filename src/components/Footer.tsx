@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { movingDirectories } from "@/lib/movingDirectories";
 import Brand from "./Brand";
 import { site, isReal } from "@/lib/config";
 import { services } from "@/lib/services";
@@ -106,6 +107,7 @@ export default function Footer() {
                   Moving Guides
                 </Link>
               </li>
+              {movingDirectories.map(h=><li key={h.slug}><Link href={"/"+h.slug+"/"} className="hover:text-white">{h.name}</Link></li>)}
               <li>
                 <Link href="/insurance-and-compliance/" className="hover:text-white">
                   Insurance &amp; Compliance

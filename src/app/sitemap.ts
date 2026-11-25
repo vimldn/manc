@@ -8,6 +8,7 @@ import { guides } from "@/lib/guides";
 import { studentPages } from "@/lib/studentRemovals";
 import { routePages } from "@/lib/routePages";
 import { getPublishedStudentArticles, getStudentPhoto } from "@/lib/studentArticles";
+import { movingDirectories, directorySpokes } from "@/lib/movingDirectories";
 import previousDates from "@/content/sitemap-dates.json";
 
 export const dynamic = "force-dynamic";
@@ -138,6 +139,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries = new Map<string, { path: string; priority: number; lastModified?: Date; images?: string[] }>(
     baseEntries.map((entry) => [entry.path, { ...entry }]),
   );
+  for (const hub of movingDirectories) { const path = `/${hub.slug}/`; entries.set(path, {path, priority:0.7}); }
+  for (const p of directorySpokes) { const path = `/${p.silo}/${p.slug}/`; entries.set(path,{path,priority:0.7,lastModified:new Date(p.publishedAt),images:[site.url+p.image]}); }
   const published = getPublishedStudentArticles();
   for (const article of published) {
     const path = `/moving-guides/${article.slug}/`;

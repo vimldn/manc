@@ -1,0 +1,1322 @@
+[
+  {
+    "id": 1,
+    "silo": "apartment-buildings",
+    "name": "Deansgate Square",
+    "status": "candidate"
+  },
+  {
+    "id": 2,
+    "silo": "apartment-buildings",
+    "name": "Beetham Tower",
+    "status": "candidate"
+  },
+  {
+    "id": 3,
+    "silo": "apartment-buildings",
+    "name": "Oxygen Towers",
+    "status": "candidate"
+  },
+  {
+    "id": 4,
+    "silo": "apartment-buildings",
+    "name": "Kampus",
+    "status": "candidate"
+  },
+  {
+    "id": 5,
+    "silo": "apartment-buildings",
+    "name": "Elizabeth Tower",
+    "status": "candidate"
+  },
+  {
+    "id": 6,
+    "silo": "apartment-buildings",
+    "name": "Castle Wharf",
+    "status": "candidate"
+  },
+  {
+    "id": 7,
+    "silo": "apartment-buildings",
+    "name": "Viadux",
+    "status": "candidate"
+  },
+  {
+    "id": 8,
+    "silo": "apartment-buildings",
+    "name": "One Regent",
+    "status": "candidate"
+  },
+  {
+    "id": 9,
+    "silo": "apartment-buildings",
+    "name": "Three60",
+    "status": "candidate"
+  },
+  {
+    "id": 10,
+    "silo": "apartment-buildings",
+    "name": "Vista River Gardens",
+    "status": "candidate"
+  },
+  {
+    "id": 11,
+    "silo": "apartment-buildings",
+    "name": "Victoria Residence",
+    "status": "candidate"
+  },
+  {
+    "id": 12,
+    "silo": "apartment-buildings",
+    "name": "Angel Gardens",
+    "status": "candidate"
+  },
+  {
+    "id": 13,
+    "silo": "apartment-buildings",
+    "name": "Ancoats Gardens",
+    "status": "candidate"
+  },
+  {
+    "id": 14,
+    "silo": "apartment-buildings",
+    "name": "Anco&co",
+    "status": "candidate"
+  },
+  {
+    "id": 15,
+    "silo": "apartment-buildings",
+    "name": "Royal Mills",
+    "status": "candidate"
+  },
+  {
+    "id": 16,
+    "silo": "apartment-buildings",
+    "name": "The Ice Plant",
+    "status": "candidate"
+  },
+  {
+    "id": 17,
+    "silo": "apartment-buildings",
+    "name": "Smith's Yard",
+    "status": "candidate"
+  },
+  {
+    "id": 18,
+    "silo": "apartment-buildings",
+    "name": "Sawmill Court",
+    "status": "candidate"
+  },
+  {
+    "id": 19,
+    "silo": "apartment-buildings",
+    "name": "Cotton Field Wharf",
+    "status": "candidate"
+  },
+  {
+    "id": 20,
+    "silo": "apartment-buildings",
+    "name": "One Vesta Street",
+    "status": "candidate"
+  },
+  {
+    "id": 21,
+    "silo": "apartment-buildings",
+    "name": "Weavers Quay",
+    "status": "candidate"
+  },
+  {
+    "id": 22,
+    "silo": "apartment-buildings",
+    "name": "Lampwick Quay",
+    "status": "candidate"
+  },
+  {
+    "id": 23,
+    "silo": "apartment-buildings",
+    "name": "Burlington House",
+    "status": "candidate"
+  },
+  {
+    "id": 24,
+    "silo": "apartment-buildings",
+    "name": "Flint Glass Wharf",
+    "status": "candidate"
+  },
+  {
+    "id": 25,
+    "silo": "apartment-buildings",
+    "name": "One Silk Street",
+    "status": "candidate"
+  },
+  {
+    "id": 26,
+    "silo": "apartment-buildings",
+    "name": "Victoria House",
+    "status": "candidate"
+  },
+  {
+    "id": 27,
+    "silo": "apartment-buildings",
+    "name": "Broadside",
+    "status": "candidate"
+  },
+  {
+    "id": 28,
+    "silo": "apartment-buildings",
+    "name": "Swan Street House",
+    "status": "candidate"
+  },
+  {
+    "id": 29,
+    "silo": "apartment-buildings",
+    "name": "Transmission House",
+    "status": "candidate"
+  },
+  {
+    "id": 30,
+    "silo": "apartment-buildings",
+    "name": "The Astley",
+    "status": "candidate"
+  },
+  {
+    "id": 31,
+    "silo": "apartment-buildings",
+    "name": "Poplin",
+    "status": "candidate"
+  },
+  {
+    "id": 32,
+    "silo": "apartment-buildings",
+    "name": "The Castings",
+    "status": "candidate"
+  },
+  {
+    "id": 33,
+    "silo": "apartment-buildings",
+    "name": "Waterhouse Gardens",
+    "status": "candidate"
+  },
+  {
+    "id": 34,
+    "silo": "apartment-buildings",
+    "name": "MeadowSide",
+    "status": "candidate"
+  },
+  {
+    "id": 35,
+    "silo": "apartment-buildings",
+    "name": "New Victoria",
+    "status": "candidate"
+  },
+  {
+    "id": 36,
+    "silo": "apartment-buildings",
+    "name": "Century Buildings",
+    "status": "candidate"
+  },
+  {
+    "id": 37,
+    "silo": "apartment-buildings",
+    "name": "No. 1 Deansgate",
+    "status": "candidate"
+  },
+  {
+    "id": 38,
+    "silo": "apartment-buildings",
+    "name": "Leftbank",
+    "status": "candidate"
+  },
+  {
+    "id": 39,
+    "silo": "apartment-buildings",
+    "name": "The Quadrangle",
+    "status": "candidate"
+  },
+  {
+    "id": 40,
+    "silo": "apartment-buildings",
+    "name": "Chorlton Mill",
+    "status": "candidate"
+  },
+  {
+    "id": 41,
+    "silo": "apartment-buildings",
+    "name": "Potato Wharf",
+    "status": "candidate"
+  },
+  {
+    "id": 42,
+    "silo": "apartment-buildings",
+    "name": "The Trilogy",
+    "status": "candidate"
+  },
+  {
+    "id": 43,
+    "silo": "apartment-buildings",
+    "name": "VOX",
+    "status": "candidate"
+  },
+  {
+    "id": 44,
+    "silo": "apartment-buildings",
+    "name": "Union",
+    "status": "candidate"
+  },
+  {
+    "id": 45,
+    "silo": "apartment-buildings",
+    "name": "uhaus",
+    "status": "candidate"
+  },
+  {
+    "id": 46,
+    "silo": "apartment-buildings",
+    "name": "The James Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 47,
+    "silo": "apartment-buildings",
+    "name": "The Residences Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 48,
+    "silo": "apartment-buildings",
+    "name": "The Skyline 2",
+    "status": "candidate"
+  },
+  {
+    "id": 49,
+    "silo": "apartment-buildings",
+    "name": "The Tribe",
+    "status": "candidate"
+  },
+  {
+    "id": 50,
+    "silo": "apartment-buildings",
+    "name": "Podium Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 51,
+    "silo": "apartment-buildings",
+    "name": "Fairfax",
+    "status": "candidate"
+  },
+  {
+    "id": 52,
+    "silo": "apartment-buildings",
+    "name": "The Quarters",
+    "status": "candidate"
+  },
+  {
+    "id": 53,
+    "silo": "apartment-buildings",
+    "name": "Pomona Wharf",
+    "status": "candidate"
+  },
+  {
+    "id": 54,
+    "silo": "apartment-buildings",
+    "name": "3Towers",
+    "status": "candidate"
+  },
+  {
+    "id": 55,
+    "silo": "apartment-buildings",
+    "name": "Apple Building",
+    "status": "candidate"
+  },
+  {
+    "id": 56,
+    "silo": "apartment-buildings",
+    "name": "Devell House",
+    "status": "candidate"
+  },
+  {
+    "id": 57,
+    "silo": "apartment-buildings",
+    "name": "Elevate",
+    "status": "candidate"
+  },
+  {
+    "id": 58,
+    "silo": "apartment-buildings",
+    "name": "Hulme Living",
+    "status": "candidate"
+  },
+  {
+    "id": 59,
+    "silo": "apartment-buildings",
+    "name": "The Gateway",
+    "status": "candidate"
+  },
+  {
+    "id": 60,
+    "silo": "apartment-buildings",
+    "name": "Academy Apartments",
+    "status": "candidate"
+  },
+  {
+    "id": 61,
+    "silo": "apartment-buildings",
+    "name": "Botanica",
+    "status": "candidate"
+  },
+  {
+    "id": 62,
+    "silo": "apartment-buildings",
+    "name": "Westpoint",
+    "status": "candidate"
+  },
+  {
+    "id": 63,
+    "silo": "apartment-buildings",
+    "name": "Talbot",
+    "status": "candidate"
+  },
+  {
+    "id": 64,
+    "silo": "apartment-buildings",
+    "name": "Urban Green",
+    "status": "candidate"
+  },
+  {
+    "id": 65,
+    "silo": "apartment-buildings",
+    "name": "Trafford Gardens",
+    "status": "candidate"
+  },
+  {
+    "id": 66,
+    "silo": "apartment-buildings",
+    "name": "Merchant's Wharf",
+    "status": "candidate"
+  },
+  {
+    "id": 67,
+    "silo": "apartment-buildings",
+    "name": "Wilburn Basin",
+    "status": "candidate"
+  },
+  {
+    "id": 68,
+    "silo": "apartment-buildings",
+    "name": "The Waterhouse",
+    "status": "candidate"
+  },
+  {
+    "id": 69,
+    "silo": "apartment-buildings",
+    "name": "Alto",
+    "status": "candidate"
+  },
+  {
+    "id": 70,
+    "silo": "apartment-buildings",
+    "name": "Local Blackfriars",
+    "status": "candidate"
+  },
+  {
+    "id": 71,
+    "silo": "apartment-buildings",
+    "name": "Local Crescent",
+    "status": "candidate"
+  },
+  {
+    "id": 72,
+    "silo": "apartment-buildings",
+    "name": "Embankment Exchange",
+    "status": "candidate"
+  },
+  {
+    "id": 73,
+    "silo": "apartment-buildings",
+    "name": "Affinity Living Embankment West",
+    "status": "candidate"
+  },
+  {
+    "id": 74,
+    "silo": "apartment-buildings",
+    "name": "Affinity Living Riverview",
+    "status": "candidate"
+  },
+  {
+    "id": 75,
+    "silo": "apartment-buildings",
+    "name": "Affinity Living Riverside",
+    "status": "candidate"
+  },
+  {
+    "id": 76,
+    "silo": "apartment-buildings",
+    "name": "Anaconda Cut",
+    "status": "candidate"
+  },
+  {
+    "id": 77,
+    "silo": "apartment-buildings",
+    "name": "Chapel Wharf",
+    "status": "candidate"
+  },
+  {
+    "id": 78,
+    "silo": "apartment-buildings",
+    "name": "Clippers Quay",
+    "status": "candidate"
+  },
+  {
+    "id": 79,
+    "silo": "apartment-buildings",
+    "name": "Colliers Yard",
+    "status": "candidate"
+  },
+  {
+    "id": 80,
+    "silo": "apartment-buildings",
+    "name": "Dock 5",
+    "status": "candidate"
+  },
+  {
+    "id": 81,
+    "silo": "apartment-buildings",
+    "name": "Duet MediaCityUK",
+    "status": "candidate"
+  },
+  {
+    "id": 82,
+    "silo": "apartment-buildings",
+    "name": "Eda",
+    "status": "candidate"
+  },
+  {
+    "id": 83,
+    "silo": "apartment-buildings",
+    "name": "Empyrean",
+    "status": "candidate"
+  },
+  {
+    "id": 84,
+    "silo": "apartment-buildings",
+    "name": "GreenGate",
+    "status": "candidate"
+  },
+  {
+    "id": 85,
+    "silo": "apartment-buildings",
+    "name": "New Maker Yards",
+    "status": "candidate"
+  },
+  {
+    "id": 86,
+    "silo": "apartment-buildings",
+    "name": "Oldfield Wharf",
+    "status": "candidate"
+  },
+  {
+    "id": 87,
+    "silo": "apartment-buildings",
+    "name": "Oxbow",
+    "status": "candidate"
+  },
+  {
+    "id": 88,
+    "silo": "apartment-buildings",
+    "name": "The Filaments",
+    "status": "candidate"
+  },
+  {
+    "id": 89,
+    "silo": "apartment-buildings",
+    "name": "The Green Rooms",
+    "status": "candidate"
+  },
+  {
+    "id": 90,
+    "silo": "apartment-buildings",
+    "name": "The Slate Yard",
+    "status": "candidate"
+  },
+  {
+    "id": 91,
+    "silo": "apartment-buildings",
+    "name": "Lightbox",
+    "status": "candidate"
+  },
+  {
+    "id": 92,
+    "silo": "apartment-buildings",
+    "name": "Clay Salford Quays",
+    "status": "candidate"
+  },
+  {
+    "id": 93,
+    "silo": "apartment-buildings",
+    "name": "Cenza",
+    "status": "candidate"
+  },
+  {
+    "id": 94,
+    "silo": "apartment-buildings",
+    "name": "Albion Place",
+    "status": "candidate"
+  },
+  {
+    "id": 95,
+    "silo": "apartment-buildings",
+    "name": "Axis Tower",
+    "status": "candidate"
+  },
+  {
+    "id": 96,
+    "silo": "apartment-buildings",
+    "name": "Manchester New Square",
+    "status": "candidate"
+  },
+  {
+    "id": 97,
+    "silo": "apartment-buildings",
+    "name": "City Gardens",
+    "status": "candidate"
+  },
+  {
+    "id": 98,
+    "silo": "apartment-buildings",
+    "name": "Bridgewater Wharf",
+    "status": "candidate"
+  },
+  {
+    "id": 99,
+    "silo": "apartment-buildings",
+    "name": "Weavers House",
+    "status": "candidate"
+  },
+  {
+    "id": 100,
+    "silo": "apartment-buildings",
+    "name": "Elisabeth Gardens",
+    "status": "candidate"
+  },
+  {
+    "id": 101,
+    "silo": "new-build-developments",
+    "name": "Thorley Glade Altrincham",
+    "status": "candidate"
+  },
+  {
+    "id": 102,
+    "silo": "new-build-developments",
+    "name": "Fern Lodge Ashton-under-Lyne",
+    "status": "candidate"
+  },
+  {
+    "id": 103,
+    "silo": "new-build-developments",
+    "name": "Rivington Grange Horwich",
+    "status": "candidate"
+  },
+  {
+    "id": 104,
+    "silo": "new-build-developments",
+    "name": "Willow Bank Ramsbottom",
+    "status": "candidate"
+  },
+  {
+    "id": 105,
+    "silo": "new-build-developments",
+    "name": "Whittle Rise Heywood",
+    "status": "candidate"
+  },
+  {
+    "id": 106,
+    "silo": "new-build-developments",
+    "name": "Viscount Green Horwich",
+    "status": "candidate"
+  },
+  {
+    "id": 107,
+    "silo": "new-build-developments",
+    "name": "Brook House Place Urmston",
+    "status": "candidate"
+  },
+  {
+    "id": 108,
+    "silo": "new-build-developments",
+    "name": "Hawks View Castleton",
+    "status": "candidate"
+  },
+  {
+    "id": 109,
+    "silo": "new-build-developments",
+    "name": "Eliza Yard Ancoats",
+    "status": "candidate"
+  },
+  {
+    "id": 110,
+    "silo": "new-build-developments",
+    "name": "Boarshaw Clough Middleton",
+    "status": "candidate"
+  },
+  {
+    "id": 111,
+    "silo": "new-build-developments",
+    "name": "Haven View Oldham",
+    "status": "candidate"
+  },
+  {
+    "id": 112,
+    "silo": "new-build-developments",
+    "name": "Lime Grove Woodley",
+    "status": "candidate"
+  },
+  {
+    "id": 113,
+    "silo": "new-build-developments",
+    "name": "Wildhouse Meadows Milnrow",
+    "status": "candidate"
+  },
+  {
+    "id": 114,
+    "silo": "new-build-developments",
+    "name": "Phoenix Quarter Salford",
+    "status": "candidate"
+  },
+  {
+    "id": 115,
+    "silo": "new-build-developments",
+    "name": "Tawny View Chadderton",
+    "status": "candidate"
+  },
+  {
+    "id": 116,
+    "silo": "new-build-developments",
+    "name": "Willowbrook Fields Hindley",
+    "status": "candidate"
+  },
+  {
+    "id": 117,
+    "silo": "new-build-developments",
+    "name": "Old Brook View Shaw",
+    "status": "candidate"
+  },
+  {
+    "id": 118,
+    "silo": "new-build-developments",
+    "name": "The Folds Little Hulton",
+    "status": "candidate"
+  },
+  {
+    "id": 119,
+    "silo": "new-build-developments",
+    "name": "Chorus Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 120,
+    "silo": "new-build-developments",
+    "name": "Shackleton Fields Woodford Garden Village",
+    "status": "candidate"
+  },
+  {
+    "id": 121,
+    "silo": "new-build-developments",
+    "name": "Royal Bowland Park Westhoughton",
+    "status": "candidate"
+  },
+  {
+    "id": 122,
+    "silo": "new-build-developments",
+    "name": "Skyline Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 123,
+    "silo": "new-build-developments",
+    "name": "Rivington Park Blackrod",
+    "status": "candidate"
+  },
+  {
+    "id": 124,
+    "silo": "new-build-developments",
+    "name": "Hopwood Meadows Heywood",
+    "status": "candidate"
+  },
+  {
+    "id": 125,
+    "silo": "new-build-developments",
+    "name": "Greenmount Manor",
+    "status": "candidate"
+  },
+  {
+    "id": 126,
+    "silo": "new-build-developments",
+    "name": "Lever Valley Little Lever",
+    "status": "candidate"
+  },
+  {
+    "id": 127,
+    "silo": "new-build-developments",
+    "name": "Moss Bank Gardens Leigh",
+    "status": "candidate"
+  },
+  {
+    "id": 128,
+    "silo": "new-build-developments",
+    "name": "The Fairways Little Hulton",
+    "status": "candidate"
+  },
+  {
+    "id": 129,
+    "silo": "new-build-developments",
+    "name": "Victoria Riverside",
+    "status": "candidate"
+  },
+  {
+    "id": 130,
+    "silo": "new-build-developments",
+    "name": "Foxcote Cheadle area",
+    "status": "candidate"
+  },
+  {
+    "id": 131,
+    "silo": "new-build-developments",
+    "name": "Ashworth Walk Rochdale",
+    "status": "candidate"
+  },
+  {
+    "id": 132,
+    "silo": "new-build-developments",
+    "name": "Scholars Park Radcliffe",
+    "status": "candidate"
+  },
+  {
+    "id": 133,
+    "silo": "new-build-developments",
+    "name": "Barton Quarter Horwich",
+    "status": "candidate"
+  },
+  {
+    "id": 134,
+    "silo": "new-build-developments",
+    "name": "Hollin Bank Littleborough",
+    "status": "candidate"
+  },
+  {
+    "id": 135,
+    "silo": "new-build-developments",
+    "name": "Trilogy housing development Wigan",
+    "status": "candidate"
+  },
+  {
+    "id": 136,
+    "silo": "new-build-developments",
+    "name": "Heath Farm Partington",
+    "status": "candidate"
+  },
+  {
+    "id": 137,
+    "silo": "new-build-developments",
+    "name": "St Marks Pavilion",
+    "status": "candidate"
+  },
+  {
+    "id": 138,
+    "silo": "new-build-developments",
+    "name": "Bridgewater Place Walkden",
+    "status": "candidate"
+  },
+  {
+    "id": 139,
+    "silo": "new-build-developments",
+    "name": "Chorlton Grange",
+    "status": "candidate"
+  },
+  {
+    "id": 140,
+    "silo": "new-build-developments",
+    "name": "Cotton Green West Oldham",
+    "status": "candidate"
+  },
+  {
+    "id": 141,
+    "silo": "new-build-developments",
+    "name": "Mirrlees Place Hazel Grove",
+    "status": "candidate"
+  },
+  {
+    "id": 142,
+    "silo": "new-build-developments",
+    "name": "Riverpark Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 143,
+    "silo": "new-build-developments",
+    "name": "Hazelwood Swinton",
+    "status": "candidate"
+  },
+  {
+    "id": 144,
+    "silo": "new-build-developments",
+    "name": "Foundry Fields Littleborough",
+    "status": "candidate"
+  },
+  {
+    "id": 145,
+    "silo": "new-build-developments",
+    "name": "Jacksons Lane Hazel Grove",
+    "status": "candidate"
+  },
+  {
+    "id": 146,
+    "silo": "new-build-developments",
+    "name": "Westmere Gardens Leigh",
+    "status": "candidate"
+  },
+  {
+    "id": 147,
+    "silo": "new-build-developments",
+    "name": "Woodlands Edge Worsley",
+    "status": "candidate"
+  },
+  {
+    "id": 148,
+    "silo": "new-build-developments",
+    "name": "Beefold Chase",
+    "status": "candidate"
+  },
+  {
+    "id": 149,
+    "silo": "new-build-developments",
+    "name": "Waldmers Wood Bury",
+    "status": "candidate"
+  },
+  {
+    "id": 150,
+    "silo": "new-build-developments",
+    "name": "Silver Hill Manor Rochdale",
+    "status": "candidate"
+  },
+  {
+    "id": 151,
+    "silo": "furniture-collections",
+    "name": "IKEA Ashton-under-Lyne",
+    "status": "candidate"
+  },
+  {
+    "id": 152,
+    "silo": "furniture-collections",
+    "name": "Facebook Marketplace",
+    "status": "candidate"
+  },
+  {
+    "id": 153,
+    "silo": "furniture-collections",
+    "name": "Gumtree",
+    "status": "candidate"
+  },
+  {
+    "id": 154,
+    "silo": "furniture-collections",
+    "name": "eBay",
+    "status": "candidate"
+  },
+  {
+    "id": 155,
+    "silo": "furniture-collections",
+    "name": "Vinted furniture and large items",
+    "status": "candidate"
+  },
+  {
+    "id": 156,
+    "silo": "furniture-collections",
+    "name": "Costco Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 157,
+    "silo": "furniture-collections",
+    "name": "DFS Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 158,
+    "silo": "furniture-collections",
+    "name": "Furniture Village White City",
+    "status": "candidate"
+  },
+  {
+    "id": 159,
+    "silo": "furniture-collections",
+    "name": "Sofology White City",
+    "status": "candidate"
+  },
+  {
+    "id": 160,
+    "silo": "furniture-collections",
+    "name": "Oak Furnitureland White City",
+    "status": "candidate"
+  },
+  {
+    "id": 161,
+    "silo": "furniture-collections",
+    "name": "ScS Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 162,
+    "silo": "furniture-collections",
+    "name": "Dreams Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 163,
+    "silo": "furniture-collections",
+    "name": "Bensons for Beds Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 164,
+    "silo": "furniture-collections",
+    "name": "Natuzzi Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 165,
+    "silo": "furniture-collections",
+    "name": "BHF Salford",
+    "status": "candidate"
+  },
+  {
+    "id": 166,
+    "silo": "furniture-collections",
+    "name": "BHF Harpurhey",
+    "status": "candidate"
+  },
+  {
+    "id": 167,
+    "silo": "furniture-collections",
+    "name": "BHF Sale",
+    "status": "candidate"
+  },
+  {
+    "id": 168,
+    "silo": "furniture-collections",
+    "name": "BHF Stockport",
+    "status": "candidate"
+  },
+  {
+    "id": 169,
+    "silo": "furniture-collections",
+    "name": "BHF Bury",
+    "status": "candidate"
+  },
+  {
+    "id": 170,
+    "silo": "furniture-collections",
+    "name": "BHF Bolton",
+    "status": "candidate"
+  },
+  {
+    "id": 171,
+    "silo": "furniture-collections",
+    "name": "BHF Ashton-under-Lyne",
+    "status": "candidate"
+  },
+  {
+    "id": 172,
+    "silo": "furniture-collections",
+    "name": "St Ann's Ladybarn",
+    "status": "candidate"
+  },
+  {
+    "id": 173,
+    "silo": "furniture-collections",
+    "name": "Manchester furniture auctions",
+    "status": "candidate"
+  },
+  {
+    "id": 174,
+    "silo": "furniture-collections",
+    "name": "Manchester antique furniture",
+    "status": "candidate"
+  },
+  {
+    "id": 175,
+    "silo": "furniture-collections",
+    "name": "Manchester office furniture clearance sales",
+    "status": "candidate"
+  },
+  {
+    "id": 176,
+    "silo": "storage-facilities",
+    "name": "Big Yellow Manchester",
+    "status": "candidate"
+  },
+  {
+    "id": 177,
+    "silo": "storage-facilities",
+    "name": "Big Yellow Stockport",
+    "status": "candidate"
+  },
+  {
+    "id": 178,
+    "silo": "storage-facilities",
+    "name": "Safestore Manchester Old Trafford",
+    "status": "candidate"
+  },
+  {
+    "id": 179,
+    "silo": "storage-facilities",
+    "name": "Safestore Manchester Cheetham Hill",
+    "status": "candidate"
+  },
+  {
+    "id": 180,
+    "silo": "storage-facilities",
+    "name": "Safestore Swinton-Worsley",
+    "status": "candidate"
+  },
+  {
+    "id": 181,
+    "silo": "storage-facilities",
+    "name": "Safestore Altrincham",
+    "status": "candidate"
+  },
+  {
+    "id": 182,
+    "silo": "storage-facilities",
+    "name": "Safestore Stockport Bryant",
+    "status": "candidate"
+  },
+  {
+    "id": 183,
+    "silo": "storage-facilities",
+    "name": "Safestore Stockport Central",
+    "status": "candidate"
+  },
+  {
+    "id": 184,
+    "silo": "storage-facilities",
+    "name": "Safestore Stockport Reddish",
+    "status": "candidate"
+  },
+  {
+    "id": 185,
+    "silo": "storage-facilities",
+    "name": "Safestore Oldham",
+    "status": "candidate"
+  },
+  {
+    "id": 186,
+    "silo": "storage-facilities",
+    "name": "Safestore Bury",
+    "status": "candidate"
+  },
+  {
+    "id": 187,
+    "silo": "storage-facilities",
+    "name": "Safestore Bolton",
+    "status": "candidate"
+  },
+  {
+    "id": 188,
+    "silo": "storage-facilities",
+    "name": "Safestore Bolton North",
+    "status": "candidate"
+  },
+  {
+    "id": 189,
+    "silo": "storage-facilities",
+    "name": "Safestore Wigan",
+    "status": "candidate"
+  },
+  {
+    "id": 190,
+    "silo": "storage-facilities",
+    "name": "Shurgard Manchester Ardwick",
+    "status": "candidate"
+  },
+  {
+    "id": 191,
+    "silo": "storage-facilities",
+    "name": "Shurgard Manchester Belle Vue",
+    "status": "candidate"
+  },
+  {
+    "id": 192,
+    "silo": "storage-facilities",
+    "name": "Shurgard Salford",
+    "status": "candidate"
+  },
+  {
+    "id": 193,
+    "silo": "storage-facilities",
+    "name": "Shurgard Altrincham",
+    "status": "candidate"
+  },
+  {
+    "id": 194,
+    "silo": "storage-facilities",
+    "name": "Shurgard Bolton",
+    "status": "candidate"
+  },
+  {
+    "id": 195,
+    "silo": "storage-facilities",
+    "name": "Access Self Storage Manchester Sharston",
+    "status": "candidate"
+  },
+  {
+    "id": 196,
+    "silo": "storage-facilities",
+    "name": "Ready Steady Store Manchester Central",
+    "status": "candidate"
+  },
+  {
+    "id": 197,
+    "silo": "storage-facilities",
+    "name": "Ready Steady Store Worsley",
+    "status": "candidate"
+  },
+  {
+    "id": 198,
+    "silo": "storage-facilities",
+    "name": "SureStore Ashton-under-Lyne",
+    "status": "candidate"
+  },
+  {
+    "id": 199,
+    "silo": "storage-facilities",
+    "name": "Ancoats Storage",
+    "status": "candidate"
+  },
+  {
+    "id": 200,
+    "silo": "storage-facilities",
+    "name": "Storage Time Stockport",
+    "status": "candidate"
+  },
+  {
+    "id": 201,
+    "silo": "moving-services",
+    "name": "first-time-buyer-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 202,
+    "silo": "moving-services",
+    "name": "end-of-tenancy-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 203,
+    "silo": "moving-services",
+    "name": "downsizing-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 204,
+    "silo": "moving-services",
+    "name": "retirement-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 205,
+    "silo": "moving-services",
+    "name": "moving-in-together",
+    "status": "candidate"
+  },
+  {
+    "id": 206,
+    "silo": "moving-services",
+    "name": "separation-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 207,
+    "silo": "moving-services",
+    "name": "job-relocation",
+    "status": "candidate"
+  },
+  {
+    "id": 208,
+    "silo": "moving-services",
+    "name": "renovation-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 209,
+    "silo": "moving-services",
+    "name": "inherited-property-clearance",
+    "status": "candidate"
+  },
+  {
+    "id": 210,
+    "silo": "moving-services",
+    "name": "council-house-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 211,
+    "silo": "moving-services",
+    "name": "assisted-living-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 212,
+    "silo": "moving-services",
+    "name": "rental-apartment-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 213,
+    "silo": "moving-services",
+    "name": "first-flat-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 214,
+    "silo": "moving-services",
+    "name": "family-home-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 215,
+    "silo": "moving-services",
+    "name": "house-share-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 216,
+    "silo": "moving-services",
+    "name": "leaving-family-home",
+    "status": "candidate"
+  },
+  {
+    "id": 217,
+    "silo": "moving-services",
+    "name": "unfurnished-property-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 218,
+    "silo": "moving-services",
+    "name": "moving-between-completion-dates",
+    "status": "candidate"
+  },
+  {
+    "id": 219,
+    "silo": "moving-services",
+    "name": "emergency-property-moves",
+    "status": "candidate"
+  },
+  {
+    "id": 220,
+    "silo": "moving-services",
+    "name": "landlord-property-clearance",
+    "status": "candidate"
+  }
+]

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { movingDirectories, directorySpokes } from "@/lib/movingDirectories";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -212,6 +213,7 @@ export default function ServicePage({ params }: { params: { service: string } })
             </>
           )}
 
+          {movingDirectories.filter(h=>h.service===s.slug || (s.slug==="man-and-van-hire" && h.slug==="moving-services")).map(h=><section className="mt-8" key={h.slug}><h2>{h.name}</h2><p className="mt-3"><Link className="text-link" href={"/"+h.slug+"/"}>Plan your move with our {h.name.toLowerCase()}.</Link></p>{directorySpokes.filter(p=>p.silo===h.slug).slice(-4).map(p=><p className="mt-2" key={p.slug}><Link className="text-link" href={"/"+p.silo+"/"+p.slug+"/"}>{p.title}</Link></p>)}</section>)}
           {/* Internal links to related services */}
           <section className="mt-10 rounded-lg border border-gray-200 bg-gray-50 p-6">
             <h2 className="text-lg font-bold text-gray-900">Related Services</h2>

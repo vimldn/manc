@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { movingDirectories } from "@/lib/movingDirectories";
 import Image from "next/image";
 import type { Metadata } from "next";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -66,6 +67,7 @@ export default function MovingGuidesPage() {
             })}
           </div>
         </section>}
+        <section className="mt-10"><h2>Planning a move?</h2><div className="mt-4 grid gap-3 sm:grid-cols-2">{movingDirectories.map(h=><Link key={h.slug} href={"/"+h.slug+"/"} className="block rounded-lg border border-gray-200 bg-white p-5"><h3>{h.name}</h3><p className="mt-2 text-sm">{h.desc}</p></Link>)}</div></section>
         <h2 className="mt-12">More moving advice</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
           {guides.filter((g) => !publishedSlugs.has(g.slug)).map((g) => (
