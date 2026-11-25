@@ -70,7 +70,6 @@ function buildBaseEntries() {
     { path: "/", priority: 1.0 },
     { path: "/services/", priority: 0.9, data: ["src/lib/services.ts"] },
     { path: "/locations/", priority: 0.9, data: ["src/lib/locations.ts"] },
-    { path: "/areas-we-cover/", priority: 0.7, data: ["src/lib/locations.ts"] },
     { path: "/prices/", priority: 0.8, data: ["src/lib/pricing.ts"] },
     { path: "/our-vans/", priority: 0.7, data: ["src/lib/vans.ts"] },
     { path: "/insurance-and-compliance/", priority: 0.6 },
