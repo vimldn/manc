@@ -136,8 +136,8 @@ export const services: Service[] = [
   {
     slug: "man-and-van-hire",
     navLabel: "Man and Van Hire",
-    h1: "Man and Van Hire in Manchester",
-    title: "Man and Van Hire in Manchester | Frank's Van and Man Manchester",
+    h1: "Hourly Man and Van Hire in Manchester",
+    title: "Hourly Man and Van Hire Manchester | Frank’s",
     metaDescription:
       "Flexible man and van hire in Manchester by the hour or the job. One or two movers, a clean van and fair rates across Greater Manchester. Call for a quote today.",
     intro:
