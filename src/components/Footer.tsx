@@ -92,7 +92,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/areas-we-cover/" className="hover:text-white">
+                <Link href="/locations/" className="hover:text-white">
                   Areas We Cover
                 </Link>
               </li>
