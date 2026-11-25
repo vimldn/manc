@@ -86,6 +86,7 @@ page to scroll sideways on a phone.
 | 32 | 2026-11-23 | P2 | Manchester to Hull Removals | `/routes/manchester-to-hull/` |
 | 32 | 2026-11-23 | P2 | Who to Tell When You Move House in Manchester (guide) | `/moving-guides/who-to-tell-when-you-move-house/` |
 | 33 | 2026-11-24 | P2 | Manchester to Leicester Removals | `/routes/manchester-to-leicester/` |
+| 34 | 2026-11-25 | P2 | Moving a Parent Into a Care Home in Manchester (guide) | `/moving-guides/moving-a-parent-into-a-care-home-in-manchester/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -155,6 +156,11 @@ Leicester page gives no bay suspension process or fee and does not quote the 200
 consolidation order's loading rules, which a newer order may have replaced. The A594
 red route clearway is described as announced in June 2026, not as confirmed in force.
 
+Day 34 (2026-11-25): the care home guide is built on English rules and a different
+structure from the Cardiff Welsh guide. manchester.gov.uk and cqc.org.uk were 403, so it
+gives no Manchester fee figures and links no CQC page. The Casey Commission is left out
+because GOV.UK's terms of reference page changed its reporting date and then reverted.
+
 Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
 dispensation fee, so four pages already make that negative point. Lead any
 further borough page on what the council does publish, not on the absence.
@@ -176,6 +182,8 @@ zones. /locations/hulme/ stays the generic man and van page. End of Term (day
 the university pages and /services/student-storage-manchester/.
 
 ## Indexing
+
+2026-11-25: day 33 page was requested on 2026-11-24 (accepted). Day 34 page (`/moving-guides/moving-a-parent-into-a-care-home-in-manchester/`) goes in after deploy; if GSC refuses, request it on the next free day.
 
 2026-11-24: day 32 pages were requested on 2026-11-23 (accepted). Day 33 page (`/routes/manchester-to-leicester/`) goes in after deploy; if GSC refuses, request it on the next free day.
 

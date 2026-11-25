@@ -2068,6 +2068,106 @@ export const guides: Guide[] = [
       },
     ],
   },
+  {
+    slug: "moving-a-parent-into-a-care-home-in-manchester",
+    title: "Moving a Parent Into a Care Home | Frank's Van and Man Manchester",
+    h1: "Moving a Parent Into a Care Home in Manchester",
+    metaDescription:
+      "Moving a parent into a care home in Manchester: the free needs assessment, the £23,250 means test, the 12 week property disregard, benefits, council tax on the empty house, fire-safe furniture and clearing the rest.",
+    updated: "2026-11-25",
+    answer:
+      "Ask for a care needs assessment and a financial assessment before choosing a home, because in England a parent with more than £23,250 in capital usually pays the full fee. The value of their home is ignored for the first 12 weeks of a permanent stay, the empty house gets no council tax bill while it stays empty, and only furniture that meets a fire standard should go into the room.",
+    sections: [
+      {
+        h2: "Who Arranges Care in Manchester",
+        body: [
+          "In Manchester, adult social care is run by Manchester Local Care Organisation, which is part NHS and part city council and has worked as one organisation since 1 April 2018. It is the way in to a care needs assessment, which the NHS says is free and which anyone can ask for, including a parent who expects to pay for their own care.",
+          "A financial assessment, the means test, usually follows and decides whether the council pays towards the fees, pays part of them or pays nothing. Ask for both before you settle on a home, because the answer shapes the budget, the timing and what happens to the house.",
+        ],
+      },
+      {
+        h2: "The Means Test in England",
+        body: [
+          "For 2026/27 the capital limits in England stay at £14,250 and £23,250. A parent with capital above the upper limit usually pays the full cost of the care home, and below it the council works out what they can afford to contribute. If the council supports the placement, your parent keeps a personal expenses allowance of £31.80 a week.",
+          "The lifetime cap on care costs that the previous government planned will not happen, because the Chancellor cancelled the adult social care charging reforms in July 2024. The £23,250 means test is the one that applies to a move this winter.",
+        ],
+        outro: [
+          "If your parent needs care from a registered nurse and moves into a nursing home, the NHS pays £267.68 a week towards the nursing care from 1 April 2026, straight to the home. People with long-term complex health needs may qualify for NHS continuing healthcare instead, which the NHS arranges and funds in full, so ask for that assessment too if their needs are mainly medical.",
+        ],
+      },
+      {
+        h2: "What Happens to the House",
+        body: [
+          "The value of your parent's home is ignored for the first 12 weeks of a permanent stay. It is not counted at all while their partner, a relative aged 60 or over or incapacitated, or a child under 18 still lives there as their main or only home.",
+          "If their savings, not counting the house, are under £23,250 and all their money is tied up in the property, the council can pay the fees under a deferred payment agreement and be repaid when the house is sold or after their death. Councils in England agreed 3,320 new deferred payment agreements worth £94.9 million in 2025/26, according to government figures published on 19 November 2026.",
+          "Whoever sells or clears the house needs the legal authority to do it. If your parent has not made a lasting power of attorney, it is worth doing while they still can: registering one costs £92 and takes 8 to 10 weeks if there are no mistakes in the application.",
+        ],
+      },
+      {
+        h2: "Benefits and Council Tax",
+        body: [
+          "Tell the office that pays your parent's benefits as soon as they go into a care home, even for one night. If the council or the NHS pays for the stay, most benefits usually stop within 28 days. A parent who pays for the care home themselves may keep Attendance Allowance, the daily living and mobility parts of Personal Independence Payment and the extra amount for severe disability in Pension Credit.",
+          "Council tax is simpler. In England a home left empty because its owner has moved into a care home gets no council tax bill for as long as it stays empty, so tell Manchester City Council the date the house became empty, along with the rest of the [list of who to tell](/moving-guides/who-to-tell-when-you-move-house/).",
+        ],
+      },
+      {
+        h2: "Furniture That Can Go Into the Room",
+        body: [
+          "Fire safety decides more than space does. The government's fire safety guide for residential care homes says residents should only bring their own furniture or textiles into their bedroom if the item meets a fire performance standard. Before moving day, look for a permanent fire label on armchairs, sofas and mattresses, because the home may not accept an old chair without one.",
+          "Many homes also want residents' electrical items, such as a lamp, radio or television, checked before they are used. Measure the room, ask the home what it already provides and what it needs from you, and send us the short list so we bring only what fits.",
+        ],
+      },
+      {
+        h2: "Clearing the Rest of the House",
+        body: [
+          "The 12 weeks before the house counts in the means test give the family time to decide whether to sell, let it or keep it under a deferred payment agreement, and to empty it. Agree first who is keeping what, then sort the rest into the care home, storage, [donations](/moving-guides/donating-furniture-in-manchester/) and what is cleared.",
+          "We move the chosen furniture into the care home first, then the pieces family members are keeping, so nothing wanted ends up in the [house clearance](/services/rubbish-removal/). A furniture bank or charity collection needs booking ahead, so arrange it before the clearance date.",
+        ],
+      },
+    ],
+    related: [
+      { label: "House clearance and rubbish removal", href: "/services/rubbish-removal/" },
+      { label: "Donating furniture in Manchester", href: "/moving-guides/donating-furniture-in-manchester/" },
+      { label: "Who to tell when you move house", href: "/moving-guides/who-to-tell-when-you-move-house/" },
+      { label: "Get a quote", href: "/quote/" },
+    ],
+    sources: [
+      {
+        label: "GOV.UK: social care charging for care and support, 2026 to 2027",
+        href: "https://www.gov.uk/government/publications/social-care-charging-for-local-authorities-2026-to-2027/social-care-charging-for-care-and-support-2026-to-2027-local-authority-circular",
+      },
+      {
+        label: "GOV.UK: fire safety risk assessment for residential care premises",
+        href: "https://www.gov.uk/government/publications/fire-safety-risk-assessment-residential-care-premises",
+      },
+    ],
+    faqs: [
+      {
+        q: "How much money can my parent have before paying for a care home in England?",
+        a: "In 2026/27 a parent with capital over £23,250 usually pays the full fee. Below that the council works out what they can contribute, and a parent supported by the council keeps £31.80 a week for personal expenses.",
+      },
+      {
+        q: "Do I have to sell my parent's house to pay for a care home?",
+        a: "Not straight away. The house is ignored for the first 12 weeks of a permanent stay, it is not counted while a partner or a relative aged 60 or over still lives there, and a deferred payment agreement can let the council pay the fees until it is sold.",
+      },
+      {
+        q: "Does my parent's empty house pay council tax?",
+        a: "Not in England while it stays empty. A home left empty because its owner has moved into a care home gets no council tax bill for as long as it stays empty.",
+      },
+      {
+        q: "Does Attendance Allowance stop in a care home?",
+        a: "If the council or the NHS pays for the care home, most benefits usually stop within 28 days. If your parent pays for the care home themselves, they may keep Attendance Allowance.",
+      },
+      {
+        q: "Can my parent take their own armchair into a care home?",
+        a: "Only if the home agrees. Government fire safety guidance says residents' own furniture should meet a fire performance standard, so look for a permanent fire label before moving day.",
+      },
+      {
+        q: "Is there still a cap on care costs in England?",
+        a: "No. The planned lifetime cap was cancelled with the rest of the charging reforms in July 2024, so the £23,250 means test still applies.",
+      },
+    ],
+  },
 ];
 
 export const getGuide = (slug: string) => guides.find((g) => g.slug === slug);

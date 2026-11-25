@@ -203,7 +203,7 @@ export const services: Service[] = [
       {
         h2: "House and Garage Clearances",
         body:
-          "Clearing a full house after a move, a tenancy or a bereavement is a big job, and we handle it with care. We can clear one room or the whole property, including lofts and garages. Tell us roughly how much there is and we will bring the right van and enough hands.",
+          "Clearing a full house after a move, a tenancy, a bereavement or [a parent's move into a care home](/moving-guides/moving-a-parent-into-a-care-home-in-manchester/) is a big job, and we handle it with care. We can clear one room or the whole property, including lofts and garages. Tell us roughly how much there is and we will bring the right van and enough hands.",
       },
       {
         h2: "Only Pay for What We Take",
