@@ -76,7 +76,7 @@ export default function StudentArticle({ article }: { article: Article }) {
           </section>
           <section className="rounded-lg border border-gray-200 bg-white p-6">
             <h2>Plan your student move</h2>
-            <p className="mt-3">Tell us your collection hall, destination, moving date, floor and what needs moving. We can then quote for the transport and loading help you need.</p>
+            <p className="mt-3">Moving boxes into storage? Our <Link href="/services/student-storage-manchester/" className="font-semibold text-brand underline">student storage transport</Link> service covers collection and drop-off. For a change of accommodation, see our <Link href="/services/student-moves/" className="font-semibold text-brand underline">student removals in Manchester</Link> and <Link href="/prices/" className="font-semibold text-brand underline">guide prices</Link>. Tell us your collection hall, destination, moving date, floor and what needs moving.</p><p className="mt-3 text-sm">Moving near campus? See local access guidance for <Link href="/locations/fallowfield/" className="text-brand underline">Fallowfield</Link>, <Link href="/locations/hulme/" className="text-brand underline">Hulme</Link> and <Link href="/locations/withington/" className="text-brand underline">Withington</Link>.</p>
             <Link href="/quote/" className="mt-5 inline-block rounded-md bg-cta px-6 py-3 font-bold text-white hover:bg-cta-dark">Get a student moving quote</Link>
           </section>
         </article>
