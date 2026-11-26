@@ -87,6 +87,7 @@ page to scroll sideways on a phone.
 | 32 | 2026-11-23 | P2 | Who to Tell When You Move House in Manchester (guide) | `/moving-guides/who-to-tell-when-you-move-house/` |
 | 33 | 2026-11-24 | P2 | Manchester to Leicester Removals | `/routes/manchester-to-leicester/` |
 | 34 | 2026-11-25 | P2 | Moving a Parent Into a Care Home in Manchester (guide) | `/moving-guides/moving-a-parent-into-a-care-home-in-manchester/` |
+| 35 | 2026-11-26 | P2 | Manchester to Cambridge Removals | `/routes/manchester-to-cambridge/` |
 
 Day 1 also built the segment itself: `src/lib/studentRemovals.ts`, the
 `/student-removals/` hub, the `[slug]` route, sitemap entries, and header and
@@ -161,6 +162,13 @@ structure from the Cardiff Welsh guide. manchester.gov.uk and cqc.org.uk were 40
 gives no Manchester fee figures and links no CQC page. The Casey Commission is left out
 because GOV.UK's terms of reference page changed its reporting date and then reverted.
 
+Day 35 (2026-11-26): the distance (182 miles) is Google Maps' fastest route on the day,
+which uses the M6 Toll. m6toll.co.uk did not load from this machine (curl or Chrome), so the
+page gives no toll price. The A14 junction 21 to 24 resurfacing (from 18 September 2026) is
+left out because its finish could not be confirmed, and so are the M6 Thelwall Viaduct works,
+which sit north of where a south Manchester van joins the M6. The council's current pages do
+not mention rising bollards, so the historic centre section describes the camera control only.
+
 Note for the next council page: Bury, Oldham, Rochdale and Wigan all publish no
 dispensation fee, so four pages already make that negative point. Lead any
 further borough page on what the council does publish, not on the absence.
@@ -182,6 +190,8 @@ zones. /locations/hulme/ stays the generic man and van page. End of Term (day
 the university pages and /services/student-storage-manchester/.
 
 ## Indexing
+
+2026-11-26: day 34 page was requested on 2026-11-25 (accepted). Day 35 page (`/routes/manchester-to-cambridge/`) goes in after deploy; if GSC refuses, request it on the next free day.
 
 2026-11-25: day 33 page was requested on 2026-11-24 (accepted). Day 34 page (`/moving-guides/moving-a-parent-into-a-care-home-in-manchester/`) goes in after deploy; if GSC refuses, request it on the next free day.
 

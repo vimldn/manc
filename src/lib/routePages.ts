@@ -1313,6 +1313,114 @@ export const routePages: RoutePage[] = [
     ],
     reviewed: "November 2026",
   },
+  {
+    slug: "manchester-to-cambridge",
+    navLabel: "Manchester to Cambridge",
+    name: "Manchester to Cambridge",
+    h1: "Manchester to Cambridge Removals",
+    title: "Man and Van Manchester to Cambridge | Frank's Van and Man Manchester",
+    metaDescription:
+      "Man and van from Manchester to Cambridge and back: about 182 miles via the M6 and A14, the historic centre's 10am to 4pm vehicle ban, camera enforced bus gates, bay suspensions at £63 a space and no clean air charge.",
+    cardBlurb: "Down the M6 and across the A14 to a city centre that closes to vans by day.",
+    intro: [
+      "Manchester to Cambridge is about 182 miles. Google Maps' fastest route takes the M56 and the M6 south, the M6 Toll around Birmingham and the A14 east from the end of the M6, and it put the drive at about three and a half hours when we checked.",
+      "That makes a long day, but a flat or a small house is still a one day job. The Cambridge end needs more planning than most cities: the historic centre is closed to vehicles from 10am to 4pm, the bus gates are watched by cameras, and a van in a residents' parking scheme needs a bay suspension booked a week ahead.",
+    ],
+    keyFacts: [
+      { label: "Road distance", value: "About 182 miles via the M6 and A14" },
+      { label: "Historic city centre", value: "No vehicles 10am to 4pm, Monday to Saturday" },
+      { label: "Bus gates", value: "Camera enforced, most of them 24 hours a day" },
+      { label: "Bay suspension", value: "£63 a space a day plus £11, 7 days' notice" },
+      { label: "Clean Air Zone", value: "None in Cambridge" },
+      { label: "Long distance move", value: rate("long-distance") },
+    ],
+    sections: [
+      {
+        h2: "The M6 and the A14",
+        body:
+          "From Manchester the van takes the M56 to the M6 and heads south on the same motorway as our [Birmingham](/routes/manchester-to-birmingham/) run. Google Maps' fastest route uses the M6 Toll around the north of Birmingham, which is a paid road, and the free M6 through the city is the alternative, so we choose between them on the day by the traffic. Where the M6 ends, the A14 begins, and it carries the van east past Kettering and Huntingdon to Cambridge, with the M11 leading into the south and west of the city.",
+        outro:
+          "On the Cambridge Northern Bypass, between junction 33 at Milton and junction 34 at Fen Ditton, [National Highways](https://nationalhighways.co.uk/roads-and-travel/road-projects/east/a14-river-cam-bridge-bridge-joints-and-maintenance/) is repairing the River Cam bridge. It paused the bridge work in October 2026 and expects to restart in early January 2027, and the stretch has had full closures in both directions, so we check it before a move to Milton, Waterbeach or the east of the city. The other way in, down the A1 and east on the A428, is changing too: National Highways expects to open most of the new dual carriageway between Black Cat and Caxton Gibbet in spring 2027.",
+      },
+      {
+        h2: "The Historic City Centre",
+        body:
+          "Cambridge's historic centre is a pedestrian priority area at all hours, and from 10am to 4pm, Monday to Saturday, no vehicle may enter except emergency vehicles and drivers with an access permit. Cameras on poles control the way in: Bridge Street, Emmanuel Road and Silver Street are closed to traffic 24 hours a day, Regent Street is closed towards the centre at all times, and St John's Street closes from 10am to 4pm.",
+        outro:
+          "A van can load and unload in the centre only outside those hours, and a vehicle found inside without permission gets an instant penalty charge notice. The county council can grant a day access permit when a vehicle is essential to the job, but it wants the request at least two weeks ahead and does not issue permits for convenience. For a flat in the centre we plan the loading for the early morning or after 4pm.",
+      },
+      {
+        h2: "Bus Gates and Mill Road Bridge",
+        body:
+          "Cambridgeshire County Council enforces its bus gates by camera. Regent Street, Emmanuel Road, Bridge Street, Station Road, Brookgate, Silver Street and Mill Road are closed to general traffic 24 hours a day, seven days a week, and Worts Causeway is closed westbound from 7.30am to 9.30am on weekdays. The penalty is £70, reduced to £35 if paid within 21 days, and it rises to £105 if it is not paid or challenged within 28 days.",
+        outro:
+          "The bus gate on Mill Road bridge, over the railway, has been enforced by number plate cameras since 11 March 2025. The vehicles allowed over it are buses, taxis, blue badge holders and a few others on the council's list, and a removal van is not one of them, so a move to an address near the bridge has to approach from the right side. We plan that route before the day. The council's transport committee is due to review the scheme in spring 2027.",
+      },
+      {
+        h2: "Parking and Bay Suspensions in Cambridge",
+        body:
+          "On-street parking in Cambridge is run by Cambridgeshire County Council, and the city has residents' parking schemes such as Brunswick, Kite and Park. The council does not publish one list of their hours; each scheme's hours are on the signs beside the bays. A vehicle continuously loading or unloading goods does not need a permit, but the council gives house removal vehicles as an example of what a bay suspension is for.",
+        outro:
+          "[The county council suspends bays](https://www.cambridgeshire.gov.uk/residents/travel-roads-and-parking/parking-services/suspending-a-parking-bay-and-exemption-permits) for domestic removals at £63 per space per day, where a space is about five metres, plus an £11 fee for each application, and it needs at least seven days' notice. A van longer than five metres takes two spaces, so a one day suspension for it costs £137. You apply through the council's MiPermit portal, and the council puts a sign by the suspended bay. Waivers to park on yellow lines cost £35 a day, but the council describes them for jobs where the vehicle itself is needed on site, so ask before relying on one for a move.",
+      },
+      {
+        h2: "Moving to Cambridge for Work",
+        body:
+          "A lot of moves to Cambridge follow a job on the Cambridge Biomedical Campus, in the south of the city. Cambridge South station opened beside it on 28 June 2026, with trains to London, Birmingham and Stansted Airport, and in July 2026 GSK announced a 300,000 square foot research centre on the campus for more than 1,000 scientists, with a phased move of staff from Stevenage by 2029.",
+        outro:
+          "New homes are being built around the edge of the city. Northstowe, about 10km north-west of Cambridge, is a new town planned for up to 10,000 homes, and on 3 June 2026 Homes England, the National Housing Bank and The Hill Group bought the Cambridge East site, including the city airport, for more than 10,000 more, although Marshall will not move its operations off the airport until mid-2029. A new street may not be on a sat nav yet, so send us the plot number and a map pin as well as the postcode.",
+      },
+      {
+        h2: "What a Manchester to Cambridge Move Costs",
+        body:
+          "Cambridge is priced as a [long distance move](/services/long-distance-removals/): one fixed figure for the route, the load and the mileage, agreed before the day. At about 182 miles each way it is a long day, so we start early, and if the Cambridge street needs a bay suspension, apply for it as soon as the date is fixed, because the council needs seven days.",
+        outro:
+          "Cambridge has no Clean Air Zone, and the road charge once proposed for the city, the Sustainable Travel Zone, was dropped in 2023, so the van pays no charge to enter. The starting bands for each service are [on the rate card](/prices/).",
+      },
+    ],
+    booking: [
+      "Send us both addresses, with floors and whether there is a lift.",
+      "Tell us roughly what is moving, or send a few photos.",
+      "Tell us if the Cambridge address is in the historic centre, so we can plan the loading outside 10am to 4pm.",
+      "If the street is in a residents' parking scheme, apply for a bay suspension at least seven days ahead.",
+      "We confirm the date, the van and the fixed price in writing before the day.",
+    ],
+    faqs: [
+      {
+        q: "How far is Manchester to Cambridge?",
+        a: "About 182 miles by road via the M6 and the A14. Google Maps put the drive at about three and a half hours when we checked.",
+      },
+      {
+        q: "Can a removal van get into the centre of Cambridge?",
+        a: "Only outside 10am to 4pm, Monday to Saturday. Within those hours the historic centre has no loading and no waiting, and a vehicle there without a permit gets an instant penalty charge notice.",
+      },
+      {
+        q: "How much does a parking bay suspension cost in Cambridge?",
+        a: "£63 per space per day, where a space is about five metres, plus an £11 fee for each application. Cambridgeshire County Council needs at least seven days' notice.",
+      },
+      {
+        q: "Can a van drive over Mill Road bridge in Cambridge?",
+        a: "No. It has been a bus gate enforced by number plate cameras since 11 March 2025, and the penalty is £70, or £35 if paid within 21 days.",
+      },
+      {
+        q: "Does Cambridge have a Clean Air Zone or congestion charge?",
+        a: "No. There is no Clean Air Zone in Cambridge, and the Sustainable Travel Zone road charge proposed for the city was dropped in 2023.",
+      },
+      {
+        q: "How much is council tax in Cambridge?",
+        a: "Cambridge City Council's table of charges puts a Band D home at £2,467.02 for 2026/27, and a Band A home at £1,644.68.",
+      },
+    ],
+    related: [
+      { label: "Long distance man and van from Manchester", path: "/services/long-distance-removals/" },
+      { label: "Manchester to Birmingham removals", path: "/routes/manchester-to-birmingham/" },
+      { label: "Manchester to Leicester removals", path: "/routes/manchester-to-leicester/" },
+      { label: "Manchester to Nottingham removals", path: "/routes/manchester-to-nottingham/" },
+      { label: "House removals", path: "/services/house-removals/" },
+      { label: "Prices", path: "/prices/" },
+    ],
+    reviewed: "November 2026",
+  },
 ];
 
 export const getRoutePage = (slug: string) => routePages.find((p) => p.slug === slug);
